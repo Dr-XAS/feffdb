@@ -1,0 +1,70 @@
+{
+  "added_paths": 10,
+  "base_sha256": "e5d622a82dcb7bb7acacc156fe1458c980020a13cf40bd141e526f583b0361bb",
+  "candidate_sha256": "b1e6c8331d26e47e0805cfe1be88ff463190943d6eb9632005106986a7c50a2e",
+  "paths": [
+    {
+      "filename": "feff0001.dat",
+      "id": 349,
+      "reference": "IrO2-rutile-COD2101854",
+      "sha256": "9591aed3c060bc368880afcf7d47e730a690f6c6debeaa0f70ac9cc4899aee2c"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 350,
+      "reference": "IrO2-rutile-COD2101854",
+      "sha256": "cb25191d0388e19368242803cbb001450013dc735215594c1b52e9e496dba23e"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 351,
+      "reference": "beta-PtO2-COD1530633",
+      "sha256": "9d9c77b4c858f509a034f54a6850c64c6a3cdf34cc3d0a2e92ccee07da385e4c"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 352,
+      "reference": "beta-PtO2-COD1530633",
+      "sha256": "f1dcab5b5cba312c561978cdbc577be0ae6e714d62238d2ec46b27f62c3ebd09"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 353,
+      "reference": "B-Ta2O5-COD2102123",
+      "sha256": "ff122f1a7faddb0e33bc3f46cfdeb7f0494dddbfe9156801dc83d1d51b44321c"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 354,
+      "reference": "B-Ta2O5-COD2102123",
+      "sha256": "92d1a861d674037653e9b83c4965dbeac1ffbb801e572d0c6d3a96806020289c"
+    },
+    {
+      "filename": "feff0003.dat",
+      "id": 355,
+      "reference": "B-Ta2O5-COD2102123",
+      "sha256": "696b22add5a856bf46e365b028be7afa0447fb5b55b49dcb08503de53d040a99"
+    },
+    {
+      "filename": "feff0004.dat",
+      "id": 356,
+      "reference": "B-Ta2O5-COD2102123",
+      "sha256": "d5d4fd977d20afda4b4f0199cd97d5a1e72f2d1b315eb008c7b8e4b83c9ba7b5"
+    },
+    {
+      "filename": "feff0005.dat",
+      "id": 357,
+      "reference": "B-Ta2O5-COD2102123",
+      "sha256": "60d80f240348823a648e5fae56c3392999e6f6067aaead8cf3f4c6dbdb426cf2"
+    },
+    {
+      "filename": "feff0006.dat",
+      "id": 358,
+      "reference": "B-Ta2O5-COD2102123",
+      "sha256": "c7232bb5ccb9ac014d7ff86e67aff7ee19d3b7b33ece273fc009cde50f42dc8e"
+    }
+  ],
+  "review_status": "candidate",
+  "total_paths": 358,
+  "upstream_paths": 348
+}

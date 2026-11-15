@@ -1,0 +1,2 @@
+# Native diagnostics are part of the scientific provenance, not disposable logs.
+!calculations/**/feff.log
