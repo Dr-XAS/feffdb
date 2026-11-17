@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "status": "sources_ready",
+  "selected": [
+    {
+      "id": "LaF3-tysonite-COD9011159",
+      "absorber": "La",
+      "directory": "LaF3-tysonite-COD9011159",
+      "cif_sha256": "8aba66c3e219041f658b4ad877d49f4c23cff2130a66255e793b174d3796c9c1",
+      "reference": {
+        "id": "LaF3-tysonite-COD9011159-La-L3",
+        "name": "LaF3 tysonite, neutron refinement",
+        "formula": "LaF3",
+        "absorber": "La",
+        "scatterer": "F",
+        "edge": "L3",
+        "cod_id": "9011159",
+        "doi": "10.1107/S0567740876002380",
+        "cif_sha256": "8aba66c3e219041f658b4ad877d49f4c23cff2130a66255e793b174d3796c9c1",
+        "absorber_site_indices": [
+          1
+        ],
+        "shell_cutoff_A": 3.5,
+        "expected_cn_by_site": {
+          "1": 11
+        },
+        "selection_basis": "Unchanged experimental ordered CIF; every inequivalent absorber and the complete selected coordination envelope is retained, with longer excluded contacts explicitly recorded."
+      }
+    },
+    {
+      "id": "PrPO4-monazite-COD9001649",
+      "absorber": "Pr",
+      "directory": "PrPO4-monazite-COD9001649",
+      "cif_sha256": "76331939b57ece45a981eeb65c90b6f0a606a29b836a185087e5bf0e37d9f90a",
+      "reference": {
+        "id": "PrPO4-monazite-COD9001649-Pr-L3",
+        "name": "PrPO4 synthetic monazite",
+        "formula": "PrPO4",
+        "absorber": "Pr",
+        "scatterer": "O",
+        "edge": "L3",
+        "cod_id": "9001649",
+        "doi": "10.2138/am-1995-1-203",
+        "cif_sha256": "76331939b57ece45a981eeb65c90b6f0a606a29b836a185087e5bf0e37d9f90a",
+        "absorber_site_indices": [
+          1
+        ],
+        "shell_cutoff_A": 3.0,
+        "expected_cn_by_site": {
+          "1": 9
+        },
+        "selection_basis": "Unchanged experimental ordered CIF; every inequivalent absorber and the complete selected coordination envelope is retained, with longer excluded contacts explicitly recorded."
+      }
+    },
+    {
+      "id": "NdPO4-monazite-COD9001650",
+      "absorber": "Nd",
+      "directory": "NdPO4-monazite-COD9001650",
+      "cif_sha256": "3584d62a8b2af06ad093995f8b09813afbb7e81e705f3981bbf7e38178ffafae",
+      "reference": {
+        "id": "NdPO4-monazite-COD9001650-Nd-L3",
+        "name": "NdPO4 synthetic monazite",
+        "formula": "NdPO4",
+        "absorber": "Nd",
+        "scatterer": "O",
+        "edge": "L3",
+        "cod_id": "9001650",
+        "doi": "10.2138/am-1995-1-203",
+        "cif_sha256": "3584d62a8b2af06ad093995f8b09813afbb7e81e705f3981bbf7e38178ffafae",
+        "absorber_site_indices": [
+          1
+        ],
+        "shell_cutoff_A": 3.0,
+        "expected_cn_by_site": {
+          "1": 9
+        },
+        "selection_basis": "Unchanged experimental ordered CIF; every inequivalent absorber and the complete selected coordination envelope is retained, with longer excluded contacts explicitly recorded."
+      }
+    },
+    {
+      "id": "Sm2O3-B-type-COD1530724",
+      "absorber": "Sm",
+      "directory": "Sm2O3-B-type-COD1530724",
+      "cif_sha256": "3d50eaf5ed49e9002f9c2ee3d32f80a705ce44ff06cd2fb98443a58bc491f63c",
+      "reference": {
+        "id": "Sm2O3-B-type-COD1530724-Sm-L3",
+        "name": "Sm2O3 monoclinic B phase",
+        "formula": "Sm2O3",
+        "absorber": "Sm",
+        "scatterer": "O",
+        "edge": "L3",
+        "cod_id": "1530724",
+        "doi": "10.1016/0022-5088(89)90472-4",
+        "cif_sha256": "3d50eaf5ed49e9002f9c2ee3d32f80a705ce44ff06cd2fb98443a58bc491f63c",
+        "absorber_site_indices": [
+          1,
+          2,
+          3
+        ],
+        "shell_cutoff_A": 3.0,
+        "expected_cn_by_site": {
+          "1": 6,
+          "2": 7,
+          "3": 7
+        },
+        "selection_basis": "Full-occupancy experimental B-type structure. Three inequivalent absorber sites retained; the six/seven-coordinate first shells use explicit 3.0-A cutoff, with more distant contacts separately recorded."
+      }
+    },
+    {
+      "id": "Eu2O3-bixbyite-COD2300536",
+      "absorber": "Eu",
+      "directory": "Eu2O3-bixbyite-COD2300536",
+      "cif_sha256": "92a514336d015c2d747f0afc680820b6cc7df46db60ff1690c0d40a82514b53c",
+      "reference": {
+        "id": "Eu2O3-bixbyite-COD2300536-Eu-L3",
+        "name": "Eu2O3 cubic bixbyite",
+        "formula": "Eu2O3",
+        "absorber": "Eu",
+        "scatterer": "O",
+        "edge": "L3",
+        "cod_id": "2300536",
+        "doi": "10.1107/S0021889803019319",
+        "cif_sha256": "92a514336d015c2d747f0afc680820b6cc7df46db60ff1690c0d40a82514b53c",
+        "absorber_site_indices": [
+          1,
+          2
+        ],
+        "shell_cutoff_A": 3.0,
+        "expected_cn_by_site": {
+          "1": 6,
+          "2": 6
+        },
+        "selection_basis": "Pure Eu2O3 endmember of an experimentally measured sol-gel series; all two inequivalent Eu sites and complete six-O shells are retained."
+      }
+    },
+    {
+      "id": "GdPO4-monazite-COD9001653",
+      "absorber": "Gd",
+      "directory": "GdPO4-monazite-COD9001653",
+      "cif_sha256": "df18754847672d1dc596f522a6c366036844b45311cfc66304fc4855fde0eb3c",
+      "reference": {
+        "id": "GdPO4-monazite-COD9001653-Gd-L3",
+        "name": "GdPO4 synthetic monazite",
+        "formula": "GdPO4",
+        "absorber": "Gd",
+        "scatterer": "O",
+        "edge": "L3",
+        "cod_id": "9001653",
+        "doi": "10.2138/am-1995-1-203",
+        "cif_sha256": "df18754847672d1dc596f522a6c366036844b45311cfc66304fc4855fde0eb3c",
+        "absorber_site_indices": [
+          1
+        ],
+        "shell_cutoff_A": 3.0,
+        "expected_cn_by_site": {
+          "1": 9
+        },
+        "selection_basis": "Unchanged experimental ordered CIF; every inequivalent absorber and the complete selected coordination envelope is retained, with longer excluded contacts explicitly recorded."
+      }
+    },
+    {
+      "id": "Tb2O3-B-type-COD2002285",
+      "absorber": "Tb",
+      "directory": "Tb2O3-B-type-COD2002285",
+      "cif_sha256": "8409a160b0f991e1f1b1e87b96d37702c5a0d433cb764aba8a8721bb0157f17f",
+      "reference": {
+        "id": "Tb2O3-B-type-COD2002285-Tb-L3",
+        "name": "Tb2O3 monoclinic B phase",
+        "formula": "Tb2O3",
+        "absorber": "Tb",
+        "scatterer": "O",
+        "edge": "L3",
+        "cod_id": "2002285",
+        "doi": "10.1002/zaac.19683630306",
+        "cif_sha256": "8409a160b0f991e1f1b1e87b96d37702c5a0d433cb764aba8a8721bb0157f17f",
+        "absorber_site_indices": [
+          1,
+          2,
+          3
+        ],
+        "shell_cutoff_A": 3.0,
+        "expected_cn_by_site": {
+          "1": 7,
+          "2": 7,
+          "3": 6
+        },
+        "selection_basis": "Full-occupancy experimental B-type structure. Three inequivalent absorber sites retained; the six/seven-coordinate first shells use explicit 3.0-A cutoff, with more distant contacts separately recorded."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "cod_id": "2002286",
+      "formula": "La2O3",
+      "reason": "Original La and O sites have occupancy 0.5; no disorder sampling or occupancy edits permitted."
+    },
+    {
+      "cod_id": "2002849",
+      "formula": "Nd2O3",
+      "reason": "Original Nd and O sites have occupancy 0.5; no disorder sampling or occupancy edits permitted."
+    },
+    {
+      "cod_id": "1562999",
+      "formula": "Gd2O3",
+      "reason": "Additional O2 site has occupancy 0.02(2); cannot remove it to manufacture an ordered reference."
+    },
+    {
+      "cod_id": "4004084",
+      "formula": "Gd2O3",
+      "reason": "Raw Gd2/O1 occupancies are 1.00004; not accepted under the strict unmodified-source occupancy policy."
+    },
+    {
+      "cod_id": "2106881",
+      "formula": "Gd2O3",
+      "reason": "Coordinates were refined using perturbed angular correlation with a model; chose a directly measured single-crystal phosphate instead of relabeling this as XRD-refined."
+    },
+    {
+      "cod_id": "1010984",
+      "formula": "PrF3",
+      "reason": "1929 structure provenance/unit conventions not sufficiently established in this review; chose independently measured 1995 PrPO4."
+    },
+    {
+      "cod_id": "1010985",
+      "formula": "NdF3",
+      "reason": "1929 structure provenance/unit conventions not sufficiently established in this review; chose independently measured 1995 NdPO4."
+    },
+    {
+      "cod_id": "1532319",
+      "formula": "LaF3",
+      "reason": "Publication is a theoretical high-pressure structure prediction, not selected experimental coordinates."
+    },
+    {
+      "cod_id": "1532322",
+      "formula": "LaF3",
+      "reason": "Publication is a theoretical high-pressure structure prediction, not selected experimental coordinates."
+    }
+  ],
+  "scope_note": "Seven stable lanthanide L3 absorbers only; no Pm and no hypothetical element substitutions. Source preparation only, no FEFF run."
+}

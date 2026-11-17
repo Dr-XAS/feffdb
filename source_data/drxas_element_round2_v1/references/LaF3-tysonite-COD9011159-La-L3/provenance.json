@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "id": "LaF3-tysonite-COD9011159",
+  "name": "LaF3 tysonite, neutron refinement",
+  "source_database": "COD",
+  "source_id": "9011159",
+  "absorbers": [
+    "La"
+  ],
+  "edge": "L3",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/9011159.cif",
+  "record_url": "https://www.crystallography.net/cod/9011159.html",
+  "primary_url": "https://doi.org/10.1107/S0567740876002380",
+  "doi": "10.1107/S0567740876002380",
+  "citation": "A. K. Cheetham, B. E. F. Fender, H. Fuess and A. F. Wright (1976). A powder neutron diffraction study of lanthanum and cerium trifluorides. Acta Crystallographica B32, 94-97.",
+  "cif_sha256": "8aba66c3e219041f658b4ad877d49f4c23cff2130a66255e793b174d3796c9c1",
+  "sha256": "8aba66c3e219041f658b4ad877d49f4c23cff2130a66255e793b174d3796c9c1",
+  "retrieved_at_utc": "2026-11-17T04:35:30.677122+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "conditions_evidence": "Numeric diffraction temperature and pressure are not specified in the original deposited CIF and have not been verified from full text; both remain unknown.",
+  "method": "Experimental powder neutron diffraction structure of synthetic LaF3; unchanged COD/AMCSD0009547 deposition.",
+  "synthesis_conditions": null,
+  "synthesis_conditions_note": "The CIF identifies the sample as synthetic; specific synthesis conditions not verified.",
+  "selection": "Selected experimental reference; no FEFF calculation or experimental EXAFS validation performed in source research.",
+  "notes": [
+    "Retains the full 9+2 F coordination envelope: nine F at 2.421-2.638 A and two more at 2.999 A; the next F occurs at 3.986 A. Do not silently discard the two longer contacts.",
+    "The trailing Chem 5 (1966) 1466-1468 text in the original CIF title is retained in raw bytes, but is not part of the verified 1976 article citation.",
+    "The source has no atomic occupancy column; full occupancy is the parser/default crystallographic interpretation, not a separately refined occupancy result.",
+    "Lanthanide L3 paths are EXAFS candidates, not validated white-line, multiplet, magnetic, or XANES models. FEFF8.2 documents frozen-f density by default and possible f-element SCF convergence difficulties; retain the actual engine recipe and logs."
+  ],
+  "scientific_caveat_source": "https://feff.phys.washington.edu/feff/Docs/feff8/feff82.pdf",
+  "license": {
+    "database_policy": "COD data/database are publicly accessible under CC0; preserve the original scientific-use/article-attribution notice.",
+    "policy_url": "https://www.crystallography.net/cod/9011159.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original AMCSD-sourced COD header retained byte-for-byte: scientific-community use with proper attribution to the source journal article."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "La": 6.0,
+      "F": 18.0
+    },
+    "site_count": 24,
+    "space_group": "P-3c1",
+    "space_group_number": 165,
+    "cell": [
+      7.185,
+      7.185,
+      7.351,
+      90.0,
+      90.0,
+      119.99999999999999
+    ],
+    "raw_occupancy": null,
+    "absorber_sites": {
+      "La": {
+        "indices_one_based": [
+          1
+        ],
+        "sites": [
+          {
+            "index_one_based": 1,
+            "multiplicity": 6,
+            "wyckoff": "6f",
+            "fractional_coordinates": [
+              0.6609,
+              0.0,
+              0.25
+            ],
+            "population_weight": 1.0,
+            "first_shell_distances_A": [
+              2.4214286625631773,
+              2.421428662563179,
+              2.4364334999999997,
+              2.466470785222838,
+              2.466470785222838,
+              2.48184541948144,
+              2.481845419481441,
+              2.6375815761641874,
+              2.6375815761641874,
+              2.999248603766618,
+              2.9992486037666195
+            ],
+            "coordination_number": 11,
+            "next_same_scatterer_distance_A": 3.9858772627092387,
+            "shell_cutoff_A": 3.5
+          }
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Issues encountered while parsing CIF: 2 fractional coordinates rounded to ideal values to avoid issues with finite precision.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "recommended_reference": {
+    "id": "LaF3-tysonite-COD9011159-La-L3",
+    "name": "LaF3 tysonite, neutron refinement",
+    "formula": "LaF3",
+    "absorber": "La",
+    "scatterer": "F",
+    "edge": "L3",
+    "cod_id": "9011159",
+    "doi": "10.1107/S0567740876002380",
+    "cif_sha256": "8aba66c3e219041f658b4ad877d49f4c23cff2130a66255e793b174d3796c9c1",
+    "absorber_site_indices": [
+      1
+    ],
+    "shell_cutoff_A": 3.5,
+    "expected_cn_by_site": {
+      "1": 11
+    },
+    "selection_basis": "Unchanged experimental ordered CIF; every inequivalent absorber and the complete selected coordination envelope is retained, with longer excluded contacts explicitly recorded."
+  }
+}

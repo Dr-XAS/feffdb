@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "status": "candidate",
+  "references": [
+    {
+      "id": "NaCl-halite-COD9003308-Na-K",
+      "name": "NaCl halite",
+      "formula": "NaCl",
+      "absorber": "Na",
+      "scatterer": "Cl",
+      "edge": "K",
+      "cod_id": "9003308",
+      "doi": "10.2138/am-2004-0124",
+      "cif_sha256": "42b80e8bbe6f2d63c0751e8b0366588e052e46ff86c1e8c0ac192eebad9e4923",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 3.4,
+      "expected_cn_by_site": {
+        "1": 6
+      },
+      "selection_basis": "Complete nearest-neighbor shell in the experimental ordered structure; distinct from the next coordination shell."
+    },
+    {
+      "id": "NaCl-halite-COD9003308-Cl-K",
+      "name": "NaCl halite",
+      "formula": "NaCl",
+      "absorber": "Cl",
+      "scatterer": "Na",
+      "edge": "K",
+      "cod_id": "9003308",
+      "doi": "10.2138/am-2004-0124",
+      "cif_sha256": "42b80e8bbe6f2d63c0751e8b0366588e052e46ff86c1e8c0ac192eebad9e4923",
+      "absorber_site_indices": [
+        2
+      ],
+      "shell_cutoff_A": 3.4,
+      "expected_cn_by_site": {
+        "2": 6
+      },
+      "selection_basis": "Complete nearest-neighbor shell in the experimental ordered structure; distinct from the next coordination shell."
+    },
+    {
+      "id": "MgO-periclase-COD1000053-Mg-K",
+      "name": "MgO periclase",
+      "formula": "MgO",
+      "absorber": "Mg",
+      "scatterer": "O",
+      "edge": "K",
+      "cod_id": "1000053",
+      "doi": "10.2183/pjab.55.43",
+      "cif_sha256": "d4ea4453e9712fc12dff925cb7812b8a5b68a19e9afa03449be062540b8ad9c7",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.55,
+      "expected_cn_by_site": {
+        "1": 6
+      },
+      "selection_basis": "Complete nearest-neighbor shell in the experimental ordered structure; distinct from the next coordination shell."
+    },
+    {
+      "id": "KCl-sylvite-COD9003112-K-K",
+      "name": "KCl sylvite",
+      "formula": "KCl",
+      "absorber": "K",
+      "scatterer": "Cl",
+      "edge": "K",
+      "cod_id": "9003112",
+      "doi": "10.2138/am-2004-0124",
+      "cif_sha256": "9cfbf4a4ce4b87b09a4fcf1808eb2685e264373eb16852e2e4a296ecd0eb3216",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 3.7,
+      "expected_cn_by_site": {
+        "1": 6
+      },
+      "selection_basis": "Complete nearest-neighbor shell in the experimental ordered structure; separated from the next shell."
+    },
+    {
+      "id": "NaBr-COD9007464-Br-K",
+      "name": "NaBr rocksalt",
+      "formula": "NaBr",
+      "absorber": "Br",
+      "scatterer": "Na",
+      "edge": "K",
+      "cod_id": "9007464",
+      "doi": "10.1107/S0365110X61002357",
+      "cif_sha256": "d71807e45819604c12d62a0404c8edf94fc5c2722da61e46519003852deca980",
+      "absorber_site_indices": [
+        2
+      ],
+      "shell_cutoff_A": 3.55,
+      "expected_cn_by_site": {
+        "2": 6
+      },
+      "selection_basis": "Complete nearest-neighbor shell in the experimental ordered structure; separated from the next shell."
+    },
+    {
+      "id": "Al2O3-corundum-COD9007498-Al-K",
+      "name": "Al2O3 corundum",
+      "formula": "Al2O3",
+      "absorber": "Al",
+      "edge": "K",
+      "cod_id": "9007498",
+      "doi": "10.1107/S0108767389012596",
+      "cif_sha256": "4cd69fb86b36c3c1619434db3858ffdaf95ad9ee9f9dfe1f0fb4d574ba0aa539",
+      "absorber_site_indices": [
+        1
+      ],
+      "expected_cn_by_site": {
+        "1": 6
+      },
+      "selection_basis": "Ordered experimental source; the full first coordination shell is checked against the symmetry-expanded unchanged CIF. See provenance for measurement conditions and source limitations.",
+      "scatterer": "O",
+      "shell_cutoff_A": 2.5
+    },
+    {
+      "id": "SiO2-quartz-COD9005017-Si-K",
+      "name": "SiO2 alpha quartz, 298 K",
+      "formula": "SiO2",
+      "absorber": "Si",
+      "edge": "K",
+      "cod_id": "9005017",
+      "doi": "10.1127/ejm/2/1/0063",
+      "cif_sha256": "0852d8678491639714d9b4749778d561f235219021be4d74278f7f4e323c74cf",
+      "absorber_site_indices": [
+        1
+      ],
+      "expected_cn_by_site": {
+        "1": 4
+      },
+      "selection_basis": "Ordered experimental source; the full first coordination shell is checked against the symmetry-expanded unchanged CIF. See provenance for measurement conditions and source limitations.",
+      "scatterer": "O",
+      "shell_cutoff_A": 2.1
+    },
+    {
+      "id": "AlPO4-berlinite-COD9010367-P-K",
+      "name": "AlPO4 berlinite",
+      "formula": "AlPO4",
+      "absorber": "P",
+      "edge": "K",
+      "cod_id": "9010367",
+      "doi": "10.2138/am.2007.2581",
+      "cif_sha256": "9946eec0f499290178f92bf5de3dd8bb11a4384740f131902cf09a5f4b3c75d2",
+      "absorber_site_indices": [
+        2
+      ],
+      "expected_cn_by_site": {
+        "2": 4
+      },
+      "selection_basis": "Ordered experimental source; the full first coordination shell is checked against the symmetry-expanded unchanged CIF. See provenance for measurement conditions and source limitations.",
+      "scatterer": "O",
+      "shell_cutoff_A": 2.0
+    },
+    {
+      "id": "ZnS-sphalerite-COD9000107-S-K",
+      "name": "ZnS sphalerite",
+      "formula": "ZnS",
+      "absorber": "S",
+      "edge": "K",
+      "cod_id": "9000107",
+      "doi": null,
+      "cif_sha256": "2b2bc21d36741c87385ecbe399883ec889ce141283a8bede02a81001306835d9",
+      "absorber_site_indices": [
+        2
+      ],
+      "expected_cn_by_site": {
+        "2": 4
+      },
+      "selection_basis": "Ordered experimental source; the full first coordination shell is checked against the symmetry-expanded unchanged CIF. See provenance for measurement conditions and source limitations.",
+      "scatterer": "Zn",
+      "shell_cutoff_A": 2.8
+    },
+    {
+      "id": "Sc2O3-bixbyite-COD4501808-Sc-K",
+      "name": "Sc2O3 bixbyite, 296 K",
+      "formula": "Sc2O3",
+      "absorber": "Sc",
+      "edge": "K",
+      "cod_id": "4501808",
+      "doi": "10.1021/cg1004962",
+      "cif_sha256": "3faadd4af8fb924844e2d047816eadf5ec999ec8474dbab5fa86d1208889f582",
+      "absorber_site_indices": [
+        1,
+        2
+      ],
+      "expected_cn_by_site": {
+        "1": 6,
+        "2": 6
+      },
+      "selection_basis": "Modern ordered single-crystal Sc2O3 refinement with explicitly refined Sc and O coordinates at 296(2) K; both distinct Sc sites retained, abundance ratio 1:3.",
+      "scatterer": "O",
+      "shell_cutoff_A": 2.6
+    }
+  ],
+  "upstream_base": {
+    "repository": "https://github.com/Dr-XAS/feffdb",
+    "commit": "547463406c812c2ea70333cb3861d80be8ceeb6c",
+    "path": "source_data/drxas_oxide_pilot_v1/pilot-candidates.db",
+    "sha256": "b1e6c8331d26e47e0805cfe1be88ff463190943d6eb9632005106986a7c50a2e"
+  }
+}

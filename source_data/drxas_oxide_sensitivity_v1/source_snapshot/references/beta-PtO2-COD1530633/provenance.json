@@ -1,0 +1,63 @@
+{
+  "filename": "source.cif",
+  "name": "beta-PtO2, CaCl2-type",
+  "absorber": "Pt",
+  "source_id": "1530633",
+  "related_ids": {},
+  "doi": "10.1016/0025-5408(87)90220-0",
+  "citation": "K.-J. Range, F. Rau, U. Klement and A. M. Heyns. beta-PtO2: High pressure synthesis of single crystals and structure refinement. Materials Research Bulletin 22 (1987), 1541-1547.",
+  "primary_url": "https://www.sciencedirect.com/science/article/pii/0025540887902200",
+  "recommendation": "recommended pilot reference; preferred to older COD1008935 powder record",
+  "method": "Experimental single-crystal X-ray structure refinement, confirmed by publisher abstract.",
+  "synthesis_conditions": {
+    "pressure_kbar": 40,
+    "temperature_C": 1500,
+    "note": "Growth conditions from publisher abstract, not diffraction measurement conditions."
+  },
+  "notes": [
+    "All listed atomic occupancies are explicitly 1.",
+    "Parsed Pt-O neighbors 2 x 1.9891 and 4 x 2.0034 Angstrom agree with publisher abstract (1.989(4), 2.003(4)).",
+    "Measurement temperature and pressure not recorded in downloaded CIF or verified abstract; leave unknown.",
+    "COD author order differs from publisher; citation here follows publisher order."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/1530633.cif",
+  "record_url": "https://www.crystallography.net/cod/1530633.html",
+  "sha256": "12306ea8dd906a1fbce40bd597e307d552c65b844150dd92dd805804a173082a",
+  "retrieved_at_utc": "2026-11-15T21:25:27.348836+00:00",
+  "edge": "L3",
+  "inequivalent_absorber_sites": 1,
+  "suggested_absorber_site_index_one_based": 1,
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "original_file_unmodified": true,
+  "license": {
+    "database_policy": "COD website dedicates its data/database to public domain under CC0; retain original article attribution and original file notice.",
+    "policy_url": "https://www.crystallography.net/cod/1530633.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "COD contributors placed data in the public domain, as stated in unchanged CIF header."
+  },
+  "inspection": {
+    "filename": "cod-1530633-beta-PtO2.cif",
+    "formula": "Pt2 O4",
+    "ordered": true,
+    "site_count": 6,
+    "absorber_indices_zero_based": [
+      0,
+      1
+    ],
+    "inequivalent_absorber_groups": [
+      [
+        0,
+        1
+      ]
+    ],
+    "spacegroup": "Pnnm",
+    "spacegroup_number": 58,
+    "first_oxygen_neighbors_within_2p6_A": {
+      "1.9891": 2,
+      "2.0034": 4
+    },
+    "parser_warnings": []
+  }
+}

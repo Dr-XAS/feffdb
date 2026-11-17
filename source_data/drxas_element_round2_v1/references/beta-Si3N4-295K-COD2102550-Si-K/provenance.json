@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "id": "beta-Si3N4-295K-COD2102550",
+  "name": "beta-Si3N4, 295 K synchrotron refinement",
+  "source_database": "COD",
+  "source_id": "2102550",
+  "absorbers": [
+    "Si"
+  ],
+  "edge": "K",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/2102550.cif",
+  "record_url": "https://www.crystallography.net/cod/2102550.html",
+  "primary_url": "https://doi.org/10.1107/S010876810401393X",
+  "additional_primary_source": "https://www.crl.nitech.ac.jp/~ishizawa/refs/b-Si3N4.pdf",
+  "doi": "10.1107/S010876810401393X",
+  "citation": "D. du Boulay, N. Ishizawa, T. Atake, V. Streltsov, K. Furuya and F. Munakata (2004). Synchrotron X-ray and ab initio studies of beta-Si3N4. Acta Crystallographica B 60, 388-405.",
+  "cif_sha256": "fca30839fbe00b3c632305ad9705c41cc20fe596e525bc013d41c227299726c1",
+  "sha256": "fca30839fbe00b3c632305ad9705c41cc20fe596e525bc013d41c227299726c1",
+  "retrieved_at_utc": "2026-11-17T04:49:46.984787+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": 295.0,
+  "measurement_pressure_GPa": null,
+  "conditions_evidence": "CIF cell and diffraction temperature tags both give 295 K. Primary article section 2 and Tables 1-2 identify this as crystal 1 measured by single-crystal synchrotron XRD. Measurement pressure not specified.",
+  "method": "Experimental single-crystal synchrotron diffraction at Photon Factory BL14A, Rigaku four-circle; deposited wavelength 0.75022 A. Selected P63/m independent-atom refinement, not the separate ab-initio calculation.",
+  "synthesis_conditions": {
+    "temperature_K": 1900,
+    "atmosphere": "nitrogen",
+    "pressure_GPa": null
+  },
+  "synthesis_conditions_note": "Primary article section 2, printed p.390: pure silicon melt in a silicon nitride crucible; recovered single-crystal fragments. The 1900 K synthesis temperature is not the 295 K measurement temperature.",
+  "selection": "Selected measured beta nitride alternative after SiC source screening. Source inspection only; no native FEFF or sample fit performed.",
+  "notes": [
+    "Raw CIF _cell_formula_units_Z=1.5 conflicts with the symmetry-expanded Si6N8 composition (Z=2); original bytes retained. Potentials must use actual expanded composition, not the erroneous Z metadata.",
+    "This is beta-Si3N4 with Si-N scattering; it is not a SiC or Si-C reference.",
+    "Primary Table 6, printed p.394, reports the 295 K P63/m Si-N distances 1.72976(10), 1.7357(3), and 1.73567(16) twice, agreeing with regenerated geometry within deposited precision.",
+    "The primary study found no compelling support for lower-symmetry P63. The deposited P63 alternatives and lower-temperature measurements are not additional absorbers in this pilot.",
+    "All raw occupancies are 1.00000; strict and generator cells both contain Si6N8, 14 atoms, with one Si orbit. No atoms or occupations were edited."
+  ],
+  "license": {
+    "database_policy": "COD data/database CC0; original IUCr attribution notice retained.",
+    "policy_url": "https://www.crystallography.net/cod/2102550.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original COD/IUCr Journals header retained byte-for-byte; scientific-community use with proper attribution to the source journal article."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "Si": 6.0,
+      "N": 8.0
+    },
+    "site_count": 14,
+    "space_group": "P63/m",
+    "space_group_number": 176,
+    "cell": [
+      7.6044,
+      7.6044,
+      2.9063,
+      90.0,
+      90.0,
+      119.99999999999999
+    ],
+    "raw_occupancy": [
+      "1.00000",
+      "1.00000",
+      "1.00000"
+    ],
+    "raw_formula_units_Z": 1.5,
+    "symmetry_expanded_formula_units_Z": 2,
+    "absorber_sites": {
+      "Si": {
+        "indices_one_based": [
+          1
+        ],
+        "sites": [
+          {
+            "index_one_based": 1,
+            "multiplicity": 6,
+            "wyckoff": "6h",
+            "fractional_coordinates": [
+              0.768477,
+              0.174557,
+              0.25
+            ],
+            "population_weight": 1.0,
+            "first_shell_distances_A": [
+              1.7297350666005216,
+              1.7356615595174962,
+              1.7356615595174962,
+              1.7357486066668335
+            ],
+            "coordination_number": 4,
+            "next_same_scatterer_distance_A": 3.0949529217193175,
+            "shell_cutoff_A": 2.2
+          }
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Issues encountered while parsing CIF: 2 fractional coordinates rounded to ideal values to avoid issues with finite precision.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "recommended_reference": {
+    "id": "beta-Si3N4-295K-COD2102550-Si-K",
+    "name": "beta-Si3N4, 295 K synchrotron refinement",
+    "formula": "Si3N4",
+    "absorber": "Si",
+    "scatterer": "N",
+    "edge": "K",
+    "cod_id": "2102550",
+    "doi": "10.1107/S010876810401393X",
+    "cif_sha256": "fca30839fbe00b3c632305ad9705c41cc20fe596e525bc013d41c227299726c1",
+    "absorber_site_indices": [
+      1
+    ],
+    "shell_cutoff_A": 2.2,
+    "expected_cn_by_site": {
+      "1": 4
+    },
+    "selection_basis": "Experimental 295 K P63/m model from the source article; complete four-N shell at the sole inequivalent Si site. Si-C chemistry is deferred; this is a Si-N reference.",
+    "calculation_cautions": [
+      "Raw CIF _cell_formula_units_Z=1.5 conflicts with the symmetry-expanded Si6N8 composition (Z=2); original bytes retained. Potentials must use actual expanded composition, not the erroneous Z metadata.",
+      "This is beta-Si3N4 with Si-N scattering; it is not a SiC or Si-C reference."
+    ]
+  }
+}

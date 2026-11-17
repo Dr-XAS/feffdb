@@ -1,0 +1,27 @@
+ Formula: Ga2O3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: C2/
+ Dr-XAS candidate beta-Ga2O3-COD2004987-Ga-K COD 2004987
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=31 Rmt= 1.291 Rnm= 1.384 K  shell
+ Pot 1 Z=31 Rmt= 1.283 Rnm= 1.365
+ Pot 2 Z= 8 Rmt= 0.931 Rnm= 1.055
+ Gam_ch=2.082E+00 H-L exch
+ Mu=-5.251E+00 kf=2.312E+00 Vint=-1.742E+01 Rs_int= 1.569
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     1.000     2   1.9356
+ feff0002.dat 0.00000   199.500     2.000     2   1.9374
+ feff0003.dat 0.00000    91.880     1.000     2   2.0052
+ feff0004.dat 0.00000   169.400     2.000     2   2.0741
+ feff0005.dat 0.00000    64.680     2.000     2   3.0371
+ feff0006.dat 0.00000    61.300     2.000     2   3.1040
+ feff0007.dat 0.00000    26.870     1.000     2   3.2720
+ feff0008.dat 0.00000    52.720     2.000     2   3.2970
+ feff0009.dat 0.00000    51.650     2.000     2   3.3238
+ feff0010.dat 0.00000    24.190     1.000     2   3.3947
+ feff0011.dat 0.00000    47.120     2.000     2   3.4456
+ feff0012.dat 0.00000    22.890     1.000     2   3.4654
+ feff0013.dat 0.00000    21.980     1.000     2   3.5180
+ feff0014.dat 0.00000    41.270     2.000     2   3.6014
+ feff0015.dat 0.00000    60.170     3.000     2   3.6393

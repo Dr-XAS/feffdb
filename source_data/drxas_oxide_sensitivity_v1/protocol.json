@@ -1,0 +1,76 @@
+{
+  "analysis_parameters": {
+    "deltar_A": 0,
+    "e0_eV": 0,
+    "kstep_invA": 0.05,
+    "native_degeneracy": true,
+    "s02": 1,
+    "sigma2_A2": 0,
+    "weight": 2
+  },
+  "complex_convention": "Larch complex path reconstructed as -chi_imag + 1j*chi. Full shell is the complex sum with native degeneracies; sigma2=0 avoids damping high-k differences.",
+  "experimental_validation": false,
+  "interpretation": "Separate one-factor variations. Lower-radius probes are sensitivity bounds; larger-radius comparisons test local numerical stability only, not global convergence.",
+  "phase_mask": "Keep points where baseline |complex path| >= 5% of its maximum in the window; use circular phase differences weighted by squared k^2 baseline amplitude.",
+  "primary_docs": [
+    "https://feff.phys.washington.edu/FEFF/Docs/feff8/feff84/feff84/SCF.html",
+    "https://feff.phys.washington.edu/feff/Docs/feff8/feff8web/node49.html",
+    "https://xraypy.github.io/xraylarch/xafs_feffpaths.html"
+  ],
+  "promote_candidates": false,
+  "review_thresholds": {
+    "amplitude_relative_rms": 0.03,
+    "complex_relative_rms": 0.05,
+    "phase_weighted_rms_rad": 0.03
+  },
+  "settings": {
+    "baseline_scf5_cluster8": {
+      "cluster_radius_A": 8.0,
+      "scf_radius_A": 5.0
+    },
+    "scf4_cluster8": {
+      "cluster_radius_A": 8.0,
+      "scf_radius_A": 4.0
+    },
+    "scf5_cluster7": {
+      "cluster_radius_A": 7.0,
+      "scf_radius_A": 5.0
+    },
+    "scf5_cluster9": {
+      "cluster_radius_A": 9.0,
+      "scf_radius_A": 5.0
+    },
+    "scf6_cluster8": {
+      "cluster_radius_A": 8.0,
+      "scf_radius_A": 6.0
+    }
+  },
+  "source_commit": "547463406c812c2ea70333cb3861d80be8ceeb6c",
+  "source_inventory_sha256": "81ba5660feb6d92cb4cb21c4611352794fa84323c120222fa0b0be5f7211ffa6",
+  "source_repository": "https://github.com/Dr-XAS/feffdb",
+  "source_script_sha256": "c79b22ad0a432078ff3181632edf0018f50c6350f73686cfd7a8016b21a1eac2",
+  "status": "candidate",
+  "threshold_reason": "Predeclared numerical review triggers, not literature standards or experimental uncertainty. 5% complex / 3% amplitude changes flag material numerical dependence. A 0.03 rad phase change would correspond roughly to 0.0025 A at k=6 if entirely represented as 2k*dR; this is not a fit bias estimate.",
+  "windows_invA": {
+    "12-16": [
+      12.0,
+      16.0
+    ],
+    "16-20": [
+      16.0,
+      20.0
+    ],
+    "3-12": [
+      3.0,
+      12.0
+    ],
+    "3-8": [
+      3.0,
+      8.0
+    ],
+    "8-12": [
+      8.0,
+      12.0
+    ]
+  }
+}

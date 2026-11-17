@@ -1,0 +1,18 @@
+ Formula: LuPO4                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: I4_1/amd
+ Dr-XAS candidate LuPO4-xenotime-COD9001661-Lu-L3 COD 9001661
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=71 Rmt= 1.558 Rnm= 1.625 L3 shell
+ Pot 1 Z= 8 Rmt= 0.917 Rnm= 1.028
+ Pot 2 Z=15 Rmt= 0.927 Rnm= 1.138
+ Pot 3 Z=71 Rmt= 1.559 Rnm= 1.626
+ Gam_ch=4.443E+00 H-L exch
+ Mu=-5.702E+00 kf=2.510E+00 Vint=-1.944E+01 Rs_int= 1.445
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     4.000     2   2.2569
+ feff0002.dat 0.00000    90.830     4.000     2   2.3436
+ feff0003.dat 0.00000    26.690     2.000     2   2.9734
+ feff0004.dat 0.00000    27.150     4.000     2   3.7029
+ feff0005.dat 0.00000    36.190     4.000     2   3.7029

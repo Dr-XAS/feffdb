@@ -1,0 +1,187 @@
+{
+  "all_paths": [
+    {
+      "absorber": 68,
+      "degen": 6.0,
+      "edge": "L3",
+      "filename": "feff0001.dat",
+      "geometry": [
+        [
+          "Er",
+          68,
+          0,
+          167.259,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "O",
+          8,
+          1,
+          15.999,
+          1.4898,
+          -1.0323,
+          1.3588
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 2.2653,
+      "scatterer": 8,
+      "sha256": "4c6f38f2d58d06bcdc65dd7687d7f21c3de4f65a62c96b57403a16c8857ad581"
+    },
+    {
+      "absorber": 68,
+      "degen": 6.0,
+      "edge": "L3",
+      "filename": "feff0002.dat",
+      "geometry": [
+        [
+          "Er",
+          68,
+          0,
+          167.259,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "Er",
+          68,
+          2,
+          167.259,
+          2.6415,
+          -0.0,
+          -2.3007
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 3.503,
+      "scatterer": 68,
+      "sha256": "1434655d26051e0d52f59e0cca7d2b4421e9fcb8c5d3c4522f4cdbb7c7b06d3c"
+    },
+    {
+      "absorber": 68,
+      "degen": 6.0,
+      "edge": "L3",
+      "filename": "feff0003.dat",
+      "geometry": [
+        [
+          "Er",
+          68,
+          0,
+          167.259,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "Er",
+          68,
+          2,
+          167.259,
+          -2.6415,
+          -0.0,
+          -2.9823
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 3.9839,
+      "scatterer": 68,
+      "sha256": "ad9efdb0fbafde97eb5c903f70b613f0415b8c52c426f8bb0e313f218ec715dd"
+    }
+  ],
+  "artifacts": {
+    "chi.dat": "3fedccb0697234c89d02cce074e411f96bc74133862ac925c35b3f90213b9efe",
+    "feff.inp": "ed3a61fddcdd62be781abd0469e5059755148d1b01a07b98157475a64e8c6216",
+    "feff.log": "8a1133ae01753f9ab38993bd04bd4bcb9039a800c8314b45a627a99c8b594721",
+    "feff0001.dat": "4c6f38f2d58d06bcdc65dd7687d7f21c3de4f65a62c96b57403a16c8857ad581",
+    "feff0002.dat": "1434655d26051e0d52f59e0cca7d2b4421e9fcb8c5d3c4522f4cdbb7c7b06d3c",
+    "feff0003.dat": "ad9efdb0fbafde97eb5c903f70b613f0415b8c52c426f8bb0e313f218ec715dd",
+    "files.dat": "389c38547a4b9aacd3114b2b483910ace8fbaa8c4224286d373ddca9b3383d6b",
+    "global.json": "2f39fc4f2190df81598916fbc80ba0d7e250048e06f469a630f7bf994dc06d77",
+    "log1.dat": "e706883faddecc4bb74829c9eb4d122fe1854621c8608fdf86e000bd6b5185a6",
+    "log2.dat": "7a9b3fd1c198b4db776e84c87fe894ea8668810088c0200ec909496e24f15cea",
+    "log4.dat": "0628c46ea2a4aa3736912ecd5a2c065cdb9e6ede4638da22bb0d52533f113492",
+    "log5.dat": "6b8741c1267ac5ee043de218a4c0930d6b3e3f74507ae4a3036301468b24ece7",
+    "log6.dat": "267cfe1b3329009f252b2512924f9c4bdeeec7f0e330ee55bdd37f3575f7769f",
+    "misc.dat": "ea19cb67a453b8a38b8e51b6fb50e29a62ceefec883699ff45ab496c264aaa3b",
+    "paths.dat": "4346cbb666edf308daf68591074d6d03df18a6f8f21dd46b55978222d96d389b",
+    "pot.json": "53e3e0552c4cc2392f7eaa53a341766f247f7073d77c8a1438bf2bccf500aeda",
+    "run.json": "8917d3e4a13c9e5afd9b7260f1a9b843fab0c55858bea047f751b4bb54c67bff",
+    "xmu.dat": "63e01f213addcfb8e48d82d0f40b6a759d6e847364f2b9bf1b5549fda07645ed"
+  },
+  "cif_coordination": 6,
+  "coordination_sum": 6.0,
+  "distance_tolerance_A": 0.0002,
+  "experimental_validation": false,
+  "larch_chi_evaluation": "passed",
+  "max_distance_error_A": 2.6234365258837045e-05,
+  "native_diagnostics": [
+    "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+    "WARNING:  rmax > distance to most distant atom.",
+    "rmax, ratx   4.00000E+00  0.00000E+00",
+    "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+    "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+    "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+  ],
+  "native_potential_controls": {
+    "ca1": 0.2,
+    "ihole": 4,
+    "iunf": 0,
+    "ixc": 0,
+    "lfms1": 0,
+    "nmix": 1,
+    "nscmt": 30,
+    "rfms1": 5.0
+  },
+  "review_status": "candidate",
+  "scf_hit_iteration_limit": false,
+  "scf_iteration_limit": 30,
+  "scf_iterations": 10,
+  "selected_paths": [
+    {
+      "absorber": 68,
+      "degen": 6.0,
+      "edge": "L3",
+      "filename": "feff0001.dat",
+      "geometry": [
+        [
+          "Er",
+          68,
+          0,
+          167.259,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "O",
+          8,
+          1,
+          15.999,
+          1.4898,
+          -1.0323,
+          1.3588
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 2.2653,
+      "scatterer": 8,
+      "sha256": "4c6f38f2d58d06bcdc65dd7687d7f21c3de4f65a62c96b57403a16c8857ad581"
+    }
+  ],
+  "technical_validation": "passed"
+}

@@ -1,0 +1,25 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: AlPO4                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: P3_121
+ Dr-XAS candidate AlPO4-berlinite-COD9010367-P-K COD 9010367
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=15 Rmt= 0.926 Rnm= 1.126 K  shell
+ Pot 1 Z= 8 Rmt= 0.853 Rnm= 1.007
+ Pot 2 Z=15 Rmt= 0.930 Rnm= 1.136
+ Pot 3 Z=13 Rmt= 1.115 Rnm= 1.277
+ Gam_ch=4.583E-01 H-L exch
+ Mu=-5.083E+00 kf=2.606E+00 Vint=-1.931E+01 Rs_int= 1.392
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+       7 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+       3     feff0003.dat
+       4     feff0004.dat
+       5     feff0005.dat
+       6     feff0006.dat
+       7     feff0007.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

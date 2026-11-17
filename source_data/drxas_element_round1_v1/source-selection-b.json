@@ -1,0 +1,38 @@
+{
+  "selected": {
+    "Al": "Al2O3-corundum-COD9007498",
+    "Si": "SiO2-quartz-COD9005017",
+    "P": "AlPO4-berlinite-COD9010367",
+    "S": "ZnS-sphalerite-COD9000107",
+    "Sc": "Sc2O3-bixbyite-COD4501808"
+  },
+  "not_selected": [
+    {
+      "cod_id": "9005018",
+      "reason": "Quartz at398K, not the selected298K point."
+    },
+    {
+      "cod_id": "1525302",
+      "reason": "Mixed Fe/Mn/Zn partial occupations, not pure orderedZnS."
+    },
+    {
+      "cod_id": "1008928",
+      "doi": "10.1021/j150506a012",
+      "reason": "1953neutron study fitsScparameteru but borrows Ocoords frombixbyite packing; not independent completecoordrefinement.",
+      "primary_evidence": "https://lib3.dss.go.th/fulltext/scan_ebook/j.of_physical_1953_v57_n5.pdf, original article p537"
+    },
+    {
+      "cod_id": "9008121",
+      "doi": "10.1524/zkri.1967.124.1-2.136",
+      "reason": "1967single-crystalrefinement has1968erratum DOI10.1524/zkri.1968.126.16.461 whose textcould not be inspected; no correctionassumed."
+    },
+    {
+      "cod_id": "4326666",
+      "reason": "Sc2O3impurity in two-phase MOF powder study; modern independent single-crystalSc2O3 source4501808preferred."
+    },
+    {
+      "cod_id": "4326667",
+      "reason": "Sc2O3impurity in two-phase MOF powder study; modern independent single-crystalSc2O3 source4501808preferred."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "scope": "Native execution, structural and numerical compatibility only; not experimental validation or radius convergence for round1",
+  "sites": [
+    {
+      "reference": "Al2O3-corundum-COD9007498-Al-K",
+      "site": 1,
+      "paths": 2,
+      "coordination": 6.0,
+      "scf_iterations": 8,
+      "maximum_distance_error_A": 3.8417297258286354e-05,
+      "status": "passed"
+    },
+    {
+      "reference": "AlPO4-berlinite-COD9010367-P-K",
+      "site": 2,
+      "paths": 2,
+      "coordination": 4.0,
+      "scf_iterations": 8,
+      "maximum_distance_error_A": 6.0422464640996765e-05,
+      "status": "passed"
+    },
+    {
+      "reference": "KCl-sylvite-COD9003112-K-K",
+      "site": 1,
+      "paths": 1,
+      "coordination": 6.0,
+      "scf_iterations": 10,
+      "maximum_distance_error_A": 5.000000000121574e-05,
+      "status": "passed"
+    },
+    {
+      "reference": "MgO-periclase-COD1000053-Mg-K",
+      "site": 1,
+      "paths": 1,
+      "coordination": 6.0,
+      "scf_iterations": 8,
+      "maximum_distance_error_A": 0.0,
+      "status": "passed"
+    },
+    {
+      "reference": "NaBr-COD9007464-Br-K",
+      "site": 2,
+      "paths": 1,
+      "coordination": 6.0,
+      "scf_iterations": 8,
+      "maximum_distance_error_A": 4.440892098500626e-16,
+      "status": "passed"
+    },
+    {
+      "reference": "NaCl-halite-COD9003308-Cl-K",
+      "site": 2,
+      "paths": 1,
+      "coordination": 6.0,
+      "scf_iterations": 6,
+      "maximum_distance_error_A": 5.000000000032756e-05,
+      "status": "passed"
+    },
+    {
+      "reference": "NaCl-halite-COD9003308-Na-K",
+      "site": 1,
+      "paths": 1,
+      "coordination": 6.0,
+      "scf_iterations": 8,
+      "maximum_distance_error_A": 5.000000000077165e-05,
+      "status": "passed"
+    },
+    {
+      "reference": "Sc2O3-bixbyite-COD4501808-Sc-K",
+      "site": 1,
+      "paths": 1,
+      "coordination": 6.0,
+      "scf_iterations": 15,
+      "maximum_distance_error_A": 4.3500305907162584e-05,
+      "status": "passed"
+    },
+    {
+      "reference": "Sc2O3-bixbyite-COD4501808-Sc-K",
+      "site": 2,
+      "paths": 3,
+      "coordination": 6.0,
+      "scf_iterations": 22,
+      "maximum_distance_error_A": 3.503414783256886e-05,
+      "status": "passed"
+    },
+    {
+      "reference": "SiO2-quartz-COD9005017-Si-K",
+      "site": 1,
+      "paths": 2,
+      "coordination": 4.0,
+      "scf_iterations": 6,
+      "maximum_distance_error_A": 2.242231785376525e-05,
+      "status": "passed"
+    },
+    {
+      "reference": "ZnS-sphalerite-COD9000107-S-K",
+      "site": 2,
+      "paths": 1,
+      "coordination": 4.0,
+      "scf_iterations": 8,
+      "maximum_distance_error_A": 4.391654417901236e-06,
+      "status": "passed"
+    }
+  ],
+  "selected_paths": 16,
+  "absorbing_elements": 10,
+  "reference_structures": 9,
+  "unit_tests": {
+    "passed": 18,
+    "skipped": 0,
+    "test_file_sha256": "cf30cb791fa3c7d0bd3e14e29306aee044866d630bd2bcb5c2d7948cc693f2fc"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "status": "Si-N alternative selected; Si-C deferred",
+  "selected": {
+    "directory": "/tmp/feffdb-round2-20261116/sources-sic/beta-Si3N4-295K-COD2102550",
+    "source_id": "COD2102550",
+    "source_cif_sha256": "fca30839fbe00b3c632305ad9705c41cc20fe596e525bc013d41c227299726c1"
+  },
+  "reason": "Do not substitute uncertain historical units, a deliberately N-doped crystal, or a questionable table for a clean SiC reference solely to complete chemistry coverage. The added absorber is Si K via measured beta-Si3N4; Si-C remains absent from this batch.",
+  "candidates_not_selected": [
+    {
+      "source": "Historical SiC COD 1918/1930 records",
+      "reason": "Unit conventions unresolved in prior selection; not used and not converted by assumption."
+    },
+    {
+      "doi": "10.3390/ma15186229",
+      "reason": "Table 2 gives measured a=4.35962 A at25 C, but abstract gives4.596 A, explanatory text miscounts conventional SiC atoms, and EDX reports oxygen. Not preferred while better experimental nitride is available."
+    },
+    {
+      "doi": "10.1002/eem2.12678",
+      "reason": "Modern single-crystal a=4.3563(4) A is from intentionally nitrogen-doped material; not relabeled as stoichiometric SiC."
+    },
+    {
+      "doi": "10.1016/S0925-8388(98)00994-3",
+      "reason": "Reports residual6H and deviation from stoichiometry; not selected as fully ordered pure3C reference."
+    },
+    {
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular539v9.pdf",
+      "reason": "Downloaded cited1960 NBS volume9 and searched full PDF; no SiC entry. Did not infer a cell or temperature from a general reference."
+    },
+    {
+      "cod_ids": [
+        "1532515",
+        "1532516",
+        "1534043"
+      ],
+      "reason": "Explicitly theoretical Si3N4 structures; excluded."
+    },
+    {
+      "cod_id": "9013139",
+      "reason": "Alpha nitride deposition notes corrected N4 location; preferred direct IUCr beta experimental source without coordinate editing."
+    }
+  ],
+  "research_artifacts": [
+    {
+      "path": "nbscircular539v9.pdf",
+      "sha256": "aa485972aade8384be31c7728eb27cb7dd29b14b77db0d2ebdf8303ca18ffe8d"
+    },
+    {
+      "path": "duBoulay2004-primary.pdf",
+      "sha256": "f4eac7f914b62fb59f5bf7a2b2d74fb8d5128df6c9f8b6f3d37bfe5f792ec19d",
+      "note": "Author institutional electronic reprint for local verification. Cite original DOI; do not assume COD CC0 applies to article PDF."
+    }
+  ]
+}

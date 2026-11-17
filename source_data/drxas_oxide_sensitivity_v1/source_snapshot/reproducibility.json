@@ -1,0 +1,43 @@
+{
+  "all_input_and_path_bytes_identical": true,
+  "artifacts": {
+    "feff.inp": {
+      "first_sha256": "0ff211713679dd90375e23e4496e9c2dca3dc6a6b879b64e0d68d5587260f810",
+      "identical": true,
+      "repeat_sha256": "0ff211713679dd90375e23e4496e9c2dca3dc6a6b879b64e0d68d5587260f810"
+    },
+    "feff0001.dat": {
+      "first_sha256": "9591aed3c060bc368880afcf7d47e730a690f6c6debeaa0f70ac9cc4899aee2c",
+      "identical": true,
+      "repeat_sha256": "9591aed3c060bc368880afcf7d47e730a690f6c6debeaa0f70ac9cc4899aee2c"
+    },
+    "feff0002.dat": {
+      "first_sha256": "cb25191d0388e19368242803cbb001450013dc735215594c1b52e9e496dba23e",
+      "identical": true,
+      "repeat_sha256": "cb25191d0388e19368242803cbb001450013dc735215594c1b52e9e496dba23e"
+    },
+    "feff0003.dat": {
+      "first_sha256": "003fd2441c37e881f787eb731dc6ba7a3d21c8d974c93934671fdd44ea85f1e7",
+      "identical": true,
+      "repeat_sha256": "003fd2441c37e881f787eb731dc6ba7a3d21c8d974c93934671fdd44ea85f1e7"
+    },
+    "feff0004.dat": {
+      "first_sha256": "bc310f7ecf9fa97d856d67ba7866032051e94d04cc761c1c28f7a3319b5c5f50",
+      "identical": true,
+      "repeat_sha256": "bc310f7ecf9fa97d856d67ba7866032051e94d04cc761c1c28f7a3319b5c5f50"
+    },
+    "feff0005.dat": {
+      "first_sha256": "3b251fa777f654017ab51fda24dc6f264ff6b063818e00a103677da2ed1a0ed3",
+      "identical": true,
+      "repeat_sha256": "3b251fa777f654017ab51fda24dc6f264ff6b063818e00a103677da2ed1a0ed3"
+    },
+    "feff0006.dat": {
+      "first_sha256": "44996fa57529fcbf71d63e6c96f9cdf8e273f3c1a789f1bc8ff0f57d5331dd4e",
+      "identical": true,
+      "repeat_sha256": "44996fa57529fcbf71d63e6c96f9cdf8e273f3c1a789f1bc8ff0f57d5331dd4e"
+    }
+  },
+  "interpretation": "Repeated execution consistency only; not SCF/cluster-size convergence or experimental validation.",
+  "reference": "IrO2-rutile-COD2101854",
+  "same_recipe_repeat": true
+}

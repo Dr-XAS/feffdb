@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "source_database": "COD",
+  "source_id": "1000053",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/1000053.cif",
+  "record_url": "https://www.crystallography.net/cod/1000053.html",
+  "cif_sha256": "d4ea4453e9712fc12dff925cb7812b8a5b68a19e9afa03449be062540b8ad9c7",
+  "sha256": "d4ea4453e9712fc12dff925cb7812b8a5b68a19e9afa03449be062540b8ad9c7",
+  "retrieved_at_utc": "2026-11-17T04:04:36.661058+00:00",
+  "original_file_unmodified": true,
+  "synthesis_conditions": null,
+  "synthesis_conditions_note": "Synthesis temperature/pressure not established for this selected specimen; not inferred from diffraction conditions.",
+  "edge": "K",
+  "selection": "selected experimental reference; not yet calculated or experimentally validated as FEFF",
+  "license": {
+    "database_policy": "COD dedicates data and database to public domain under CC0; original article attribution and CIF notice retained.",
+    "policy_url": "https://www.crystallography.net/cod/1000053.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original COD header retained byte-for-byte: data placed in the public domain by contributors. Cite Sasaki, Fujino and Takeuchi (1979)."
+  },
+  "inspection": {
+    "cod": "1000053",
+    "ordered": true,
+    "composition": {
+      "Mg2+": 4.0,
+      "O2-": 4.0
+    },
+    "site_count": 8,
+    "space_group": "Fm-3m",
+    "cell": [
+      4.217,
+      4.217,
+      4.217,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "raw_occupancy": [
+      "1.",
+      "1."
+    ],
+    "unique_sites": [
+      {
+        "index_one_based": 1,
+        "element": "Mg",
+        "multiplicity": 4,
+        "wyckoff": "4a",
+        "fractional_coordinates": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "index_one_based": 2,
+        "element": "O",
+        "multiplicity": 4,
+        "wyckoff": "4b",
+        "fractional_coordinates": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    ],
+    "absorber_sites": {
+      "Mg": {
+        "indices_one_based": [
+          1
+        ],
+        "first_shell_distance_A": 2.1085,
+        "first_shell_scatterers": {
+          "O": 6
+        },
+        "coordination_number": 6,
+        "next_neighbor_distance_A": 2.98186929626367,
+        "suggested_first_shell_cutoff_A": 2.545184648131835,
+        "first_shell_displacements_A": [
+          [
+            -2.1085,
+            0.0,
+            -1.2910838880010971e-16
+          ],
+          [
+            1.2910838880010971e-16,
+            -2.1085,
+            -1.2910838880010971e-16
+          ],
+          [
+            0.0,
+            0.0,
+            -2.1085
+          ],
+          [
+            0.0,
+            0.0,
+            2.1085
+          ],
+          [
+            -1.2910838880010971e-16,
+            2.1085,
+            1.2910838880010971e-16
+          ],
+          [
+            2.1085,
+            0.0,
+            1.2910838880010971e-16
+          ]
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "id": "MgO-periclase-COD1000053",
+  "name": "MgO periclase",
+  "absorbers": [
+    "Mg"
+  ],
+  "doi": "10.2183/pjab.55.43",
+  "citation": "S. Sasaki, K. Fujino and Y. Takeuchi (1979). X-Ray Determination of Electron-Density Distributions in Oxides, MgO, MnO, CoO, and NiO, and Atomic Scattering Factors of their Constituent Atoms. Proceedings of the Japan Academy, Series B 55(2), 43-48.",
+  "primary_url": "https://www.jstage.jst.go.jp/article/pjab1977/55/2/55_2_43/_article",
+  "measurement_temperature_K": 296.65,
+  "measurement_pressure_GPa": null,
+  "temperature_uncertainty_K": 0.5,
+  "conditions_evidence": "Original paper page43: diffraction intensity data at 23.5 +/- 0.5 C; precise pressure not reported. Measurement T is not stated in the COD CIF, so provenance records the paper evidence separately.",
+  "method": "Experimental single-crystal X-ray diffraction using graphite-monochromatized Mo Kalpha radiation, Syntex P21 diffractometer; original paper page43.",
+  "notes": [
+    "Original paper reports pure homogeneous synthetic MgO within EPMA analytical accuracy; source coordinates and lattice constant are preserved.",
+    "Both source atomic occupancies are explicitly 1.",
+    "The article also discusses NiO symmetry approximations; this reference is MgO only."
+  ]
+}

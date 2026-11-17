@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "id": "GdPO4-monazite-COD9001653",
+  "name": "GdPO4 synthetic monazite",
+  "source_database": "COD",
+  "source_id": "9001653",
+  "absorbers": [
+    "Gd"
+  ],
+  "edge": "L3",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/9001653.cif",
+  "record_url": "https://www.crystallography.net/cod/9001653.html",
+  "primary_url": "https://www.msaweb.org/MSA/AmMin/TOC/Articles_Free/1995/Ni_p21-26_95.pdf",
+  "doi": "10.2138/am-1995-1-203",
+  "citation": "Y. Ni, J. M. Hughes and A. N. Mariano (1995). Crystal chemistry of the monazite and xenotime structures. American Mineralogist 80, 21-26.",
+  "cif_sha256": "df18754847672d1dc596f522a6c366036844b45311cfc66304fc4855fde0eb3c",
+  "sha256": "df18754847672d1dc596f522a6c366036844b45311cfc66304fc4855fde0eb3c",
+  "retrieved_at_utc": "2026-11-17T04:35:30.678994+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "conditions_evidence": "Numeric measurement temperature/pressure are not given in the inspected CIF or original paper experimental methods; nominal 293/298 K or zero pressure is not inferred.",
+  "method": "Experimental single-crystal X-ray diffraction, CAD4 diffractometer and graphite-monochromated Mo Kalpha radiation; the original paper independently refines each selected synthetic endmember.",
+  "synthesis_conditions": null,
+  "synthesis_conditions_note": "The original paper identifies synthetic RE(PO4) crystals supplied by L. Boatner, Oak Ridge National Laboratory, with synthesis methods referenced elsewhere; numeric synthesis conditions not verified.",
+  "selection": "Selected experimental reference; no FEFF calculation or experimental EXAFS validation performed in source research.",
+  "notes": [
+    "This is the independently measured pure synthetic GdPO4 endmember, not a natural mixed rare-earth specimen and not an element-substituted model.",
+    "The entire nine-O coordination polyhedron is retained, including the longest bond near 2.78 A; the next O contact is beyond 3.17 A.",
+    "Phosphate first-shell paths describe the selected phosphate environment; they are not validated substitutes for an oxide or fluoride reference.",
+    "The source has no atomic occupancy column; full occupancy is the parser/default crystallographic interpretation, not a separately refined occupancy result.",
+    "Lanthanide L3 paths are EXAFS candidates, not validated white-line, multiplet, magnetic, or XANES models. FEFF8.2 documents frozen-f density by default and possible f-element SCF convergence difficulties; retain the actual engine recipe and logs."
+  ],
+  "scientific_caveat_source": "https://feff.phys.washington.edu/feff/Docs/feff8/feff82.pdf",
+  "license": {
+    "database_policy": "COD data/database are publicly accessible under CC0; preserve the original scientific-use/article-attribution notice.",
+    "policy_url": "https://www.crystallography.net/cod/9001653.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original AMCSD-sourced COD header retained byte-for-byte: scientific-community use with proper attribution to the source journal article."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "Gd": 4.0,
+      "P": 4.0,
+      "O": 16.0
+    },
+    "site_count": 24,
+    "space_group": "P2_1/c",
+    "space_group_number": 14,
+    "cell": [
+      6.643500000000001,
+      6.8414,
+      6.3281,
+      90.0,
+      103.976,
+      90.0
+    ],
+    "raw_occupancy": null,
+    "absorber_sites": {
+      "Gd": {
+        "indices_one_based": [
+          1
+        ],
+        "sites": [
+          {
+            "index_one_based": 1,
+            "multiplicity": 4,
+            "wyckoff": "4e",
+            "fractional_coordinates": [
+              0.2815,
+              0.15529,
+              0.09695
+            ],
+            "population_weight": 1.0,
+            "first_shell_distances_A": [
+              2.3591218380420753,
+              2.3722410608198787,
+              2.3840620878155296,
+              2.441567290942659,
+              2.4507990431736686,
+              2.4657629450805723,
+              2.4687692884237546,
+              2.565793501394421,
+              2.77621424985522
+            ],
+            "coordination_number": 9,
+            "next_same_scatterer_distance_A": 3.1911181083732183,
+            "shell_cutoff_A": 3.0
+          }
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "recommended_reference": {
+    "id": "GdPO4-monazite-COD9001653-Gd-L3",
+    "name": "GdPO4 synthetic monazite",
+    "formula": "GdPO4",
+    "absorber": "Gd",
+    "scatterer": "O",
+    "edge": "L3",
+    "cod_id": "9001653",
+    "doi": "10.2138/am-1995-1-203",
+    "cif_sha256": "df18754847672d1dc596f522a6c366036844b45311cfc66304fc4855fde0eb3c",
+    "absorber_site_indices": [
+      1
+    ],
+    "shell_cutoff_A": 3.0,
+    "expected_cn_by_site": {
+      "1": 9
+    },
+    "selection_basis": "Unchanged experimental ordered CIF; every inequivalent absorber and the complete selected coordination envelope is retained, with longer excluded contacts explicitly recorded."
+  }
+}

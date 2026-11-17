@@ -1,0 +1,19 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: ZnS                                   Feff8L (EXAFS)       0.1
+ SpaceGroup: F-43m
+ Dr-XAS candidate ZnS-sphalerite-COD9000107-S-K COD 9000107
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=16 Rmt= 1.325 Rnm= 1.446 K  shell
+ Pot 1 Z=30 Rmt= 1.352 Rnm= 1.493
+ Pot 2 Z=16 Rmt= 1.346 Rnm= 1.492
+ Gam_ch=5.057E-01 H-L exch
+ Mu=-8.380E+00 kf=1.847E+00 Vint=-1.419E+01 Rs_int= 1.963
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+       2 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

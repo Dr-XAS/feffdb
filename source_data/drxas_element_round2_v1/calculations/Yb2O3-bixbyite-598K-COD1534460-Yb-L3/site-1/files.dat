@@ -1,0 +1,20 @@
+ Formula: Yb2O3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: Ia-3
+ Dr-XAS candidate Yb2O3-bixbyite-598K-COD1534460-Yb-L3 COD 1534460
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=70 Rmt= 1.531 Rnm= 1.621 L3 shell
+ Pot 1 Z= 8 Rmt= 1.047 Rnm= 1.109
+ Pot 2 Z=70 Rmt= 1.546 Rnm= 1.631
+ Gam_ch=4.347E+00 H-L exch
+ Mu=-7.915E+00 kf=2.091E+00 Vint=-1.760E+01 Rs_int= 1.735
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   2.1944
+ feff0002.dat 0.00000    93.040     2.000     2   2.2499
+ feff0003.dat 0.00000    86.290     2.000     2   2.3096
+ feff0004.dat 0.00000    32.640     2.000     2   3.4656
+ feff0005.dat 0.00000    64.730     4.000     2   3.4822
+ feff0006.dat 0.00000    25.320     2.000     2   3.9449
+ feff0007.dat 0.00000    17.520     2.000     2   3.9498
+ feff0008.dat 0.00000    50.230     4.000     2   3.9595

@@ -1,0 +1,141 @@
+{
+  "all_paths": [
+    {
+      "absorber": 16,
+      "degen": 4.0,
+      "edge": "K",
+      "filename": "feff0001.dat",
+      "geometry": [
+        [
+          "S",
+          16,
+          0,
+          32.06,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "Zn",
+          30,
+          1,
+          65.38,
+          1.3523,
+          1.3523,
+          -1.3523
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 2.3423,
+      "scatterer": 30,
+      "sha256": "23a9fb20daabeff95913bbf7c4040fe89c17b459c313bacbaed46fb2a5af1ce0"
+    },
+    {
+      "absorber": 16,
+      "degen": 12.0,
+      "edge": "K",
+      "filename": "feff0002.dat",
+      "geometry": [
+        [
+          "S",
+          16,
+          0,
+          32.06,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "S",
+          16,
+          2,
+          32.06,
+          2.7046,
+          -0.0,
+          -2.7046
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 3.825,
+      "scatterer": 16,
+      "sha256": "9a3574059384a8f1897f2676ef53abc5ac5e7f36f891494c0c20840178f4442e"
+    }
+  ],
+  "artifacts": {
+    "chi.dat": "a3b52c66e0e2fa5f9187fdeb055a8ee0c8758c748d49bf63e7b5db7f1b0fcf6f",
+    "feff.inp": "d2c1b99243c4ec2fd5d0f883984df74d5ca40dbdf97cff4b1cce942b8742a3b3",
+    "feff.log": "0d0649561f14254969ff81ebe35975ba3636097f684fd45af6a0b7f20e1ef894",
+    "feff0001.dat": "23a9fb20daabeff95913bbf7c4040fe89c17b459c313bacbaed46fb2a5af1ce0",
+    "feff0002.dat": "9a3574059384a8f1897f2676ef53abc5ac5e7f36f891494c0c20840178f4442e",
+    "files.dat": "6271e9155d3f079ecfece5f5b3ac2b207ee490e9152df3aad9e7da02a55276d6",
+    "log1.dat": "b9636540f289ecaba994716fa3fdadfd468e3e1de9baca83e93eba782cd5a3a9",
+    "log2.dat": "7a9b3fd1c198b4db776e84c87fe894ea8668810088c0200ec909496e24f15cea",
+    "log4.dat": "62ee2392760323cdee0b03c025eb1532f123c3d717dde391343a5d958f9595f9",
+    "log5.dat": "899fddb88db2a6ee0d4c9f3443d6cf4beb55a95eb2fe8290c909b16ffbd9bca1",
+    "log6.dat": "da1434af0f0677544f7a6e3f4df192bf9a63096119df73145b17a773ba76a160",
+    "misc.dat": "8080de40aa42e1083bf05301fcbeba6ec2e3efcd308f475181fad936666538bd",
+    "paths.dat": "633e837f5613d67e5c2a4f349e860fe785c94e078bc1fb1434012e2e53151a57",
+    "run.json": "f117dde93ebb6b58f2c039c783dda8553cf703f202ac67530b72a126fde2b719",
+    "xmu.dat": "68f355da05e35786fcb04634c9a7474ace01ec45a521891a8fb2bad262bdd7f1"
+  },
+  "cif_coordination": 4,
+  "coordination_sum": 4.0,
+  "distance_tolerance_A": 0.0002,
+  "experimental_validation": false,
+  "larch_chi_evaluation": "passed",
+  "max_distance_error_A": 4.391654417901236e-06,
+  "native_diagnostics": [
+    "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+    "WARNING:  rmax > distance to most distant atom.",
+    "rmax, ratx   4.00000E+00  0.00000E+00",
+    "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+    "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+    "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+  ],
+  "review_status": "candidate",
+  "scf_hit_iteration_limit": false,
+  "scf_iteration_limit": 30,
+  "scf_iterations": 8,
+  "selected_paths": [
+    {
+      "absorber": 16,
+      "degen": 4.0,
+      "edge": "K",
+      "filename": "feff0001.dat",
+      "geometry": [
+        [
+          "S",
+          16,
+          0,
+          32.06,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "Zn",
+          30,
+          1,
+          65.38,
+          1.3523,
+          1.3523,
+          -1.3523
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 2.3423,
+      "scatterer": 30,
+      "sha256": "23a9fb20daabeff95913bbf7c4040fe89c17b459c313bacbaed46fb2a5af1ce0"
+    }
+  ],
+  "technical_validation": "passed"
+}

@@ -1,0 +1,409 @@
+ Calculating potentials ...
+    free atom potential and density for atom type    0
+    free atom potential and density for atom type    1
+    free atom potential and density for atom type    2
+    free atom potential and density for atom type    3
+    initial state energy
+    overlapped potential and density for unique potential    0
+    overlapped potential and density for unique potential    1
+    overlapped potential and density for unique potential    2
+    overlapped potential and density for unique potential    3
+    muffin tin radii and interstitial parameters
+    : ipot, Norman radius, Muffin tin radius, Overlap
+         0  1.63582E+00  1.56720E+00  1.11379E+00
+         1  1.03495E+00  9.25706E-01  1.15000E+00
+         2  1.15110E+00  9.41276E-01  1.15000E+00
+         3  1.63759E+00  1.56863E+00  1.11431E+00
+              Core-valence separation
+    : mu_old=     4.997
+              SCF ITERATION NUMBER  1  OUT OF 30
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     point #   1  energy = -40.000
+        Doing FMS for a cluster of  47 atoms around iph =  0
+    0   FMS matrix (LUD) at point   1, number of state kets = 423
+        Doing FMS for a cluster of  42 atoms around iph =  1
+    0   FMS matrix (LUD) at point   1, number of state kets = 378
+        Doing FMS for a cluster of  43 atoms around iph =  2
+    0   FMS matrix (LUD) at point   1, number of state kets = 387
+        Doing FMS for a cluster of  46 atoms around iph =  3
+    0   FMS matrix (LUD) at point   1, number of state kets = 414
+     point #  20  energy = -28.781
+     point #  40  energy = -11.459
+     point #  60  energy =  -8.941
+     point #  80  energy =  -7.041
+     point # 100  energy =  -6.481
+  Electronic configuration
+   iph    il      N_el
+     0     0    0.343
+     0     1    6.488
+     0     2    1.133
+     0     3    0.000
+     0     4    0.000
+     1     0    1.860
+     1     1    4.630
+     1     2    0.055
+     1     3    0.000
+     1     4    0.000
+     2     0    1.064
+     2     1    1.811
+     2     2    0.970
+     2     3    0.000
+     2     4    0.000
+     3     0    0.345
+     3     1    6.486
+     3     2    1.165
+     3     3    0.000
+     3     4    0.000
+ mu_new=    -6.360
+ Charge transfer:  iph  charge(iph)
+       0    0.402
+       1   -0.107
+       2    0.232
+       3    0.193
+              SCF ITERATION NUMBER  2  OUT OF 30
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     point #   1  energy = -40.000
+        Doing FMS for a cluster of  47 atoms around iph =  0
+    0   FMS matrix (LUD) at point   1, number of state kets = 423
+        Doing FMS for a cluster of  42 atoms around iph =  1
+    0   FMS matrix (LUD) at point   1, number of state kets = 378
+        Doing FMS for a cluster of  43 atoms around iph =  2
+    0   FMS matrix (LUD) at point   1, number of state kets = 387
+        Doing FMS for a cluster of  46 atoms around iph =  3
+    0   FMS matrix (LUD) at point   1, number of state kets = 414
+     point #  20  energy = -28.787
+     point #  40  energy =  -8.398
+     point #  60  energy =  -6.347
+  Electronic configuration
+   iph    il      N_el
+     0     0    0.386
+     0     1    6.557
+     0     2    2.188
+     0     3    0.000
+     0     4    0.000
+     1     0    1.846
+     1     1    4.502
+     1     2    0.071
+     1     3    0.000
+     1     4    0.000
+     2     0    1.119
+     2     1    1.934
+     2     2    1.011
+     2     3    0.000
+     2     4    0.000
+     3     0    0.367
+     3     1    6.521
+     3     2    1.376
+     3     3    0.000
+     3     4    0.000
+ mu_new=    -6.021
+ Charge transfer:  iph  charge(iph)
+       0    0.725
+       1   -0.323
+       2    0.715
+       3    0.568
+              SCF ITERATION NUMBER  3  OUT OF 30
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     point #   1  energy = -40.000
+        Doing FMS for a cluster of  47 atoms around iph =  0
+    0   FMS matrix (LUD) at point   1, number of state kets = 423
+        Doing FMS for a cluster of  42 atoms around iph =  1
+    0   FMS matrix (LUD) at point   1, number of state kets = 378
+        Doing FMS for a cluster of  43 atoms around iph =  2
+    0   FMS matrix (LUD) at point   1, number of state kets = 387
+        Doing FMS for a cluster of  46 atoms around iph =  3
+    0   FMS matrix (LUD) at point   1, number of state kets = 414
+     point #  20  energy = -29.007
+     point #  40  energy =  -9.019
+     point #  60  energy =  -6.009
+     point #  80  energy =  -5.643
+  Electronic configuration
+   iph    il      N_el
+     0     0    0.458
+     0     1    6.693
+     0     2    4.464
+     0     3    0.000
+     0     4    0.000
+     1     0    1.829
+     1     1    4.259
+     1     2    0.090
+     1     3    0.000
+     1     4    0.000
+     2     0    1.210
+     2     1    2.163
+     2     2    1.087
+     2     3    0.000
+     2     4    0.000
+     3     0    0.401
+     3     1    6.572
+     3     2    1.839
+     3     3    0.000
+     3     4    0.000
+ mu_new=    -5.623
+ Charge transfer:  iph  charge(iph)
+       0    0.188
+       1   -0.313
+       2    0.731
+       3    0.519
+              SCF ITERATION NUMBER  4  OUT OF 30
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     point #   1  energy = -40.000
+        Doing FMS for a cluster of  47 atoms around iph =  0
+    0   FMS matrix (LUD) at point   1, number of state kets = 423
+        Doing FMS for a cluster of  42 atoms around iph =  1
+    0   FMS matrix (LUD) at point   1, number of state kets = 378
+        Doing FMS for a cluster of  43 atoms around iph =  2
+    0   FMS matrix (LUD) at point   1, number of state kets = 387
+        Doing FMS for a cluster of  46 atoms around iph =  3
+    0   FMS matrix (LUD) at point   1, number of state kets = 414
+     point #  20  energy = -28.878
+     point #  40  energy =  -8.657
+     point #  60  energy =  -5.636
+  Electronic configuration
+   iph    il      N_el
+     0     0    0.410
+     0     1    6.605
+     0     2    2.488
+     0     3    0.000
+     0     4    0.000
+     1     0    1.832
+     1     1    4.337
+     1     2    0.084
+     1     3    0.000
+     1     4    0.000
+     2     0    1.192
+     2     1    2.112
+     2     2    1.073
+     2     3    0.000
+     2     4    0.000
+     3     0    0.388
+     3     1    6.552
+     3     2    1.674
+     3     3    0.000
+     3     4    0.000
+ mu_new=    -5.717
+ Charge transfer:  iph  charge(iph)
+       0    0.209
+       1   -0.322
+       2    0.762
+       3    0.522
+              SCF ITERATION NUMBER  5  OUT OF 30
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     point #   1  energy = -40.000
+        Doing FMS for a cluster of  47 atoms around iph =  0
+    0   FMS matrix (LUD) at point   1, number of state kets = 423
+        Doing FMS for a cluster of  42 atoms around iph =  1
+    0   FMS matrix (LUD) at point   1, number of state kets = 378
+        Doing FMS for a cluster of  43 atoms around iph =  2
+    0   FMS matrix (LUD) at point   1, number of state kets = 387
+        Doing FMS for a cluster of  46 atoms around iph =  3
+    0   FMS matrix (LUD) at point   1, number of state kets = 414
+     point #  20  energy = -28.908
+     point #  40  energy =  -8.742
+     point #  60  energy =  -5.730
+  Electronic configuration
+   iph    il      N_el
+     0     0    0.410
+     0     1    6.606
+     0     2    2.561
+     0     3    0.000
+     0     4    0.000
+     1     0    1.835
+     1     1    4.361
+     1     2    0.084
+     1     3    0.000
+     1     4    0.000
+     2     0    1.187
+     2     1    2.098
+     2     2    1.068
+     2     3    0.000
+     2     4    0.000
+     3     0    0.383
+     3     1    6.545
+     3     2    1.603
+     3     3    0.000
+     3     4    0.000
+ mu_new=    -5.770
+ Charge transfer:  iph  charge(iph)
+       0    0.250
+       1   -0.315
+       2    0.741
+       3    0.514
+              SCF ITERATION NUMBER  6  OUT OF 30
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     point #   1  energy = -40.000
+        Doing FMS for a cluster of  47 atoms around iph =  0
+    0   FMS matrix (LUD) at point   1, number of state kets = 423
+        Doing FMS for a cluster of  42 atoms around iph =  1
+    0   FMS matrix (LUD) at point   1, number of state kets = 378
+        Doing FMS for a cluster of  43 atoms around iph =  2
+    0   FMS matrix (LUD) at point   1, number of state kets = 387
+        Doing FMS for a cluster of  46 atoms around iph =  3
+    0   FMS matrix (LUD) at point   1, number of state kets = 414
+     point #  20  energy = -28.925
+     point #  40  energy =  -8.790
+     point #  60  energy =  -5.782
+  Electronic configuration
+   iph    il      N_el
+     0     0    0.410
+     0     1    6.605
+     0     2    2.600
+     0     3    0.000
+     0     4    0.000
+     1     0    1.837
+     1     1    4.379
+     1     2    0.083
+     1     3    0.000
+     1     4    0.000
+     2     0    1.180
+     2     1    2.080
+     2     2    1.062
+     2     3    0.000
+     2     4    0.000
+     3     0    0.381
+     3     1    6.541
+     3     2    1.567
+     3     3    0.000
+     3     4    0.000
+ mu_new=    -5.811
+ Charge transfer:  iph  charge(iph)
+       0    0.311
+       1   -0.309
+       2    0.715
+       3    0.518
+              SCF ITERATION NUMBER  7  OUT OF 30
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     point #   1  energy = -40.000
+        Doing FMS for a cluster of  47 atoms around iph =  0
+    0   FMS matrix (LUD) at point   1, number of state kets = 423
+        Doing FMS for a cluster of  42 atoms around iph =  1
+    0   FMS matrix (LUD) at point   1, number of state kets = 378
+        Doing FMS for a cluster of  43 atoms around iph =  2
+    0   FMS matrix (LUD) at point   1, number of state kets = 387
+        Doing FMS for a cluster of  46 atoms around iph =  3
+    0   FMS matrix (LUD) at point   1, number of state kets = 414
+     point #  20  energy = -28.939
+     point #  40  energy =  -8.828
+     point #  60  energy =  -5.824
+  Electronic configuration
+   iph    il      N_el
+     0     0    0.411
+     0     1    6.605
+     0     2    2.657
+     0     3    0.000
+     0     4    0.000
+     1     0    1.838
+     1     1    4.394
+     1     2    0.082
+     1     3    0.000
+     1     4    0.000
+     2     0    1.172
+     2     1    2.061
+     2     2    1.055
+     2     3    0.000
+     2     4    0.000
+     3     0    0.379
+     3     1    6.538
+     3     2    1.543
+     3     3    0.000
+     3     4    0.000
+ mu_new=    -5.859
+ Charge transfer:  iph  charge(iph)
+       0    0.319
+       1   -0.310
+       2    0.712
+       3    0.524
+              SCF ITERATION NUMBER  8  OUT OF 30
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     point #   1  energy = -40.000
+        Doing FMS for a cluster of  47 atoms around iph =  0
+    0   FMS matrix (LUD) at point   1, number of state kets = 423
+        Doing FMS for a cluster of  42 atoms around iph =  1
+    0   FMS matrix (LUD) at point   1, number of state kets = 378
+        Doing FMS for a cluster of  43 atoms around iph =  2
+    0   FMS matrix (LUD) at point   1, number of state kets = 387
+        Doing FMS for a cluster of  46 atoms around iph =  3
+    0   FMS matrix (LUD) at point   1, number of state kets = 414
+     point #  20  energy = -28.954
+     point #  40  energy =  -8.872
+     point #  60  energy =  -5.872
+  Electronic configuration
+   iph    il      N_el
+     0     0    0.411
+     0     1    6.605
+     0     2    2.657
+     0     3    0.000
+     0     4    0.000
+     1     0    1.838
+     1     1    4.392
+     1     2    0.082
+     1     3    0.000
+     1     4    0.000
+     2     0    1.172
+     2     1    2.061
+     2     2    1.055
+     2     3    0.000
+     2     4    0.000
+     3     0    0.380
+     3     1    6.539
+     3     2    1.550
+     3     3    0.000
+     3     4    0.000
+ mu_new=    -5.860
+ Charge transfer:  iph  charge(iph)
+       0    0.330
+       1   -0.310
+       2    0.709
+       3    0.529
+              SCF ITERATION NUMBER  9  OUT OF 30
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     point #   1  energy = -40.000
+        Doing FMS for a cluster of  47 atoms around iph =  0
+    0   FMS matrix (LUD) at point   1, number of state kets = 423
+        Doing FMS for a cluster of  42 atoms around iph =  1
+    0   FMS matrix (LUD) at point   1, number of state kets = 378
+        Doing FMS for a cluster of  43 atoms around iph =  2
+    0   FMS matrix (LUD) at point   1, number of state kets = 387
+        Doing FMS for a cluster of  46 atoms around iph =  3
+    0   FMS matrix (LUD) at point   1, number of state kets = 414
+     point #  20  energy = -28.955
+     point #  40  energy =  -8.872
+     point #  60  energy =  -5.872
+  Electronic configuration
+   iph    il      N_el
+     0     0    0.411
+     0     1    6.605
+     0     2    2.657
+     0     3    0.000
+     0     4    0.000
+     1     0    1.837
+     1     1    4.391
+     1     2    0.082
+     1     3    0.000
+     1     4    0.000
+     2     0    1.172
+     2     1    2.060
+     2     2    1.055
+     2     3    0.000
+     2     4    0.000
+     3     0    0.380
+     3     1    6.539
+     3     2    1.556
+     3     3    0.000
+     3     4    0.000
+ mu_new=    -5.863
+ Charge transfer:  iph  charge(iph)
+       0    0.329
+       1   -0.310
+       2    0.709
+       3    0.528
+ Done with module 1: potentials.

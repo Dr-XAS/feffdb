@@ -1,0 +1,106 @@
+{
+  "added_paths": 16,
+  "base_sha256": "b1e6c8331d26e47e0805cfe1be88ff463190943d6eb9632005106986a7c50a2e",
+  "candidate_sha256": "7e712a26c450eda8e608f0638c7d41cded4b0c827c53e5efe86c00e35364ee3b",
+  "paths": [
+    {
+      "filename": "feff0001.dat",
+      "id": 359,
+      "reference": "NaCl-halite-COD9003308-Na-K",
+      "sha256": "f1f1e8c99b26923fbae254092caaf20440e4885660ba7dc98f520c34111baedf"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 360,
+      "reference": "NaCl-halite-COD9003308-Cl-K",
+      "sha256": "f163da2e461d26ab35ab59a0eba402fbdd127f6f6d2b1d5fd097814c2d03ba8e"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 361,
+      "reference": "MgO-periclase-COD1000053-Mg-K",
+      "sha256": "c438cdb7744fe025af3f8e4ab6be517bc76c3fab0a2a11e92c58e95f8066301f"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 362,
+      "reference": "KCl-sylvite-COD9003112-K-K",
+      "sha256": "599cab56307d4656eaed3c9f9ef7e19eb532d2c8f0ee9d2622162cf6e8902ee3"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 363,
+      "reference": "NaBr-COD9007464-Br-K",
+      "sha256": "4f227e247664a22e55e906472713986e62af5787532d03b5331bc37fbe7c3c55"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 364,
+      "reference": "Al2O3-corundum-COD9007498-Al-K",
+      "sha256": "ba4c20e386eee428a70fe8269b8c0ea973d498257f3f3d28d1e059f28d5053e9"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 365,
+      "reference": "Al2O3-corundum-COD9007498-Al-K",
+      "sha256": "866ae9363e679b3a1b56077583a3f4e445e2479144d5ea4fcc4ba4bf1087c681"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 366,
+      "reference": "SiO2-quartz-COD9005017-Si-K",
+      "sha256": "3bc18b8e1a35c2f30ddd98e5a3431e11c15a3fcb4269eec95af0b818e47db661"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 367,
+      "reference": "SiO2-quartz-COD9005017-Si-K",
+      "sha256": "d3b015e9fe2f14fc443e036fc510506e13713c74f256d2b9f41c17b7aca02f8f"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 368,
+      "reference": "AlPO4-berlinite-COD9010367-P-K",
+      "sha256": "0225a950fdd17325c1c50e19ed57c0eb9b720753b2fa2b118f2f51110daad6fb"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 369,
+      "reference": "AlPO4-berlinite-COD9010367-P-K",
+      "sha256": "2b8d4d4bfa420c905c72dd2182e8739c310270780cbb11bad8f06e8364967fc7"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 370,
+      "reference": "ZnS-sphalerite-COD9000107-S-K",
+      "sha256": "23a9fb20daabeff95913bbf7c4040fe89c17b459c313bacbaed46fb2a5af1ce0"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 371,
+      "reference": "Sc2O3-bixbyite-COD4501808-Sc-K",
+      "sha256": "9b7c0cf7519f58cc2ef1f61f51b16a4f54341d29562f4ad37bc2995dd692ac89"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 372,
+      "reference": "Sc2O3-bixbyite-COD4501808-Sc-K",
+      "sha256": "94801fd3b260bebc9ba77ea7ad9be4e7de9304add8b8268719fa7d9a1a45e830"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 373,
+      "reference": "Sc2O3-bixbyite-COD4501808-Sc-K",
+      "sha256": "f6a26f4b2ab2c53f861a1822f9f893c2bba14f88294882ddbaa6d3de29215b03"
+    },
+    {
+      "filename": "feff0003.dat",
+      "id": 374,
+      "reference": "Sc2O3-bixbyite-COD4501808-Sc-K",
+      "sha256": "d3abc2949d09f74b6eed34ccfd202a442b0f9358d64552f4433cad26602fd295"
+    }
+  ],
+  "review_status": "candidate",
+  "total_paths": 374,
+  "upstream_paths": 358
+}

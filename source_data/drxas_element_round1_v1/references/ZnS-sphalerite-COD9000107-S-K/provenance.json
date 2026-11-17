@@ -1,0 +1,90 @@
+{
+  "filename": "source.cif",
+  "name": "ZnS sphalerite",
+  "absorber": "S",
+  "source_id": "9000107",
+  "related_ids": {
+    "AMCSD": "0000110"
+  },
+  "doi": null,
+  "citation": "B. J. Skinner. Unit-cell edges of natural and synthetic sphalerites. American Mineralogist 46 (1961), 1399-1411.",
+  "primary_url": "https://msaweb.org/AmMin/AM46/AM46_1399.pdf",
+  "recommendation": "recommended first-round source candidate; FEFF validation pending",
+  "method": "Experimental X-ray unit-cell-edge study; the selected pure ZnS reference uses the measured cubic lattice edge and symmetry-fixed zincblende coordinates, not an independent free-coordinate refinement.",
+  "synthesis_conditions": null,
+  "notes": [
+    "Pure synthetic ZnS endmember. COD1525302 was rejected because it contains mixed Fe/Mn/Zn occupancies.",
+    "25 degrees Celsius is the temperature associated with the selected pure ZnS lattice edge, not a synthesis temperature.",
+    "No DOI verified in the COD record, raw CIF, or primary journal citation; primary article URL retained.",
+    "Atomic positions are fixed by zincblende symmetry; publication measures cell edges.",
+    "The source CIF has no atom occupancy column; parser treats sites as fully occupied. This is not an explicit occupancy measurement.",
+    "Pressure is not numerically specified in the inspected source; leave measurement_pressure_GPa null."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/9000107.cif",
+  "record_url": "https://www.crystallography.net/cod/9000107.html",
+  "sha256": "2b2bc21d36741c87385ecbe399883ec889ce141283a8bede02a81001306835d9",
+  "cif_sha256": "2b2bc21d36741c87385ecbe399883ec889ce141283a8bede02a81001306835d9",
+  "retrieved_at_utc": "2026-11-17T04:09:54.081354+00:00",
+  "edge": "K",
+  "inequivalent_absorber_sites": 1,
+  "suggested_absorber_site_index_one_based": 2,
+  "absorber_site_indices": [
+    2
+  ],
+  "measurement_temperature_K": 298.15,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Original paper introduction identifies the pure ZnS lattice edge 5.4093 +/- 0.0002 angstrom at 25 degrees Celsius; same edge appears in COD9000107.",
+  "original_file_unmodified": true,
+  "license": {
+    "database_policy": "COD dedicates its data/database to the public domain under CC0; retain original article attribution and original file notice.",
+    "policy_url": "https://www.crystallography.net/cod/9000107.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "CIF header identifies AMCSD as original data provider and requests proper attribution to the journal article."
+  },
+  "inspection": {
+    "formula": "Zn4 S4",
+    "ordered": true,
+    "site_count": 8,
+    "absorber_indices_zero_based": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "inequivalent_absorber_groups": [
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "spacegroup": "F-43m",
+    "spacegroup_number": 216,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 2,
+        "element": "S",
+        "multiplicity": 4,
+        "wyckoff": "4c",
+        "fractional_coordinates": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "first_shell_element": "Zn",
+        "first_shell_cutoff_A": 2.8,
+        "coordination_number": 4,
+        "distances_A": {
+          "2.342296": 4
+        },
+        "next_same_element_distance_A": 4.485154619617365
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

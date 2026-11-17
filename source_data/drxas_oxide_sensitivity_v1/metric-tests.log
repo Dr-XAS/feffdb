@@ -1,0 +1,12 @@
+test_constant_phase_has_known_complex_difference (test_sensitivity.MetricTests.test_constant_phase_has_known_complex_difference) ... ok
+test_identical_complex_signal_is_zero (test_sensitivity.MetricTests.test_identical_complex_signal_is_zero) ... ok
+test_phase_at_vanishing_baseline_does_not_dominate (test_sensitivity.MetricTests.test_phase_at_vanishing_baseline_does_not_dominate) ... ok
+test_ten_percent_amplitude_has_known_relative_difference (test_sensitivity.MetricTests.test_ten_percent_amplitude_has_known_relative_difference) ... ok
+test_two_pi_phase_is_not_a_physical_change (test_sensitivity.MetricTests.test_two_pi_phase_is_not_a_physical_change) ... ok
+test_window_excludes_changes_outside_requested_range (test_sensitivity.MetricTests.test_window_excludes_changes_outside_requested_range) ... ok
+test_zero_reference_is_refused (test_sensitivity.MetricTests.test_zero_reference_is_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

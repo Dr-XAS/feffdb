@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "id": "NaBr-COD9007464",
+  "name": "NaBr rocksalt",
+  "source_database": "COD",
+  "source_id": "9007464",
+  "absorbers": [
+    "Br"
+  ],
+  "edge": "K",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/9007464.cif",
+  "record_url": "https://www.crystallography.net/cod/9007464.html",
+  "primary_url": "https://doi.org/10.1107/S0365110X61002357",
+  "doi": "10.1107/S0365110X61002357",
+  "citation": "V. T. Deshpande (1961). Thermal expansion of sodium fluoride and sodium bromide. Acta Crystallographica 14, 794. DOI: 10.1107/S0365110X61002357.",
+  "cif_sha256": "d71807e45819604c12d62a0404c8edf94fc5c2722da61e46519003852deca980",
+  "sha256": "d71807e45819604c12d62a0404c8edf94fc5c2722da61e46519003852deca980",
+  "retrieved_at_utc": "2026-11-17T04:08:54.617993+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": 304.65,
+  "measurement_pressure_GPa": null,
+  "conditions_evidence": "CIF title/field: T=31.5 C / 304.65 K; pressure is not specified in this CIF and is left unknown. Specific apparatus and synthesis conditions have not been verified from full text.",
+  "method": "Experimental thermal-expansion crystallographic record, as deposited by AMCSD/COD from Deshpande (1961); original full text was not accessible in this retrieval.",
+  "synthesis_conditions": null,
+  "selection": "Selected experimental reference; no FEFF calculation or experimental validation performed here.",
+  "notes": [
+    "No occupancy column is supplied; full occupancy is the parser/default crystallographic interpretation, not a separately refined occupancy result.",
+    "Symmetry-fixed positions and the deposited experimental cell are retained; no coordinates, lattice constants or source bytes were modified.",
+    "Selected to avoid the unresolved historical-unit question in early KBr sources."
+  ],
+  "license": {
+    "database_policy": "COD dedicates data/database to public domain under CC0; preserve original file notice and article attribution.",
+    "policy_url": "https://www.crystallography.net/cod/9007464.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original AMCSD-sourced COD header retained byte-for-byte: scientific-community use with proper attribution to the source journal article."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "Na": 4.0,
+      "Br": 4.0
+    },
+    "site_count": 8,
+    "space_group": "Fm-3m",
+    "cell": [
+      5.9738,
+      5.9738,
+      5.9738,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "raw_occupancy": null,
+    "unique_sites": [
+      {
+        "index_one_based": 1,
+        "element": "Na",
+        "multiplicity": 4,
+        "wyckoff": "4a",
+        "fractional_coordinates": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "index_one_based": 2,
+        "element": "Br",
+        "multiplicity": 4,
+        "wyckoff": "4b",
+        "fractional_coordinates": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    ],
+    "absorber_sites": {
+      "Br": {
+        "indices_one_based": [
+          2
+        ],
+        "first_shell_distance_A": 2.9868999999999994,
+        "first_shell_scatterers": {
+          "Na": 6
+        },
+        "coordination_number": 6,
+        "next_neighbor_distance_A": 4.224114489452197,
+        "suggested_first_shell_cutoff_A": 3.6055072447260983,
+        "first_shell_displacements_A": [
+          [
+            0.0,
+            0.0,
+            2.9868999999999994
+          ],
+          [
+            -2.9869,
+            0.0,
+            -4.440892098500626e-16
+          ],
+          [
+            0.0,
+            -2.9869,
+            -4.440892098500626e-16
+          ],
+          [
+            2.9869,
+            0.0,
+            0.0
+          ],
+          [
+            -4.440892098500626e-16,
+            2.9869,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -2.9869
+          ]
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

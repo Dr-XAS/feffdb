@@ -1,0 +1,96 @@
+{
+  "filename": "source.cif",
+  "name": "HfO2 monoclinic, synthetic",
+  "absorber": "Hf",
+  "scatterer": "O",
+  "source_id": "9013470",
+  "doi": "10.1111/j.1151-2916.1970.tb12052.x",
+  "citation": "R. Ruh and P. W. R. Corfield. Crystal Structure of Monoclinic Hafnia and Comparison with Monoclinic Zirconia. Journal of the American Ceramic Society 53 (1970), 126–129.",
+  "primary_url": "https://ceramics.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1151-2916.1970.tb12052.x",
+  "recommendation": "experimental source candidate; native FEFF and numerical validation pending",
+  "method": "Experimental single-crystal X-ray diffraction by Weissenberg techniques; three-dimensional least-squares refinement. Publisher abstract explicitly reports seven Hf–O distances.",
+  "synthesis_conditions": {
+    "description": "Needlelike crystal grown from a lithium molybdate melt (publisher abstract). Exact synthesis temperature/pressure not verified."
+  },
+  "notes": [
+    "One independent Hf site, multiplicity4, complete seven-coordinate monoclinic oxygen shell. This is not tetragonal, cubic, ferroelectric orthorhombic or amorphous hafnia.",
+    "Preserve all seven short bonds, including the distinct 2.1710 and2.1721A neighbors separated by only~0.0011A. Do not round away or merge close paths.",
+    "Original source omits occupancy column; full occupancy is the ordered parser interpretation.",
+    "This is an experimental1970 refinement. Coordinates are preserved with their original precision; the source does not establish transferability to a measured sample."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/9013470.cif",
+  "record_url": "https://www.crystallography.net/cod/9013470.html",
+  "sha256": "af4629c345b38f34ae84114458d602c2447474c1b18529b355088e50a64f0a42",
+  "cif_sha256": "af4629c345b38f34ae84114458d602c2447474c1b18529b355088e50a64f0a42",
+  "retrieved_at_utc": "2026-11-17T04:31:52.683091+00:00",
+  "edge": "L3",
+  "inequivalent_absorber_sites": 1,
+  "absorber_site_indices": [
+    1
+  ],
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Measurement temperature and pressure are not recorded in downloaded CIF or the verified publisher abstract; do not replace them with flux-growth conditions.",
+  "original_file_unmodified": true,
+  "occupancy": {
+    "raw_values": null,
+    "interpretation": "Occupancy column absent; unit occupancy is parser interpretation, not an explicit refined occupancy."
+  },
+  "license": {
+    "database_policy": "COD dedicates data/database to public domain under CC0; retain the original notice and article attribution.",
+    "policy_url": "https://www.crystallography.net/cod/9013470.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "#------------------------------------------------------------------------------\n#$Date: 2024-05-16 09:36:09 +0300 (Thu, 16 May 2024) $\n#$Revision: 291877 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/34/9013470.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided the American Mineralogist Crystal Structure Database,\n# http://rruff.geo.arizona.edu/AMS/amcsd.php\n#\n# The file may be used within the scientific community so long as\n# proper attribution is given to the journal article from which the\n# data were obtained.\n#"
+  },
+  "inspection": {
+    "formula": "Hf4 O8",
+    "ordered": true,
+    "hydrogen_present": false,
+    "site_count": 12,
+    "spacegroup": "P2_1/c",
+    "spacegroup_number": 14,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Hf",
+        "fractional_coordinates": [
+          0.2759,
+          0.0412,
+          0.2078
+        ],
+        "multiplicity": 4,
+        "wyckoff": "4e",
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.7,
+        "coordination_number": 7,
+        "distances_A": {
+          "2.032079": 1,
+          "2.052537": 1,
+          "2.161516": 1,
+          "2.171033": 1,
+          "2.172095": 1,
+          "2.201383": 1,
+          "2.252961": 1
+        },
+        "full_first_shell_distance_multiset_A": [
+          2.0320790162437135,
+          2.0525370718736147,
+          2.1615156668082496,
+          2.1710334437967185,
+          2.1720952726354583,
+          2.201382549527399,
+          2.2529608468284996
+        ],
+        "next_same_element_distance_A": 3.518763408783874,
+        "nearest_other_element_distance_A": 3.3181468561991077,
+        "nearest_other_element": "Hf",
+        "site_weight": 1.0
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

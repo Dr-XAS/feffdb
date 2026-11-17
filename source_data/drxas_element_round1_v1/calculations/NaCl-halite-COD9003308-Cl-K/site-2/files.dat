@@ -1,0 +1,14 @@
+ Formula: NaCl                                  Feff8L (EXAFS)       0.1
+ SpaceGroup: Fm-3m
+ Dr-XAS candidate NaCl-halite-COD9003308-Cl-K COD 9003308
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=17 Rmt= 1.508 Rnm= 1.572 K  shell
+ Pot 1 Z=11 Rmt= 1.617 Rnm= 1.694
+ Pot 2 Z=17 Rmt= 1.563 Rnm= 1.639
+ Gam_ch=5.581E-01 H-L exch
+ Mu=-4.856E+00 kf=1.359E+00 Vint=-1.006E+01 Rs_int= 2.669
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     6.000     2   2.8200
+ feff0002.dat 0.00000   149.800    12.000     2   3.9882

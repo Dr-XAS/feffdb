@@ -1,0 +1,13 @@
+ Formula: NaBr                                  Feff8L (EXAFS)       0.1
+ SpaceGroup: Fm-3m
+ Dr-XAS candidate NaBr-COD9007464-Br-K COD 9007464
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=35 Rmt= 1.664 Rnm= 1.738 K  shell
+ Pot 1 Z=11 Rmt= 1.666 Rnm= 1.746
+ Pot 2 Z=35 Rmt= 1.706 Rnm= 1.789
+ Gam_ch=3.018E+00 H-L exch
+ Mu=-4.833E+00 kf=1.300E+00 Vint=-9.342E+00 Rs_int= 2.789
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     6.000     2   2.9869

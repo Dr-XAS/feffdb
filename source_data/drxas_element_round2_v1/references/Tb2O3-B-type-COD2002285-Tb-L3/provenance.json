@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "id": "Tb2O3-B-type-COD2002285",
+  "name": "Tb2O3 monoclinic B phase",
+  "source_database": "COD",
+  "source_id": "2002285",
+  "absorbers": [
+    "Tb"
+  ],
+  "edge": "L3",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/2002285.cif",
+  "record_url": "https://www.crystallography.net/cod/2002285.html",
+  "primary_url": "https://doi.org/10.1002/zaac.19683630306",
+  "doi": "10.1002/zaac.19683630306",
+  "citation": "E. Hubbert-Paletta and Hk. Mueller-Buschbaum (1968). Roentgenographische Untersuchung an Einkristallen von monoklinem Tb2O3. Zeitschrift fuer Anorganische und Allgemeine Chemie 363, 145-150.",
+  "cif_sha256": "8409a160b0f991e1f1b1e87b96d37702c5a0d433cb764aba8a8721bb0157f17f",
+  "sha256": "8409a160b0f991e1f1b1e87b96d37702c5a0d433cb764aba8a8721bb0157f17f",
+  "retrieved_at_utc": "2026-11-17T04:36:56.505293+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "conditions_evidence": "Numeric diffraction temperature and pressure are not stated in the deposited CIF and have not been verified from original full text; both remain unknown. Phase or synthesis conditions must not be substituted.",
+  "method": "Experimental single-crystal X-ray structure of monoclinic B-Tb2O3; original CIF reports R(all)=0.093.",
+  "synthesis_conditions": null,
+  "synthesis_conditions_note": "Specific synthesis temperature and pressure not verified; the B phase identity is preserved without assuming a synthesis route.",
+  "selection": "Selected experimental reference; no FEFF calculation or experimental EXAFS validation performed in source research.",
+  "notes": [
+    "This is the monoclinic B polymorph; it must not be presented as a cubic C-type oxide or a general reference for all Tb oxide phases.",
+    "Every atomic occupancy in the original CIF is explicitly 1; source bytes are unchanged.",
+    "Generator sites 1/2 retain seven O neighbors each. Site 3 retains six short O neighbors through 2.5047 A; its next contact at 3.1532 A is explicitly outside the first shell. The 7/7/6 B-type coordination is independently discussed in Inorganic Chemistry 59 (2020), DOI 10.1021/acs.inorgchem.0c00834.",
+    "All three absorber sites have multiplicity 4 and population weight 1/3. Native FEFF degeneracy is per absorber; use explicit normalized site weights in an ensemble model.",
+    "Lanthanide L3 paths are EXAFS candidates, not validated white-line, multiplet, magnetic, or XANES models. FEFF8.2 documents frozen-f density by default and possible f-element SCF convergence difficulties; retain the actual engine recipe and logs."
+  ],
+  "coordination_context_url": "https://doi.org/10.1021/acs.inorgchem.0c00834",
+  "scientific_caveat_source": "https://feff.phys.washington.edu/feff/Docs/feff8/feff82.pdf",
+  "license": {
+    "database_policy": "COD data/database are publicly accessible under CC0; retain original notices and article attribution.",
+    "policy_url": "https://www.crystallography.net/cod/2002285.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original COD public-domain header retained byte-for-byte; cite the source journal article."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "Tb": 12.0,
+      "O": 18.0
+    },
+    "site_count": 30,
+    "space_group": "C2/m",
+    "space_group_number": 12,
+    "cell": [
+      14.030000000000001,
+      3.536,
+      8.717,
+      90.0,
+      100.1,
+      90.0
+    ],
+    "raw_occupancy": [
+      "1.",
+      "1.",
+      "1.",
+      "1.",
+      "1.",
+      "1.",
+      "1.",
+      "1."
+    ],
+    "absorber_sites": {
+      "Tb": {
+        "indices_one_based": [
+          1,
+          2,
+          3
+        ],
+        "sites": [
+          {
+            "index_one_based": 1,
+            "original_cif_label": "Tb1",
+            "multiplicity": 4,
+            "wyckoff": "4i",
+            "fractional_coordinates": [
+              0.1349,
+              0.5,
+              0.4886
+            ],
+            "population_weight": 0.3333333333333333,
+            "first_shell_distances_A": [
+              2.2751999335452955,
+              2.2751999335452955,
+              2.3674327809988327,
+              2.393269621445714,
+              2.5508329805035546,
+              2.5508329805035546,
+              2.5922082653687264
+            ],
+            "coordination_number": 7,
+            "next_same_scatterer_distance_A": 3.589182510872869,
+            "same_scatterer_distances_to_5A": [
+              2.2751999335452955,
+              2.2751999335452955,
+              2.3674327809988327,
+              2.393269621445714,
+              2.5508329805035546,
+              2.5508329805035546,
+              2.5922082653687264,
+              3.589182510872869,
+              4.255353566103276,
+              4.255353566103277,
+              4.269781666658719,
+              4.26978166665872,
+              4.3468377506947204,
+              4.384385896684499,
+              4.3843858966845,
+              4.546006210149333,
+              4.546006210149333,
+              4.8575702578544835,
+              4.8575702578544835,
+              4.920904741353312,
+              4.920904741353312,
+              4.963248855076954
+            ],
+            "shell_cutoff_A": 3.0
+          },
+          {
+            "index_one_based": 2,
+            "original_cif_label": "Tb2",
+            "multiplicity": 4,
+            "wyckoff": "4i",
+            "fractional_coordinates": [
+              0.1901,
+              0.5,
+              0.1384
+            ],
+            "population_weight": 0.3333333333333333,
+            "first_shell_distances_A": [
+              2.2512888083113123,
+              2.2512888083113123,
+              2.2870947006110787,
+              2.3141649352737925,
+              2.385405128083259,
+              2.385405128083259,
+              2.727704219603525
+            ],
+            "coordination_number": 7,
+            "next_same_scatterer_distance_A": 3.6852136008846683,
+            "same_scatterer_distances_to_5A": [
+              2.2512888083113123,
+              2.2512888083113123,
+              2.2870947006110787,
+              2.3141649352737925,
+              2.385405128083259,
+              2.385405128083259,
+              2.727704219603525,
+              3.6852136008846683,
+              4.211187263654192,
+              4.2111872636541925,
+              4.225950230143602,
+              4.225950230143602,
+              4.379249520740048,
+              4.4658332156097,
+              4.465833215609701,
+              4.4665827160993095,
+              4.4665827160993095,
+              4.579083424011046,
+              4.579083424011046,
+              4.774436884209343,
+              4.839979894497961,
+              4.839979894497961
+            ],
+            "shell_cutoff_A": 3.0
+          },
+          {
+            "index_one_based": 3,
+            "original_cif_label": "Tb3",
+            "multiplicity": 4,
+            "wyckoff": "4i",
+            "fractional_coordinates": [
+              0.4666,
+              0.5,
+              0.1871
+            ],
+            "population_weight": 0.3333333333333333,
+            "first_shell_distances_A": [
+              2.177437383325391,
+              2.177437383325391,
+              2.209245123301217,
+              2.26114155932728,
+              2.5046887909141886,
+              2.5046887909141886
+            ],
+            "coordination_number": 6,
+            "next_same_scatterer_distance_A": 3.1531694670114114,
+            "same_scatterer_distances_to_5A": [
+              2.177437383325391,
+              2.177437383325391,
+              2.209245123301217,
+              2.26114155932728,
+              2.5046887909141886,
+              2.5046887909141886,
+              3.1531694670114114,
+              3.6933392211144134,
+              4.022248389226472,
+              4.169419625658973,
+              4.169419625658973,
+              4.197148693019703,
+              4.197148693019704,
+              4.466390185679586,
+              4.466390185679586,
+              4.563038929277193,
+              4.563038929277193,
+              4.641540805648912,
+              4.737697086949844,
+              4.737697086949844,
+              4.911201476755791,
+              4.911201476755791
+            ],
+            "shell_cutoff_A": 3.0
+          }
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "recommended_reference": {
+    "id": "Tb2O3-B-type-COD2002285-Tb-L3",
+    "name": "Tb2O3 monoclinic B phase",
+    "formula": "Tb2O3",
+    "absorber": "Tb",
+    "scatterer": "O",
+    "edge": "L3",
+    "cod_id": "2002285",
+    "doi": "10.1002/zaac.19683630306",
+    "cif_sha256": "8409a160b0f991e1f1b1e87b96d37702c5a0d433cb764aba8a8721bb0157f17f",
+    "absorber_site_indices": [
+      1,
+      2,
+      3
+    ],
+    "shell_cutoff_A": 3.0,
+    "expected_cn_by_site": {
+      "1": 7,
+      "2": 7,
+      "3": 6
+    },
+    "selection_basis": "Full-occupancy experimental B-type structure. Three inequivalent absorber sites retained; the six/seven-coordinate first shells use explicit 3.0-A cutoff, with more distant contacts separately recorded."
+  }
+}

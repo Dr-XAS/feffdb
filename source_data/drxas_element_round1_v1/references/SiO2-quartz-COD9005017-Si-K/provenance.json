@@ -1,0 +1,86 @@
+{
+  "filename": "source.cif",
+  "name": "SiO2 alpha quartz, 298 K",
+  "absorber": "Si",
+  "source_id": "9005017",
+  "related_ids": {
+    "AMCSD": "0006362"
+  },
+  "doi": "10.1127/ejm/2/1/0063",
+  "citation": "K. Kihara. An X-ray study of the temperature dependence of the quartz structure. European Journal of Mineralogy 2 (1990), 63-77.",
+  "primary_url": "https://doi.org/10.1127/ejm/2/1/0063",
+  "recommendation": "recommended first-round source candidate; FEFF validation pending",
+  "method": "Experimental X-ray structure from the published temperature-dependent quartz series; selected CIF explicitly identifies the 298 K measurement.",
+  "synthesis_conditions": null,
+  "notes": [
+    "Select COD9005017 / AMCSD0006362: explicit 298 K. Adjacent COD9005018 is 398 K and was rejected for this room-temperature reference.",
+    "The source CIF has no atom occupancy column; parser treats sites as fully occupied. This is not an explicit occupancy measurement.",
+    "Pressure is not numerically specified in the inspected source; leave measurement_pressure_GPa null."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/9005017.cif",
+  "record_url": "https://www.crystallography.net/cod/9005017.html",
+  "sha256": "0852d8678491639714d9b4749778d561f235219021be4d74278f7f4e323c74cf",
+  "cif_sha256": "0852d8678491639714d9b4749778d561f235219021be4d74278f7f4e323c74cf",
+  "retrieved_at_utc": "2026-11-17T04:09:00.604437+00:00",
+  "edge": "K",
+  "inequivalent_absorber_sites": 1,
+  "suggested_absorber_site_index_one_based": 1,
+  "absorber_site_indices": [
+    1
+  ],
+  "measurement_temperature_K": 298,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Raw CIF _diffrn_ambient_temperature and Sample: at T = 298 K",
+  "original_file_unmodified": true,
+  "license": {
+    "database_policy": "COD dedicates its data/database to the public domain under CC0; retain original article attribution and original file notice.",
+    "policy_url": "https://www.crystallography.net/cod/9005017.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "CIF header identifies AMCSD as original data provider and requests proper attribution to the journal article."
+  },
+  "inspection": {
+    "formula": "Si3 O6",
+    "ordered": true,
+    "site_count": 9,
+    "absorber_indices_zero_based": [
+      0,
+      1,
+      2
+    ],
+    "inequivalent_absorber_groups": [
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "spacegroup": "P3_221",
+    "spacegroup_number": 154,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Si",
+        "multiplicity": 3,
+        "wyckoff": "3a",
+        "fractional_coordinates": [
+          0.4697,
+          0.0,
+          0.0
+        ],
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.1,
+        "coordination_number": 4,
+        "distances_A": {
+          "1.605222": 2,
+          "1.613385": 2
+        },
+        "next_same_element_distance_A": 3.5219139126995107
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

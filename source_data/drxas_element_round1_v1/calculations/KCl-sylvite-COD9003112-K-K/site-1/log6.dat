@@ -1,0 +1,18 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: KCl                                   Feff8L (EXAFS)       0.1
+ SpaceGroup: Fm-3m
+ Dr-XAS candidate KCl-sylvite-COD9003112-K-K COD 9003112
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=19 Rmt= 2.007 Rnm= 2.111 K  shell
+ Pot 1 Z=17 Rmt= 1.585 Rnm= 1.656
+ Pot 2 Z=19 Rmt= 1.907 Rnm= 1.989
+ Gam_ch=6.796E-01 H-L exch
+ Mu=-5.291E+00 kf=1.273E+00 Vint=-9.998E+00 Rs_int= 2.849
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+       1 paths to process
+    path     filename
+       1     feff0001.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

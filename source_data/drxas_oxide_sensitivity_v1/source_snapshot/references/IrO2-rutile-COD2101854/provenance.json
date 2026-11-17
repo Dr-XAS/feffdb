@@ -1,0 +1,64 @@
+{
+  "filename": "source.cif",
+  "name": "IrO2 rutile",
+  "absorber": "Ir",
+  "source_id": "2101854",
+  "related_ids": {
+    "AMCSD": "0019243"
+  },
+  "doi": "10.1107/S0108768197001468",
+  "citation": "A. A. Bolzan, C. Fong, B. J. Kennedy and C. J. Howard. Structural Studies of Rutile-Type Metal Dioxides. Acta Crystallographica Section B 53 (1997), 373-380.",
+  "primary_url": "https://journals.iucr.org/paper?buy=yes&cnor=br0044",
+  "recommendation": "recommended pilot reference",
+  "method": "Experimental neutron powder diffraction / Rietveld refinement, as confirmed by publisher abstract.",
+  "synthesis_conditions": null,
+  "notes": [
+    "Original IUCr data block br0044d, distributed through COD; matches bundled AMCSD 19243 cell and coordinates.",
+    "No occupancy column in original; parser interprets full occupancy. Do not label explicit occupancies as measured values.",
+    "Symmetry operators are not explicitly enumerated; declared P42/mnm supplies symmetry.",
+    "Measurement temperature and pressure are not recorded in the downloaded CIF or verified abstract; leave unknown."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/2101854.cif",
+  "record_url": "https://www.crystallography.net/cod/2101854.html",
+  "sha256": "a475838a182a5a235458a9d63e59a63d393276ece71f90ae161be03796316a78",
+  "retrieved_at_utc": "2026-11-15T21:25:27.348439+00:00",
+  "edge": "L3",
+  "inequivalent_absorber_sites": 1,
+  "suggested_absorber_site_index_one_based": 1,
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "original_file_unmodified": true,
+  "license": {
+    "database_policy": "COD website dedicates its data/database to public domain under CC0; retain original article attribution and original file notice.",
+    "policy_url": "https://www.crystallography.net/cod/2101854.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original IUCr-provided data: scientific-community use with proper article attribution, as stated in unchanged CIF header."
+  },
+  "inspection": {
+    "filename": "cod-2101854-IrO2.cif",
+    "formula": "Ir2 O4",
+    "ordered": true,
+    "site_count": 6,
+    "absorber_indices_zero_based": [
+      0,
+      1
+    ],
+    "inequivalent_absorber_groups": [
+      [
+        0,
+        1
+      ]
+    ],
+    "spacegroup": "P4_2/mnm",
+    "spacegroup_number": 136,
+    "first_oxygen_neighbors_within_2p6_A": {
+      "1.9604": 2,
+      "1.9988": 4
+    },
+    "parser_warnings": [
+      "No _symmetry_equiv_pos_as_xyz type key found. Spacegroup from _symmetry_space_group_name_H-M used.",
+      "Issues encountered while parsing CIF: No _symmetry_equiv_pos_as_xyz type key found. Spacegroup from _symmetry_space_group_name_H-M used."
+    ]
+  }
+}

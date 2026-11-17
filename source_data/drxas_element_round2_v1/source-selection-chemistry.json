@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "prepared_at_utc": "2026-11-17T04:41:59.803100+00:00",
+  "scope": "Temporary read-only source research; no FEFF, repository changes, commits or publication.",
+  "ready_count": 5,
+  "inequivalent_absorber_site_count": 7,
+  "candidate_only": true,
+  "experimental_xas_validation": false,
+  "ready": [
+    {
+      "status": "ready_for_native_candidate_generation",
+      "directory": "beta-Ga2O3-COD2004987",
+      "cod_id": "2004987",
+      "absorber": "Ga",
+      "scatterer": "O",
+      "edge": "K",
+      "cif_sha256": "a4c08730575268f0e28ded9d1ac46caacbd3302586efd885f82ff89365bc2f49",
+      "site_indices": [
+        1,
+        2
+      ],
+      "coordination_numbers": {
+        "1": 4,
+        "2": 6
+      },
+      "cutoff_A": 2.5,
+      "citation": "J. Åhman, G. Svensson and J. Albertsson. A Reinvestigation of β-Gallium Oxide. Acta Crystallographica Section C 52 (1996), 1336–1338.",
+      "doi": "10.1107/S0108270195016404",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1107/S0108270195016404",
+      "measurement_temperature_K": 273,
+      "measurement_pressure_GPa": null
+    },
+    {
+      "status": "ready_for_native_candidate_generation",
+      "directory": "In2O3-bixbyite-COD2310009",
+      "cod_id": "2310009",
+      "absorber": "In",
+      "scatterer": "O",
+      "edge": "K",
+      "cif_sha256": "9f37d9c40f126e548deb9a9be0992d1d6ac3be7ddfc64fffc216cc1e8589fcb2",
+      "site_indices": [
+        1,
+        2
+      ],
+      "coordination_numbers": {
+        "1": 6,
+        "2": 6
+      },
+      "cutoff_A": 2.7,
+      "citation": "M. Marezio. Refinement of the crystal structure of In2O3 at two wavelengths. Acta Crystallographica 20 (1966), 723–728.",
+      "doi": "10.1107/S0365110X66001749",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/abs/10.1107/S0365110X66001749",
+      "measurement_temperature_K": null,
+      "measurement_pressure_GPa": null
+    },
+    {
+      "status": "ready_for_native_candidate_generation",
+      "directory": "HfO2-monoclinic-COD9013470",
+      "cod_id": "9013470",
+      "absorber": "Hf",
+      "scatterer": "O",
+      "edge": "L3",
+      "cif_sha256": "af4629c345b38f34ae84114458d602c2447474c1b18529b355088e50a64f0a42",
+      "site_indices": [
+        1
+      ],
+      "coordination_numbers": {
+        "1": 7
+      },
+      "cutoff_A": 2.7,
+      "citation": "R. Ruh and P. W. R. Corfield. Crystal Structure of Monoclinic Hafnia and Comparison with Monoclinic Zirconia. Journal of the American Ceramic Society 53 (1970), 126–129.",
+      "doi": "10.1111/j.1151-2916.1970.tb12052.x",
+      "primary_url": "https://ceramics.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1151-2916.1970.tb12052.x",
+      "measurement_temperature_K": null,
+      "measurement_pressure_GPa": null
+    },
+    {
+      "status": "ready_for_native_candidate_generation",
+      "directory": "Na2SO4-thenardite-COD9004092",
+      "cod_id": "9004092",
+      "absorber": "S",
+      "scatterer": "O",
+      "edge": "K",
+      "cif_sha256": "688fe2ffe0c5bc1ccf13d44f9f93a7201238888600ad6874e001f45dcd0b26e6",
+      "site_indices": [
+        2
+      ],
+      "coordination_numbers": {
+        "2": 4
+      },
+      "cutoff_A": 1.9,
+      "citation": "F. C. Hawthorne and R. B. Ferguson. Anhydrous sulphates. I: Refinement of the crystal structure of celestite with an appendix on the structure of thenardite. The Canadian Mineralogist13 (1975),181–187.",
+      "doi": null,
+      "primary_url": "https://pubs.geoscienceworld.org/mac/canmin/article-abstract/13/2/181/11030/Anhydrous-sulphates-I-Refinement-of-the-crystal",
+      "measurement_temperature_K": null,
+      "measurement_pressure_GPa": null
+    },
+    {
+      "status": "ready_for_native_candidate_generation",
+      "directory": "AlN-wurtzite-Schulz1977",
+      "source_database": "publication",
+      "source_record_id": "10.1016/0038-1098(77)90959-0",
+      "original_file_unmodified": false,
+      "derivation": "transcribed from published experimental refinement",
+      "absorber": "Al",
+      "scatterer": "N",
+      "edge": "K",
+      "site_indices": [
+        1
+      ],
+      "coordination_numbers": {
+        "1": 4
+      },
+      "cutoff_A": 2.3,
+      "cif_sha256": "9f9a285284f3dabea96c7d8c13ff08d672c1b38db627a957498ced37ea5bec44",
+      "doi": "10.1016/0038-1098(77)90959-0",
+      "measurement_temperature_K": null,
+      "measurement_pressure_GPa": null
+    }
+  ],
+  "deferred_or_rejected": [
+    {
+      "status": "deferred",
+      "directory": "AlN-wurtzite-COD1010514",
+      "cod_id": "1010514",
+      "absorber": "Al",
+      "scatterer": "N",
+      "reason": "Early historical lattice-length/wavelength calibration not independently verified against the primary paper; no unit conversion or lattice substitution has been applied."
+    },
+    {
+      "status": "deferred",
+      "directory": "SiC-3C-COD1011031",
+      "cod_id": "1011031",
+      "absorber": "Si",
+      "scatterer": "C",
+      "reason": "Early historical lattice-length/wavelength calibration not independently verified against the primary paper; no unit conversion or lattice substitution has been applied."
+    },
+    {
+      "status": "rejected_for_this_round",
+      "directory": "AlN-2015-COD7234258-research",
+      "cod_id": "7234258",
+      "doi": "10.1039/C5TC00475F",
+      "reason": "The source is a textured AlN film, sample E. The primary article reports slightly nitrogen-rich nonstoichiometry and derives c=0.5031 nm from the (0002) peak; complete refinement of a and the atomic u parameter was not demonstrated. Full occupation in the deposited CIF alone does not resolve this material-model discrepancy.",
+      "primary_url": "https://pubs.rsc.org/en/content/articlehtml/2015/tc/c5tc00475f",
+      "article_license": "Creative Commons Attribution 3.0 Unported; publisher landing page verifies this.",
+      "article_license_url": "https://pubs.rsc.org/en/content/articlelanding/2015/tc/c5tc00475f",
+      "cif_sha256": "e824f3aae380b106571aee4b74c62f8fa1bbd01cd8f679257040a3a093af2dd4"
+    }
+  ],
+  "better_source_leads": [
+    {
+      "material": "AlN wurtzite",
+      "reference": "H. Schulz and K. H. Thiemann, Crystal structure refinement of AlN and GaN, Solid State Communications 23 (1977), 815–819.",
+      "doi": "10.1016/0038-1098(77)90959-0",
+      "primary_publisher_url": "https://www.sciencedirect.com/science/article/pii/0038109877909590",
+      "public_primary_article_copy": "https://lab.semi.ac.cn/download/0.6819154580152995.pdf",
+      "verified_facts": [
+        "Single-crystal X-ray refinement, anisotropic R=0.015 for AlN.",
+        "Primary abstract explicitly reports a=3.110 Å,c=4.980 Å,u=0.3821."
+      ],
+      "unresolved": [
+        "No original publicly reusable publisher/COD CIF found; the locally transcribed derived file is explicitly distinguished."
+      ],
+      "action": "Resolved by explicitly authorized faithful transcription of published experimental numerical parameters; full field/table/page/uncertainty mapping, independent visual review and Table3 distance verification retained in AlN-wurtzite-Schulz1977. It is not a downloaded original CIF."
+    },
+    {
+      "material": "3C-SiC",
+      "reference": "ICSD 28895",
+      "public_usage_evidence": "https://journals.ioffe.ru/articles/viewPDF/53172",
+      "unresolved": [
+        "Modern experimental paper uses ICSD28895 as a Rietveld reference, but no original public CIF or original article provenance verified.",
+        "COD complete binary search found cubic entries1010995(1930),1011031(1918),9008856(1963 secondary book); this search does not prove that no other open source exists.",
+        "COD9008856 currently gives a=4.348 Å. The original1963 book table/length convention was not independently verified, so this entry is not accepted or silently corrected."
+      ],
+      "action": "Defer rather than convert historical lattice constants, substitute a different polytype, or redistribute unverified ICSD data."
+    }
+  ],
+  "search_limits": {
+    "AlN_binary_COD_entries": 7,
+    "SiC_binary_COD_entries_including_other_stoichiometries_and_duplicates": 30,
+    "AlN_1977_exact_DOI_COD_entries": 0
+  },
+  "data_policy": {
+    "source_database": "Crystallography Open Database",
+    "verified_policy_url": "https://www.crystallography.net/cod/",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_attribution_notices_preserved": true,
+    "note": "COD policy applies only to the four downloaded ready COD structures and database. The AlN1977 file is a locally authored, attributed numeric-data transcription; no claim of COD licensing or original-publisher-file identity. Primary articles/PDFs have separate rights; none are included."
+  }
+}

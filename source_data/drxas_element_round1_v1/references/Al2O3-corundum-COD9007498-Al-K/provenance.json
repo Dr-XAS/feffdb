@@ -1,0 +1,106 @@
+{
+  "filename": "source.cif",
+  "name": "Al2O3 corundum",
+  "absorber": "Al",
+  "source_id": "9007498",
+  "related_ids": {
+    "AMCSD": "0009327"
+  },
+  "doi": "10.1107/S0108767389012596",
+  "citation": "A. Kirfel and K. Eichhorn. Accurate structure analysis with synchrotron radiation. The electron density in Al2O3 and Cu2O. Acta Crystallographica Section A 46 (1990), 271-284.",
+  "primary_url": "https://doi.org/10.1107/S0108767389012596",
+  "recommendation": "recommended first-round source candidate; FEFF validation pending",
+  "method": "Experimental room-temperature single-crystal synchrotron X-ray diffraction; author preprint abstract confirms method and room temperature.",
+  "synthesis_conditions": "Synthetic Verneuil-grown crystal, as stated in the author preprint; exact growth temperature not recorded here.",
+  "notes": [
+    "Room temperature is stated by the original author preprint but no exact numeric measurement temperature is verified; no conversion to a nominal room-temperature value.",
+    "Raw CIF is COD copy of AMCSD0009327; keep its article-attribution notice.",
+    "The source CIF has no atom occupancy column; parser treats sites as fully occupied. This is not an explicit occupancy measurement.",
+    "Pressure is not numerically specified in the inspected source; leave measurement_pressure_GPa null."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/9007498.cif",
+  "record_url": "https://www.crystallography.net/cod/9007498.html",
+  "sha256": "4cd69fb86b36c3c1619434db3858ffdaf95ad9ee9f9dfe1f0fb4d574ba0aa539",
+  "cif_sha256": "4cd69fb86b36c3c1619434db3858ffdaf95ad9ee9f9dfe1f0fb4d574ba0aa539",
+  "retrieved_at_utc": "2026-11-17T04:08:39.274803+00:00",
+  "edge": "K",
+  "inequivalent_absorber_sites": 1,
+  "suggested_absorber_site_index_one_based": 1,
+  "absorber_site_indices": [
+    1
+  ],
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "https://www-library.desy.de/preparch/desy/int_rep/sr-90-001.pdf",
+  "original_file_unmodified": true,
+  "license": {
+    "database_policy": "COD dedicates its data/database to the public domain under CC0; retain original article attribution and original file notice.",
+    "policy_url": "https://www.crystallography.net/cod/9007498.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "CIF header identifies AMCSD as original data provider and requests proper attribution to the journal article."
+  },
+  "inspection": {
+    "formula": "Al12 O18",
+    "ordered": true,
+    "site_count": 30,
+    "absorber_indices_zero_based": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "inequivalent_absorber_groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "spacegroup": "R-3c",
+    "spacegroup_number": 167,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Al",
+        "multiplicity": 12,
+        "wyckoff": "12c",
+        "fractional_coordinates": [
+          0.0,
+          0.0,
+          0.35218
+        ],
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.5,
+        "coordination_number": 6,
+        "distances_A": {
+          "1.853831": 3,
+          "1.970662": 3
+        },
+        "next_same_element_distance_A": 3.21975712679505
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "measurement_temperature_text": "room temperature"
+}

@@ -1,0 +1,24 @@
+ Formula: Si3N4                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: P6_3/
+ Dr-XAS candidate beta-Si3N4-295K-COD2102550-Si-K COD 2102550
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=14 Rmt= 1.091 Rnm= 1.256 K  shell
+ Pot 1 Z= 7 Rmt= 0.898 Rnm= 1.039
+ Pot 2 Z=14 Rmt= 1.095 Rnm= 1.265
+ Gam_ch=4.153E-01 H-L exch
+ Mu=-7.534E+00 kf=2.514E+00 Vint=-2.050E+01 Rs_int= 1.443
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     1.000     2   1.7297
+ feff0002.dat 0.00000   297.800     3.000     2   1.7357
+ feff0003.dat 0.00000    55.870     2.000     2   2.9063
+ feff0004.dat 0.00000    51.660     2.000     2   2.9960
+ feff0005.dat 0.00000    98.540     4.000     2   3.0513
+ feff0006.dat 0.00000    27.960     1.000     2   3.0950
+ feff0007.dat 0.00000    24.200     1.000     2   3.2961
+ feff0008.dat 0.00000    45.600     2.000     2   3.3821
+ feff0009.dat 0.00000    45.510     2.000     2   3.3852
+ feff0010.dat 0.00000    39.760     2.000     2   3.5878
+ feff0011.dat 0.00000    26.360     2.000     2   3.8720
+ feff0012.dat 0.00000    32.730     2.000     2   3.8984

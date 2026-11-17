@@ -1,0 +1,20 @@
+ Formula: PtO2                                  Feff8L (EXAFS)       0.1
+ SpaceGroup: Pnnm
+ Dr-XAS candidate beta-PtO2-COD1530633 COD 1530633
+ POT  SCF  30  6.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=78 Rmt= 1.303 Rnm= 1.388 L3 shell
+ Pot 1 Z= 8 Rmt= 0.993 Rnm= 1.061
+ Pot 2 Z=78 Rmt= 1.307 Rnm= 1.400
+ Gam_ch=5.171E+00 H-L exch
+ Mu=-4.443E+00 kf=2.398E+00 Vint=-1.550E+01 Rs_int= 1.512
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   1.9891
+ feff0002.dat 0.00000   195.900     4.000     2   2.0034
+ feff0003.dat 0.00000    28.690     2.000     2   3.1360
+ feff0004.dat 0.00000    25.540     2.000     2   3.1837
+ feff0005.dat 0.00000    89.410     8.000     2   3.5545
+ feff0006.dat 0.00000    16.720     2.000     2   3.6504
+ feff0007.dat 0.00000    31.670     4.000     2   3.7136
+ feff0008.dat 0.00000    28.430     4.000     2   3.8406

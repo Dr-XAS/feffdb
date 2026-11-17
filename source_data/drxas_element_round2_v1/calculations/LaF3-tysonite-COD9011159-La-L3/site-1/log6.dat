@@ -1,0 +1,24 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: LaF3                                  Feff8L (EXAFS)       0.1
+ SpaceGroup: P-3c1
+ Dr-XAS candidate LaF3-tysonite-COD9011159-La-L3 COD 9011159
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=57 Rmt= 1.734 Rnm= 1.820 L3 shell
+ Pot 1 Z= 9 Rmt= 1.054 Rnm= 1.112
+ Pot 2 Z=57 Rmt= 1.741 Rnm= 1.828
+ Gam_ch=3.160E+00 H-L exch
+ Mu=-5.683E+00 kf=1.881E+00 Vint=-1.582E+01 Rs_int= 1.928
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+       7 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+       3     feff0003.dat
+       4     feff0004.dat
+       5     feff0005.dat
+       6     feff0006.dat
+       7     feff0007.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

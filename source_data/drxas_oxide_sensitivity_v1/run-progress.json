@@ -1,0 +1,77 @@
+[
+  {
+    "reference": "IrO2-rutile-COD2101854",
+    "setting": "baseline_scf5_cluster8",
+    "status": "complete"
+  },
+  {
+    "reference": "beta-PtO2-COD1530633",
+    "setting": "baseline_scf5_cluster8",
+    "status": "complete"
+  },
+  {
+    "reference": "B-Ta2O5-COD2102123",
+    "setting": "baseline_scf5_cluster8",
+    "status": "complete"
+  },
+  {
+    "reference": "IrO2-rutile-COD2101854",
+    "setting": "scf6_cluster8",
+    "status": "complete"
+  },
+  {
+    "reference": "IrO2-rutile-COD2101854",
+    "setting": "scf5_cluster9",
+    "status": "complete"
+  },
+  {
+    "reference": "B-Ta2O5-COD2102123",
+    "setting": "scf6_cluster8",
+    "status": "complete"
+  },
+  {
+    "reference": "beta-PtO2-COD1530633",
+    "setting": "scf5_cluster9",
+    "status": "complete"
+  },
+  {
+    "reference": "IrO2-rutile-COD2101854",
+    "setting": "scf4_cluster8",
+    "status": "complete"
+  },
+  {
+    "reference": "beta-PtO2-COD1530633",
+    "setting": "scf6_cluster8",
+    "status": "complete"
+  },
+  {
+    "reference": "beta-PtO2-COD1530633",
+    "setting": "scf4_cluster8",
+    "status": "complete"
+  },
+  {
+    "reference": "B-Ta2O5-COD2102123",
+    "setting": "scf4_cluster8",
+    "status": "complete"
+  },
+  {
+    "reference": "B-Ta2O5-COD2102123",
+    "setting": "scf5_cluster9",
+    "status": "complete"
+  },
+  {
+    "reference": "IrO2-rutile-COD2101854",
+    "setting": "scf5_cluster7",
+    "status": "complete"
+  },
+  {
+    "reference": "beta-PtO2-COD1530633",
+    "setting": "scf5_cluster7",
+    "status": "complete"
+  },
+  {
+    "reference": "B-Ta2O5-COD2102123",
+    "setting": "scf5_cluster7",
+    "status": "complete"
+  }
+]

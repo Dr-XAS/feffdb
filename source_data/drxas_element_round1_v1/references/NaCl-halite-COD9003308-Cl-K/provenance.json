@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "source_database": "COD",
+  "source_id": "9003308",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/9003308.cif",
+  "record_url": "https://www.crystallography.net/cod/9003308.html",
+  "cif_sha256": "42b80e8bbe6f2d63c0751e8b0366588e052e46ff86c1e8c0ac192eebad9e4923",
+  "sha256": "42b80e8bbe6f2d63c0751e8b0366588e052e46ff86c1e8c0ac192eebad9e4923",
+  "retrieved_at_utc": "2026-11-17T04:05:04.159293+00:00",
+  "original_file_unmodified": true,
+  "synthesis_conditions": null,
+  "synthesis_conditions_note": "Synthesis temperature/pressure not established for this selected specimen; not inferred from diffraction conditions.",
+  "edge": "K",
+  "selection": "selected experimental reference; not yet calculated or experimentally validated as FEFF",
+  "license": {
+    "database_policy": "COD dedicates data and database to public domain under CC0; original article attribution and CIF notice retained.",
+    "policy_url": "https://www.crystallography.net/cod/9003308.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original COD header retained byte-for-byte; scientific use with proper article attribution applies for the AMCSD-sourced NaCl CIF."
+  },
+  "inspection": {
+    "cod": "9003308",
+    "ordered": true,
+    "composition": {
+      "Na": 4.0,
+      "Cl": 4.0
+    },
+    "site_count": 8,
+    "space_group": "Fm-3m",
+    "cell": [
+      5.6401,
+      5.6401,
+      5.6401,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "raw_occupancy": null,
+    "unique_sites": [
+      {
+        "index_one_based": 1,
+        "element": "Na",
+        "multiplicity": 4,
+        "wyckoff": "4a",
+        "fractional_coordinates": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "index_one_based": 2,
+        "element": "Cl",
+        "multiplicity": 4,
+        "wyckoff": "4b",
+        "fractional_coordinates": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    ],
+    "absorber_sites": {
+      "Na": {
+        "indices_one_based": [
+          1
+        ],
+        "first_shell_distance_A": 2.8200499999999997,
+        "first_shell_scatterers": {
+          "Cl": 6
+        },
+        "coordination_number": 6,
+        "next_neighbor_distance_A": 3.9881529565702465,
+        "suggested_first_shell_cutoff_A": 3.4041014782851233,
+        "first_shell_displacements_A": [
+          [
+            0.0,
+            0.0,
+            2.82005
+          ],
+          [
+            2.82005,
+            0.0,
+            1.7267826029677467e-16
+          ],
+          [
+            -1.7267826029677467e-16,
+            2.82005,
+            1.7267826029677467e-16
+          ],
+          [
+            -2.82005,
+            0.0,
+            -1.7267826029677467e-16
+          ],
+          [
+            1.7267826029677467e-16,
+            -2.82005,
+            -1.7267826029677467e-16
+          ],
+          [
+            0.0,
+            0.0,
+            -2.82005
+          ]
+        ]
+      },
+      "Cl": {
+        "indices_one_based": [
+          2
+        ],
+        "first_shell_distance_A": 2.8200499999999997,
+        "first_shell_scatterers": {
+          "Na": 6
+        },
+        "coordination_number": 6,
+        "next_neighbor_distance_A": 3.9881529565702465,
+        "suggested_first_shell_cutoff_A": 3.4041014782851233,
+        "first_shell_displacements_A": [
+          [
+            0.0,
+            0.0,
+            2.8200499999999997
+          ],
+          [
+            -2.82005,
+            0.0,
+            -4.440892098500626e-16
+          ],
+          [
+            0.0,
+            -2.82005,
+            -4.440892098500626e-16
+          ],
+          [
+            0.0,
+            0.0,
+            -2.82005
+          ],
+          [
+            -4.440892098500626e-16,
+            2.82005,
+            0.0
+          ],
+          [
+            2.82005,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "id": "NaCl-halite-COD9003308",
+  "name": "NaCl halite",
+  "absorbers": [
+    "Na",
+    "Cl"
+  ],
+  "doi": "10.2138/am-2004-0124",
+  "citation": "D. Walker, P. K. Verma, L. M. D. Cranswick, R. L. Jones, S. M. Clark and S. Buhre (2004). Halite-sylvite thermoelasticity. American Mineralogist 89, 204-210.",
+  "primary_url": "https://doi.org/10.2138/am-2004-0124",
+  "measurement_temperature_K": 298.15,
+  "measurement_pressure_GPa": 0.0,
+  "temperature_uncertainty_K": null,
+  "conditions_evidence": "CIF title and diffraction fields: sample msl416031, T=25 C, P=0.0 kbar. Zero is the reported ambient-pressure value, not a vacuum claim.",
+  "method": "Experimental powder X-ray diffraction of the reagent end-member chloride, using the Materials Science Lab rotating-anode source at Daresbury; see original paper experimental methods.",
+  "notes": [
+    "NaCl is the pure end-member selected from a study that also includes Na/K solid solutions; this selected CIF has no mixed site.",
+    "No occupancy column is supplied; full occupancy is the parser/default crystallographic interpretation, not a separately refined occupancy result.",
+    "Atomic sites are symmetry-fixed in Fm-3m; use the measured cell, do not substitute a textbook lattice constant."
+  ]
+}

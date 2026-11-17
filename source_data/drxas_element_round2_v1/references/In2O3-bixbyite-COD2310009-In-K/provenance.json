@@ -1,0 +1,123 @@
+{
+  "filename": "source.cif",
+  "name": "In2O3 bixbyite",
+  "absorber": "In",
+  "scatterer": "O",
+  "source_id": "2310009",
+  "doi": "10.1107/S0365110X66001749",
+  "citation": "M. Marezio. Refinement of the crystal structure of In2O3 at two wavelengths. Acta Crystallographica 20 (1966), 723–728.",
+  "primary_url": "https://onlinelibrary.wiley.com/doi/abs/10.1107/S0365110X66001749",
+  "recommendation": "experimental source candidate; native FEFF and numerical validation pending",
+  "method": "Experimental X-ray crystal-structure refinement at two wavelengths; retain deposited refined coordinates and full occupations.",
+  "synthesis_conditions": null,
+  "notes": [
+    "Both independent In sites are required: multiplicities8 and24, site population weights1/4 and3/4; both have six oxygen neighbors.",
+    "The 24d shell splits into2+2+2 neighbors; preserve the splits instead of choosing one representative distance.",
+    "COD's _journal_volume field says66, a bibliographic error; the publisher confirms volume20, issue6, pages723–728. Original CIF bytes remain unchanged; citation metadata uses the publisher's correct volume.",
+    "No oxygen vacancies or doping are represented; this is the ordered stoichiometric source model."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/2310009.cif",
+  "record_url": "https://www.crystallography.net/cod/2310009.html",
+  "sha256": "9f37d9c40f126e548deb9a9be0992d1d6ac3be7ddfc64fffc216cc1e8589fcb2",
+  "cif_sha256": "9f37d9c40f126e548deb9a9be0992d1d6ac3be7ddfc64fffc216cc1e8589fcb2",
+  "retrieved_at_utc": "2026-11-17T04:30:45.304755+00:00",
+  "edge": "K",
+  "inequivalent_absorber_sites": 2,
+  "absorber_site_indices": [
+    1,
+    2
+  ],
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "No measurement temperature or pressure recorded in the downloaded CIF or verified publisher metadata; leave unknown rather than assume ambient.",
+  "original_file_unmodified": true,
+  "occupancy": {
+    "raw_values": [
+      "1.",
+      "1.",
+      "1."
+    ],
+    "interpretation": "Explicitly full occupation."
+  },
+  "license": {
+    "database_policy": "COD dedicates data/database to public domain under CC0; retain the original notice and article attribution.",
+    "policy_url": "https://www.crystallography.net/cod/2310009.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "#------------------------------------------------------------------------------\n#$Date: 2017-09-12 13:24:00 +0300 (Tue, 12 Sep 2017) $\n#$Revision: 200781 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/31/00/2310009.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided by IUCr Journals, http://journals.iucr.org/.\n#\n# The file may be used within the scientific community so long as\n# proper attribution is given to the journal article from which the\n# data were obtained.\n#"
+  },
+  "inspection": {
+    "formula": "In3+32 O2-48",
+    "ordered": true,
+    "hydrogen_present": false,
+    "site_count": 80,
+    "spacegroup": "Ia-3",
+    "spacegroup_number": 206,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "In",
+        "fractional_coordinates": [
+          0.75,
+          0.25,
+          0.75
+        ],
+        "multiplicity": 8,
+        "wyckoff": "8b",
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.7,
+        "coordination_number": 6,
+        "distances_A": {
+          "2.160572": 6
+        },
+        "full_first_shell_distance_multiset_A": [
+          2.1605715121486617,
+          2.160571512148662,
+          2.160571512148662,
+          2.160571512148664,
+          2.1605715121486644,
+          2.1605715121486644
+        ],
+        "next_same_element_distance_A": 3.975443449768636,
+        "nearest_other_element_distance_A": 3.3445169346873405,
+        "nearest_other_element": "In",
+        "site_weight": 0.25
+      },
+      {
+        "site_index_one_based": 2,
+        "element": "In",
+        "fractional_coordinates": [
+          0.75,
+          0.4663,
+          0.5
+        ],
+        "multiplicity": 24,
+        "wyckoff": "24d",
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.7,
+        "coordination_number": 6,
+        "distances_A": {
+          "2.133173": 2,
+          "2.186532": 2,
+          "2.247295": 2
+        },
+        "full_first_shell_distance_multiset_A": [
+          2.1331734684868495,
+          2.13317346848685,
+          2.1865318122517876,
+          2.18653181225179,
+          2.2472954292159466,
+          2.24729542921595
+        ],
+        "next_same_element_distance_A": 3.7902701515533446,
+        "nearest_other_element_distance_A": 3.344516934687342,
+        "nearest_other_element": "In",
+        "site_weight": 0.75
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

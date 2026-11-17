@@ -1,0 +1,15 @@
+ Formula: MgO                                   Feff8L (EXAFS)       0.1
+ SpaceGroup: Fm-3m
+ Dr-XAS candidate MgO-periclase-COD1000053-Mg-K COD 1000053
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=12 Rmt= 1.343 Rnm= 1.407 K  shell
+ Pot 1 Z= 8 Rmt= 1.030 Rnm= 1.078
+ Pot 2 Z=12 Rmt= 1.331 Rnm= 1.392
+ Gam_ch=3.410E-01 H-L exch
+ Mu=-8.776E+00 kf=2.116E+00 Vint=-2.242E+01 Rs_int= 1.714
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     6.000     2   2.1085
+ feff0002.dat 0.00000    77.100    12.000     2   2.9819
+ feff0003.dat 0.00000    37.540     8.000     2   3.6520

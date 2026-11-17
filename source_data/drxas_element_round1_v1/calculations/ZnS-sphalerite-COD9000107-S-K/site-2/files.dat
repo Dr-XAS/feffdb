@@ -1,0 +1,14 @@
+ Formula: ZnS                                   Feff8L (EXAFS)       0.1
+ SpaceGroup: F-43m
+ Dr-XAS candidate ZnS-sphalerite-COD9000107-S-K COD 9000107
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=16 Rmt= 1.325 Rnm= 1.446 K  shell
+ Pot 1 Z=30 Rmt= 1.352 Rnm= 1.493
+ Pot 2 Z=16 Rmt= 1.346 Rnm= 1.492
+ Gam_ch=5.057E-01 H-L exch
+ Mu=-8.380E+00 kf=1.847E+00 Vint=-1.419E+01 Rs_int= 1.963
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     4.000     2   2.3423
+ feff0002.dat 0.00000   136.700    12.000     2   3.8250

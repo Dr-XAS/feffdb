@@ -1,0 +1,86 @@
+{
+  "filename": "source.cif",
+  "name": "Na2SO4 thenardite, anhydrous sulfate",
+  "absorber": "S",
+  "scatterer": "O",
+  "source_id": "9004092",
+  "doi": null,
+  "citation": "F. C. Hawthorne and R. B. Ferguson. Anhydrous sulphates. I: Refinement of the crystal structure of celestite with an appendix on the structure of thenardite. The Canadian Mineralogist13 (1975),181–187.",
+  "primary_url": "https://pubs.geoscienceworld.org/mac/canmin/article-abstract/13/2/181/11030/Anhydrous-sulphates-I-Refinement-of-the-crystal",
+  "recommendation": "experimental source candidate; native FEFF and numerical validation pending",
+  "method": "Experimental structure refinement of anhydrous thenardite in the appendix to the1975 study; COD/AMCSD preserve the thenardite coordinates. Publisher confirms article, year, volume, pages and experimental-structure classification.",
+  "synthesis_conditions": null,
+  "notes": [
+    "This article has no DOI in COD and no DOI exposed on the verified publisher record. doi is null; use the full article citation and primary_url, never invent a DOI.",
+    "Sulfur is global unique-site index2 (Na comes first), multiplicity8; all four O neighbors at1.479344A belong to the sulfate tetrahedron.",
+    "The file contains no hydrogen and is an ordered stoichiometric thenardite model. Na must remain in the full cluster/potential stoichiometry even though the selected shell is S–O.",
+    "Occupancy column is absent; full occupation is implicit in the ordered structure.",
+    "The article title begins with celestite; this COD entry is explicitly the appendix thenardite dataset, formulaNa2SO4, not SrSO4."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/9004092.cif",
+  "record_url": "https://www.crystallography.net/cod/9004092.html",
+  "sha256": "688fe2ffe0c5bc1ccf13d44f9f93a7201238888600ad6874e001f45dcd0b26e6",
+  "cif_sha256": "688fe2ffe0c5bc1ccf13d44f9f93a7201238888600ad6874e001f45dcd0b26e6",
+  "retrieved_at_utc": "2026-11-17T04:32:24.715771+00:00",
+  "edge": "K",
+  "inequivalent_absorber_sites": 1,
+  "absorber_site_indices": [
+    2
+  ],
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "No measurement temperature/pressure in the downloaded CIF or verified publisher record; leave unknown. This is anhydrousNa2SO4, not mirabiliteNa2SO4·10H2O or high-temperatureNa2SO4 polymorphI.",
+  "original_file_unmodified": true,
+  "occupancy": {
+    "raw_values": null,
+    "interpretation": "Occupancy column absent; unit occupancy is parser interpretation, not an explicit refined occupancy."
+  },
+  "license": {
+    "database_policy": "COD dedicates data/database to public domain under CC0; retain the original notice and article attribution.",
+    "policy_url": "https://www.crystallography.net/cod/9004092.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "#------------------------------------------------------------------------------\n#$Date: 2024-04-25 17:59:02 +0300 (Thu, 25 Apr 2024) $\n#$Revision: 291351 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/40/9004092.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided the American Mineralogist Crystal Structure Database,\n# http://rruff.geo.arizona.edu/AMS/amcsd.php\n#\n# The file may be used within the scientific community so long as\n# proper attribution is given to the journal article from which the\n# data were obtained.\n#"
+  },
+  "inspection": {
+    "formula": "Na16 S8 O32",
+    "ordered": true,
+    "hydrogen_present": false,
+    "site_count": 56,
+    "spacegroup": "Fddd",
+    "spacegroup_number": 70,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 2,
+        "element": "S",
+        "fractional_coordinates": [
+          0.125,
+          0.125,
+          0.125
+        ],
+        "multiplicity": 8,
+        "wyckoff": "8b",
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 1.9,
+        "coordination_number": 4,
+        "distances_A": {
+          "1.479344": 4
+        },
+        "full_first_shell_distance_multiset_A": [
+          1.4793437994314098,
+          1.4793437994314098,
+          1.4793437994314103,
+          1.479343799431411
+        ],
+        "next_same_element_distance_A": 3.595267794172799,
+        "nearest_other_element_distance_A": 3.1118613999999996,
+        "nearest_other_element": "Na",
+        "site_weight": 1.0
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

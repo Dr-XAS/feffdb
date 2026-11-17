@@ -1,0 +1,17 @@
+ Formula: Eu2O3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: Ia-3
+ Dr-XAS candidate Eu2O3-bixbyite-COD2300536-Eu-L3 COD 2300536
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=63 Rmt= 1.609 Rnm= 1.702 L3 shell
+ Pot 1 Z= 8 Rmt= 1.062 Rnm= 1.122
+ Pot 2 Z=63 Rmt= 1.629 Rnm= 1.717
+ Gam_ch=3.735E+00 H-L exch
+ Mu=-8.592E+00 kf=2.010E+00 Vint=-1.764E+01 Rs_int= 1.805
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   2.2560
+ feff0002.dat 0.00000    90.490     2.000     2   2.3388
+ feff0003.dat 0.00000    80.570     2.000     2   2.4390
+ feff0004.dat 0.00000    34.110     2.000     2   3.6149
+ feff0005.dat 0.00000    67.700     4.000     2   3.6302

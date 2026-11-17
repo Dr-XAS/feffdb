@@ -1,0 +1,172 @@
+{
+  "filename": "source.cif",
+  "name": "Er2O3 bixbyite 514K",
+  "absorber": "Er",
+  "source_id": "1534469",
+  "related_ids": {},
+  "doi": "10.2109/jcersj1950.93.1082_649",
+  "citation": "A. Saiki, N. Ishizawa, N. Mizutani and M. Kato. Structural Change of C-Rare Earth Sesquioxides Yb2O3 and Er2O3 as a Function of Temperature. Journal of the Ceramic Association, Japan 93 (1985), 649-654.",
+  "primary_url": "https://www.jstage.jst.go.jp/article/jcersj1950/93/1082/93_1082_649/_pdf",
+  "recommendation": "ordered experimental source candidate; native FEFF validation pending",
+  "method": "Experimental single-crystal Mo K-alpha four-circle X-ray diffraction with temperature control; full-matrix least-squares refinement. Exact temperature established by matching cell and all variable coordinates to the original table.",
+  "synthesis_conditions": "Arc-image floating-zone growth of synthetic crystals; original experimental section describes precursor calcination at 1200 degrees Celsius for 24 hours and growth near 2500 degrees Celsius. These are preparation temperatures, not diffraction temperatures.",
+  "notes": [
+    "This is a 514 K structure, not a room-temperature model. COD omitted the temperature tag; the original table supplies the identification.",
+    "The paper room-temperature Er2O3 point is a=10.550 angstrom and was not substituted into this file.",
+    "The crystallographic model is an ordered trivalent reference. FEFF L3 EXAFS paths require experimental validation and do not establish 4f multiplet structure, mixed valence, white-line intensity, calibrated S02, or absolute coordination number. No electronic-state or magnetic accuracy is implied by crystallographic agreement.",
+    "All variable coordinates and the unit cell are from this exact downloaded source; no element substitution, coordinate replacement, cell rescaling or symmetrization was written to the CIF.",
+    "Explicit full occupancies in raw CIF."
+  ],
+  "scientific_warnings": [
+    "The crystallographic model is an ordered trivalent reference. FEFF L3 EXAFS paths require experimental validation and do not establish 4f multiplet structure, mixed valence, white-line intensity, calibrated S02, or absolute coordination number. No electronic-state or magnetic accuracy is implied by crystallographic agreement.",
+    "Measured structure at 514 K; do not label or interpret as an ambient-temperature geometry."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/1534469.cif",
+  "record_url": "https://www.crystallography.net/cod/1534469.html",
+  "sha256": "f6e72059b8101d368df1b02385a3034079d88a4fa05ec39d6c96ee99562aebc5",
+  "cif_sha256": "f6e72059b8101d368df1b02385a3034079d88a4fa05ec39d6c96ee99562aebc5",
+  "retrieved_at_utc": "2026-11-17T04:30:33.253957+00:00",
+  "edge": "L3",
+  "inequivalent_absorber_sites": 2,
+  "suggested_absorber_site_index_one_based": 1,
+  "absorber_site_indices": [
+    1,
+    2
+  ],
+  "measurement_temperature_K": 514,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Original Table 3, 514 K column: a=10.566(2) angstrom, Er(2) u=-0.03225(4), O=(0.3910(5),0.1523(5),0.3786(4)); these exactly match the COD CIF central values.",
+  "original_file_unmodified": true,
+  "license": {
+    "database_policy": "COD dedicates its database/data to the public domain under CC0; retain original article attribution and the unchanged original file notice.",
+    "policy_url": "https://www.crystallography.net/cod/1534469.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "See unchanged CIF header; COD redistribution retains original provider and attribution/public-domain notice."
+  },
+  "inspection": {
+    "formula": "Er32 O48",
+    "ordered": true,
+    "site_count": 80,
+    "absorber_indices_zero_based": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "inequivalent_absorber_groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    ],
+    "spacegroup": "Ia-3",
+    "spacegroup_number": 206,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Er",
+        "multiplicity": 8,
+        "wyckoff": "8b",
+        "fractional_coordinates": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.8,
+        "coordination_number": 6,
+        "distances_A": {
+          "2.265274": 6
+        },
+        "next_same_element_distance_A": 4.159358608881061,
+        "site_population_weight": 0.25
+      },
+      {
+        "site_index_one_based": 2,
+        "element": "Er",
+        "multiplicity": 24,
+        "wyckoff": "24d",
+        "fractional_coordinates": [
+          0.96775,
+          0.0,
+          0.25
+        ],
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.8,
+        "coordination_number": 6,
+        "distances_A": {
+          "2.242249": 2,
+          "2.256869": 2,
+          "2.339623": 2
+        },
+        "next_same_element_distance_A": 3.9729370083632145,
+        "site_population_weight": 0.75
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

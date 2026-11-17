@@ -1,0 +1,19 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: NaCl                                  Feff8L (EXAFS)       0.1
+ SpaceGroup: Fm-3m
+ Dr-XAS candidate NaCl-halite-COD9003308-Na-K COD 9003308
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=11 Rmt= 1.700 Rnm= 1.793 K  shell
+ Pot 1 Z=17 Rmt= 1.541 Rnm= 1.615
+ Pot 2 Z=11 Rmt= 1.613 Rnm= 1.687
+ Gam_ch=3.090E-01 H-L exch
+ Mu=-4.760E+00 kf=1.399E+00 Vint=-1.039E+01 Rs_int= 2.593
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+       2 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

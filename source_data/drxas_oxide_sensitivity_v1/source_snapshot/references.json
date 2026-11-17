@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "status": "candidate",
+  "references": [
+    {
+      "id": "IrO2-rutile-COD2101854",
+      "name": "IrO2 rutile",
+      "formula": "IrO2",
+      "absorber": "Ir",
+      "edge": "L3",
+      "cod_id": "2101854",
+      "doi": "10.1107/S0108768197001468",
+      "cif_sha256": "a475838a182a5a235458a9d63e59a63d393276ece71f90ae161be03796316a78",
+      "absorber_site_indices": [
+        1
+      ],
+      "oxygen_shell_cutoff_A": 2.5,
+      "expected_oxygen_cn": 6,
+      "selection_basis": "Complete six-coordinate oxygen polyhedron, separated from outer oxygen neighbors; exact distances checked against the symmetry-expanded CIF."
+    },
+    {
+      "id": "beta-PtO2-COD1530633",
+      "name": "beta-PtO2, CaCl2-type",
+      "formula": "PtO2",
+      "absorber": "Pt",
+      "edge": "L3",
+      "cod_id": "1530633",
+      "doi": "10.1016/0025-5408(87)90220-0",
+      "cif_sha256": "12306ea8dd906a1fbce40bd597e307d552c65b844150dd92dd805804a173082a",
+      "absorber_site_indices": [
+        1
+      ],
+      "oxygen_shell_cutoff_A": 2.5,
+      "expected_oxygen_cn": 6,
+      "selection_basis": "Complete six-coordinate oxygen polyhedron, separated from outer oxygen neighbors; exact distances checked against the symmetry-expanded CIF."
+    },
+    {
+      "id": "B-Ta2O5-COD2102123",
+      "name": "B-Ta2O5, high-pressure polymorph",
+      "formula": "Ta2O5",
+      "absorber": "Ta",
+      "edge": "L3",
+      "cod_id": "2102123",
+      "doi": "10.1107/S0108768100005462",
+      "cif_sha256": "42beaf327c395cbbb90d960e0da519ccf0b15f9a301cf981fc3243980178b859",
+      "absorber_site_indices": [
+        1
+      ],
+      "oxygen_shell_cutoff_A": 2.5,
+      "expected_oxygen_cn": 6,
+      "selection_basis": "Published six-coordinate B-phase Ta site; include all six split Ta-O distances, including short 1.67 A bond; next O is beyond 3.4 A."
+    }
+  ],
+  "upstream_base": {
+    "repository": "https://github.com/xraypy/feffdb",
+    "commit": "1991559c5eb2bb7cb5abb3030787a49bd22292a2",
+    "path": "feffdb/feffdat.db",
+    "sha256": "e5d622a82dcb7bb7acacc156fe1458c980020a13cf40bd141e526f583b0361bb"
+  }
+}

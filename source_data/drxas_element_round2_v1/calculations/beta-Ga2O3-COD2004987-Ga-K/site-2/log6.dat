@@ -1,0 +1,32 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: Ga2O3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: C2/
+ Dr-XAS candidate beta-Ga2O3-COD2004987-Ga-K COD 2004987
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=31 Rmt= 1.291 Rnm= 1.384 K  shell
+ Pot 1 Z=31 Rmt= 1.283 Rnm= 1.365
+ Pot 2 Z= 8 Rmt= 0.931 Rnm= 1.055
+ Gam_ch=2.082E+00 H-L exch
+ Mu=-5.251E+00 kf=2.312E+00 Vint=-1.742E+01 Rs_int= 1.569
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+      15 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+       3     feff0003.dat
+       4     feff0004.dat
+       5     feff0005.dat
+       6     feff0006.dat
+       7     feff0007.dat
+       8     feff0008.dat
+       9     feff0009.dat
+      10     feff0010.dat
+      11     feff0011.dat
+      12     feff0012.dat
+      13     feff0013.dat
+      14     feff0014.dat
+      15     feff0015.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

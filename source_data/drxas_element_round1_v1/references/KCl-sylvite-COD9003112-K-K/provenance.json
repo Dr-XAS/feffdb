@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "id": "KCl-sylvite-COD9003112",
+  "name": "KCl sylvite",
+  "source_database": "COD",
+  "source_id": "9003112",
+  "absorbers": [
+    "K"
+  ],
+  "edge": "K",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/9003112.cif",
+  "record_url": "https://www.crystallography.net/cod/9003112.html",
+  "primary_url": "https://doi.org/10.2138/am-2004-0124",
+  "doi": "10.2138/am-2004-0124",
+  "citation": "D. Walker, P. K. Verma, L. M. D. Cranswick, R. L. Jones, S. M. Clark and S. Buhre (2004). Halite-sylvite thermoelasticity. American Mineralogist 89, 204-210.",
+  "cif_sha256": "9cfbf4a4ce4b87b09a4fcf1808eb2685e264373eb16852e2e4a296ecd0eb3216",
+  "sha256": "9cfbf4a4ce4b87b09a4fcf1808eb2685e264373eb16852e2e4a296ecd0eb3216",
+  "retrieved_at_utc": "2026-11-17T04:08:54.594457+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": 298.15,
+  "measurement_pressure_GPa": 0.0,
+  "conditions_evidence": "CIF title/fields: sample msl515031, T=25 C, P=0.0 kbar. Zero denotes the reported ambient-pressure condition, not vacuum.",
+  "method": "Experimental powder X-ray diffraction of the pure reagent KCl end-member; original article experimental methods describes Daresbury MSL rotating-anode source.",
+  "synthesis_conditions": null,
+  "selection": "Selected experimental reference; no FEFF calculation or experimental validation performed here.",
+  "notes": [
+    "No occupancy column is supplied; full occupancy is the parser/default crystallographic interpretation, not a separately refined occupancy result.",
+    "Symmetry-fixed positions and the deposited experimental cell are retained; no coordinates, lattice constants or source bytes were modified.",
+    "Selected to avoid the unresolved historical-unit question in early KBr sources."
+  ],
+  "license": {
+    "database_policy": "COD dedicates data/database to public domain under CC0; preserve original file notice and article attribution.",
+    "policy_url": "https://www.crystallography.net/cod/9003112.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original AMCSD-sourced COD header retained byte-for-byte: scientific-community use with proper attribution to the source journal article."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "K": 4.0,
+      "Cl": 4.0
+    },
+    "site_count": 8,
+    "space_group": "Fm-3m",
+    "cell": [
+      6.2879,
+      6.2879,
+      6.2879,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "raw_occupancy": null,
+    "unique_sites": [
+      {
+        "index_one_based": 1,
+        "element": "K",
+        "multiplicity": 4,
+        "wyckoff": "4a",
+        "fractional_coordinates": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "index_one_based": 2,
+        "element": "Cl",
+        "multiplicity": 4,
+        "wyckoff": "4b",
+        "fractional_coordinates": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    ],
+    "absorber_sites": {
+      "K": {
+        "indices_one_based": [
+          1
+        ],
+        "first_shell_distance_A": 3.143949999999999,
+        "first_shell_scatterers": {
+          "Cl": 6
+        },
+        "coordination_number": 6,
+        "next_neighbor_distance_A": 4.446216729422891,
+        "suggested_first_shell_cutoff_A": 3.795083364711445,
+        "first_shell_displacements_A": [
+          [
+            -3.14395,
+            0.0,
+            -1.9251141520896604e-16
+          ],
+          [
+            1.9251141520896604e-16,
+            -3.14395,
+            -1.9251141520896604e-16
+          ],
+          [
+            0.0,
+            0.0,
+            -3.14395
+          ],
+          [
+            0.0,
+            0.0,
+            3.14395
+          ],
+          [
+            3.14395,
+            0.0,
+            1.9251141520896604e-16
+          ],
+          [
+            -1.9251141520896604e-16,
+            3.14395,
+            1.9251141520896604e-16
+          ]
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

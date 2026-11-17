@@ -1,0 +1,21 @@
+ Formula: In2O3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: Ia-3
+ Dr-XAS candidate In2O3-bixbyite-COD2310009-In-K COD 2310009
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=49 Rmt= 1.473 Rnm= 1.561 K  shell
+ Pot 1 Z= 8 Rmt= 1.039 Rnm= 1.096
+ Pot 2 Z=49 Rmt= 1.444 Rnm= 1.525
+ Gam_ch=9.709E+00 H-L exch
+ Mu=-5.823E+00 kf=2.170E+00 Vint=-1.612E+01 Rs_int= 1.671
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   2.1332
+ feff0002.dat 0.00000    92.430     2.000     2   2.1865
+ feff0003.dat 0.00000    84.640     2.000     2   2.2473
+ feff0004.dat 0.00000    40.730     2.000     2   3.3445
+ feff0005.dat 0.00000    80.200     4.000     2   3.3619
+ feff0006.dat 0.00000    13.220     2.000     2   3.7903
+ feff0007.dat 0.00000    26.730     2.000     2   3.8256
+ feff0008.dat 0.00000    52.770     4.000     2   3.8407
+ feff0009.dat 0.00000    10.770     2.000     2   3.9905

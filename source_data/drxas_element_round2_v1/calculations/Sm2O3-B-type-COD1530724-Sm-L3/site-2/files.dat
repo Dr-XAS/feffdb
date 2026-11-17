@@ -1,0 +1,24 @@
+ Formula: Sm2O3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: C2/
+ Dr-XAS candidate Sm2O3-B-type-COD1530724-Sm-L3 COD 1530724
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=62 Rmt= 1.630 Rnm= 1.717 L3 shell
+ Pot 1 Z= 8 Rmt= 1.057 Rnm= 1.124
+ Pot 2 Z=62 Rmt= 1.628 Rnm= 1.715
+ Gam_ch=3.655E+00 H-L exch
+ Mu=-8.658E+00 kf=2.010E+00 Vint=-1.798E+01 Rs_int= 1.804
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   2.2913
+ feff0002.dat 0.00000    48.880     1.000     2   2.3101
+ feff0003.dat 0.00000    43.080     1.000     2   2.4182
+ feff0004.dat 0.00000    74.510     2.000     2   2.5490
+ feff0005.dat 0.00000    31.730     1.000     2   2.7011
+ feff0006.dat 0.00000    20.200     1.000     2   3.3461
+ feff0007.dat 0.00000    14.030     1.000     2   3.5897
+ feff0008.dat 0.00000    35.510     2.000     2   3.6273
+ feff0009.dat 0.00000    33.900     2.000     2   3.7218
+ feff0010.dat 0.00000    33.700     2.000     2   3.7340
+ feff0011.dat 0.00000    15.820     1.000     2   3.8574
+ feff0012.dat 0.00000    31.620     2.000     2   3.8590

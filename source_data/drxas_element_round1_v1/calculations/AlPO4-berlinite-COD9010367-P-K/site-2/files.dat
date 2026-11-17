@@ -1,0 +1,20 @@
+ Formula: AlPO4                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: P3_121
+ Dr-XAS candidate AlPO4-berlinite-COD9010367-P-K COD 9010367
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=15 Rmt= 0.926 Rnm= 1.126 K  shell
+ Pot 1 Z= 8 Rmt= 0.853 Rnm= 1.007
+ Pot 2 Z=15 Rmt= 0.930 Rnm= 1.136
+ Pot 3 Z=13 Rmt= 1.115 Rnm= 1.277
+ Gam_ch=4.583E-01 H-L exch
+ Mu=-5.083E+00 kf=2.606E+00 Vint=-1.931E+01 Rs_int= 1.392
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   1.5240
+ feff0002.dat 0.00000    99.570     2.000     2   1.5271
+ feff0003.dat 0.00000    17.670     2.000     2   3.0861
+ feff0004.dat 0.00000    17.650     2.000     2   3.0877
+ feff0005.dat 0.00000    14.540     2.000     2   3.5940
+ feff0006.dat 0.00000    14.440     2.000     2   3.6047
+ feff0007.dat 0.00000    14.210     2.000     2   3.6290

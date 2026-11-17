@@ -1,0 +1,19 @@
+ Formula: AlN                                   Feff8L (EXAFS)       0.1
+ SpaceGroup: P6_3mc
+ Dr-XAS candidate AlN-wurtzite-Schulz1977-Al-K publication 10.1016/0038-1098(77)
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=13 Rmt= 1.208 Rnm= 1.350 K  shell
+ Pot 1 Z= 7 Rmt= 0.970 Rnm= 1.082
+ Pot 2 Z=13 Rmt= 1.206 Rnm= 1.344
+ Gam_ch=3.763E-01 H-L exch
+ Mu=-8.406E+00 kf=2.288E+00 Vint=-1.997E+01 Rs_int= 1.585
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     3.000     2   1.8891
+ feff0002.dat 0.00000    32.810     1.000     2   1.9029
+ feff0003.dat 0.00000    53.520     6.000     2   3.0699
+ feff0004.dat 0.00000    11.170     1.000     2   3.0771
+ feff0005.dat 0.00000    51.700     6.000     2   3.1100
+ feff0006.dat 0.00000    22.680     3.000     2   3.6388
+ feff0007.dat 0.00000    45.160     6.000     2   3.6460

@@ -1,0 +1,61 @@
+{
+  "selected": {
+    "Dy": "DyPO4-xenotime-COD9001656-Dy-L3",
+    "Ho": "Ho2O3-bixbyite-COD2101512-Ho-L3",
+    "Er": "Er2O3-bixbyite-514K-COD1534469-Er-L3",
+    "Tm": "TmPO4-xenotime-COD9001659-Tm-L3",
+    "Yb": "Yb2O3-bixbyite-598K-COD1534460-Yb-L3",
+    "Lu": "LuPO4-xenotime-COD9001661-Lu-L3"
+  },
+  "excluded": [
+    {
+      "cod_id": "1539592",
+      "reason": "Pure Dy2O3 endmember provenance was not independently established from the inspected mixed-oxide paper; exact independently refined DyPO4 used."
+    },
+    {
+      "cod_id": "1520870",
+      "reason": "Pure Tm2O3 endpoint provenance was not independently established from inspected mixed-oxide source; exact independently refined TmPO4 used."
+    },
+    {
+      "cod_ids": [
+        "1010332",
+        "1010333",
+        "1010334",
+        "1010335",
+        "1010336",
+        "1010595",
+        "1011281"
+      ],
+      "reason": "Very early structure/space-group assignments; modern independent refinements or exact experimental sources preferred."
+    },
+    {
+      "cod_ids": [
+        "1537838",
+        "1537839",
+        "1537840",
+        "1537844"
+      ],
+      "reason": "Lattice-constant-focused historical work; no independently verified full coordinate refinement."
+    },
+    {
+      "cod_ids": [
+        "1548517",
+        "1548518",
+        "1548519"
+      ],
+      "reason": "Explicit high-temperature Lu2O3 data; selected LuPO4 reference avoids relying on an unverified room-temperature oxide approximation."
+    },
+    {
+      "cod_id": "1538649",
+      "reason": "Fluorite-like thin-film model may require occupational disorder; ordered bulk reference preferred."
+    },
+    {
+      "doi": "10.1021/cg500225v",
+      "reason": "Modern Lu2O3 single-crystal article identified, but original downloadable CIF was not obtained; no structure reconstructed or invented."
+    }
+  ],
+  "temperature_resolution": {
+    "1534469": "514 K, exact original Table 3 match",
+    "1534460": "598 K, exact original Table 2 match"
+  }
+}

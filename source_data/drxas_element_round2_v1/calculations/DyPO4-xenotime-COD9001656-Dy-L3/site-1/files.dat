@@ -1,0 +1,18 @@
+ Formula: DyPO4                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: I4_1/amd
+ Dr-XAS candidate DyPO4-xenotime-COD9001656-Dy-L3 COD 9001656
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=66 Rmt= 1.608 Rnm= 1.675 L3 shell
+ Pot 1 Z= 8 Rmt= 0.923 Rnm= 1.032
+ Pot 2 Z=15 Rmt= 0.928 Rnm= 1.140
+ Pot 3 Z=66 Rmt= 1.610 Rnm= 1.678
+ Gam_ch=3.986E+00 H-L exch
+ Mu=-6.394E+00 kf=2.487E+00 Vint=-1.955E+01 Rs_int= 1.458
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     4.000     2   2.3175
+ feff0002.dat 0.00000    92.970     4.000     2   2.3850
+ feff0003.dat 0.00000    27.020     2.000     2   3.0192
+ feff0004.dat 0.00000    27.510     4.000     2   3.7682
+ feff0005.dat 0.00000    37.480     4.000     2   3.7682

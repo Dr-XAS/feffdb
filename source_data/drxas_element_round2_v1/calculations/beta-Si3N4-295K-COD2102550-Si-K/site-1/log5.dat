@@ -1,0 +1,18 @@
+ Calculating EXAFS parameters...
+    Curved wave chi amplitude ratio   0.00%
+    Discard feff.dat for paths with cw ratio <   0.00%
+    path  cw ratio     deg    nleg  reff
+      1   100.000     1.000     2   1.7297
+      2   297.828     3.000     2   1.7357
+      3    55.873     2.000     2   2.9063
+      4    51.658     2.000     2   2.9960
+      5    98.545     4.000     2   3.0513
+      6    27.955     1.000     2   3.0950
+      7    24.198     1.000     2   3.2961
+      8    45.605     2.000     2   3.3821
+      9    45.509     2.000     2   3.3852
+     10    39.762     2.000     2   3.5878
+     11    26.365     2.000     2   3.8720
+     12    32.726     2.000     2   3.8984
+   12 paths kept,   12 examined.
+ Done with module 5: F_eff.

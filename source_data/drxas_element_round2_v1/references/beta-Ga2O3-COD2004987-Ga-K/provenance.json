@@ -1,0 +1,120 @@
+{
+  "filename": "source.cif",
+  "name": "beta-Ga2O3, 273 K diffraction",
+  "absorber": "Ga",
+  "scatterer": "O",
+  "source_id": "2004987",
+  "doi": "10.1107/S0108270195016404",
+  "citation": "J. Åhman, G. Svensson and J. Albertsson. A Reinvestigation of β-Gallium Oxide. Acta Crystallographica Section C 52 (1996), 1336–1338.",
+  "primary_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1107/S0108270195016404",
+  "recommendation": "experimental source candidate; native FEFF and numerical validation pending",
+  "method": "Experimental single-crystal X-ray structure refinement; CIF records Mo K-alpha radiation, R1=0.022, weighted R=0.032 and refined atomic coordinates/displacements.",
+  "synthesis_conditions": null,
+  "notes": [
+    "Both independent Ga sites must be retained: tetrahedral Ga (CN4) and octahedral Ga (CN6), each crystallographic multiplicity4 and weight1/2.",
+    "Do not represent beta-Ga2O3 by only one Ga site or multiply native path degeneracy by the crystallographic site multiplicity.",
+    "Occupancy is absent from the raw CIF loop; the ordered full-occupancy model is implicit rather than a measured occupation refinement.",
+    "Source bytes are the current COD distribution with original IUCr attribution notice, not a claim of identity with the original publisher supplement."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/2004987.cif",
+  "record_url": "https://www.crystallography.net/cod/2004987.html",
+  "sha256": "a4c08730575268f0e28ded9d1ac46caacbd3302586efd885f82ff89365bc2f49",
+  "cif_sha256": "a4c08730575268f0e28ded9d1ac46caacbd3302586efd885f82ff89365bc2f49",
+  "retrieved_at_utc": "2026-11-17T04:30:15.134778+00:00",
+  "edge": "K",
+  "inequivalent_absorber_sites": 2,
+  "absorber_site_indices": [
+    1,
+    2
+  ],
+  "measurement_temperature_K": 273,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Original CIF: _diffrn_ambient_temperature 273 K, _cell_measurement_temperature 273.2 K; pressure unspecified. Cell and diffraction temperatures are retained as distinct reported values.",
+  "original_file_unmodified": true,
+  "occupancy": {
+    "raw_values": null,
+    "interpretation": "Occupancy column absent; unit occupancy is parser interpretation, not an explicit refined occupancy."
+  },
+  "license": {
+    "database_policy": "COD dedicates data/database to public domain under CC0; retain the original notice and article attribution.",
+    "policy_url": "https://www.crystallography.net/cod/2004987.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "#------------------------------------------------------------------------------\n#$Date: 2025-11-01 12:28:30 +0200 (Sat, 01 Nov 2025) $\n#$Revision: 303130 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/00/49/2004987.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided by IUCr Journals, http://journals.iucr.org/.\n#\n# The file may be used within the scientific community so long as\n# proper attribution is given to the journal article from which the\n# data were obtained.\n#"
+  },
+  "inspection": {
+    "formula": "Ga8 O12",
+    "ordered": true,
+    "hydrogen_present": false,
+    "site_count": 20,
+    "spacegroup": "C2/m",
+    "spacegroup_number": 12,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Ga",
+        "fractional_coordinates": [
+          0.0905,
+          0.0,
+          0.7946
+        ],
+        "multiplicity": 4,
+        "wyckoff": "4i",
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.5,
+        "coordination_number": 4,
+        "distances_A": {
+          "1.832481": 2,
+          "1.834991": 1,
+          "1.863215": 1
+        },
+        "full_first_shell_distance_multiset_A": [
+          1.8324806855553968,
+          1.8324806855553974,
+          1.8349912490077607,
+          1.8632146571445165
+        ],
+        "next_same_element_distance_A": 3.2825113719148082,
+        "nearest_other_element_distance_A": 3.0371,
+        "nearest_other_element": "Ga",
+        "site_weight": 0.5
+      },
+      {
+        "site_index_one_based": 2,
+        "element": "Ga",
+        "fractional_coordinates": [
+          0.15866,
+          0.5,
+          0.31402
+        ],
+        "multiplicity": 4,
+        "wyckoff": "4i",
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.5,
+        "coordination_number": 6,
+        "distances_A": {
+          "1.935555": 1,
+          "1.937402": 2,
+          "2.005185": 1,
+          "2.074083": 2
+        },
+        "full_first_shell_distance_multiset_A": [
+          1.9355547007500105,
+          1.9374017874041527,
+          1.9374017874041527,
+          2.0051847745055453,
+          2.074082978011831,
+          2.074082978011831
+        ],
+        "next_same_element_distance_A": 3.3947032495193463,
+        "nearest_other_element_distance_A": 3.0370999999999997,
+        "nearest_other_element": "Ga",
+        "site_weight": 0.5
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "actual_cluster_radius_A": 7.95336417950291,
+  "atom_count": 175,
+  "cell_composition": {
+    "O": 6.0,
+    "Si": 3.0
+  },
+  "cif_sha256": "0852d8678491639714d9b4749778d561f235219021be4d74278f7f4e323c74cf",
+  "engine": "FEFF8L",
+  "executable_sha256": {
+    "ff2x": "d1bcf7d2a220f675cfcaefe43be34af5e3918e95822b6bdd5c1a6eba724d1393",
+    "genfmt": "21ed031e411c196ba351b0abf46f301f4d946ce001a3b12e8a7dab7ca217ab2b",
+    "pathfinder": "8bc48a9daa20c328b887ef31dae3e087f4c7c7db84adad87d5311a0f92e8eb5e",
+    "pot": "95d2f868e35e21810a2eb1cd1bb763c5a340dbb9ec96c81a8cf31e4e894ebb92",
+    "rdinp": "d60daee213c226fadd112e32955b4e8a9b938c75583ae9969171127079e8be32",
+    "xsph": "9d30609301aa92165c1952b288129ed4906a52a9628a966827db610dd4e54fd5"
+  },
+  "execution_status": "complete",
+  "experimental_validation": false,
+  "first_shell_distances_A": [
+    1.6052224223178537,
+    1.6052224223178537,
+    1.6133854869437623,
+    1.6133854869437632
+  ],
+  "fractional_coordinates": [
+    0.4697,
+    0.0,
+    0.0
+  ],
+  "input_sha256": "2e53d67dd4d7d747bfea691263936c507a91580db7f0087777b739cfb6175846",
+  "machine": "arm64",
+  "module_results": [
+    {
+      "elapsed_seconds": 0.079,
+      "module": "rdinp",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 92.858,
+      "module": "pot",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.235,
+      "module": "xsph",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.079,
+      "module": "pathfinder",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.039,
+      "module": "genfmt",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.077,
+      "module": "ff2x",
+      "returncode": 0
+    }
+  ],
+  "packages": {
+    "larixite": "2026.1.0",
+    "numpy": "2.4.6",
+    "pymatgen": "2026.5.4",
+    "xraydb": "4.5.8",
+    "xraylarch": "2026.3.1.post78+g247278cef.xascraft.bc4f3b77f527"
+  },
+  "parser_warnings": [
+    "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+    "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+  ],
+  "platform": "macOS-26.7.3-arm64-arm-64bit",
+  "potential_rows": [
+    [
+      "0",
+      "14",
+      "Si",
+      "-1",
+      "-1",
+      "0.01"
+    ],
+    [
+      "1",
+      "8",
+      "O",
+      "-1",
+      "-1",
+      "2"
+    ],
+    [
+      "2",
+      "14",
+      "Si",
+      "-1",
+      "-1",
+      "1"
+    ]
+  ],
+  "python": "3.12.15",
+  "recipe": {
+    "cluster_radius_A": 8.0,
+    "exchange": 0,
+    "kmax_invA": 20,
+    "max_legs": 2,
+    "path_radius_A": 4.0,
+    "polarization": null,
+    "rng_seed": 0,
+    "s02": 1.0,
+    "scf_iterations": 30,
+    "scf_mixing": 0.2,
+    "scf_radius_A": 5.0,
+    "with_h": false
+  },
+  "reference_id": "SiO2-quartz-COD9005017-Si-K",
+  "review_status": "candidate",
+  "scatterer_distances_to_rpath_A": [
+    1.6052224223178537,
+    1.6052224223178537,
+    1.6133854869437623,
+    1.6133854869437632,
+    3.5219139126995107,
+    3.521913912699511,
+    3.5293975434711236,
+    3.5293975434711236,
+    3.6202874245348773,
+    3.6202874245348773,
+    3.898759180459304,
+    3.8987591804593045,
+    3.9878473610451426,
+    3.987847361045143
+  ],
+  "site_index": 1,
+  "site_multiplicity": 3,
+  "site_weight": 1.0,
+  "space_group": "P3_221",
+  "wyckoff": "3a"
+}

@@ -1,0 +1,91 @@
+{
+  "filename": "source.cif",
+  "name": "AlPO4 berlinite",
+  "absorber": "P",
+  "source_id": "9010367",
+  "related_ids": {
+    "AMCSD": "0004489"
+  },
+  "doi": "10.2138/am.2007.2581",
+  "citation": "B. P. Onac and H. S. Effenberger. Re-examination of berlinite (AlPO4) from the Cioclovina Cave, Romania. American Mineralogist 92 (2007), 1998-2001.",
+  "primary_url": "https://doi.org/10.2138/am.2007.2581",
+  "recommendation": "recommended first-round source candidate; FEFF validation pending",
+  "method": "Experimental single-crystal X-ray diffraction of natural berlinite, confirmed by the authors institutional abstract.",
+  "synthesis_conditions": null,
+  "notes": [
+    "Natural sample from Cioclovina Cave, Romania; not a laboratory synthesis.",
+    "The article discusses heating during mineral formation; that formation history is not the diffraction measurement temperature.",
+    "Absorber is P at unique crystallographic site index 2; Al site 1 is not the requested absorber.",
+    "The source CIF has no atom occupancy column; parser treats sites as fully occupied. This is not an explicit occupancy measurement.",
+    "Pressure is not numerically specified in the inspected source; leave measurement_pressure_GPa null."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/9010367.cif",
+  "record_url": "https://www.crystallography.net/cod/9010367.html",
+  "sha256": "9946eec0f499290178f92bf5de3dd8bb11a4384740f131902cf09a5f4b3c75d2",
+  "cif_sha256": "9946eec0f499290178f92bf5de3dd8bb11a4384740f131902cf09a5f4b3c75d2",
+  "retrieved_at_utc": "2026-11-17T04:08:39.270469+00:00",
+  "edge": "K",
+  "inequivalent_absorber_sites": 1,
+  "suggested_absorber_site_index_one_based": 2,
+  "absorber_site_indices": [
+    2
+  ],
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Raw CIF lacks numeric measurement temperature and pressure; author abstract https://digitalcommons.usf.edu/gly_facpub/102/ does not specify them.",
+  "original_file_unmodified": true,
+  "license": {
+    "database_policy": "COD dedicates its data/database to the public domain under CC0; retain original article attribution and original file notice.",
+    "policy_url": "https://www.crystallography.net/cod/9010367.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "CIF header identifies AMCSD as original data provider and requests proper attribution to the journal article."
+  },
+  "inspection": {
+    "formula": "Al3 P3 O12",
+    "ordered": true,
+    "site_count": 18,
+    "absorber_indices_zero_based": [
+      3,
+      4,
+      5
+    ],
+    "inequivalent_absorber_groups": [
+      [
+        3,
+        4,
+        5
+      ]
+    ],
+    "spacegroup": "P3_121",
+    "spacegroup_number": 152,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 2,
+        "element": "P",
+        "multiplicity": 3,
+        "wyckoff": "3b",
+        "fractional_coordinates": [
+          0.46689,
+          0.0,
+          0.83333
+        ],
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.0,
+        "coordination_number": 4,
+        "distances_A": {
+          "1.523983": 1,
+          "1.524009": 1,
+          "1.527040": 1,
+          "1.527093": 1
+        },
+        "next_same_element_distance_A": 3.5939950466271893
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Issues encountered while parsing CIF: 1 fractional coordinates rounded to ideal values to avoid issues with finite precision.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

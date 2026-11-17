@@ -1,0 +1,142 @@
+[
+  {
+    "absorber": "Hf",
+    "lower_edge": "L3",
+    "lower_energy_eV": 9561.0,
+    "next_edge": "L2",
+    "next_energy_eV": 10739.0,
+    "delta_energy_eV": 1178.0,
+    "k_at_next_edge_invA": 17.583736901766144,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Eu",
+    "lower_edge": "L3",
+    "lower_energy_eV": 6977.0,
+    "next_edge": "L2",
+    "next_energy_eV": 7617.0,
+    "delta_energy_eV": 640.0,
+    "k_at_next_edge_invA": 12.960701807289254,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "La",
+    "lower_edge": "L3",
+    "lower_energy_eV": 5483.0,
+    "next_edge": "L2",
+    "next_energy_eV": 5891.0,
+    "delta_energy_eV": 408.0,
+    "k_at_next_edge_invA": 10.348290534075556,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Gd",
+    "lower_edge": "L3",
+    "lower_energy_eV": 7243.0,
+    "next_edge": "L2",
+    "next_energy_eV": 7930.0,
+    "delta_energy_eV": 687.0,
+    "k_at_next_edge_invA": 13.428172149023727,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Pr",
+    "lower_edge": "L3",
+    "lower_energy_eV": 5964.0,
+    "next_edge": "L2",
+    "next_energy_eV": 6440.0,
+    "delta_energy_eV": 476.0,
+    "k_at_next_edge_invA": 11.177431270522042,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Nd",
+    "lower_edge": "L3",
+    "lower_energy_eV": 6208.0,
+    "next_edge": "L2",
+    "next_energy_eV": 6722.0,
+    "delta_energy_eV": 514.0,
+    "k_at_next_edge_invA": 11.61502345748412,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Dy",
+    "lower_edge": "L3",
+    "lower_energy_eV": 7790.0,
+    "next_edge": "L2",
+    "next_energy_eV": 8581.0,
+    "delta_energy_eV": 791.0,
+    "k_at_next_edge_invA": 14.408765504239268,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Ho",
+    "lower_edge": "L3",
+    "lower_energy_eV": 8071.0,
+    "next_edge": "L2",
+    "next_energy_eV": 8918.0,
+    "delta_energy_eV": 847.0,
+    "k_at_next_edge_invA": 14.910089037231945,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Er",
+    "lower_edge": "L3",
+    "lower_energy_eV": 8358.0,
+    "next_edge": "L2",
+    "next_energy_eV": 9264.0,
+    "delta_energy_eV": 906.0,
+    "k_at_next_edge_invA": 15.420648239036753,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Tm",
+    "lower_edge": "L3",
+    "lower_energy_eV": 8648.0,
+    "next_edge": "L2",
+    "next_energy_eV": 9617.0,
+    "delta_energy_eV": 969.0,
+    "k_at_next_edge_invA": 15.947786768761665,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Yb",
+    "lower_edge": "L3",
+    "lower_energy_eV": 8944.0,
+    "next_edge": "L2",
+    "next_energy_eV": 9978.0,
+    "delta_energy_eV": 1034.0,
+    "k_at_next_edge_invA": 16.473990117139245,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Lu",
+    "lower_edge": "L3",
+    "lower_energy_eV": 9244.0,
+    "next_edge": "L2",
+    "next_energy_eV": 10349.0,
+    "delta_energy_eV": 1105.0,
+    "k_at_next_edge_invA": 17.03019695955106,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Tb",
+    "lower_edge": "L3",
+    "lower_energy_eV": 7514.0,
+    "next_edge": "L2",
+    "next_energy_eV": 8252.0,
+    "delta_energy_eV": 738.0,
+    "k_at_next_edge_invA": 13.917675699843748,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  },
+  {
+    "absorber": "Sm",
+    "lower_edge": "L3",
+    "lower_energy_eV": 6716.0,
+    "next_edge": "L2",
+    "next_energy_eV": 7312.0,
+    "delta_energy_eV": 596.0,
+    "k_at_next_edge_invA": 12.507245127645808,
+    "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+  }
+]

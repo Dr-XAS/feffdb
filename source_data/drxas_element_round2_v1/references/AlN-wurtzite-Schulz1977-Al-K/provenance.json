@@ -1,0 +1,98 @@
+{
+  "filename": "source.cif",
+  "name": "AlN wurtzite, Schulz-Thiemann1977 experimental transcription",
+  "absorber": "Al",
+  "scatterer": "N",
+  "edge": "K",
+  "source_database": "publication",
+  "source_record_id": "10.1016/0038-1098(77)90959-0",
+  "source_id": "10.1016/0038-1098(77)90959-0",
+  "doi": "10.1016/0038-1098(77)90959-0",
+  "citation": "H. Schulz and K. H. Thiemann. Crystal structure refinement of AlN and GaN. Solid State Communications23(11) (1977),815–819.",
+  "primary_url": "https://www.sciencedirect.com/science/article/pii/0038109877909590",
+  "primary_article_read_url": "https://lab.semi.ac.cn/download/0.6819154580152995.pdf",
+  "original_file_unmodified": false,
+  "derivation": "transcribed from published experimental refinement",
+  "sha256": "9f9a285284f3dabea96c7d8c13ff08d672c1b38db627a957498ced37ea5bec44",
+  "cif_sha256": "9f9a285284f3dabea96c7d8c13ff08d672c1b38db627a957498ced37ea5bec44",
+  "recommendation": "experimental publication transcription candidate; native FEFF and numerical validation pending",
+  "method": "Single-crystal X-ray refinement; lattice parameters determined from25 reflection angles, atomic z from intensity refinement. Isotropic R=.015 and R(w)=.021; Table3 verifies the derived1+3 Al-N shell.",
+  "inequivalent_absorber_sites": 1,
+  "absorber_site_indices": [
+    1
+  ],
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Neither diffraction T/P nor a numerical crystal-growth condition was identified in pp815–819; no ambient conditions inferred. p818 acknowledgements identify Siemens/Philips supply, not conditions.",
+  "synthesis_conditions": null,
+  "occupancy": {
+    "raw_values": [
+      "1",
+      "1"
+    ],
+    "interpretation": "Explicit unit occupancies in this derived file encode the published stoichiometric ordered model; no occupancy refinement reported."
+  },
+  "license": {
+    "status": "Locally authored transcription of published numeric crystallographic facts with full attribution; not an original publisher CIF and not a COD-licensed artifact.",
+    "article_rights": "Publisher article copyright/licensing remains separate; no PDF or page image included in deliverable.",
+    "data_license_url": null,
+    "note": "No claim that the publisher placed the article or its crystallographic facts under CC0."
+  },
+  "transcription_record": "transcription.json",
+  "notes": [
+    "The space-group number and unit occupancies are explicit encodings of the published wurtzite stoichiometric model, not separately printed/refined parameters.",
+    "Coordinates/cell are experimental and unchanged; no ideal wurtzite u=.375 substitution, cell rescaling or bond equalization.",
+    "The isotropic U column is preserved in CIF for fidelity; native FEFF uses average geometry and must not treat these values as a validated EXAFS Debye-Waller factor.",
+    "No XAS measurement or experimental EXAFS validation is provided."
+  ],
+  "inspection": {
+    "formula": "Al2 N2",
+    "ordered": true,
+    "hydrogen_present": false,
+    "site_count": 4,
+    "spacegroup": "P6_3mc",
+    "spacegroup_number": 186,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Al",
+        "fractional_coordinates": [
+          0.3333333333333334,
+          0.6666666666666667,
+          0.5
+        ],
+        "multiplicity": 2,
+        "wyckoff": "2b",
+        "first_shell_element": "N",
+        "first_shell_cutoff_A": 2.3,
+        "coordination_number": 4,
+        "distances_A": {
+          "1.889119": 3,
+          "1.902858": 1
+        },
+        "full_first_shell_distance_multiset_A": [
+          1.889118593814939,
+          1.889118593814939,
+          1.8891185938149393,
+          1.9028580000000002
+        ],
+        "next_same_element_distance_A": 3.0771420000000003,
+        "nearest_other_element_distance_A": 3.069875133182673,
+        "nearest_other_element": "Al",
+        "site_weight": 1.0,
+        "table3_residuals_A": [
+          1.8593814939071862e-05,
+          1.8593814939071862e-05,
+          1.8593814939293907e-05,
+          -4.199999999987547e-05
+        ]
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Issues encountered while parsing CIF: No _symmetry_equiv_pos_as_xyz type key found. Spacegroup from _symmetry_space_group_name_H-M used.",
+      "No _symmetry_equiv_pos_as_xyz type key found. Spacegroup from _symmetry_space_group_name_H-M used.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

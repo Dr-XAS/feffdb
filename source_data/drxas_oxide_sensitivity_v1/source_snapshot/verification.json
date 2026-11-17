@@ -1,0 +1,128 @@
+{
+  "consumer": {
+    "api_pass_claim": false,
+    "feffdb_api": "blocked_at_import",
+    "paths": [
+      {
+        "chi_finite": true,
+        "degen": 2.0,
+        "edge": "L3",
+        "geometry_numeric": true,
+        "id": 349,
+        "reff": 1.9604
+      },
+      {
+        "chi_finite": true,
+        "degen": 4.0,
+        "edge": "L3",
+        "geometry_numeric": true,
+        "id": 350,
+        "reff": 1.9988
+      },
+      {
+        "chi_finite": true,
+        "degen": 2.0,
+        "edge": "L3",
+        "geometry_numeric": true,
+        "id": 351,
+        "reff": 1.9891
+      },
+      {
+        "chi_finite": true,
+        "degen": 4.0,
+        "edge": "L3",
+        "geometry_numeric": true,
+        "id": 352,
+        "reff": 2.0034
+      },
+      {
+        "chi_finite": true,
+        "degen": 1.0,
+        "edge": "L3",
+        "geometry_numeric": true,
+        "id": 353,
+        "reff": 1.6699
+      },
+      {
+        "chi_finite": true,
+        "degen": 1.0,
+        "edge": "L3",
+        "geometry_numeric": true,
+        "id": 354,
+        "reff": 1.903
+      },
+      {
+        "chi_finite": true,
+        "degen": 1.0,
+        "edge": "L3",
+        "geometry_numeric": true,
+        "id": 355,
+        "reff": 1.9085
+      },
+      {
+        "chi_finite": true,
+        "degen": 1.0,
+        "edge": "L3",
+        "geometry_numeric": true,
+        "id": 356,
+        "reff": 2.1049
+      },
+      {
+        "chi_finite": true,
+        "degen": 1.0,
+        "edge": "L3",
+        "geometry_numeric": true,
+        "id": 357,
+        "reff": 2.1688
+      },
+      {
+        "chi_finite": true,
+        "degen": 1.0,
+        "edge": "L3",
+        "geometry_numeric": true,
+        "id": 358,
+        "reff": 2.2405
+      }
+    ],
+    "reason": "Existing pyshortcuts 1.9.9 lacks hash_password/check_password_rules required by upstream feffdb. No dependency installation or API shim used.",
+    "sqlite_larch": "passed"
+  },
+  "database": {
+    "base_unchanged": true,
+    "foreign_key_violations": 0,
+    "integrity_check": "ok",
+    "original_rows_preserved": true,
+    "rebuild_byte_identical": true,
+    "sha256": "b1e6c8331d26e47e0805cfe1be88ff463190943d6eb9632005106986a7c50a2e",
+    "total_paths": 358,
+    "upstream_paths": 348
+  },
+  "date": "2026-11-15",
+  "generated_single_scattering_paths": 36,
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "xascraft_integrated": false
+  },
+  "references": 3,
+  "scientific_review": {
+    "experimental_validation": false,
+    "native_warnings_retained": true,
+    "scf_cluster_radius_convergence": false,
+    "status": "candidate"
+  },
+  "selected_first_shell_paths": 10,
+  "unit_archive_tests": {
+    "command": "python -m unittest -q test_pilot",
+    "failed": 0,
+    "native_feff_started_by_tests": false,
+    "passed": 28
+  },
+  "workspace": {
+    "xascraft_dirty_files_changed": 0,
+    "xascraft_dirty_files_hashed": 70,
+    "xascraft_head_unchanged": true,
+    "xascraft_index_unchanged": true,
+    "xascraft_status_unchanged": true
+  }
+}

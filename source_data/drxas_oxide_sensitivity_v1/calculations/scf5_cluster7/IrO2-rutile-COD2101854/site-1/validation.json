@@ -1,0 +1,310 @@
+{
+  "all_paths": [
+    {
+      "absorber": 77,
+      "degen": 2.0,
+      "edge": "L3",
+      "filename": "feff0001.dat",
+      "geometry": [
+        [
+          "Ir",
+          77,
+          0,
+          192.217,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "O",
+          8,
+          1,
+          15.999,
+          1.3862,
+          1.3862,
+          -0.0
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 1.9604,
+      "scatterer": 8,
+      "sha256": "26770429fdd314b2b0c72dc383c207e5818a5a82ae967d8c0fbf797f0209f3a7"
+    },
+    {
+      "absorber": 77,
+      "degen": 4.0,
+      "edge": "L3",
+      "filename": "feff0002.dat",
+      "geometry": [
+        [
+          "Ir",
+          77,
+          0,
+          192.217,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "O",
+          8,
+          1,
+          15.999,
+          0.8663,
+          -0.8663,
+          -1.5793
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 1.9988,
+      "scatterer": 8,
+      "sha256": "9867cdd82cf2bf0244c1209e0078d7bc73add93d038f8b312f004d23b9c2918f"
+    },
+    {
+      "absorber": 77,
+      "degen": 2.0,
+      "edge": "L3",
+      "filename": "feff0003.dat",
+      "geometry": [
+        [
+          "Ir",
+          77,
+          0,
+          192.217,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "Ir",
+          77,
+          2,
+          192.217,
+          -0.0,
+          -0.0,
+          3.1586
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 3.1586,
+      "scatterer": 77,
+      "sha256": "1bec4efca19c831e3fc2ccbd488d127fb5294d8708a3ca6f9ffb9f7baf0b39ba"
+    },
+    {
+      "absorber": 77,
+      "degen": 4.0,
+      "edge": "L3",
+      "filename": "feff0004.dat",
+      "geometry": [
+        [
+          "Ir",
+          77,
+          0,
+          192.217,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "O",
+          8,
+          1,
+          15.999,
+          3.1189,
+          -1.3862,
+          -0.0
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 3.4131,
+      "scatterer": 8,
+      "sha256": "7c406b9f56798a6abc1439adb48ec710147812e1237d329cb33fb81b8543a2cc"
+    },
+    {
+      "absorber": 77,
+      "degen": 8.0,
+      "edge": "L3",
+      "filename": "feff0005.dat",
+      "geometry": [
+        [
+          "Ir",
+          77,
+          0,
+          192.217,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "Ir",
+          77,
+          2,
+          192.217,
+          -2.2525,
+          -2.2525,
+          -1.5793
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 3.5556,
+      "scatterer": 77,
+      "sha256": "148f6852014a3e2e79516ec3d3a940b4d24624c42d6680ecf115d651d4138be9"
+    },
+    {
+      "absorber": 77,
+      "degen": 4.0,
+      "edge": "L3",
+      "filename": "feff0006.dat",
+      "geometry": [
+        [
+          "Ir",
+          77,
+          0,
+          192.217,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "O",
+          8,
+          1,
+          15.999,
+          1.3862,
+          1.3862,
+          -3.1586
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 3.7175,
+      "scatterer": 8,
+      "sha256": "2c0a25e10b4747ecfea6812a3ce5516bc6827a80842aaf3cbb1201d4d393af35"
+    }
+  ],
+  "artifacts": {
+    "chi.dat": "bc5fc3e9ec4dfbb58a9dfb6d41768406b77e9c334a1bf5cbcc864bef7dd4fde7",
+    "feff.inp": "1f783b08ff5d287f8aeee89cbf190f62931fb41f3fba217f8c235cbcfc6d320c",
+    "feff.log": "0772df39cb0fb510b0c9031b06d215a938262c5d3b271df4c53ae95c6372f169",
+    "feff0001.dat": "26770429fdd314b2b0c72dc383c207e5818a5a82ae967d8c0fbf797f0209f3a7",
+    "feff0002.dat": "9867cdd82cf2bf0244c1209e0078d7bc73add93d038f8b312f004d23b9c2918f",
+    "feff0003.dat": "1bec4efca19c831e3fc2ccbd488d127fb5294d8708a3ca6f9ffb9f7baf0b39ba",
+    "feff0004.dat": "7c406b9f56798a6abc1439adb48ec710147812e1237d329cb33fb81b8543a2cc",
+    "feff0005.dat": "148f6852014a3e2e79516ec3d3a940b4d24624c42d6680ecf115d651d4138be9",
+    "feff0006.dat": "2c0a25e10b4747ecfea6812a3ce5516bc6827a80842aaf3cbb1201d4d393af35",
+    "files.dat": "fc2e77db15af0ff83126617cfccbdd2563ece75965065accb550fca025beb1d8",
+    "log1.dat": "d45f4c2732d8b14397799f83acea7a437c14744111daef8642db9bded6212920",
+    "log2.dat": "7a9b3fd1c198b4db776e84c87fe894ea8668810088c0200ec909496e24f15cea",
+    "log4.dat": "f463667f9b27875b21bddbb8155c694c76655d61d18b1c8d2e7f749b9de130ae",
+    "log5.dat": "a52ab8b6737fac69cae11bd7b4e26658fb886cf4abe4d4a59d0acbe90c613308",
+    "log6.dat": "317825bf32396378ced106da84efabb53f465134ff3216ccc47a1261bd1f3445",
+    "misc.dat": "2fea077aeaaccc46eff2fe1f67bb12b48df47cb48094ee1ab5b8ad95d40ee199",
+    "paths.dat": "7734fc227532b1147f76ab2028375dae2f13dd2807f523755954ae93c49fc7f3",
+    "run.json": "1515cb36c69b4909a3e12711d3a33c0bdc834acf167fbe7f0feeeb6467e2fb5b",
+    "xmu.dat": "dd90926b443d9a7ee6a3c627ffcf3617d66d199e9a156825f6614a0631a780f0"
+  },
+  "cif_coordination": 6,
+  "coordination_sum": 6.0,
+  "distance_tolerance_A": 0.0002,
+  "experimental_validation": false,
+  "larch_chi_evaluation": "passed",
+  "max_distance_error_A": 1.1236081253196417e-05,
+  "native_diagnostics": [
+    "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+    "WARNING:  rmax > distance to most distant atom.",
+    "rmax, ratx   4.00000E+00  0.00000E+00",
+    "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+    "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+    "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+  ],
+  "review_status": "candidate",
+  "scf_hit_iteration_limit": false,
+  "scf_iteration_limit": 30,
+  "scf_iterations": 6,
+  "selected_paths": [
+    {
+      "absorber": 77,
+      "degen": 2.0,
+      "edge": "L3",
+      "filename": "feff0001.dat",
+      "geometry": [
+        [
+          "Ir",
+          77,
+          0,
+          192.217,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "O",
+          8,
+          1,
+          15.999,
+          1.3862,
+          1.3862,
+          -0.0
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 1.9604,
+      "scatterer": 8,
+      "sha256": "26770429fdd314b2b0c72dc383c207e5818a5a82ae967d8c0fbf797f0209f3a7"
+    },
+    {
+      "absorber": 77,
+      "degen": 4.0,
+      "edge": "L3",
+      "filename": "feff0002.dat",
+      "geometry": [
+        [
+          "Ir",
+          77,
+          0,
+          192.217,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "O",
+          8,
+          1,
+          15.999,
+          0.8663,
+          -0.8663,
+          -1.5793
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 1.9988,
+      "scatterer": 8,
+      "sha256": "9867cdd82cf2bf0244c1209e0078d7bc73add93d038f8b312f004d23b9c2918f"
+    }
+  ],
+  "technical_validation": "passed"
+}

@@ -1,0 +1,145 @@
+{
+  "actual_cluster_radius_A": 7.990980389651822,
+  "atom_count": 201,
+  "cell_composition": {
+    "Ir": 2.0,
+    "O": 4.0
+  },
+  "cif_sha256": "a475838a182a5a235458a9d63e59a63d393276ece71f90ae161be03796316a78",
+  "engine": "FEFF8L",
+  "executable_sha256": {
+    "ff2x": "d1bcf7d2a220f675cfcaefe43be34af5e3918e95822b6bdd5c1a6eba724d1393",
+    "genfmt": "21ed031e411c196ba351b0abf46f301f4d946ce001a3b12e8a7dab7ca217ab2b",
+    "pathfinder": "8bc48a9daa20c328b887ef31dae3e087f4c7c7db84adad87d5311a0f92e8eb5e",
+    "pot": "95d2f868e35e21810a2eb1cd1bb763c5a340dbb9ec96c81a8cf31e4e894ebb92",
+    "rdinp": "d60daee213c226fadd112e32955b4e8a9b938c75583ae9969171127079e8be32",
+    "xsph": "9d30609301aa92165c1952b288129ed4906a52a9628a966827db610dd4e54fd5"
+  },
+  "execution_status": "complete",
+  "experimental_validation": false,
+  "first_shell_distances_A": [
+    1.960410092056931,
+    1.960410092056931,
+    1.9988112360812527,
+    1.9988112360812527,
+    1.998811236081253,
+    1.998811236081253
+  ],
+  "fractional_coordinates": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "input_sha256": "0948ed3932f4ebbf55521ead36bac16c6a17b6b044ae94abffd75cbf1a98f65d",
+  "machine": "arm64",
+  "module_results": [
+    {
+      "elapsed_seconds": 0.08,
+      "module": "rdinp",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 172.373,
+      "module": "pot",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.883,
+      "module": "xsph",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.077,
+      "module": "pathfinder",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.079,
+      "module": "genfmt",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.079,
+      "module": "ff2x",
+      "returncode": 0
+    }
+  ],
+  "oxygen_distances_to_rpath_A": [
+    1.960410092056931,
+    1.960410092056931,
+    1.9988112360812527,
+    1.9988112360812527,
+    1.998811236081253,
+    1.998811236081253,
+    3.4130661980812302,
+    3.4130661980812302,
+    3.4130661980812307,
+    3.4130661980812307,
+    3.7175209063351162,
+    3.7175209063351162,
+    3.7175209063351162,
+    3.7175209063351162
+  ],
+  "packages": {
+    "larixite": "2026.1.0",
+    "numpy": "2.4.6",
+    "pymatgen": "2026.5.4",
+    "xraydb": "4.5.8",
+    "xraylarch": "2026.3.1.post78+g247278cef.xascraft.bc4f3b77f527"
+  },
+  "parser_warnings": [
+    "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+    "Issues encountered while parsing CIF: No _symmetry_equiv_pos_as_xyz type key found. Spacegroup from _symmetry_space_group_name_H-M used.",
+    "No _symmetry_equiv_pos_as_xyz type key found. Spacegroup from _symmetry_space_group_name_H-M used.",
+    "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+  ],
+  "platform": "macOS-26.7.3-arm64-arm-64bit",
+  "potential_rows": [
+    [
+      "0",
+      "77",
+      "Ir",
+      "-1",
+      "-1",
+      "0.01"
+    ],
+    [
+      "1",
+      "8",
+      "O",
+      "-1",
+      "-1",
+      "2"
+    ],
+    [
+      "2",
+      "77",
+      "Ir",
+      "-1",
+      "-1",
+      "1"
+    ]
+  ],
+  "python": "3.12.15",
+  "recipe": {
+    "cluster_radius_A": 8.0,
+    "exchange": 0,
+    "kmax_invA": 20,
+    "max_legs": 2,
+    "path_radius_A": 4.0,
+    "polarization": null,
+    "rng_seed": 0,
+    "s02": 1.0,
+    "scf_iterations": 30,
+    "scf_mixing": 0.2,
+    "scf_radius_A": 6.0,
+    "with_h": false
+  },
+  "reference_id": "IrO2-rutile-COD2101854",
+  "review_status": "candidate",
+  "site_index": 1,
+  "site_multiplicity": 2,
+  "site_weight": 1.0,
+  "space_group": "P4_2/mnm",
+  "wyckoff": "2a"
+}

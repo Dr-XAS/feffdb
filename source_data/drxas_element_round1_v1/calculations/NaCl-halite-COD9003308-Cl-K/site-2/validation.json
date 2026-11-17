@@ -1,0 +1,141 @@
+{
+  "all_paths": [
+    {
+      "absorber": 17,
+      "degen": 6.0,
+      "edge": "K",
+      "filename": "feff0001.dat",
+      "geometry": [
+        [
+          "Cl",
+          17,
+          0,
+          35.453,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "Na",
+          11,
+          1,
+          22.9898,
+          -0.0,
+          -2.82,
+          -0.0
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 2.82,
+      "scatterer": 11,
+      "sha256": "f163da2e461d26ab35ab59a0eba402fbdd127f6f6d2b1d5fd097814c2d03ba8e"
+    },
+    {
+      "absorber": 17,
+      "degen": 12.0,
+      "edge": "K",
+      "filename": "feff0002.dat",
+      "geometry": [
+        [
+          "Cl",
+          17,
+          0,
+          35.453,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "Cl",
+          17,
+          2,
+          35.453,
+          -2.82,
+          -2.82,
+          -0.0
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 3.9882,
+      "scatterer": 17,
+      "sha256": "3b29e4f60fd6dd8f818a5e28edac13d8ba910456ff56c37e8b9d40e430884b1b"
+    }
+  ],
+  "artifacts": {
+    "chi.dat": "ba00f42bb18720725d1d5ec4931b0f32cd87773af94bace277e1345b0483c739",
+    "feff.inp": "63d1261f5f02c7e242462ef09bdb5256a904769e0310251224203a35ff9a3c90",
+    "feff.log": "e73bfb2655346b1e306b127a042d7a92fe25f99dd15901a5d17376590da72ffd",
+    "feff0001.dat": "f163da2e461d26ab35ab59a0eba402fbdd127f6f6d2b1d5fd097814c2d03ba8e",
+    "feff0002.dat": "3b29e4f60fd6dd8f818a5e28edac13d8ba910456ff56c37e8b9d40e430884b1b",
+    "files.dat": "7989db73c6ef58f3dc62890863b22b66e3209c547f845f2beba2103580dba7fe",
+    "log1.dat": "450e57aa9ccb2d3077184c4dc3a2f0537fc04c69b68f36375b25449d78021f2c",
+    "log2.dat": "7a9b3fd1c198b4db776e84c87fe894ea8668810088c0200ec909496e24f15cea",
+    "log4.dat": "2422e64a6b1e1328384e4a3fb6cc01b4182b26cb31f0a396ef86df1b6a149e0d",
+    "log5.dat": "49b4963b234a9233b80be59ab9e15dc60d8d053f83011ab4a36fb0d839a43f81",
+    "log6.dat": "43801d9f93d7b782fef077aabd784fc780d6d78f96567e81ff079081952389bd",
+    "misc.dat": "20d043e7e163513010d0ba0d2d4a0ea23c8592fd8afba5f33b030aa8213ff4b0",
+    "paths.dat": "048c1c35d30f51d06dd6d0a2a9fff3c9d4e0e35bee941063fb8417adc0892e96",
+    "run.json": "5367b322403b5bf8d7875dae517dfdcd6bc89fb4e261f2e2c33a29ad1a5f5c04",
+    "xmu.dat": "0b9fd72aae4773fd6aaa7823e5a1a323d9e622b1adb36c9163a41484c83f062d"
+  },
+  "cif_coordination": 6,
+  "coordination_sum": 6.0,
+  "distance_tolerance_A": 0.0002,
+  "experimental_validation": false,
+  "larch_chi_evaluation": "passed",
+  "max_distance_error_A": 5.000000000032756e-05,
+  "native_diagnostics": [
+    "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+    "WARNING:  rmax > distance to most distant atom.",
+    "rmax, ratx   4.00000E+00  0.00000E+00",
+    "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+    "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+    "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+  ],
+  "review_status": "candidate",
+  "scf_hit_iteration_limit": false,
+  "scf_iteration_limit": 30,
+  "scf_iterations": 6,
+  "selected_paths": [
+    {
+      "absorber": 17,
+      "degen": 6.0,
+      "edge": "K",
+      "filename": "feff0001.dat",
+      "geometry": [
+        [
+          "Cl",
+          17,
+          0,
+          35.453,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "Na",
+          11,
+          1,
+          22.9898,
+          -0.0,
+          -2.82,
+          -0.0
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 2.82,
+      "scatterer": 11,
+      "sha256": "f163da2e461d26ab35ab59a0eba402fbdd127f6f6d2b1d5fd097814c2d03ba8e"
+    }
+  ],
+  "technical_validation": "passed"
+}

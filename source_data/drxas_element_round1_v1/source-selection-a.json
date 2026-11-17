@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "scope": [
+    "Na",
+    "Mg",
+    "Cl",
+    "K",
+    "Br"
+  ],
+  "status": "structural_sources_selected_feff_not_run",
+  "selected": [
+    {
+      "id": "NaCl-halite-COD9003308",
+      "source_file": "/tmp/feffdb-round1-20261116/sources-a/NaCl-halite-COD9003308/source.cif",
+      "provenance_file": "/tmp/feffdb-round1-20261116/sources-a/NaCl-halite-COD9003308/provenance.json",
+      "absorbers": [
+        "Na",
+        "Cl"
+      ],
+      "edge": "K",
+      "source_id": "9003308",
+      "cif_sha256": "42b80e8bbe6f2d63c0751e8b0366588e052e46ff86c1e8c0ac192eebad9e4923",
+      "first_shell": {
+        "Na": {
+          "indices_one_based": [
+            1
+          ],
+          "first_shell_distance_A": 2.8200499999999997,
+          "first_shell_scatterers": {
+            "Cl": 6
+          },
+          "coordination_number": 6,
+          "next_neighbor_distance_A": 3.9881529565702465,
+          "suggested_first_shell_cutoff_A": 3.4041014782851233,
+          "first_shell_displacements_A": [
+            [
+              0.0,
+              0.0,
+              2.82005
+            ],
+            [
+              2.82005,
+              0.0,
+              1.7267826029677467e-16
+            ],
+            [
+              -1.7267826029677467e-16,
+              2.82005,
+              1.7267826029677467e-16
+            ],
+            [
+              -2.82005,
+              0.0,
+              -1.7267826029677467e-16
+            ],
+            [
+              1.7267826029677467e-16,
+              -2.82005,
+              -1.7267826029677467e-16
+            ],
+            [
+              0.0,
+              0.0,
+              -2.82005
+            ]
+          ]
+        },
+        "Cl": {
+          "indices_one_based": [
+            2
+          ],
+          "first_shell_distance_A": 2.8200499999999997,
+          "first_shell_scatterers": {
+            "Na": 6
+          },
+          "coordination_number": 6,
+          "next_neighbor_distance_A": 3.9881529565702465,
+          "suggested_first_shell_cutoff_A": 3.4041014782851233,
+          "first_shell_displacements_A": [
+            [
+              0.0,
+              0.0,
+              2.8200499999999997
+            ],
+            [
+              -2.82005,
+              0.0,
+              -4.440892098500626e-16
+            ],
+            [
+              0.0,
+              -2.82005,
+              -4.440892098500626e-16
+            ],
+            [
+              0.0,
+              0.0,
+              -2.82005
+            ],
+            [
+              -4.440892098500626e-16,
+              2.82005,
+              0.0
+            ],
+            [
+              2.82005,
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "MgO-periclase-COD1000053",
+      "source_file": "/tmp/feffdb-round1-20261116/sources-a/MgO-periclase-COD1000053/source.cif",
+      "provenance_file": "/tmp/feffdb-round1-20261116/sources-a/MgO-periclase-COD1000053/provenance.json",
+      "absorbers": [
+        "Mg"
+      ],
+      "edge": "K",
+      "source_id": "1000053",
+      "cif_sha256": "d4ea4453e9712fc12dff925cb7812b8a5b68a19e9afa03449be062540b8ad9c7",
+      "first_shell": {
+        "Mg": {
+          "indices_one_based": [
+            1
+          ],
+          "first_shell_distance_A": 2.1085,
+          "first_shell_scatterers": {
+            "O": 6
+          },
+          "coordination_number": 6,
+          "next_neighbor_distance_A": 2.98186929626367,
+          "suggested_first_shell_cutoff_A": 2.545184648131835,
+          "first_shell_displacements_A": [
+            [
+              -2.1085,
+              0.0,
+              -1.2910838880010971e-16
+            ],
+            [
+              1.2910838880010971e-16,
+              -2.1085,
+              -1.2910838880010971e-16
+            ],
+            [
+              0.0,
+              0.0,
+              -2.1085
+            ],
+            [
+              0.0,
+              0.0,
+              2.1085
+            ],
+            [
+              -1.2910838880010971e-16,
+              2.1085,
+              1.2910838880010971e-16
+            ],
+            [
+              2.1085,
+              0.0,
+              1.2910838880010971e-16
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "KCl-sylvite-COD9003112",
+      "source_file": "/tmp/feffdb-round1-20261116/sources-a/KCl-sylvite-COD9003112/source.cif",
+      "provenance_file": "/tmp/feffdb-round1-20261116/sources-a/KCl-sylvite-COD9003112/provenance.json",
+      "absorbers": [
+        "K"
+      ],
+      "edge": "K",
+      "source_id": "9003112",
+      "cif_sha256": "9cfbf4a4ce4b87b09a4fcf1808eb2685e264373eb16852e2e4a296ecd0eb3216",
+      "first_shell": {
+        "K": {
+          "indices_one_based": [
+            1
+          ],
+          "first_shell_distance_A": 3.143949999999999,
+          "first_shell_scatterers": {
+            "Cl": 6
+          },
+          "coordination_number": 6,
+          "next_neighbor_distance_A": 4.446216729422891,
+          "suggested_first_shell_cutoff_A": 3.795083364711445,
+          "first_shell_displacements_A": [
+            [
+              -3.14395,
+              0.0,
+              -1.9251141520896604e-16
+            ],
+            [
+              1.9251141520896604e-16,
+              -3.14395,
+              -1.9251141520896604e-16
+            ],
+            [
+              0.0,
+              0.0,
+              -3.14395
+            ],
+            [
+              0.0,
+              0.0,
+              3.14395
+            ],
+            [
+              3.14395,
+              0.0,
+              1.9251141520896604e-16
+            ],
+            [
+              -1.9251141520896604e-16,
+              3.14395,
+              1.9251141520896604e-16
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "NaBr-COD9007464",
+      "source_file": "/tmp/feffdb-round1-20261116/sources-a/NaBr-COD9007464/source.cif",
+      "provenance_file": "/tmp/feffdb-round1-20261116/sources-a/NaBr-COD9007464/provenance.json",
+      "absorbers": [
+        "Br"
+      ],
+      "edge": "K",
+      "source_id": "9007464",
+      "cif_sha256": "d71807e45819604c12d62a0404c8edf94fc5c2722da61e46519003852deca980",
+      "first_shell": {
+        "Br": {
+          "indices_one_based": [
+            2
+          ],
+          "first_shell_distance_A": 2.9868999999999994,
+          "first_shell_scatterers": {
+            "Na": 6
+          },
+          "coordination_number": 6,
+          "next_neighbor_distance_A": 4.224114489452197,
+          "suggested_first_shell_cutoff_A": 3.6055072447260983,
+          "first_shell_displacements_A": [
+            [
+              0.0,
+              0.0,
+              2.9868999999999994
+            ],
+            [
+              -2.9869,
+              0.0,
+              -4.440892098500626e-16
+            ],
+            [
+              0.0,
+              -2.9869,
+              -4.440892098500626e-16
+            ],
+            [
+              2.9869,
+              0.0,
+              0.0
+            ],
+            [
+              -4.440892098500626e-16,
+              2.9869,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -2.9869
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "source_database": "COD",
+      "source_id": "1010046",
+      "formula": "KBr",
+      "status": "held",
+      "original_cif": "/tmp/feffdb-round1-20261116/sources-a/1010046.cif",
+      "sha256": "ff6514d9a23b72d4955c5c14b5676263a24d0eb6361d1de6892dd892649b52b9",
+      "doi": "10.1524/zkri.1926.63.1.222",
+      "reason": "Historical lattice unit unresolved: COD gives a=6.585, but NBS Circular539 volume1 gives Ott1926 as6.600 angstrom after conversion and reduction to25C. No correction has been applied. Not accepted for candidate FEFF.",
+      "evidence_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular539v1.pdf",
+      "inference": "A likely historical kX/angstrom conversion issue, not a proven COD error until the original article units are verified."
+    },
+    {
+      "source_database": "COD",
+      "source_id": "9009734",
+      "formula": "KBr",
+      "status": "not_selected",
+      "original_cif": "/tmp/feffdb-round1-20261116/sources-a/9009734.cif",
+      "sha256": "4250da3c04a68e696649d5641f4f0c23003944a5ce2c5640f12c2337a43c71b2",
+      "reason": "Ahtee1969 record gives a=6.5847 with no accessible original article/measurement-temperature or unit verification in this retrieval; do not silently normalize or substitute it."
+    },
+    {
+      "source_database": "COD",
+      "source_id": "9008650",
+      "formula": "KBr",
+      "status": "not_selected",
+      "reason": "Wyckoff1963 compilation has a=6.6 but is secondary compilation; direct measured KCl/NaBr references preferred."
+    },
+    {
+      "source_database": "COD",
+      "source_id": "9003309",
+      "formula": "NaCl",
+      "status": "not_selected",
+      "reason": "Same Walker2004 study at100C;25C record9003308 selected for near-room-temperature reference."
+    }
+  ]
+}

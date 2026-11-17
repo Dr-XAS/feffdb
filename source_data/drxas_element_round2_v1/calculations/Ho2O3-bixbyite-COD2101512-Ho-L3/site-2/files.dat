@@ -1,0 +1,18 @@
+ Formula: Ho2O3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: Ia-3
+ Dr-XAS candidate Ho2O3-bixbyite-COD2101512-Ho-L3 COD 2101512
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=67 Rmt= 1.565 Rnm= 1.652 L3 shell
+ Pot 1 Z= 8 Rmt= 1.054 Rnm= 1.113
+ Pot 2 Z=67 Rmt= 1.568 Rnm= 1.655
+ Gam_ch=4.074E+00 H-L exch
+ Mu=-8.298E+00 kf=2.076E+00 Vint=-1.771E+01 Rs_int= 1.747
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   2.2439
+ feff0002.dat 0.00000    96.780     2.000     2   2.2694
+ feff0003.dat 0.00000    88.880     2.000     2   2.3374
+ feff0004.dat 0.00000    33.370     2.000     2   3.5177
+ feff0005.dat 0.00000    66.230     4.000     2   3.5341
+ feff0006.dat 0.00000    26.280     2.000     2   3.9965

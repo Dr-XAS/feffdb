@@ -1,0 +1,93 @@
+{
+  "filename": "source.cif",
+  "name": "DyPO4 xenotime",
+  "absorber": "Dy",
+  "source_id": "9001656",
+  "related_ids": {
+    "AMCSD": "0001708"
+  },
+  "doi": "10.2138/am-1995-1-203",
+  "citation": "Y. Ni, J. M. Hughes and A. N. Mariano. Crystal chemistry of the monazite and xenotime structures. American Mineralogist 80 (1995), 21-26.",
+  "primary_url": "https://www.msaweb.org/MSA/AmMin/TOC/Articles_Free/1995/Ni_p21-26_95.pdf",
+  "recommendation": "ordered experimental source candidate; native FEFF validation pending",
+  "method": "Experimental single-crystal X-ray structure refinement with CAD4 and graphite-monochromated Mo K-alpha radiation, independently measured synthetic endmember; original Table 2 reports cell and refined oxygen coordinates.",
+  "synthesis_conditions": "Synthetic crystals supplied by L. Boatner, Oak Ridge National Laboratory. The paper refers to earlier preparation methods; exact conditions for this crystal are not independently verified here.",
+  "notes": [
+    "Selected the independently refined pure Dy phosphate instead of COD1539592: the inspected oxide paper abstract describes mixed Y/Dy compositions and does not establish an independent pure-endmember refinement.",
+    "The crystallographic model is an ordered trivalent reference. FEFF L3 EXAFS paths require experimental validation and do not establish 4f multiplet structure, mixed valence, white-line intensity, calibrated S02, or absolute coordination number. No electronic-state or magnetic accuracy is implied by crystallographic agreement.",
+    "All variable coordinates and the unit cell are from this exact downloaded source; no element substitution, coordinate replacement, cell rescaling or symmetrization was written to the CIF.",
+    "The raw CIF omits occupancies; parser assumes full occupancy. This is not an explicit occupancy measurement."
+  ],
+  "scientific_warnings": [
+    "The crystallographic model is an ordered trivalent reference. FEFF L3 EXAFS paths require experimental validation and do not establish 4f multiplet structure, mixed valence, white-line intensity, calibrated S02, or absolute coordination number. No electronic-state or magnetic accuracy is implied by crystallographic agreement."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/9001656.cif",
+  "record_url": "https://www.crystallography.net/cod/9001656.html",
+  "sha256": "422b28d3668362f84e853a5aebeeb1caa8c635741bac33d2af7f486309eeae17",
+  "cif_sha256": "422b28d3668362f84e853a5aebeeb1caa8c635741bac33d2af7f486309eeae17",
+  "retrieved_at_utc": "2026-11-17T04:33:26.644250+00:00",
+  "edge": "L3",
+  "inequivalent_absorber_sites": 1,
+  "suggested_absorber_site_index_one_based": 1,
+  "absorber_site_indices": [
+    1
+  ],
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "No numerical measurement temperature or pressure found in the unchanged CIF or inspected original experimental section; do not fill a nominal room-temperature value.",
+  "original_file_unmodified": true,
+  "license": {
+    "database_policy": "COD dedicates its database/data to the public domain under CC0; retain original article attribution and the unchanged original file notice.",
+    "policy_url": "https://www.crystallography.net/cod/9001656.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "See unchanged CIF header; COD redistribution retains original provider and attribution/public-domain notice."
+  },
+  "inspection": {
+    "formula": "Dy4 P4 O16",
+    "ordered": true,
+    "site_count": 24,
+    "absorber_indices_zero_based": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "inequivalent_absorber_groups": [
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "spacegroup": "I4_1/amd",
+    "spacegroup_number": 141,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Dy",
+        "multiplicity": 4,
+        "wyckoff": "4a",
+        "fractional_coordinates": [
+          0.0,
+          0.75,
+          0.125
+        ],
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.8,
+        "coordination_number": 8,
+        "distances_A": {
+          "2.317478": 4,
+          "2.385049": 4
+        },
+        "next_same_element_distance_A": 4.155583815245623,
+        "site_population_weight": 1.0
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

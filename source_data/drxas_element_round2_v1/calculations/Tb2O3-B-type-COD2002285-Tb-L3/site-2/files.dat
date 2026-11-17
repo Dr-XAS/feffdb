@@ -1,0 +1,24 @@
+ Formula: Tb2O3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: C2/
+ Dr-XAS candidate Tb2O3-B-type-COD2002285-Tb-L3 COD 2002285
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=65 Rmt= 1.579 Rnm= 1.662 L3 shell
+ Pot 1 Z= 8 Rmt= 1.018 Rnm= 1.098
+ Pot 2 Z=65 Rmt= 1.623 Rnm= 1.703
+ Gam_ch=3.901E+00 H-L exch
+ Mu=-8.648E+00 kf=2.008E+00 Vint=-1.850E+01 Rs_int= 1.806
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   2.2513
+ feff0002.dat 0.00000    47.910     1.000     2   2.2871
+ feff0003.dat 0.00000    46.400     1.000     2   2.3142
+ feff0004.dat 0.00000    85.480     2.000     2   2.3854
+ feff0005.dat 0.00000    29.620     1.000     2   2.7277
+ feff0006.dat 0.00000    20.680     1.000     2   3.2784
+ feff0007.dat 0.00000    36.500     2.000     2   3.5360
+ feff0008.dat 0.00000    34.720     2.000     2   3.6325
+ feff0009.dat 0.00000    12.420     1.000     2   3.6852
+ feff0010.dat 0.00000    33.710     2.000     2   3.6886
+ feff0011.dat 0.00000    33.190     2.000     2   3.7178
+ feff0012.dat 0.00000    15.640     1.000     2   3.8277

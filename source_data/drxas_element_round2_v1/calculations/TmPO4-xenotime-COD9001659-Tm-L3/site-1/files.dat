@@ -1,0 +1,18 @@
+ Formula: TmPO4                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: I4_1/amd
+ Dr-XAS candidate TmPO4-xenotime-COD9001659-Tm-L3 COD 9001659
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=69 Rmt= 1.567 Rnm= 1.636 L3 shell
+ Pot 1 Z= 8 Rmt= 0.926 Rnm= 1.035
+ Pot 2 Z=15 Rmt= 0.941 Rnm= 1.151
+ Pot 3 Z=69 Rmt= 1.569 Rnm= 1.638
+ Gam_ch=4.254E+00 H-L exch
+ Mu=-5.863E+00 kf=2.479E+00 Vint=-1.931E+01 Rs_int= 1.463
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     4.000     2   2.2612
+ feff0002.dat 0.00000    89.840     4.000     2   2.3586
+ feff0003.dat 0.00000    27.060     2.000     2   2.9899
+ feff0004.dat 0.00000    27.700     4.000     2   3.7276
+ feff0005.dat 0.00000    35.980     4.000     2   3.7276

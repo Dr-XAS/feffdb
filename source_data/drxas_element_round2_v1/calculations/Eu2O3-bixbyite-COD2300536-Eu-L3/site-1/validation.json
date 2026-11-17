@@ -1,0 +1,153 @@
+{
+  "all_paths": [
+    {
+      "absorber": 63,
+      "degen": 6.0,
+      "edge": "L3",
+      "filename": "feff0001.dat",
+      "geometry": [
+        [
+          "Eu",
+          63,
+          0,
+          151.96,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "O",
+          8,
+          1,
+          15.999,
+          -1.0434,
+          1.414,
+          1.5661
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 2.3539,
+      "scatterer": 8,
+      "sha256": "c0e9ba9e0e014006a002841f99b0efdcd08dd306d49870cd07769b75d0040b52"
+    },
+    {
+      "absorber": 63,
+      "degen": 6.0,
+      "edge": "L3",
+      "filename": "feff0002.dat",
+      "geometry": [
+        [
+          "Eu",
+          63,
+          0,
+          151.96,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "Eu",
+          63,
+          2,
+          151.96,
+          -2.7171,
+          -0.0,
+          2.3843
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 3.6149,
+      "scatterer": 63,
+      "sha256": "a73681529c230058297691326603bb9cb38f5930f522f93098e7b1b56c399649"
+    }
+  ],
+  "artifacts": {
+    "chi.dat": "2014b9a3cd75ae50affcc097dd90914a8d791aac4549cb975e4f64db166c6c27",
+    "feff.inp": "66c529472291a80ef05e84b1ab172c11f2208f171fd5fe3e472cc76b9dbb6be6",
+    "feff.log": "65ea2f75c60083296b1e5c087fb6c5856b5c4093783619864fd11142824375b3",
+    "feff0001.dat": "c0e9ba9e0e014006a002841f99b0efdcd08dd306d49870cd07769b75d0040b52",
+    "feff0002.dat": "a73681529c230058297691326603bb9cb38f5930f522f93098e7b1b56c399649",
+    "files.dat": "d4b9c18296203be02b546dd075a2d459973247bf2c2a1af182f4f23b00689113",
+    "global.json": "2f39fc4f2190df81598916fbc80ba0d7e250048e06f469a630f7bf994dc06d77",
+    "log1.dat": "dabd55192e150f284aaf989fde6deb02d5c96267140c6cf81d372ff73db8d1e8",
+    "log2.dat": "7a9b3fd1c198b4db776e84c87fe894ea8668810088c0200ec909496e24f15cea",
+    "log4.dat": "064e0ea43ef1c5ac1be062339b49bfc1a4c6621f6232a1f3ac06ad629ea498b7",
+    "log5.dat": "e3497986bf513e3160a9a50c9a675df0a0639e41fd49476e252e2eafaf544157",
+    "log6.dat": "dd173d5cb1e184aaa12ffc11f8516ba7a1c683efdce4ee1883739631b950d827",
+    "misc.dat": "f44bef76d48c940e05bb4c8e636808c548e629198cdb4e295dd4252707b48376",
+    "paths.dat": "2fbfe61e365671381f80f69f3de202f4d4a3777c15cc3e4e1c2e16c90d5dfc30",
+    "pot.json": "a95b891f1591cf64297b4ade686ad0fa4b418e9d01abcf557cb1fc8dbf5f2084",
+    "run.json": "3b38cd3e415517ff829a4a663d526aa2fc9b06b279c007338ba5a0c7b62c00d0",
+    "xmu.dat": "5c7f31bbaf3ccb88fdb6944ef712958336833c3a1f6c8bcf122433de70d109f5"
+  },
+  "cif_coordination": 6,
+  "coordination_sum": 6.0,
+  "distance_tolerance_A": 0.0002,
+  "experimental_validation": false,
+  "larch_chi_evaluation": "passed",
+  "max_distance_error_A": 4.333713421011964e-05,
+  "native_diagnostics": [
+    "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+    "WARNING:  rmax > distance to most distant atom.",
+    "rmax, ratx   4.00000E+00  0.00000E+00",
+    "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+    "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+    "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+  ],
+  "native_potential_controls": {
+    "ca1": 0.2,
+    "ihole": 4,
+    "iunf": 0,
+    "ixc": 0,
+    "lfms1": 0,
+    "nmix": 1,
+    "nscmt": 30,
+    "rfms1": 5.0
+  },
+  "review_status": "candidate",
+  "scf_hit_iteration_limit": false,
+  "scf_iteration_limit": 30,
+  "scf_iterations": 9,
+  "selected_paths": [
+    {
+      "absorber": 63,
+      "degen": 6.0,
+      "edge": "L3",
+      "filename": "feff0001.dat",
+      "geometry": [
+        [
+          "Eu",
+          63,
+          0,
+          151.96,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          "O",
+          8,
+          1,
+          15.999,
+          -1.0434,
+          1.414,
+          1.5661
+        ]
+      ],
+      "kmax": 20.0,
+      "kmin": -0.0,
+      "nleg": 2,
+      "points": 59,
+      "reff": 2.3539,
+      "scatterer": 8,
+      "sha256": "c0e9ba9e0e014006a002841f99b0efdcd08dd306d49870cd07769b75d0040b52"
+    }
+  ],
+  "technical_validation": "passed"
+}

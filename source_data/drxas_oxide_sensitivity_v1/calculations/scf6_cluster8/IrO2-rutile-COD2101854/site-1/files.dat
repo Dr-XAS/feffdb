@@ -1,0 +1,18 @@
+ Formula: IrO2                                  Feff8L (EXAFS)       0.1
+ SpaceGroup: P4_2/mnm
+ Dr-XAS candidate IrO2-rutile-COD2101854 COD 2101854
+ POT  SCF  30  6.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=77 Rmt= 1.315 Rnm= 1.413 L3 shell
+ Pot 1 Z= 8 Rmt= 0.966 Rnm= 1.040
+ Pot 2 Z=77 Rmt= 1.318 Rnm= 1.422
+ Gam_ch=5.060E+00 H-L exch
+ Mu=-6.047E+00 kf=2.423E+00 Vint=-1.683E+01 Rs_int= 1.497
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   1.9604
+ feff0002.dat 0.00000   189.000     4.000     2   1.9988
+ feff0003.dat 0.00000    26.980     2.000     2   3.1586
+ feff0004.dat 0.00000    39.530     4.000     2   3.4131
+ feff0005.dat 0.00000    85.300     8.000     2   3.5556
+ feff0006.dat 0.00000    30.250     4.000     2   3.7175

@@ -1,0 +1,22 @@
+ Formula: Sc2O3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: Ia-3
+ Dr-XAS candidate Sc2O3-bixbyite-COD4501808-Sc-K COD 4501808
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=21 Rmt= 1.394 Rnm= 1.484 K  shell
+ Pot 1 Z= 8 Rmt= 1.037 Rnm= 1.105
+ Pot 2 Z=21 Rmt= 1.396 Rnm= 1.489
+ Gam_ch=8.229E-01 H-L exch
+ Mu=-1.220E+01 kf=2.118E+00 Vint=-2.166E+01 Rs_int= 1.712
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   2.0759
+ feff0002.dat 0.00000    94.850     2.000     2   2.1232
+ feff0003.dat 0.00000    90.850     2.000     2   2.1625
+ feff0004.dat 0.00000    43.610     2.000     2   3.2434
+ feff0005.dat 0.00000    64.670     3.000     2   3.2615
+ feff0006.dat 0.00000    21.560     1.000     2   3.2615
+ feff0007.dat 0.00000    24.720     2.000     2   3.6917
+ feff0008.dat 0.00000    32.530     2.000     2   3.7280
+ feff0009.dat 0.00000    64.460     4.000     2   3.7438
+ feff0010.dat 0.00000    21.500     2.000     2   3.8993

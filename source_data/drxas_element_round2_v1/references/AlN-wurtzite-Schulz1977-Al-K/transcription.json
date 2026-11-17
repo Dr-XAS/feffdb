@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "source_database": "publication",
+  "source_record_id": "10.1016/0038-1098(77)90959-0",
+  "original_file_unmodified": false,
+  "derivation": "transcribed from published experimental refinement",
+  "citation": "H. Schulz and K. H. Thiemann. Crystal structure refinement of AlN and GaN. Solid State Communications23(11) (1977),815–819.",
+  "doi": "10.1016/0038-1098(77)90959-0",
+  "publisher_url": "https://www.sciencedirect.com/science/article/pii/0038109877909590",
+  "primary_article_read_url": "https://lab.semi.ac.cn/download/0.6819154580152995.pdf",
+  "original_paper_working_copy_sha256": "bb195f9b8312af26bbc618cf1fe977cbfbb81d7df1d258fc9e321ba91b9c92fd",
+  "paper_not_redistributed": true,
+  "fields": [
+    {
+      "field": "cell_length_a",
+      "printed": "3.110(1)",
+      "value": 3.11,
+      "standard_uncertainty": 0.001,
+      "unit": "angstrom",
+      "source": "p816 Table1 a[Å]"
+    },
+    {
+      "field": "cell_length_b",
+      "printed": null,
+      "value": 3.11,
+      "standard_uncertainty": 0.001,
+      "unit": "angstrom",
+      "source": "b=a from the stated hexagonal wurtzite cell, not an independent measurement"
+    },
+    {
+      "field": "cell_length_c",
+      "printed": "4.980(1)",
+      "value": 4.98,
+      "standard_uncertainty": 0.001,
+      "unit": "angstrom",
+      "source": "p816 Table1 c[Å]"
+    },
+    {
+      "field": "cell_angles",
+      "value": [
+        90,
+        90,
+        120
+      ],
+      "standard_uncertainty": null,
+      "unit": "degree",
+      "source": "Exact standard hexagonal setting of the published wurtzite model"
+    },
+    {
+      "field": "spacegroup",
+      "value": "P63mc (186), Hall P 6c -2c",
+      "source": "Standard crystallographic encoding of the paper's wurtzite structure and p816 Table2/3 positions; numeric identifier not printed in paper"
+    },
+    {
+      "field": "Al_x_and_N_x",
+      "printed": "-1/3",
+      "value": "-1/3",
+      "standard_uncertainty": null,
+      "source": "p816 Table2 footnote; exact symmetry coordinate; long decimal serialization, no rescaling"
+    },
+    {
+      "field": "Al_y_and_N_y",
+      "printed": "-2/3",
+      "value": "-2/3",
+      "standard_uncertainty": null,
+      "source": "p816 Table2 footnote; exact symmetry coordinate; long decimal serialization, no rescaling"
+    },
+    {
+      "field": "Al_z",
+      "printed": "0",
+      "value": 0,
+      "standard_uncertainty": null,
+      "source": "p816 Table2 Al row; origin choice"
+    },
+    {
+      "field": "N_z",
+      "printed": "0.3821(3)",
+      "value": 0.3821,
+      "standard_uncertainty": 0.0003,
+      "source": "p816 Table2 N row"
+    },
+    {
+      "field": "Al_U_iso",
+      "printed": "0.38(2), displayed times100",
+      "value": 0.0038,
+      "standard_uncertainty": 0.0002,
+      "unit": "angstrom squared",
+      "source": "p816 Table2 isotropic U column and scaling footnote"
+    },
+    {
+      "field": "N_U_iso",
+      "printed": "0.44(2), displayed times100",
+      "value": 0.0044,
+      "standard_uncertainty": 0.0002,
+      "unit": "angstrom squared",
+      "source": "p816 Table2 isotropic U column and scaling footnote"
+    },
+    {
+      "field": "occupancies",
+      "printed": null,
+      "value": {
+        "Al": 1,
+        "N": 1
+      },
+      "standard_uncertainty": null,
+      "source": "Implicit full-occupation stoichiometric AlN source model; occupancy not reported as an independent refined parameter"
+    },
+    {
+      "field": "formula_units_Z",
+      "value": 2,
+      "source": "Derived from the standard wurtzite expansion of one Al and one N 2b site"
+    },
+    {
+      "field": "isotropic_R",
+      "printed": "0.015",
+      "value": 0.015,
+      "source": "p816 Table2 isotropic column; reflection subset unspecified"
+    },
+    {
+      "field": "isotropic_Rw",
+      "printed": "0.021",
+      "value": 0.021,
+      "source": "p816 Table2 isotropic column; reflection subset unspecified"
+    }
+  ],
+  "verification": {
+    "visual_source": "Published page816 (PDFpage2), Tables1–3 and footnotes",
+    "independent_reader": "A second agent separately inspected the original rendered table and the generated CIF; all central values, printed uncertainties, negative fractional coordinates and the U/100 conversion agreed.",
+    "table3_targets": [
+      {
+        "distance_A": 1.8891,
+        "standard_uncertainty_A": 0.0007,
+        "multiplicity": 3,
+        "label": "Al-Nprime"
+      },
+      {
+        "distance_A": 1.9029,
+        "standard_uncertainty_A": 0.0014,
+        "multiplicity": 1,
+        "label": "Al-N"
+      }
+    ],
+    "method": "Parse generated CIF independently with pymatgen and larixite, enumerate first-shell N neighbors, check3+1 distances against Table3 to5e-5Å printed rounding tolerance. No adjustment of geometry to match Table3."
+  },
+  "conditions": {
+    "measurement_temperature_K": null,
+    "measurement_pressure_GPa": null,
+    "synthesis_temperature_K": null,
+    "synthesis_pressure_GPa": null,
+    "evidence": "Neither diffraction T/P nor a numerical crystal-growth condition was identified in pp815–819; no ambient conditions inferred. p818 acknowledgements identify Siemens/Philips supply, not conditions."
+  },
+  "rights": {
+    "status": "Locally authored transcription of published numeric crystallographic facts with full attribution; not an original publisher CIF and not a COD-licensed artifact.",
+    "article_rights": "Publisher article copyright/licensing remains separate; no PDF or page image included in deliverable.",
+    "data_license_url": null,
+    "note": "No claim that the publisher placed the article or its crystallographic facts under CC0."
+  },
+  "limitations": [
+    "The space-group number and unit occupancies are explicit encodings of the published wurtzite stoichiometric model, not separately printed/refined parameters.",
+    "Coordinates/cell are experimental and unchanged; no ideal wurtzite u=.375 substitution, cell rescaling or bond equalization.",
+    "The isotropic U column is preserved in CIF for fidelity; native FEFF uses average geometry and must not treat these values as a validated EXAFS Debye-Waller factor.",
+    "No XAS measurement or experimental EXAFS validation is provided."
+  ]
+}

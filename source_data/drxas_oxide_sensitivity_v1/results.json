@@ -1,0 +1,4487 @@
+{
+  "auto_promoted": false,
+  "baseline_reproduction": [
+    {
+      "all_input_and_raw_path_bytes_identical": true,
+      "compared_files": 7,
+      "differences": [],
+      "executable_fingerprints_match_source": true,
+      "package_versions_match_source": true,
+      "reference": "IrO2-rutile-COD2101854"
+    },
+    {
+      "all_input_and_raw_path_bytes_identical": true,
+      "compared_files": 9,
+      "differences": [],
+      "executable_fingerprints_match_source": true,
+      "package_versions_match_source": true,
+      "reference": "beta-PtO2-COD1530633"
+    },
+    {
+      "all_input_and_raw_path_bytes_identical": true,
+      "compared_files": 23,
+      "differences": [],
+      "executable_fingerprints_match_source": true,
+      "package_versions_match_source": true,
+      "reference": "B-Ta2O5-COD2102123"
+    }
+  ],
+  "experimental_validation": false,
+  "failures": [],
+  "protocol": {
+    "analysis_parameters": {
+      "deltar_A": 0,
+      "e0_eV": 0,
+      "kstep_invA": 0.05,
+      "native_degeneracy": true,
+      "s02": 1,
+      "sigma2_A2": 0,
+      "weight": 2
+    },
+    "complex_convention": "Larch complex path reconstructed as -chi_imag + 1j*chi. Full shell is the complex sum with native degeneracies; sigma2=0 avoids damping high-k differences.",
+    "experimental_validation": false,
+    "interpretation": "Separate one-factor variations. Lower-radius probes are sensitivity bounds; larger-radius comparisons test local numerical stability only, not global convergence.",
+    "phase_mask": "Keep points where baseline |complex path| >= 5% of its maximum in the window; use circular phase differences weighted by squared k^2 baseline amplitude.",
+    "primary_docs": [
+      "https://feff.phys.washington.edu/FEFF/Docs/feff8/feff84/feff84/SCF.html",
+      "https://feff.phys.washington.edu/feff/Docs/feff8/feff8web/node49.html",
+      "https://xraypy.github.io/xraylarch/xafs_feffpaths.html"
+    ],
+    "promote_candidates": false,
+    "review_thresholds": {
+      "amplitude_relative_rms": 0.03,
+      "complex_relative_rms": 0.05,
+      "phase_weighted_rms_rad": 0.03
+    },
+    "settings": {
+      "baseline_scf5_cluster8": {
+        "cluster_radius_A": 8.0,
+        "scf_radius_A": 5.0
+      },
+      "scf4_cluster8": {
+        "cluster_radius_A": 8.0,
+        "scf_radius_A": 4.0
+      },
+      "scf5_cluster7": {
+        "cluster_radius_A": 7.0,
+        "scf_radius_A": 5.0
+      },
+      "scf5_cluster9": {
+        "cluster_radius_A": 9.0,
+        "scf_radius_A": 5.0
+      },
+      "scf6_cluster8": {
+        "cluster_radius_A": 8.0,
+        "scf_radius_A": 6.0
+      }
+    },
+    "source_commit": "547463406c812c2ea70333cb3861d80be8ceeb6c",
+    "source_inventory_sha256": "81ba5660feb6d92cb4cb21c4611352794fa84323c120222fa0b0be5f7211ffa6",
+    "source_repository": "https://github.com/Dr-XAS/feffdb",
+    "source_script_sha256": "c79b22ad0a432078ff3181632edf0018f50c6350f73686cfd7a8016b21a1eac2",
+    "status": "candidate",
+    "threshold_reason": "Predeclared numerical review triggers, not literature standards or experimental uncertainty. 5% complex / 3% amplitude changes flag material numerical dependence. A 0.03 rad phase change would correspond roughly to 0.0025 A at k=6 if entirely represented as 2k*dR; this is not a fit bias estimate.",
+    "windows_invA": {
+      "12-16": [
+        12.0,
+        16.0
+      ],
+      "16-20": [
+        16.0,
+        20.0
+      ],
+      "3-12": [
+        3.0,
+        12.0
+      ],
+      "3-8": [
+        3.0,
+        8.0
+      ],
+      "8-12": [
+        8.0,
+        12.0
+      ]
+    }
+  },
+  "results": [
+    {
+      "actual_cluster_radius_A": 7.990980389651822,
+      "atom_count": 201,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.9604_N2": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.22885260963988407,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.2322865593552915e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.6122326081605764e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.20467257495933347,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.9614269711306345e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.727492819461654e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.43897228013825895,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.434729205073468e-17,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 1.6529179697622513e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.5154832008137357,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.434729205073468e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.6777771854297417e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.3179004759679114,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.9220237486918566e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.539028149873213e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9988_N4": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.4396780634957585,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.4610129227000376e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.5870020996859853e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.3904261431907315,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.269888944931843e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.626052298605886e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.8372663243513921,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.849450230329016e-17,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 1.4199676115714533e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.982686318436426,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.849450230329016e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.4444740788954278e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.6073812399256618,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.644337097226746e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.4580052971687047e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.5864793459874906,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.4477074498608477e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.5958995856773325e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.4786387268542056,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.908149165678695e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.6670655024695458e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 1.2391807071823326,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.948148653368905e-17,
+            "phase_points": 141,
+            "phase_weighted_rms_rad": 1.615952490567492e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 1.469492428115221,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.6586277452562064e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.6200813348308226e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.8675952746250675,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.948148653368905e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.4926949961711416e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 8.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 5.0,
+        "with_h": false
+      },
+      "reference": "IrO2-rutile-COD2101854",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          51
+        ],
+        "1": [
+          51
+        ],
+        "2": [
+          51
+        ]
+      },
+      "scf_iterations": 6,
+      "selected_path_count": 2,
+      "setting": "baseline_scf5_cluster8"
+    },
+    {
+      "actual_cluster_radius_A": 7.990980389651822,
+      "atom_count": 201,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.9604_N2": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00015631154047423998,
+            "baseline_weighted_rms": 0.22885260963988407,
+            "chi_relative_rms": 0.010524301506524364,
+            "complex_relative_rms": 0.010107257516601215,
+            "phase_max_abs_rad": 0.011299999999998523,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.010106135865110489,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00033072683262774875,
+            "baseline_weighted_rms": 0.20467257495933347,
+            "chi_relative_rms": 0.008492351507104633,
+            "complex_relative_rms": 0.009052800985095694,
+            "phase_max_abs_rad": 0.009448023701970856,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.009048200363848107,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0011270695607961286,
+            "baseline_weighted_rms": 0.43897228013825895,
+            "chi_relative_rms": 0.021069949721353926,
+            "complex_relative_rms": 0.020972999402295266,
+            "phase_max_abs_rad": 0.02900000000000436,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 0.021548897881965772,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0012731902150437502,
+            "baseline_weighted_rms": 0.5154832008137357,
+            "chi_relative_rms": 0.022559348365334558,
+            "complex_relative_rms": 0.022682438240139272,
+            "phase_max_abs_rad": 0.02900000000000436,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.022662292365326367,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0003179102396262392,
+            "baseline_weighted_rms": 0.3179004759679114,
+            "chi_relative_rms": 0.014695888651951348,
+            "complex_relative_rms": 0.01384372413478619,
+            "phase_max_abs_rad": 0.015499999999999459,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.013841498045866367,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9988_N4": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0001605192580198744,
+            "baseline_weighted_rms": 0.4396780634957585,
+            "chi_relative_rms": 0.009675950083017542,
+            "complex_relative_rms": 0.010500404137165803,
+            "phase_max_abs_rad": 0.012299999999996368,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.010499390230873946,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0002885994600260389,
+            "baseline_weighted_rms": 0.3904261431907315,
+            "chi_relative_rms": 0.009141281117061393,
+            "complex_relative_rms": 0.008518066806826347,
+            "phase_max_abs_rad": 0.009000000000000254,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.008514309282511883,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0011316081979025662,
+            "baseline_weighted_rms": 0.8372663243513921,
+            "chi_relative_rms": 0.021203968263677164,
+            "complex_relative_rms": 0.02137547023281966,
+            "phase_max_abs_rad": 0.029046055435960037,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 0.02197107395809454,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0012810963825828647,
+            "baseline_weighted_rms": 0.982686318436426,
+            "chi_relative_rms": 0.02280091923595166,
+            "complex_relative_rms": 0.023124807654308226,
+            "phase_max_abs_rad": 0.029046055435960037,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.023105230636466457,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00028971619863311097,
+            "baseline_weighted_rms": 0.6073812399256618,
+            "chi_relative_rms": 0.014777800419672275,
+            "complex_relative_rms": 0.01412617193027381,
+            "phase_max_abs_rad": 0.016500000000000625,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.014124404507853447,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00027882897426248726,
+            "baseline_weighted_rms": 0.5864793459874906,
+            "chi_relative_rms": 0.009785325133793689,
+            "complex_relative_rms": 0.010417403913749143,
+            "phase_max_abs_rad": 0.011990915810921546,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.010414383338326208,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00011008356026906572,
+            "baseline_weighted_rms": 0.4786387268542056,
+            "chi_relative_rms": 0.009034462248435952,
+            "complex_relative_rms": 0.008662871520952643,
+            "phase_max_abs_rad": 0.009013225162968794,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.008662591255230327,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0011771118539255743,
+            "baseline_weighted_rms": 1.2391807071823326,
+            "chi_relative_rms": 0.02135018597015609,
+            "complex_relative_rms": 0.021428129335899826,
+            "phase_max_abs_rad": 0.029028186611572943,
+            "phase_points": 141,
+            "phase_weighted_rms_rad": 0.022035321435353823,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0013180051196493043,
+            "baseline_weighted_rms": 1.469492428115221,
+            "chi_relative_rms": 0.022759562696699664,
+            "complex_relative_rms": 0.02304620130249129,
+            "phase_max_abs_rad": 0.029028186611572943,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.023024874277556635,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0003223513889437579,
+            "baseline_weighted_rms": 0.8675952746250675,
+            "chi_relative_rms": 0.015018702390986776,
+            "complex_relative_rms": 0.014073890480491302,
+            "phase_max_abs_rad": 0.01617084677007213,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.014071836605227024,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 8.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 6.0,
+        "with_h": false
+      },
+      "reference": "IrO2-rutile-COD2101854",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          83
+        ],
+        "1": [
+          85
+        ],
+        "2": [
+          79
+        ]
+      },
+      "scf_iterations": 6,
+      "selected_path_count": 2,
+      "setting": "scf6_cluster8"
+    },
+    {
+      "actual_cluster_radius_A": 8.97211613054579,
+      "atom_count": 295,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.9604_N2": {
+          "12-16": {
+            "amplitude_relative_rms": 1.2897348440654425e-06,
+            "baseline_weighted_rms": 0.22885260963988407,
+            "chi_relative_rms": 5.114920374742943e-05,
+            "complex_relative_rms": 4.9088287464091974e-05,
+            "phase_max_abs_rad": 9.999999999622488e-05,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 4.907133889284307e-05,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 1.948795992533327e-05,
+            "baseline_weighted_rms": 0.20467257495933347,
+            "chi_relative_rms": 0.0005195255086786466,
+            "complex_relative_rms": 0.000527880580482694,
+            "phase_max_abs_rad": 0.0010993070714348423,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.000527522824805121,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 1.5823316535922206e-05,
+            "baseline_weighted_rms": 0.43897228013825895,
+            "chi_relative_rms": 1.6571683535831907e-05,
+            "complex_relative_rms": 1.5951692211510164e-05,
+            "phase_max_abs_rad": 1.1619236559525167e-06,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 9.213357673477663e-08,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 8.686371793437496e-06,
+            "baseline_weighted_rms": 0.5154832008137357,
+            "chi_relative_rms": 7.542191633998862e-06,
+            "complex_relative_rms": 8.68637179891809e-06,
+            "phase_max_abs_rad": 1.6782415284226255e-09,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 3.0839300333310363e-10,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 2.862544932276412e-05,
+            "baseline_weighted_rms": 0.3179004759679114,
+            "chi_relative_rms": 3.212613886843778e-05,
+            "complex_relative_rms": 2.8927435253845924e-05,
+            "phase_max_abs_rad": 1.353510310763692e-05,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 4.168953593435733e-06,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9988_N4": {
+          "12-16": {
+            "amplitude_relative_rms": 2.5052601682883757e-08,
+            "baseline_weighted_rms": 0.4396780634957585,
+            "chi_relative_rms": 5.1903847774413795e-05,
+            "complex_relative_rms": 5.306820773629196e-05,
+            "phase_max_abs_rad": 0.00010272567185866414,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 5.306820135567383e-05,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 9.901577243097133e-06,
+            "baseline_weighted_rms": 0.3904261431907315,
+            "chi_relative_rms": 7.3508456850069215e-06,
+            "complex_relative_rms": 9.906489965224986e-06,
+            "phase_max_abs_rad": 8.485265751761089e-07,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 3.1194796663989646e-07,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 9.636041679740956e-06,
+            "baseline_weighted_rms": 0.8372663243513921,
+            "chi_relative_rms": 0.00034668295658493096,
+            "complex_relative_rms": 0.00031839030359323453,
+            "phase_max_abs_rad": 0.001000000000001204,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 0.0003273498390116262,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 1.0954815460727646e-05,
+            "baseline_weighted_rms": 0.982686318436426,
+            "chi_relative_rms": 0.0003169794817046561,
+            "complex_relative_rms": 0.0002618764608040868,
+            "phase_max_abs_rad": 0.0010000000000011213,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.00026164742079936107,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 1.6035963600057104e-06,
+            "baseline_weighted_rms": 0.6073812399256618,
+            "chi_relative_rms": 0.00047414469669215874,
+            "complex_relative_rms": 0.00047368616310738645,
+            "phase_max_abs_rad": 0.001000000000001204,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004736839154747876,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 2.5028091790585833e-06,
+            "baseline_weighted_rms": 0.5864793459874906,
+            "chi_relative_rms": 5.208945315457507e-05,
+            "complex_relative_rms": 5.2640511784884915e-05,
+            "phase_max_abs_rad": 0.00010113798473480123,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 5.258093682155633e-05,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0001838334993081998,
+            "baseline_weighted_rms": 0.4786387268542056,
+            "chi_relative_rms": 0.00023168893106564575,
+            "complex_relative_rms": 0.00022287674482929706,
+            "phase_max_abs_rad": 0.0002725246079212167,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0001259919928777816,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 4.550636515695442e-05,
+            "baseline_weighted_rms": 1.2391807071823326,
+            "chi_relative_rms": 0.00023414095228659775,
+            "complex_relative_rms": 0.00021581871786566914,
+            "phase_max_abs_rad": 0.0006765445500927173,
+            "phase_points": 141,
+            "phase_weighted_rms_rad": 0.0002167072393525985,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 3.135203923410584e-05,
+            "baseline_weighted_rms": 1.469492428115221,
+            "chi_relative_rms": 0.00021138436794295945,
+            "complex_relative_rms": 0.00017559041216143098,
+            "phase_max_abs_rad": 0.0006700817995553002,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.00017277687677291236,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 7.93345255319803e-05,
+            "baseline_weighted_rms": 0.8675952746250675,
+            "chi_relative_rms": 0.00033481072005366204,
+            "complex_relative_rms": 0.0003327877905273357,
+            "phase_max_abs_rad": 0.0006765445500927173,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0003232127287384694,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 9.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 5.0,
+        "with_h": false
+      },
+      "reference": "IrO2-rutile-COD2101854",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          51
+        ],
+        "1": [
+          51
+        ],
+        "2": [
+          51
+        ]
+      },
+      "scf_iterations": 6,
+      "selected_path_count": 2,
+      "setting": "scf5_cluster9"
+    },
+    {
+      "actual_cluster_radius_A": 7.990980389651822,
+      "atom_count": 201,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.9604_N2": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0002284782979077312,
+            "baseline_weighted_rms": 0.22885260963988407,
+            "chi_relative_rms": 0.0005871923736964498,
+            "complex_relative_rms": 0.00056597112165744,
+            "phase_max_abs_rad": 0.0008333291660846554,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005178528244732592,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00024071918008019072,
+            "baseline_weighted_rms": 0.20467257495933347,
+            "chi_relative_rms": 0.00045735072884054123,
+            "complex_relative_rms": 0.0005036007375136802,
+            "phase_max_abs_rad": 0.001100000000000868,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00044230439623414627,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0006417910339036539,
+            "baseline_weighted_rms": 0.43897228013825895,
+            "chi_relative_rms": 0.0010901058506783638,
+            "complex_relative_rms": 0.0010836357442731805,
+            "phase_max_abs_rad": 0.002233284735279361,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 0.0009016188474015433,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0007022110922589131,
+            "baseline_weighted_rms": 0.5154832008137357,
+            "chi_relative_rms": 0.0012047323246733184,
+            "complex_relative_rms": 0.0012052799998753844,
+            "phase_max_abs_rad": 0.002233284735279361,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.000979765870462461,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.000373919603308669,
+            "baseline_weighted_rms": 0.3179004759679114,
+            "chi_relative_rms": 0.0005025310973279372,
+            "complex_relative_rms": 0.0004948008780073171,
+            "phase_max_abs_rad": 0.0006275206200179852,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00032412098144093986,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9988_N4": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0002122756524490221,
+            "baseline_weighted_rms": 0.4396780634957585,
+            "chi_relative_rms": 0.0003080325154861118,
+            "complex_relative_rms": 0.00033956819927172114,
+            "phase_max_abs_rad": 0.0005999999999987495,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0002650480793559446,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00020128059463970965,
+            "baseline_weighted_rms": 0.3904261431907315,
+            "chi_relative_rms": 0.0012146660466401235,
+            "complex_relative_rms": 0.0011138677618329207,
+            "phase_max_abs_rad": 0.0020999999999987257,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.001095426559668992,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0006414453935580018,
+            "baseline_weighted_rms": 0.8372663243513921,
+            "chi_relative_rms": 0.0011170935085794266,
+            "complex_relative_rms": 0.0011269744107149464,
+            "phase_max_abs_rad": 0.002118328683689424,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 0.0009632399554958245,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0007036811847520642,
+            "baseline_weighted_rms": 0.982686318436426,
+            "chi_relative_rms": 0.0012474615046184543,
+            "complex_relative_rms": 0.0012614599720579304,
+            "phase_max_abs_rad": 0.002118328683689424,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0010470936083305181,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00036490636741339096,
+            "baseline_weighted_rms": 0.6073812399256618,
+            "chi_relative_rms": 0.00045123316961147655,
+            "complex_relative_rms": 0.00045578526296518137,
+            "phase_max_abs_rad": 0.0005999999999985892,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0002731468177641124,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0003470692730697162,
+            "baseline_weighted_rms": 0.5864793459874906,
+            "chi_relative_rms": 0.00037094031820432595,
+            "complex_relative_rms": 0.00039445502904379487,
+            "phase_max_abs_rad": 0.0005821818466592354,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00018745918922094646,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0004579352543550622,
+            "baseline_weighted_rms": 0.4786387268542056,
+            "chi_relative_rms": 0.0011082378526973949,
+            "complex_relative_rms": 0.0010260937986485716,
+            "phase_max_abs_rad": 0.0018930063828879256,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0009180070251433991,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.000645029967112666,
+            "baseline_weighted_rms": 1.2391807071823326,
+            "chi_relative_rms": 0.0010856962784150867,
+            "complex_relative_rms": 0.0010918458542055172,
+            "phase_max_abs_rad": 0.002153281583961301,
+            "phase_points": 141,
+            "phase_weighted_rms_rad": 0.0009188970057352227,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0007052113445899121,
+            "baseline_weighted_rms": 1.469492428115221,
+            "chi_relative_rms": 0.0012038375963978245,
+            "complex_relative_rms": 0.001215420372597288,
+            "phase_max_abs_rad": 0.002153281583961301,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0009900502543568948,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00034908089502275934,
+            "baseline_weighted_rms": 0.8675952746250675,
+            "chi_relative_rms": 0.00037737458984719093,
+            "complex_relative_rms": 0.00039437034392393816,
+            "phase_max_abs_rad": 0.0002999415079072941,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00018352846720913287,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 8.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 4.0,
+        "with_h": false
+      },
+      "reference": "IrO2-rutile-COD2101854",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          25
+        ],
+        "1": [
+          24
+        ],
+        "2": [
+          25
+        ]
+      },
+      "scf_iterations": 7,
+      "selected_path_count": 2,
+      "setting": "scf4_cluster8"
+    },
+    {
+      "actual_cluster_radius_A": 6.994926063640701,
+      "atom_count": 129,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.9604_N2": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00011209848241883049,
+            "baseline_weighted_rms": 0.22885260963988407,
+            "chi_relative_rms": 0.0007410537499219765,
+            "complex_relative_rms": 0.0007246594862721726,
+            "phase_max_abs_rad": 0.0007999999999980682,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0007159029524879553,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 8.094480483282136e-05,
+            "baseline_weighted_rms": 0.20467257495933347,
+            "chi_relative_rms": 0.00044704974079790385,
+            "complex_relative_rms": 0.0004834449229657857,
+            "phase_max_abs_rad": 0.0008497288247113041,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00047660062933236566,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00014637435032825794,
+            "baseline_weighted_rms": 0.43897228013825895,
+            "chi_relative_rms": 0.0007034135186475957,
+            "complex_relative_rms": 0.0007798752614474749,
+            "phase_max_abs_rad": 0.0019999999999980333,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 0.0007944257197289459,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00016388655529928485,
+            "baseline_weighted_rms": 0.5154832008137357,
+            "chi_relative_rms": 0.0007444013474612493,
+            "complex_relative_rms": 0.0008479180142907061,
+            "phase_max_abs_rad": 0.0019999999999980333,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0008318809852369228,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 5.801542394231128e-05,
+            "baseline_weighted_rms": 0.3179004759679114,
+            "chi_relative_rms": 0.000536574397792165,
+            "complex_relative_rms": 0.0004887003760242049,
+            "phase_max_abs_rad": 0.0006427031061557181,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004852308976093226,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9988_N4": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00011883066039862465,
+            "baseline_weighted_rms": 0.4396780634957585,
+            "chi_relative_rms": 0.0004382162189949888,
+            "complex_relative_rms": 0.00046833289684115176,
+            "phase_max_abs_rad": 0.000699999999994797,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004529792662435423,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 7.526734453147972e-05,
+            "baseline_weighted_rms": 0.3904261431907315,
+            "chi_relative_rms": 0.0007606806067687623,
+            "complex_relative_rms": 0.0007194622643454318,
+            "phase_max_abs_rad": 0.0008302721033501813,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0007154936676609567,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00014454696707085691,
+            "baseline_weighted_rms": 0.8372663243513921,
+            "chi_relative_rms": 0.0007425455165952778,
+            "complex_relative_rms": 0.0008104684871438161,
+            "phase_max_abs_rad": 0.001999999999998881,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 0.0008251185989162728,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00016164711875842283,
+            "baseline_weighted_rms": 0.982686318436426,
+            "chi_relative_rms": 0.0008159631737409669,
+            "complex_relative_rms": 0.0009002999425544627,
+            "phase_max_abs_rad": 0.001999999999998881,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0008856188836975672,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 5.970078189480626e-05,
+            "baseline_weighted_rms": 0.6073812399256618,
+            "chi_relative_rms": 0.0004094202156975984,
+            "complex_relative_rms": 0.00038490740770782673,
+            "phase_max_abs_rad": 0.000601922247106677,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00038023908225701846,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00017366935343255625,
+            "baseline_weighted_rms": 0.5864793459874906,
+            "chi_relative_rms": 0.0003591509146984991,
+            "complex_relative_rms": 0.00036918068068248676,
+            "phase_max_abs_rad": 0.0006938571393104421,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0003257710015336461,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0003213169510561806,
+            "baseline_weighted_rms": 0.4786387268542056,
+            "chi_relative_rms": 0.0006693219844988188,
+            "complex_relative_rms": 0.0006469847593823185,
+            "phase_max_abs_rad": 0.0007212780484562826,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005614755750809822,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00015682133274029432,
+            "baseline_weighted_rms": 1.2391807071823326,
+            "chi_relative_rms": 0.0006577821064170299,
+            "complex_relative_rms": 0.0007700957735214926,
+            "phase_max_abs_rad": 0.0020003003376497007,
+            "phase_points": 141,
+            "phase_weighted_rms_rad": 0.0007860927852675884,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00016710299127489054,
+            "baseline_weighted_rms": 1.469492428115221,
+            "chi_relative_rms": 0.0007323578576128242,
+            "complex_relative_rms": 0.0008601510856380933,
+            "phase_max_abs_rad": 0.0020003003376497007,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0008437084287508496,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0001108063013758686,
+            "baseline_weighted_rms": 0.8675952746250675,
+            "chi_relative_rms": 0.00018626340476320116,
+            "complex_relative_rms": 0.00023969253053879525,
+            "phase_max_abs_rad": 0.0005030640650832981,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00021253755726697516,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 7.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 5.0,
+        "with_h": false
+      },
+      "reference": "IrO2-rutile-COD2101854",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          51
+        ],
+        "1": [
+          51
+        ],
+        "2": [
+          45
+        ]
+      },
+      "scf_iterations": 6,
+      "selected_path_count": 2,
+      "setting": "scf5_cluster7"
+    },
+    {
+      "actual_cluster_radius_A": 7.938549235905764,
+      "atom_count": 205,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.9891_N2": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.220730688437116,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.685051823218852e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.8139741025477846e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.19669516465542913,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.10744167005769e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.7363319969961425e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.41946644172481756,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.168919312889162e-17,
+            "phase_points": 146,
+            "phase_weighted_rms_rad": 1.5545833463369183e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.49186686976692534,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.168919312889162e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.5369954293065026e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.30522554176778754,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.075014518039928e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.6409110393585846e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.0034_N4": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.4349361415642868,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.921856796118886e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.7295230694252306e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.38638684347673985,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.053913896555844e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.6569713135416994e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.8242849240293543,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 5.225355284564049e-17,
+            "phase_points": 146,
+            "phase_weighted_rms_rad": 1.754480134797242e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.9663442936706521,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 5.225355284564049e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.7920198739018112e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.6002236471053995,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.423565792396991e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.476497093198293e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.6442451432939806,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.6191974040033714e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.685686024764817e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.5666481188503756,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.8542262799685696e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.8295965094878818e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 1.238674496451241,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.007186727858065e-17,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 1.4508010283579908e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 1.45433075531635,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.007186727858065e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.4609630928951472e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.8975516984933458,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.5342559427430796e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.396695900693112e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 8.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 5.0,
+        "with_h": false
+      },
+      "reference": "beta-PtO2-COD1530633",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          51
+        ],
+        "1": [
+          47
+        ],
+        "2": [
+          51
+        ]
+      },
+      "scf_iterations": 9,
+      "selected_path_count": 2,
+      "setting": "baseline_scf5_cluster8"
+    },
+    {
+      "actual_cluster_radius_A": 7.938549235905764,
+      "atom_count": 205,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.9891_N2": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00013048928561806158,
+            "baseline_weighted_rms": 0.220730688437116,
+            "chi_relative_rms": 0.008746206116781037,
+            "complex_relative_rms": 0.009410053248917916,
+            "phase_max_abs_rad": 0.010100000000001394,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.009409199194361777,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0004905220515353998,
+            "baseline_weighted_rms": 0.19669516465542913,
+            "chi_relative_rms": 0.008228607184277923,
+            "complex_relative_rms": 0.007736139347048841,
+            "phase_max_abs_rad": 0.00860000000000124,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.007718908888693583,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0010872665324574054,
+            "baseline_weighted_rms": 0.41946644172481756,
+            "chi_relative_rms": 0.01859470557427727,
+            "complex_relative_rms": 0.018830477475365797,
+            "phase_max_abs_rad": 0.027000000000000943,
+            "phase_points": 146,
+            "phase_weighted_rms_rad": 0.01934001660532196,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0012129306260374815,
+            "baseline_weighted_rms": 0.49186686976692534,
+            "chi_relative_rms": 0.02001070817520254,
+            "complex_relative_rms": 0.020413243636125386,
+            "phase_max_abs_rad": 0.027000000000000943,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.020365368044157065,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00047452061284927104,
+            "baseline_weighted_rms": 0.30522554176778754,
+            "chi_relative_rms": 0.012852326951108826,
+            "complex_relative_rms": 0.0122735128925091,
+            "phase_max_abs_rad": 0.014000000000002922,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.012262380051946973,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.0034_N4": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00013332118367670638,
+            "baseline_weighted_rms": 0.4349361415642868,
+            "chi_relative_rms": 0.008769015117094468,
+            "complex_relative_rms": 0.009465030773955073,
+            "phase_max_abs_rad": 0.011100000000006202,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.009464078699834889,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0004961427262033461,
+            "baseline_weighted_rms": 0.38638684347673985,
+            "chi_relative_rms": 0.008314223263523251,
+            "complex_relative_rms": 0.007819785452980297,
+            "phase_max_abs_rad": 0.008800000000000741,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.007802284614746854,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0010830970228918077,
+            "baseline_weighted_rms": 0.8242849240293543,
+            "chi_relative_rms": 0.01852798313251307,
+            "complex_relative_rms": 0.01889596273633195,
+            "phase_max_abs_rad": 0.02699999999999749,
+            "phase_points": 146,
+            "phase_weighted_rms_rad": 0.019366112982072723,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0012114883988276397,
+            "baseline_weighted_rms": 0.9663442936706521,
+            "chi_relative_rms": 0.020003481062816124,
+            "complex_relative_rms": 0.02045995002330203,
+            "phase_max_abs_rad": 0.02699999999999749,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0204123075133763,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0004473342038151606,
+            "baseline_weighted_rms": 0.6002236471053995,
+            "chi_relative_rms": 0.012740475038675828,
+            "complex_relative_rms": 0.012480997234479055,
+            "phase_max_abs_rad": 0.015000000000000527,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.01247133087904438,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00016372288571484016,
+            "baseline_weighted_rms": 0.6442451432939806,
+            "chi_relative_rms": 0.008716000567955096,
+            "complex_relative_rms": 0.009447249031378929,
+            "phase_max_abs_rad": 0.010767117603115184,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.009445809371877239,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0005136095209293409,
+            "baseline_weighted_rms": 0.5666481188503756,
+            "chi_relative_rms": 0.008338852915077357,
+            "complex_relative_rms": 0.0077864455675631244,
+            "phase_max_abs_rad": 0.008468262313509323,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.007767725316530804,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0010846043951532026,
+            "baseline_weighted_rms": 1.238674496451241,
+            "chi_relative_rms": 0.018571800587168848,
+            "complex_relative_rms": 0.01889547035985653,
+            "phase_max_abs_rad": 0.027000520730808213,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 0.019389530125923374,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0012119361722456963,
+            "baseline_weighted_rms": 1.45433075531635,
+            "chi_relative_rms": 0.020010452801534056,
+            "complex_relative_rms": 0.02045140453631577,
+            "phase_max_abs_rad": 0.027000520730808213,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.02040367512509959,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0004450476088359987,
+            "baseline_weighted_rms": 0.8975516984933458,
+            "chi_relative_rms": 0.012802210421429063,
+            "complex_relative_rms": 0.012412933916779115,
+            "phase_max_abs_rad": 0.014664526495932579,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.012403110338594089,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 8.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 6.0,
+        "with_h": false
+      },
+      "reference": "beta-PtO2-COD1530633",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          89
+        ],
+        "1": [
+          84
+        ],
+        "2": [
+          83
+        ]
+      },
+      "scf_iterations": 9,
+      "selected_path_count": 2,
+      "setting": "scf6_cluster8"
+    },
+    {
+      "actual_cluster_radius_A": 8.9678,
+      "atom_count": 305,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.9891_N2": {
+          "12-16": {
+            "amplitude_relative_rms": 6.6924227039791575e-15,
+            "baseline_weighted_rms": 0.220730688437116,
+            "chi_relative_rms": 4.5763232355555095e-09,
+            "complex_relative_rms": 5.3738746962137135e-09,
+            "phase_max_abs_rad": 1.3466880902795018e-08,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 5.373874699117091e-09,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 1.9138468400661543e-16,
+            "baseline_weighted_rms": 0.19669516465542913,
+            "chi_relative_rms": 2.931451658294787e-11,
+            "complex_relative_rms": 2.5464389826451365e-11,
+            "phase_max_abs_rad": 6.94910506844355e-11,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 2.5464389324041642e-11,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 5.57361152081178e-06,
+            "baseline_weighted_rms": 0.41946644172481756,
+            "chi_relative_rms": 0.00015133780424919023,
+            "complex_relative_rms": 0.00016807173847329073,
+            "phase_max_abs_rad": 0.0010000000000013286,
+            "phase_points": 146,
+            "phase_weighted_rms_rad": 0.0001751729934633881,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 6.3630442966434465e-06,
+            "baseline_weighted_rms": 0.49186686976692534,
+            "chi_relative_rms": 0.0001719399849492988,
+            "complex_relative_rms": 0.0001918636751421492,
+            "phase_max_abs_rad": 0.0010000000000013286,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.00019175819254979774,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 1.8633322899556763e-12,
+            "baseline_weighted_rms": 0.30522554176778754,
+            "chi_relative_rms": 4.65473551372603e-06,
+            "complex_relative_rms": 4.070689161538006e-06,
+            "phase_max_abs_rad": 1.3645673821087837e-05,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 4.0706891615482e-06,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.0034_N4": {
+          "12-16": {
+            "amplitude_relative_rms": 3.166804254126462e-13,
+            "baseline_weighted_rms": 0.4349361415642868,
+            "chi_relative_rms": 5.40081528771379e-09,
+            "complex_relative_rms": 5.365875171271057e-09,
+            "phase_max_abs_rad": 1.346596431966222e-08,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 5.365875164591692e-09,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 2.6789373812263353e-15,
+            "baseline_weighted_rms": 0.38638684347673985,
+            "chi_relative_rms": 2.4804751983265636e-11,
+            "complex_relative_rms": 2.5574447836331247e-11,
+            "phase_max_abs_rad": 6.949111338576108e-11,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 2.5574446669256673e-11,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 7.409472356738939e-06,
+            "baseline_weighted_rms": 0.8242849240293543,
+            "chi_relative_rms": 0.00012942360462442167,
+            "complex_relative_rms": 0.00018656337451090923,
+            "phase_max_abs_rad": 0.0009999999999976323,
+            "phase_points": 146,
+            "phase_weighted_rms_rad": 0.00019441767435836709,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 8.46079851601623e-06,
+            "baseline_weighted_rms": 0.9663442936706521,
+            "chi_relative_rms": 0.00014762801510195296,
+            "complex_relative_rms": 0.0002130227323611569,
+            "phase_max_abs_rad": 0.0009999999999976323,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0002128548865271954,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 8.79964328814268e-11,
+            "baseline_weighted_rms": 0.6002236471053995,
+            "chi_relative_rms": 3.9051379269472435e-06,
+            "complex_relative_rms": 4.068707042121821e-06,
+            "phase_max_abs_rad": 1.364474413627066e-05,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 4.068707041654167e-06,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 1.8061980305247582e-13,
+            "baseline_weighted_rms": 0.6442451432939806,
+            "chi_relative_rms": 5.136554125977401e-09,
+            "complex_relative_rms": 5.3863899030999524e-09,
+            "phase_max_abs_rad": 1.3466205537573247e-08,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 5.386389905668139e-09,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 1.7009717591066829e-15,
+            "baseline_weighted_rms": 0.5666481188503756,
+            "chi_relative_rms": 2.66752931410056e-11,
+            "complex_relative_rms": 2.564385416378691e-11,
+            "phase_max_abs_rad": 6.949042045536021e-11,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 2.5643853469528744e-11,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 8.473972516341614e-06,
+            "baseline_weighted_rms": 1.238674496451241,
+            "chi_relative_rms": 9.98363666012125e-05,
+            "complex_relative_rms": 0.00013721271486448098,
+            "phase_max_abs_rad": 0.0006632302017879249,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 0.0001429396774316739,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 9.66183594604434e-06,
+            "baseline_weighted_rms": 1.45433075531635,
+            "chi_relative_rms": 0.00011354882894079088,
+            "complex_relative_rms": 0.00015643065113565746,
+            "phase_max_abs_rad": 0.0006632302017879249,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.00015613348577947598,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 4.3368455326976264e-11,
+            "baseline_weighted_rms": 0.8975516984933458,
+            "chi_relative_rms": 4.182816575648562e-06,
+            "complex_relative_rms": 4.079774560145271e-06,
+            "phase_max_abs_rad": 1.3645040156264238e-05,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 4.079774560167917e-06,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 9.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 5.0,
+        "with_h": false
+      },
+      "reference": "beta-PtO2-COD1530633",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          51
+        ],
+        "1": [
+          47
+        ],
+        "2": [
+          51
+        ]
+      },
+      "scf_iterations": 9,
+      "selected_path_count": 2,
+      "setting": "scf5_cluster9"
+    },
+    {
+      "actual_cluster_radius_A": 7.938549235905764,
+      "atom_count": 205,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.9891_N2": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0016871573147541213,
+            "baseline_weighted_rms": 0.220730688437116,
+            "chi_relative_rms": 0.01081347007225427,
+            "complex_relative_rms": 0.011647944929100162,
+            "phase_max_abs_rad": 0.012341462783815864,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.011515656413654452,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0002504048347300679,
+            "baseline_weighted_rms": 0.19669516465542913,
+            "chi_relative_rms": 0.007525043376341402,
+            "complex_relative_rms": 0.007053466553951382,
+            "phase_max_abs_rad": 0.009700000000002386,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.007048547144705894,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.005238012513178044,
+            "baseline_weighted_rms": 0.41946644172481756,
+            "chi_relative_rms": 0.031446410418838326,
+            "complex_relative_rms": 0.03237172306304057,
+            "phase_max_abs_rad": 0.053000000000000755,
+            "phase_points": 146,
+            "phase_weighted_rms_rad": 0.032971253730453974,
+            "points": 181,
+            "review_flags": [
+              "phase_weighted_rms_rad"
+            ]
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0057685540074466374,
+            "baseline_weighted_rms": 0.49186686976692534,
+            "chi_relative_rms": 0.0345913220494716,
+            "complex_relative_rms": 0.03582961226124609,
+            "phase_max_abs_rad": 0.053000000000000755,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.03526821718686225,
+            "points": 101,
+            "review_flags": [
+              "phase_weighted_rms_rad"
+            ]
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.002871096179975848,
+            "baseline_weighted_rms": 0.30522554176778754,
+            "chi_relative_rms": 0.01700485347762937,
+            "complex_relative_rms": 0.016503526515723344,
+            "phase_max_abs_rad": 0.01910000000000169,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.016228482069154858,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.0034_N4": {
+          "12-16": {
+            "amplitude_relative_rms": 0.001668643696658463,
+            "baseline_weighted_rms": 0.4349361415642868,
+            "chi_relative_rms": 0.010739659840220475,
+            "complex_relative_rms": 0.011519395781003076,
+            "phase_max_abs_rad": 0.01330000000000095,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.011388768073792879,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0002634530677258712,
+            "baseline_weighted_rms": 0.38638684347673985,
+            "chi_relative_rms": 0.007546953186559803,
+            "complex_relative_rms": 0.00706817359393252,
+            "phase_max_abs_rad": 0.009700000000002295,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0070625831882505695,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.005227878697802014,
+            "baseline_weighted_rms": 0.8242849240293543,
+            "chi_relative_rms": 0.031714010960961866,
+            "complex_relative_rms": 0.03278557680227308,
+            "phase_max_abs_rad": 0.052999999999996356,
+            "phase_points": 146,
+            "phase_weighted_rms_rad": 0.0334049049892574,
+            "points": 181,
+            "review_flags": [
+              "phase_weighted_rms_rad"
+            ]
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00576088660976583,
+            "baseline_weighted_rms": 0.9663442936706521,
+            "chi_relative_rms": 0.03506364245733966,
+            "complex_relative_rms": 0.036298024998324456,
+            "phase_max_abs_rad": 0.052999999999996356,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.035742948710603496,
+            "points": 101,
+            "review_flags": [
+              "phase_weighted_rms_rad"
+            ]
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0028476191893578957,
+            "baseline_weighted_rms": 0.6002236471053995,
+            "chi_relative_rms": 0.016633394898181587,
+            "complex_relative_rms": 0.016701612891606318,
+            "phase_max_abs_rad": 0.020100000000006397,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.016433673366446147,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0016609815776889541,
+            "baseline_weighted_rms": 0.6442451432939806,
+            "chi_relative_rms": 0.010710446222824193,
+            "complex_relative_rms": 0.011563183180928173,
+            "phase_max_abs_rad": 0.012967385100809437,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.011434069999349794,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00025694130110191137,
+            "baseline_weighted_rms": 0.5666481188503756,
+            "chi_relative_rms": 0.007603086794076224,
+            "complex_relative_rms": 0.007067246078268131,
+            "phase_max_abs_rad": 0.00970014144315237,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.007061957069833509,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0052489313746774385,
+            "baseline_weighted_rms": 1.238674496451241,
+            "chi_relative_rms": 0.031673603365740446,
+            "complex_relative_rms": 0.032702540094764324,
+            "phase_max_abs_rad": 0.0530012423591683,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 0.033335431387527745,
+            "points": 181,
+            "review_flags": [
+              "phase_weighted_rms_rad"
+            ]
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.005776488771749317,
+            "baseline_weighted_rms": 1.45433075531635,
+            "chi_relative_rms": 0.034920441296907155,
+            "complex_relative_rms": 0.03616442655923336,
+            "phase_max_abs_rad": 0.0530012423591683,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0356051522337356,
+            "points": 101,
+            "review_flags": [
+              "phase_weighted_rms_rad"
+            ]
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.002867277972537297,
+            "baseline_weighted_rms": 0.8975516984933458,
+            "chi_relative_rms": 0.01678271341166392,
+            "complex_relative_rms": 0.016645468985795085,
+            "phase_max_abs_rad": 0.019768467605547332,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.016373141052274,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 8.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 4.0,
+        "with_h": false
+      },
+      "reference": "beta-PtO2-COD1530633",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          29
+        ],
+        "1": [
+          24
+        ],
+        "2": [
+          29
+        ]
+      },
+      "scf_iterations": 9,
+      "selected_path_count": 2,
+      "setting": "scf4_cluster8"
+    },
+    {
+      "actual_cluster_radius_A": 6.988374082782061,
+      "atom_count": 129,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.9891_N2": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00010196361867577131,
+            "baseline_weighted_rms": 0.220730688437116,
+            "chi_relative_rms": 0.0005507491377542712,
+            "complex_relative_rms": 0.000566484429096465,
+            "phase_max_abs_rad": 0.0011000000000008369,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005572087949772885,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00022684947704310307,
+            "baseline_weighted_rms": 0.19669516465542913,
+            "chi_relative_rms": 0.0006163106733868226,
+            "complex_relative_rms": 0.0005377569752589762,
+            "phase_max_abs_rad": 0.0013999999999967081,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00048750742456810195,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.000339636723248971,
+            "baseline_weighted_rms": 0.41946644172481756,
+            "chi_relative_rms": 0.001417301418058837,
+            "complex_relative_rms": 0.001382899476489122,
+            "phase_max_abs_rad": 0.0029999999999991756,
+            "phase_points": 146,
+            "phase_weighted_rms_rad": 0.0013944259367644615,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00037083783015932496,
+            "baseline_weighted_rms": 0.49186686976692534,
+            "chi_relative_rms": 0.0015707528382520113,
+            "complex_relative_rms": 0.0015370353824080616,
+            "phase_max_abs_rad": 0.0029999999999991756,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0014913550731656393,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00020709443884198977,
+            "baseline_weighted_rms": 0.30522554176778754,
+            "chi_relative_rms": 0.0006657552555118981,
+            "complex_relative_rms": 0.0006533610181004221,
+            "phase_max_abs_rad": 0.0009065422340377321,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0006196042298704871,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.0034_N4": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00011338558110594693,
+            "baseline_weighted_rms": 0.4349361415642868,
+            "chi_relative_rms": 0.0003616303469154168,
+            "complex_relative_rms": 0.00043495593324617196,
+            "phase_max_abs_rad": 0.0010037767122596777,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00041988672112614015,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0002260108310078962,
+            "baseline_weighted_rms": 0.38638684347673985,
+            "chi_relative_rms": 0.0008567463593469265,
+            "complex_relative_rms": 0.000825681282251235,
+            "phase_max_abs_rad": 0.001524625346064597,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0007940514226621468,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00034245694549784255,
+            "baseline_weighted_rms": 0.8242849240293543,
+            "chi_relative_rms": 0.0013736100906085466,
+            "complex_relative_rms": 0.0013722066351169644,
+            "phase_max_abs_rad": 0.002228372723674739,
+            "phase_points": 146,
+            "phase_weighted_rms_rad": 0.0013788187497023993,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00037562564083792925,
+            "baseline_weighted_rms": 0.9663442936706521,
+            "chi_relative_rms": 0.0015234523362199167,
+            "complex_relative_rms": 0.001524292258166957,
+            "phase_max_abs_rad": 0.002228372723674739,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0014770097657428815,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0001974699508692287,
+            "baseline_weighted_rms": 0.6002236471053995,
+            "chi_relative_rms": 0.0007213809345049325,
+            "complex_relative_rms": 0.0006830072656780948,
+            "phase_max_abs_rad": 0.001500000000000043,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0006537677634879563,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00011665636845524398,
+            "baseline_weighted_rms": 0.6442451432939806,
+            "chi_relative_rms": 0.00038058471645428875,
+            "complex_relative_rms": 0.000416213850900143,
+            "phase_max_abs_rad": 0.0007264624715413709,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0003995049604154223,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0002604515604225349,
+            "baseline_weighted_rms": 0.5666481188503756,
+            "chi_relative_rms": 0.0007617032059124653,
+            "complex_relative_rms": 0.0007183720385305514,
+            "phase_max_abs_rad": 0.0012219750040362199,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0006693916300888393,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0003436116138196814,
+            "baseline_weighted_rms": 1.238674496451241,
+            "chi_relative_rms": 0.0013727910634380286,
+            "complex_relative_rms": 0.0013588729389577786,
+            "phase_max_abs_rad": 0.002336784805817277,
+            "phase_points": 145,
+            "phase_weighted_rms_rad": 0.001369491166617673,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0003761582865403149,
+            "baseline_weighted_rms": 1.45433075531635,
+            "chi_relative_rms": 0.001530455959872711,
+            "complex_relative_rms": 0.001517563252973401,
+            "phase_max_abs_rad": 0.002336784805817277,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.001469931446327761,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00020175173597075882,
+            "baseline_weighted_rms": 0.8975516984933458,
+            "chi_relative_rms": 0.0006123466517396196,
+            "complex_relative_rms": 0.0005873936990451055,
+            "phase_max_abs_rad": 0.0011681680139844861,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005515870786158411,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 7.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 5.0,
+        "with_h": false
+      },
+      "reference": "beta-PtO2-COD1530633",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          51
+        ],
+        "1": [
+          47
+        ],
+        "2": [
+          45
+        ]
+      },
+      "scf_iterations": 9,
+      "selected_path_count": 2,
+      "setting": "scf5_cluster7"
+    },
+    {
+      "actual_cluster_radius_A": 7.999805678108688,
+      "atom_count": 186,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.6699_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.16530074585585067,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.2933030210124835e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.7743580069491083e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.13894169557645947,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.424937443957025e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.6453673187502786e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.3153549378733232,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.379529168033611e-17,
+            "phase_points": 151,
+            "phase_weighted_rms_rad": 1.53326068877142e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.3696180821411603,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.379529168033611e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.5135549948808943e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.22971322405345507,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 5.2289598967539136e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.652790075348886e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9030_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.12499022505585161,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 3.8333165747117704e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.605009185492385e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.08304910413377273,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.423485814047952e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.5920194772043527e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.2336767700659081,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.35070002553961e-17,
+            "phase_points": 148,
+            "phase_weighted_rms_rad": 1.5327893784417438e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.2738563838602955,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.35070002553961e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.560853621844908e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.17026790456430435,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.414129311373828e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.5283932605309618e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9085_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.1241530502663874,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.2395378460430864e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.700050848493892e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.08195861768564984,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 5.050030345322631e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.8028991641507236e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.23208221296858617,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.835031586586816e-17,
+            "phase_points": 148,
+            "phase_weighted_rms_rad": 1.622351107074146e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.271974267194477,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.2011613701272817e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.5872163683146927e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.16913290325038208,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.835031586586816e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.806236359471775e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.1049_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.09790510529329312,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.039592121342123e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.7039048561854385e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.050977389659321935,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.465700198420175e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.8478519364000486e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.1828460540270605,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.796794291233466e-17,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 1.6757955986016654e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.21368326083776704,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.796794291233466e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.6806494902677834e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.1344398971569737,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.3953900611882924e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.6246169926885812e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.1688_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.09083582595808565,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.397748331548934e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.8055485221946414e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.0440257546443429,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 5.307705836636999e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.8920638506771907e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.16964224266824396,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.3175959133220937e-17,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 1.5547220699885447e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.1980081994593537,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.3175959133220937e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.5595971399864465e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.12521912988250777,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.117137354108774e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.5844529505606724e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.2405_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.08368248087869462,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.229345479099621e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.6060221697850772e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.03790965065972505,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.174254913517163e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.7392946870700443e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.15618500184146586,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.8556064159036324e-17,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 1.62109587175834e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.1820180718626792,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.8556064159036324e-17,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 1.5933765856391578e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.11584658499011022,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.428405015017465e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.6800297313355752e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.44333400542795554,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.082714538677598e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.686970369775842e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.19229490777380354,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.3182096621246427e-17,
+            "phase_points": 77,
+            "phase_weighted_rms_rad": 1.5559697532232844e-17,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.32972247347723965,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 5.307551469343622e-17,
+            "phase_points": 151,
+            "phase_weighted_rms_rad": 1.620164927110457e-17,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.2469488162270365,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 5.307551469343622e-17,
+            "phase_points": 88,
+            "phase_weighted_rms_rad": 1.8040223148542755e-17,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0,
+            "baseline_weighted_rms": 0.40865236937732086,
+            "chi_relative_rms": 0.0,
+            "complex_relative_rms": 0.0,
+            "phase_max_abs_rad": 4.3575676042909104e-17,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 1.533260894400716e-17,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 8.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 5.0,
+        "with_h": false
+      },
+      "reference": "B-Ta2O5-COD2102123",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          50
+        ],
+        "1": [
+          44
+        ],
+        "2": [
+          49
+        ]
+      },
+      "scf_iterations": 8,
+      "selected_path_count": 6,
+      "setting": "baseline_scf5_cluster8"
+    },
+    {
+      "actual_cluster_radius_A": 7.999805678108688,
+      "atom_count": 186,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.6699_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00010225711176187953,
+            "baseline_weighted_rms": 0.16530074585585067,
+            "chi_relative_rms": 0.0004500461952025071,
+            "complex_relative_rms": 0.0004263522263065568,
+            "phase_max_abs_rad": 0.0005541568910275181,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00041392831731467967,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00017826675496446717,
+            "baseline_weighted_rms": 0.13894169557645947,
+            "chi_relative_rms": 0.000672420626034126,
+            "complex_relative_rms": 0.0007220347496750866,
+            "phase_max_abs_rad": 0.0014454936550407165,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0006997849780947007,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00033355553804071883,
+            "baseline_weighted_rms": 0.3153549378733232,
+            "chi_relative_rms": 0.0004897941539701672,
+            "complex_relative_rms": 0.0005140785369159742,
+            "phase_max_abs_rad": 0.0008652949756751415,
+            "phase_points": 151,
+            "phase_weighted_rms_rad": 0.00037464578971656965,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0003656969585585344,
+            "baseline_weighted_rms": 0.3696180821411603,
+            "chi_relative_rms": 0.0005146066910524093,
+            "complex_relative_rms": 0.0005391069119081343,
+            "phase_max_abs_rad": 0.0008652949756751415,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0003961768955734846,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00019647597759440288,
+            "baseline_weighted_rms": 0.22971322405345507,
+            "chi_relative_rms": 0.00040969881476012125,
+            "complex_relative_rms": 0.00042331689559865245,
+            "phase_max_abs_rad": 0.0007999999999982534,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0003749876879450332,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9030_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00014261973461954716,
+            "baseline_weighted_rms": 0.12499022505585161,
+            "chi_relative_rms": 0.0003733684485836427,
+            "complex_relative_rms": 0.0004070865640824112,
+            "phase_max_abs_rad": 0.0006076514978303401,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.000381312531416221,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0005699890625886469,
+            "baseline_weighted_rms": 0.08304910413377273,
+            "chi_relative_rms": 0.0006255765739076942,
+            "complex_relative_rms": 0.0006312300313930867,
+            "phase_max_abs_rad": 0.000999999999997694,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0002713300133182705,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.000325758059566299,
+            "baseline_weighted_rms": 0.2336767700659081,
+            "chi_relative_rms": 0.0007345965130687474,
+            "complex_relative_rms": 0.0006548542381659806,
+            "phase_max_abs_rad": 0.0017261944875057835,
+            "phase_points": 148,
+            "phase_weighted_rms_rad": 0.0005860478308834415,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.000354556406413648,
+            "baseline_weighted_rms": 0.2738563838602955,
+            "chi_relative_rms": 0.0008279656861210651,
+            "complex_relative_rms": 0.0007266888911327915,
+            "phase_max_abs_rad": 0.0017261944875057835,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.000634442192889995,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00020744708724277408,
+            "baseline_weighted_rms": 0.17026790456430435,
+            "chi_relative_rms": 0.0003233075829031204,
+            "complex_relative_rms": 0.0003257061674033107,
+            "phase_max_abs_rad": 0.000415918699470544,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0002511270308085158,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9085_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00013965143304087323,
+            "baseline_weighted_rms": 0.1241530502663874,
+            "chi_relative_rms": 0.00041473493548355064,
+            "complex_relative_rms": 0.00042459158487012844,
+            "phase_max_abs_rad": 0.0005692111472725019,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00040099568454063166,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0005851928710817282,
+            "baseline_weighted_rms": 0.08195861768564984,
+            "chi_relative_rms": 0.0009952929180285256,
+            "complex_relative_rms": 0.0009904865337763665,
+            "phase_max_abs_rad": 0.0013422987212692772,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0007994138348698803,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00032957457370651135,
+            "baseline_weighted_rms": 0.23208221296858617,
+            "chi_relative_rms": 0.0005977798956580572,
+            "complex_relative_rms": 0.0006265831048290127,
+            "phase_max_abs_rad": 0.0012287886955615183,
+            "phase_points": 148,
+            "phase_weighted_rms_rad": 0.0005515221155764397,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0003555863141762002,
+            "baseline_weighted_rms": 0.271974267194477,
+            "chi_relative_rms": 0.0006673907650536346,
+            "complex_relative_rms": 0.0006920814614836647,
+            "phase_max_abs_rad": 0.0012287886955615183,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0005938356984108465,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00022633799426739868,
+            "baseline_weighted_rms": 0.16913290325038208,
+            "chi_relative_rms": 0.0003104303862310854,
+            "complex_relative_rms": 0.00033482544776729093,
+            "phase_max_abs_rad": 0.00046090394656061133,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00024677070518570936,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.1049_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00018951202351907625,
+            "baseline_weighted_rms": 0.09790510529329312,
+            "chi_relative_rms": 0.0004958726938865214,
+            "complex_relative_rms": 0.0004896752192119081,
+            "phase_max_abs_rad": 0.0007081024621271478,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00045155636980617417,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0011199801589419137,
+            "baseline_weighted_rms": 0.050977389659321935,
+            "chi_relative_rms": 0.0013197543246182427,
+            "complex_relative_rms": 0.001310529861498617,
+            "phase_max_abs_rad": 0.0030000000000002017,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.000681238763786823,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00032755977011162437,
+            "baseline_weighted_rms": 0.1828460540270605,
+            "chi_relative_rms": 0.0009116042134462746,
+            "complex_relative_rms": 0.0009493190366208602,
+            "phase_max_abs_rad": 0.0019819308018735756,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.0009278421715493641,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0003545653982250066,
+            "baseline_weighted_rms": 0.21368326083776704,
+            "chi_relative_rms": 0.0010241883306375322,
+            "complex_relative_rms": 0.001068731743761917,
+            "phase_max_abs_rad": 0.0019819308018735756,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0010083379546207004,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0002224449691134961,
+            "baseline_weighted_rms": 0.1344398971569737,
+            "chi_relative_rms": 0.00040106223310909566,
+            "complex_relative_rms": 0.0003629696057643802,
+            "phase_max_abs_rad": 0.0006999999999983587,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00028685696059553594,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.1688_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00020187763374442471,
+            "baseline_weighted_rms": 0.09083582595808565,
+            "chi_relative_rms": 0.0005074726637216312,
+            "complex_relative_rms": 0.0005132195556872389,
+            "phase_max_abs_rad": 0.0008152388116045025,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004718916737782613,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.001292649404899255,
+            "baseline_weighted_rms": 0.0440257546443429,
+            "chi_relative_rms": 0.001276516202573703,
+            "complex_relative_rms": 0.0013686080921921338,
+            "phase_max_abs_rad": 0.0010000000000046512,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004498059607197264,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0003370197581685378,
+            "baseline_weighted_rms": 0.16964224266824396,
+            "chi_relative_rms": 0.0009416489263310724,
+            "complex_relative_rms": 0.0010249441157682013,
+            "phase_max_abs_rad": 0.0020000000000005933,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.0010076335994191243,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0003663075221688658,
+            "baseline_weighted_rms": 0.1980081994593537,
+            "chi_relative_rms": 0.0010518894726907451,
+            "complex_relative_rms": 0.0011607681152095034,
+            "phase_max_abs_rad": 0.0020000000000005933,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.001101598356885622,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00022250254603715586,
+            "baseline_weighted_rms": 0.12521912988250777,
+            "chi_relative_rms": 0.00032916909393643413,
+            "complex_relative_rms": 0.00033487554786865436,
+            "phase_max_abs_rad": 0.0004055177356790057,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00025029909391654495,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.2405_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00020784312982154255,
+            "baseline_weighted_rms": 0.08368248087869462,
+            "chi_relative_rms": 0.00043883695048740006,
+            "complex_relative_rms": 0.00044348779261643153,
+            "phase_max_abs_rad": 0.0006096404826365271,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00039180659286537465,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0013573799437432742,
+            "baseline_weighted_rms": 0.03790965065972505,
+            "chi_relative_rms": 0.0015816597226059816,
+            "complex_relative_rms": 0.0015753223828275005,
+            "phase_max_abs_rad": 0.010000000000005282,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0008015629741169854,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00033026992906928755,
+            "baseline_weighted_rms": 0.15618500184146586,
+            "chi_relative_rms": 0.0009905406462459533,
+            "complex_relative_rms": 0.000986354820156668,
+            "phase_max_abs_rad": 0.0019861897744562025,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.0009657252949546139,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00035787153682081025,
+            "baseline_weighted_rms": 0.1820180718626792,
+            "chi_relative_rms": 0.0010774909880523333,
+            "complex_relative_rms": 0.0010697593775195523,
+            "phase_max_abs_rad": 0.0019861897744562025,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.001008207885425002,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0002255703691644273,
+            "baseline_weighted_rms": 0.11584658499011022,
+            "chi_relative_rms": 0.0006569183932585341,
+            "complex_relative_rms": 0.0006610244784829262,
+            "phase_max_abs_rad": 0.0011345616247631339,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.000621412190551962,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0001381625406016533,
+            "baseline_weighted_rms": 0.44333400542795554,
+            "chi_relative_rms": 0.000300719041642707,
+            "complex_relative_rms": 0.00030126625064291366,
+            "phase_max_abs_rad": 0.00045706089196078623,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0002677316794272373,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00044708850356798045,
+            "baseline_weighted_rms": 0.19229490777380354,
+            "chi_relative_rms": 0.0007710976463027834,
+            "complex_relative_rms": 0.0008039916838870212,
+            "phase_max_abs_rad": 0.005086376225565993,
+            "phase_points": 77,
+            "phase_weighted_rms_rad": 0.0006628601584718371,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0008173932047341191,
+            "baseline_weighted_rms": 0.32972247347723965,
+            "chi_relative_rms": 0.001188262715557398,
+            "complex_relative_rms": 0.0011812746025344856,
+            "phase_max_abs_rad": 0.009899742598970229,
+            "phase_points": 151,
+            "phase_weighted_rms_rad": 0.0008621195878208953,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.001442931335357912,
+            "baseline_weighted_rms": 0.2469488162270365,
+            "chi_relative_rms": 0.0022026658647236264,
+            "complex_relative_rms": 0.0020780519378660565,
+            "phase_max_abs_rad": 0.009899742598970229,
+            "phase_points": 88,
+            "phase_weighted_rms_rad": 0.001513353253765501,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00015554190800160832,
+            "baseline_weighted_rms": 0.40865236937732086,
+            "chi_relative_rms": 0.0002530784688872041,
+            "complex_relative_rms": 0.00025416872549770557,
+            "phase_max_abs_rad": 0.001053661137626084,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0002010327157943689,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 8.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 6.0,
+        "with_h": false
+      },
+      "reference": "B-Ta2O5-COD2102123",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          78
+        ],
+        "1": [
+          78
+        ],
+        "2": [
+          72
+        ]
+      },
+      "scf_iterations": 8,
+      "selected_path_count": 6,
+      "setting": "scf6_cluster8"
+    },
+    {
+      "actual_cluster_radius_A": 8.994581467572575,
+      "atom_count": 255,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.6699_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 2.2095776630173567e-05,
+            "baseline_weighted_rms": 0.16530074585585067,
+            "chi_relative_rms": 0.00019956461689630225,
+            "complex_relative_rms": 0.0001932852413900244,
+            "phase_max_abs_rad": 0.000220339225101804,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0001920162257407002,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 3.6483514833934446e-05,
+            "baseline_weighted_rms": 0.13894169557645947,
+            "chi_relative_rms": 0.0004482471564816545,
+            "complex_relative_rms": 0.00044769605475100427,
+            "phase_max_abs_rad": 0.0009807037431741013,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004462077844396841,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0001785040465638658,
+            "baseline_weighted_rms": 0.3153549378733232,
+            "chi_relative_rms": 0.0005251794341946967,
+            "complex_relative_rms": 0.0005033347117123718,
+            "phase_max_abs_rad": 0.0009777112674242948,
+            "phase_points": 151,
+            "phase_weighted_rms_rad": 0.0004766963626163014,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00020194823334772932,
+            "baseline_weighted_rms": 0.3696180821411603,
+            "chi_relative_rms": 0.0005080216523508166,
+            "complex_relative_rms": 0.000502366710682311,
+            "phase_max_abs_rad": 0.0007693825064088055,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.00045996610566244973,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 5.0318731899288613e-05,
+            "baseline_weighted_rms": 0.22971322405345507,
+            "chi_relative_rms": 0.0005772212555859637,
+            "complex_relative_rms": 0.0005037111950760075,
+            "phase_max_abs_rad": 0.0009777112674242948,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005011787970555588,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9030_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 3.090737776175678e-05,
+            "baseline_weighted_rms": 0.12499022505585161,
+            "chi_relative_rms": 0.00026894663149486025,
+            "complex_relative_rms": 0.00030039274195776104,
+            "phase_max_abs_rad": 0.0007999999999981814,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00029879709730731775,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 8.08288191172177e-05,
+            "baseline_weighted_rms": 0.08304910413377273,
+            "chi_relative_rms": 0.00035583232708232487,
+            "complex_relative_rms": 0.00035844856673109167,
+            "phase_max_abs_rad": 0.0007999999999981814,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0003492222251760202,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0001931334507251428,
+            "baseline_weighted_rms": 0.2336767700659081,
+            "chi_relative_rms": 0.0005464183846970192,
+            "complex_relative_rms": 0.0005320414561565987,
+            "phase_max_abs_rad": 0.0009230166539921854,
+            "phase_points": 148,
+            "phase_weighted_rms_rad": 0.0005074809629841187,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00021904950526999554,
+            "baseline_weighted_rms": 0.2738563838602955,
+            "chi_relative_rms": 0.0005909385076154476,
+            "complex_relative_rms": 0.0005549605145168461,
+            "phase_max_abs_rad": 0.0009230166539921854,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0005098716556198347,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 4.709907651584571e-05,
+            "baseline_weighted_rms": 0.17026790456430435,
+            "chi_relative_rms": 0.00038319437326312907,
+            "complex_relative_rms": 0.00045408626774563396,
+            "phase_max_abs_rad": 0.0009075420102959788,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004516264185721662,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9085_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 3.091039440578408e-05,
+            "baseline_weighted_rms": 0.1241530502663874,
+            "chi_relative_rms": 0.0006030422623241573,
+            "complex_relative_rms": 0.0006306104700041303,
+            "phase_max_abs_rad": 0.0009244023613348133,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0006298450747995849,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 7.185985439481444e-05,
+            "baseline_weighted_rms": 0.08195861768564984,
+            "chi_relative_rms": 0.0005068522253947247,
+            "complex_relative_rms": 0.0005058388149629267,
+            "phase_max_abs_rad": 0.0009176142216348303,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005007211513133506,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0001898877276154716,
+            "baseline_weighted_rms": 0.23208221296858617,
+            "chi_relative_rms": 0.0005219442679195719,
+            "complex_relative_rms": 0.0005224924293061415,
+            "phase_max_abs_rad": 0.0009156328834300367,
+            "phase_points": 148,
+            "phase_weighted_rms_rad": 0.000498034573096062,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00021623042642055656,
+            "baseline_weighted_rms": 0.271974267194477,
+            "chi_relative_rms": 0.0005615514015969774,
+            "complex_relative_rms": 0.0005429293775805703,
+            "phase_max_abs_rad": 0.0009156328834300367,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0004979825339031207,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 3.0963176168527596e-05,
+            "baseline_weighted_rms": 0.16913290325038208,
+            "chi_relative_rms": 0.0003739506086064188,
+            "complex_relative_rms": 0.0004468947475210866,
+            "phase_max_abs_rad": 0.0008836088050151788,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00044581668195727936,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.1049_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 2.7136072122298028e-05,
+            "baseline_weighted_rms": 0.09790510529329312,
+            "chi_relative_rms": 0.00019713531679701953,
+            "complex_relative_rms": 0.0001940509891542263,
+            "phase_max_abs_rad": 0.00020976392541171757,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.000192142712436423,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0002190277309808531,
+            "baseline_weighted_rms": 0.050977389659321935,
+            "chi_relative_rms": 0.000587883198634816,
+            "complex_relative_rms": 0.0005733161352115526,
+            "phase_max_abs_rad": 0.0010476556092129336,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005299084408724949,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0001922726291822528,
+            "baseline_weighted_rms": 0.1828460540270605,
+            "chi_relative_rms": 0.0004895717190815318,
+            "complex_relative_rms": 0.0005006071681095072,
+            "phase_max_abs_rad": 0.0008851114741120533,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.00047444397658032774,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0002184609805239162,
+            "baseline_weighted_rms": 0.21368326083776704,
+            "chi_relative_rms": 0.000496254763518473,
+            "complex_relative_rms": 0.0005050841233040842,
+            "phase_max_abs_rad": 0.0007000000000018656,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.00045536397437020873,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 5.0833675812326395e-05,
+            "baseline_weighted_rms": 0.1344398971569737,
+            "chi_relative_rms": 0.0004645958411080465,
+            "complex_relative_rms": 0.0004904387118850026,
+            "phase_max_abs_rad": 0.0008851114741120533,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00048778943636984545,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.1688_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 2.2341761590138148e-05,
+            "baseline_weighted_rms": 0.09083582595808565,
+            "chi_relative_rms": 0.0005586181720001495,
+            "complex_relative_rms": 0.0005787071341255241,
+            "phase_max_abs_rad": 0.0009967067665215177,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005782751631113433,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0002616153721529072,
+            "baseline_weighted_rms": 0.0440257546443429,
+            "chi_relative_rms": 0.0005406451667720762,
+            "complex_relative_rms": 0.0005687394570749125,
+            "phase_max_abs_rad": 0.0010470112123644331,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005050872358730456,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0001913956409928361,
+            "baseline_weighted_rms": 0.16964224266824396,
+            "chi_relative_rms": 0.0005473243347726351,
+            "complex_relative_rms": 0.0005451349326105746,
+            "phase_max_abs_rad": 0.0008105032262691023,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.0005142018971867451,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00021791707154848833,
+            "baseline_weighted_rms": 0.1980081994593537,
+            "chi_relative_rms": 0.0005295206644717574,
+            "complex_relative_rms": 0.0005349069841153669,
+            "phase_max_abs_rad": 0.0008105032262691023,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0004884788404870331,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 4.6699986694160195e-05,
+            "baseline_weighted_rms": 0.12521912988250777,
+            "chi_relative_rms": 0.0006023605530657692,
+            "complex_relative_rms": 0.0005786363313533754,
+            "phase_max_abs_rad": 0.0007999999999982488,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005767386320154556,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.2405_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 2.203419691349667e-05,
+            "baseline_weighted_rms": 0.08368248087869462,
+            "chi_relative_rms": 0.0004848377532450322,
+            "complex_relative_rms": 0.00045425986090314845,
+            "phase_max_abs_rad": 0.0008000000000052406,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004537233511885857,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00032343308648127514,
+            "baseline_weighted_rms": 0.03790965065972505,
+            "chi_relative_rms": 0.0008375016299546618,
+            "complex_relative_rms": 0.0008240970513140397,
+            "phase_max_abs_rad": 0.0011999999999972506,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0007580199857428649,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00019413148033438872,
+            "baseline_weighted_rms": 0.15618500184146586,
+            "chi_relative_rms": 0.0005371459298522294,
+            "complex_relative_rms": 0.0005072929142561272,
+            "phase_max_abs_rad": 0.000704832646071898,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.0004740159547851417,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00022201600654471367,
+            "baseline_weighted_rms": 0.1820180718626792,
+            "chi_relative_rms": 0.000578944429539092,
+            "complex_relative_rms": 0.0005414127409435889,
+            "phase_max_abs_rad": 0.000704832646071898,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0004937682718578992,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 3.6710959202416286e-05,
+            "baseline_weighted_rms": 0.11584658499011022,
+            "chi_relative_rms": 0.0003988399720360606,
+            "complex_relative_rms": 0.0003886553910068299,
+            "phase_max_abs_rad": 0.0007999999999910182,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0003869142013827117,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00011865287925981505,
+            "baseline_weighted_rms": 0.44333400542795554,
+            "chi_relative_rms": 0.00017217136038868964,
+            "complex_relative_rms": 0.000174240624201317,
+            "phase_max_abs_rad": 0.00042462472683839743,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0001275910232411153,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00039046288201486154,
+            "baseline_weighted_rms": 0.19229490777380354,
+            "chi_relative_rms": 0.00045383365168850167,
+            "complex_relative_rms": 0.00046793891017674944,
+            "phase_max_abs_rad": 0.0019910930325528846,
+            "phase_points": 77,
+            "phase_weighted_rms_rad": 0.0002563163800047609,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0005159567507179727,
+            "baseline_weighted_rms": 0.32972247347723965,
+            "chi_relative_rms": 0.0006843496438255323,
+            "complex_relative_rms": 0.0007801063402573435,
+            "phase_max_abs_rad": 0.005093177094032484,
+            "phase_points": 151,
+            "phase_weighted_rms_rad": 0.0005719516542773138,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0007917208291626295,
+            "baseline_weighted_rms": 0.2469488162270365,
+            "chi_relative_rms": 0.001083571125206818,
+            "complex_relative_rms": 0.001170806990625896,
+            "phase_max_abs_rad": 0.005093177094032484,
+            "phase_points": 88,
+            "phase_weighted_rms_rad": 0.0008513560532385259,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00031959852688761203,
+            "baseline_weighted_rms": 0.40865236937732086,
+            "chi_relative_rms": 0.0004464630044218841,
+            "complex_relative_rms": 0.0005152296162987339,
+            "phase_max_abs_rad": 0.0025642874713272864,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.000404146008433016,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 9.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 5.0,
+        "with_h": false
+      },
+      "reference": "B-Ta2O5-COD2102123",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          50
+        ],
+        "1": [
+          44
+        ],
+        "2": [
+          50
+        ]
+      },
+      "scf_iterations": 8,
+      "selected_path_count": 6,
+      "setting": "scf5_cluster9"
+    },
+    {
+      "actual_cluster_radius_A": 7.999805678108688,
+      "atom_count": 186,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.6699_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00021453951896367097,
+            "baseline_weighted_rms": 0.16530074585585067,
+            "chi_relative_rms": 0.007603794743672477,
+            "complex_relative_rms": 0.007283006395129938,
+            "phase_max_abs_rad": 0.008200000000002207,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.007279867810349375,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00043852757856426304,
+            "baseline_weighted_rms": 0.13894169557645947,
+            "chi_relative_rms": 0.005852557704222695,
+            "complex_relative_rms": 0.006282118618525541,
+            "phase_max_abs_rad": 0.0065000000000027675,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.006268098116138643,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.001034052511539071,
+            "baseline_weighted_rms": 0.3153549378733232,
+            "chi_relative_rms": 0.01321343954386112,
+            "complex_relative_rms": 0.014047873580645954,
+            "phase_max_abs_rad": 0.02050000000000025,
+            "phase_points": 151,
+            "phase_weighted_rms_rad": 0.014341981493084037,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0011662854691924544,
+            "baseline_weighted_rms": 0.3696180821411603,
+            "chi_relative_rms": 0.01435249047400659,
+            "complex_relative_rms": 0.015213947244282882,
+            "phase_max_abs_rad": 0.02050000000000025,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.015177944976232554,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00033734363248136886,
+            "baseline_weighted_rms": 0.22971322405345507,
+            "chi_relative_rms": 0.0088335215248254,
+            "complex_relative_rms": 0.009270205719244834,
+            "phase_max_abs_rad": 0.011099999999998944,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.009263754315572767,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9030_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0002597192504881883,
+            "baseline_weighted_rms": 0.12499022505585161,
+            "chi_relative_rms": 0.007213066997396912,
+            "complex_relative_rms": 0.007681338295664133,
+            "phase_max_abs_rad": 0.009200000000006944,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0076774361900145615,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00015195359836326245,
+            "baseline_weighted_rms": 0.08304910413377273,
+            "chi_relative_rms": 0.00731107432449526,
+            "complex_relative_rms": 0.0073681499059208445,
+            "phase_max_abs_rad": 0.00843330108995837,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.007366913494942915,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0010916669209605134,
+            "baseline_weighted_rms": 0.2336767700659081,
+            "chi_relative_rms": 0.016430876023662968,
+            "complex_relative_rms": 0.01566083432795519,
+            "phase_max_abs_rad": 0.023100000000003923,
+            "phase_points": 148,
+            "phase_weighted_rms_rad": 0.016039875697779964,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0012352330383732307,
+            "baseline_weighted_rms": 0.2738563838602955,
+            "chi_relative_rms": 0.01812109313692126,
+            "complex_relative_rms": 0.017008083959164116,
+            "phase_max_abs_rad": 0.023100000000003923,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.016973673969229747,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.000307870678553783,
+            "baseline_weighted_rms": 0.17026790456430435,
+            "chi_relative_rms": 0.009622790219538737,
+            "complex_relative_rms": 0.010061655490462743,
+            "phase_max_abs_rad": 0.011100000000002608,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.010056982320434088,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9085_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.000263035059799183,
+            "baseline_weighted_rms": 0.1241530502663874,
+            "chi_relative_rms": 0.007056573100148816,
+            "complex_relative_rms": 0.007532883720804319,
+            "phase_max_abs_rad": 0.009200000000006994,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0075286975369330865,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00015191416042201027,
+            "baseline_weighted_rms": 0.08195861768564984,
+            "chi_relative_rms": 0.007668308481147962,
+            "complex_relative_rms": 0.0075559677066853945,
+            "phase_max_abs_rad": 0.008392199544012156,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.007554686596110717,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0010969408850714964,
+            "baseline_weighted_rms": 0.23208221296858617,
+            "chi_relative_rms": 0.016290869878111045,
+            "complex_relative_rms": 0.015700237636607252,
+            "phase_max_abs_rad": 0.023500000000000378,
+            "phase_points": 148,
+            "phase_weighted_rms_rad": 0.016081860784397505,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.001241769335547531,
+            "baseline_weighted_rms": 0.271974267194477,
+            "chi_relative_rms": 0.017950527217043835,
+            "complex_relative_rms": 0.017056961531827695,
+            "phase_max_abs_rad": 0.023500000000000378,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.017022223093111202,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00030263915243891994,
+            "baseline_weighted_rms": 0.16913290325038208,
+            "chi_relative_rms": 0.009598459369351445,
+            "complex_relative_rms": 0.01005620973902839,
+            "phase_max_abs_rad": 0.011100000000002549,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.010051702703691285,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.1049_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0002892151124437632,
+            "baseline_weighted_rms": 0.09790510529329312,
+            "chi_relative_rms": 0.008785547479958472,
+            "complex_relative_rms": 0.008596889221083625,
+            "phase_max_abs_rad": 0.00919999999999989,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.008592446643644709,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0008885589261991827,
+            "baseline_weighted_rms": 0.050977389659321935,
+            "chi_relative_rms": 0.00881314711279441,
+            "complex_relative_rms": 0.008538986272085386,
+            "phase_max_abs_rad": 0.011099999999998889,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.008489181898392623,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0011154982176730364,
+            "baseline_weighted_rms": 0.1828460540270605,
+            "chi_relative_rms": 0.016718769238230298,
+            "complex_relative_rms": 0.017075036594849637,
+            "phase_max_abs_rad": 0.025499999999998302,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.017573173348450825,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0012648072667487131,
+            "baseline_weighted_rms": 0.21368326083776704,
+            "chi_relative_rms": 0.01839352452082348,
+            "complex_relative_rms": 0.018677701382339918,
+            "phase_max_abs_rad": 0.025499999999998302,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.018646382270251845,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00032375835547804614,
+            "baseline_weighted_rms": 0.1344398971569737,
+            "chi_relative_rms": 0.00981268828351318,
+            "complex_relative_rms": 0.010423087197727084,
+            "phase_max_abs_rad": 0.012110953728456072,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.010418360624631097,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.1688_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00030751129303007677,
+            "baseline_weighted_rms": 0.09083582595808565,
+            "chi_relative_rms": 0.00813760989305583,
+            "complex_relative_rms": 0.008294526286787804,
+            "phase_max_abs_rad": 0.009199999999999863,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.008289156444975061,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0014142087266238248,
+            "baseline_weighted_rms": 0.0440257546443429,
+            "chi_relative_rms": 0.007921709425150095,
+            "complex_relative_rms": 0.008549040077173432,
+            "phase_max_abs_rad": 0.0160999999999945,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.008425837120654535,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.001120720971163136,
+            "baseline_weighted_rms": 0.16964224266824396,
+            "chi_relative_rms": 0.01642604825571586,
+            "complex_relative_rms": 0.017151051434442288,
+            "phase_max_abs_rad": 0.025519536363836803,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.0176493774727863,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0012729199785727295,
+            "baseline_weighted_rms": 0.1980081994593537,
+            "chi_relative_rms": 0.017616921164147047,
+            "complex_relative_rms": 0.01874941892639714,
+            "phase_max_abs_rad": 0.025519536363836803,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.018717697552171973,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00031550658047299846,
+            "baseline_weighted_rms": 0.12521912988250777,
+            "chi_relative_rms": 0.01117312924398246,
+            "complex_relative_rms": 0.010620455287305673,
+            "phase_max_abs_rad": 0.012100000000003766,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.010616203984604729,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.2405_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00032632582711452035,
+            "baseline_weighted_rms": 0.08368248087869462,
+            "chi_relative_rms": 0.008757515814472731,
+            "complex_relative_rms": 0.00852487444889558,
+            "phase_max_abs_rad": 0.009199999999999896,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.008518897667436333,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0021439396215548875,
+            "baseline_weighted_rms": 0.03790965065972505,
+            "chi_relative_rms": 0.008325122140337255,
+            "complex_relative_rms": 0.008046137361681485,
+            "phase_max_abs_rad": 0.015099999999989656,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.007747400790722378,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00111261747316127,
+            "baseline_weighted_rms": 0.15618500184146586,
+            "chi_relative_rms": 0.017246713477909334,
+            "complex_relative_rms": 0.017764311577071316,
+            "phase_max_abs_rad": 0.02649999999999685,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.01827158002413356,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0012654682461672837,
+            "baseline_weighted_rms": 0.1820180718626792,
+            "chi_relative_rms": 0.01883482421626486,
+            "complex_relative_rms": 0.019401796275841706,
+            "phase_max_abs_rad": 0.02649999999999685,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.019372128220823598,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.0003142115771233929,
+            "baseline_weighted_rms": 0.11584658499011022,
+            "chi_relative_rms": 0.011166985541143017,
+            "complex_relative_rms": 0.011218469455312876,
+            "phase_max_abs_rad": 0.013099999999997874,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.011214847602578211,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.00030004160587197853,
+            "baseline_weighted_rms": 0.44333400542795554,
+            "chi_relative_rms": 0.007320701883815252,
+            "complex_relative_rms": 0.0076013459291945805,
+            "phase_max_abs_rad": 0.008900085205060233,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.007595703913732095,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0012086150783705814,
+            "baseline_weighted_rms": 0.19229490777380354,
+            "chi_relative_rms": 0.006992055946999546,
+            "complex_relative_rms": 0.007333036344641487,
+            "phase_max_abs_rad": 0.009091756569388263,
+            "phase_points": 77,
+            "phase_weighted_rms_rad": 0.007238514568609025,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.002820783116343399,
+            "baseline_weighted_rms": 0.32972247347723965,
+            "chi_relative_rms": 0.015260175919041354,
+            "complex_relative_rms": 0.013861994589628054,
+            "phase_max_abs_rad": 0.03975318556385547,
+            "phase_points": 151,
+            "phase_weighted_rms_rad": 0.013600075442489718,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.004993392266196998,
+            "baseline_weighted_rms": 0.2469488162270365,
+            "chi_relative_rms": 0.02405767308551699,
+            "complex_relative_rms": 0.020205309023037972,
+            "phase_max_abs_rad": 0.03975318556385547,
+            "phase_points": 88,
+            "phase_weighted_rms_rad": 0.019728945787956375,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.000472919608557991,
+            "baseline_weighted_rms": 0.40865236937732086,
+            "chi_relative_rms": 0.009870088713952632,
+            "complex_relative_rms": 0.009683024073762512,
+            "phase_max_abs_rad": 0.014086026263546676,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.009670102514466802,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 8.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 4.0,
+        "with_h": false
+      },
+      "reference": "B-Ta2O5-COD2102123",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          26
+        ],
+        "1": [
+          23
+        ],
+        "2": [
+          26
+        ]
+      },
+      "scf_iterations": 9,
+      "selected_path_count": 6,
+      "setting": "scf4_cluster8"
+    },
+    {
+      "actual_cluster_radius_A": 6.964594654816604,
+      "atom_count": 117,
+      "coordination_sum": 6.0,
+      "native_diagnostics": [
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "WARNING:  rmax > distance to most distant atom.",
+        "rmax, ratx   4.00000E+00  0.00000E+00",
+        "Rmax  4.0000  keep and heap limits   0.0000000   0.0000000",
+        "Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+        "PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%"
+      ],
+      "paths": {
+        "O_R1.6699_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 3.626123062727219e-05,
+            "baseline_weighted_rms": 0.16530074585585067,
+            "chi_relative_rms": 0.0005464823871408085,
+            "complex_relative_rms": 0.00054277539589208,
+            "phase_max_abs_rad": 0.0008920242883476105,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005415691999185933,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 4.169523208274679e-05,
+            "baseline_weighted_rms": 0.13894169557645947,
+            "chi_relative_rms": 0.00046093598078803384,
+            "complex_relative_rms": 0.00046566364095670444,
+            "phase_max_abs_rad": 0.0007999999999982769,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.000463800114569226,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00022916054685965688,
+            "baseline_weighted_rms": 0.3153549378733232,
+            "chi_relative_rms": 0.0005082379706578641,
+            "complex_relative_rms": 0.00047314456153512693,
+            "phase_max_abs_rad": 0.0008874442887006017,
+            "phase_points": 151,
+            "phase_weighted_rms_rad": 0.0004190070590522409,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0002604045308849711,
+            "baseline_weighted_rms": 0.3696180821411603,
+            "chi_relative_rms": 0.0005369381277727099,
+            "complex_relative_rms": 0.000492778701494053,
+            "phase_max_abs_rad": 0.0008874442887006017,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0004183948202540937,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 4.910804914208646e-05,
+            "baseline_weighted_rms": 0.22971322405345507,
+            "chi_relative_rms": 0.00041279753289570663,
+            "complex_relative_rms": 0.0004040410447436932,
+            "phase_max_abs_rad": 0.0005000000000023442,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004010483472276374,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9030_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 2.8473805526989238e-05,
+            "baseline_weighted_rms": 0.12499022505585161,
+            "chi_relative_rms": 0.0003316081402695023,
+            "complex_relative_rms": 0.00041235356102181626,
+            "phase_max_abs_rad": 0.0007051498843324629,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00041137558933992025,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 3.6951837812348644e-05,
+            "baseline_weighted_rms": 0.08304910413377273,
+            "chi_relative_rms": 0.00046245711355329025,
+            "complex_relative_rms": 0.000467695105135536,
+            "phase_max_abs_rad": 0.0008557806991405454,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00046622778989874954,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00023504658981682826,
+            "baseline_weighted_rms": 0.2336767700659081,
+            "chi_relative_rms": 0.0006426074537951639,
+            "complex_relative_rms": 0.0005388325835076819,
+            "phase_max_abs_rad": 0.0013779410951455654,
+            "phase_points": 148,
+            "phase_weighted_rms_rad": 0.0004950442467171818,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.00026727045349069645,
+            "baseline_weighted_rms": 0.2738563838602955,
+            "chi_relative_rms": 0.0007119455628907184,
+            "complex_relative_rms": 0.0005672108317692737,
+            "phase_max_abs_rad": 0.0013779410951455654,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0005003634242586118,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 4.7726831910712013e-05,
+            "baseline_weighted_rms": 0.17026790456430435,
+            "chi_relative_rms": 0.00036104000735181965,
+            "complex_relative_rms": 0.00043426846854802495,
+            "phase_max_abs_rad": 0.0007000000000018308,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00043164047179421487,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R1.9085_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 3.526640711976338e-05,
+            "baseline_weighted_rms": 0.1241530502663874,
+            "chi_relative_rms": 0.0005231823521220907,
+            "complex_relative_rms": 0.0005451663564402528,
+            "phase_max_abs_rad": 0.0009448884774911176,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005440353135244179,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 2.8273341732529036e-05,
+            "baseline_weighted_rms": 0.08195861768564984,
+            "chi_relative_rms": 0.00027550804085657517,
+            "complex_relative_rms": 0.0002812306601235516,
+            "phase_max_abs_rad": 0.0007999999999981101,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0002798034837665732,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00024167933090409993,
+            "baseline_weighted_rms": 0.23208221296858617,
+            "chi_relative_rms": 0.0004606341602913146,
+            "complex_relative_rms": 0.00043818927290319745,
+            "phase_max_abs_rad": 0.000810578681765128,
+            "phase_points": 148,
+            "phase_weighted_rms_rad": 0.00036970026980950757,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0002739260468700796,
+            "baseline_weighted_rms": 0.271974267194477,
+            "chi_relative_rms": 0.0004913799125319052,
+            "complex_relative_rms": 0.0004403310353552067,
+            "phase_max_abs_rad": 0.000810578681765128,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.00034477668208642833,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 6.316770663570962e-05,
+            "baseline_weighted_rms": 0.16913290325038208,
+            "chi_relative_rms": 0.00035221168338060303,
+            "complex_relative_rms": 0.0004325416203019347,
+            "phase_max_abs_rad": 0.000708861409655963,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.000427911303703978,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.1049_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 3.8129011086399967e-05,
+            "baseline_weighted_rms": 0.09790510529329312,
+            "chi_relative_rms": 0.0006118215407086851,
+            "complex_relative_rms": 0.0006022895039570582,
+            "phase_max_abs_rad": 0.0008265611377637946,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0006010916703017038,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 9.616281962642765e-05,
+            "baseline_weighted_rms": 0.050977389659321935,
+            "chi_relative_rms": 0.00046936255113663586,
+            "complex_relative_rms": 0.00046333105662398874,
+            "phase_max_abs_rad": 0.0008031289578055623,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004532415151446583,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00024453170871870897,
+            "baseline_weighted_rms": 0.1828460540270605,
+            "chi_relative_rms": 0.0006138263492798912,
+            "complex_relative_rms": 0.0006400162379749269,
+            "phase_max_abs_rad": 0.0014243790958552442,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.0006085249140128024,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.000278165147535477,
+            "baseline_weighted_rms": 0.21368326083776704,
+            "chi_relative_rms": 0.0006687013170021799,
+            "complex_relative_rms": 0.0006977275601216314,
+            "phase_max_abs_rad": 0.0014243790958552442,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0006399531642690941,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 5.865756377097598e-05,
+            "baseline_weighted_rms": 0.1344398971569737,
+            "chi_relative_rms": 0.0003967075644606748,
+            "complex_relative_rms": 0.0004047039278311014,
+            "phase_max_abs_rad": 0.0006251305361892383,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004004354399584898,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.1688_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 3.822250373681115e-05,
+            "baseline_weighted_rms": 0.09083582595808565,
+            "chi_relative_rms": 0.0005141060462433081,
+            "complex_relative_rms": 0.0005173693531826912,
+            "phase_max_abs_rad": 0.0009412831943010294,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005159654596880738,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00013452433277784772,
+            "baseline_weighted_rms": 0.0440257546443429,
+            "chi_relative_rms": 0.00044695846598387287,
+            "complex_relative_rms": 0.00048412903874085414,
+            "phase_max_abs_rad": 0.0008035156233248006,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0004650489025616915,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00024665677119093505,
+            "baseline_weighted_rms": 0.16964224266824396,
+            "chi_relative_rms": 0.0006288715134209074,
+            "complex_relative_rms": 0.0006861721521727062,
+            "phase_max_abs_rad": 0.0012999999999987748,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.0006590309676617316,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0002816511396728571,
+            "baseline_weighted_rms": 0.1980081994593537,
+            "chi_relative_rms": 0.0006648754481028417,
+            "complex_relative_rms": 0.000746503308417482,
+            "phase_max_abs_rad": 0.0012999999999987748,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.000691410324586121,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 4.86675682439888e-05,
+            "baseline_weighted_rms": 0.12521912988250777,
+            "chi_relative_rms": 0.0004755851015967449,
+            "complex_relative_rms": 0.00044480531833734476,
+            "phase_max_abs_rad": 0.0006996959835134213,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00044213700827067386,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "O_R2.2405_N1": {
+          "12-16": {
+            "amplitude_relative_rms": 2.91858856710191e-05,
+            "baseline_weighted_rms": 0.08368248087869462,
+            "chi_relative_rms": 0.00039402352856092985,
+            "complex_relative_rms": 0.000386347600168547,
+            "phase_max_abs_rad": 0.0007000000000018662,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0003852484535591847,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.00016697882080696715,
+            "baseline_weighted_rms": 0.03790965065972505,
+            "chi_relative_rms": 0.00048303492657424997,
+            "complex_relative_rms": 0.0004825228458855284,
+            "phase_max_abs_rad": 0.0008407778454965714,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00045268316989898025,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.00024228548339199992,
+            "baseline_weighted_rms": 0.15618500184146586,
+            "chi_relative_rms": 0.0006751068114261877,
+            "complex_relative_rms": 0.0006211984930248669,
+            "phase_max_abs_rad": 0.0012685629171898122,
+            "phase_points": 147,
+            "phase_weighted_rms_rad": 0.0005747822475664072,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0002759358514712323,
+            "baseline_weighted_rms": 0.1820180718626792,
+            "chi_relative_rms": 0.0007151564482946983,
+            "complex_relative_rms": 0.0006432209839370955,
+            "phase_max_abs_rad": 0.0012685629171898122,
+            "phase_points": 101,
+            "phase_weighted_rms_rad": 0.0005810922616493969,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 6.509612264475839e-05,
+            "baseline_weighted_rms": 0.11584658499011022,
+            "chi_relative_rms": 0.0005385698147132907,
+            "complex_relative_rms": 0.0005459946730157093,
+            "phase_max_abs_rad": 0.0007508604062849885,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.0005421044246134085,
+            "points": 81,
+            "review_flags": []
+          }
+        },
+        "complete_O_shell": {
+          "12-16": {
+            "amplitude_relative_rms": 0.0001028950774793493,
+            "baseline_weighted_rms": 0.44333400542795554,
+            "chi_relative_rms": 0.00042034439131346434,
+            "complex_relative_rms": 0.0004270080473114836,
+            "phase_max_abs_rad": 0.0006567579863900774,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00041441069538812576,
+            "points": 81,
+            "review_flags": []
+          },
+          "16-20": {
+            "amplitude_relative_rms": 0.0003006870462473864,
+            "baseline_weighted_rms": 0.19229490777380354,
+            "chi_relative_rms": 0.00036383659244962975,
+            "complex_relative_rms": 0.00037885231351750736,
+            "phase_max_abs_rad": 0.0018283072684726666,
+            "phase_points": 77,
+            "phase_weighted_rms_rad": 0.00022127868441850727,
+            "points": 81,
+            "review_flags": []
+          },
+          "3-12": {
+            "amplitude_relative_rms": 0.0005881488944086265,
+            "baseline_weighted_rms": 0.32972247347723965,
+            "chi_relative_rms": 0.0007686482230406813,
+            "complex_relative_rms": 0.0008517812134908217,
+            "phase_max_abs_rad": 0.004787484346312571,
+            "phase_points": 151,
+            "phase_weighted_rms_rad": 0.0006175534422297803,
+            "points": 181,
+            "review_flags": []
+          },
+          "3-8": {
+            "amplitude_relative_rms": 0.0010179171233497496,
+            "baseline_weighted_rms": 0.2469488162270365,
+            "chi_relative_rms": 0.0013299365823875745,
+            "complex_relative_rms": 0.0013930220486223755,
+            "phase_max_abs_rad": 0.004787484346312571,
+            "phase_points": 88,
+            "phase_weighted_rms_rad": 0.0009610731346834305,
+            "points": 101,
+            "review_flags": []
+          },
+          "8-12": {
+            "amplitude_relative_rms": 0.00017759146591494524,
+            "baseline_weighted_rms": 0.40865236937732086,
+            "chi_relative_rms": 0.00036007883932203115,
+            "complex_relative_rms": 0.0004152169173321527,
+            "phase_max_abs_rad": 0.0009794940309439536,
+            "phase_points": 81,
+            "phase_weighted_rms_rad": 0.00037527805138789215,
+            "points": 81,
+            "review_flags": []
+          }
+        }
+      },
+      "recipe": {
+        "cluster_radius_A": 7.0,
+        "exchange": 0,
+        "kmax_invA": 20,
+        "max_legs": 2,
+        "path_radius_A": 4.0,
+        "polarization": null,
+        "rng_seed": 0,
+        "s02": 1.0,
+        "scf_iterations": 30,
+        "scf_mixing": 0.2,
+        "scf_radius_A": 5.0,
+        "with_h": false
+      },
+      "reference": "B-Ta2O5-COD2102123",
+      "scf_cluster_atom_counts_by_potential": {
+        "0": [
+          50
+        ],
+        "1": [
+          44
+        ],
+        "2": [
+          44
+        ]
+      },
+      "scf_iterations": 8,
+      "selected_path_count": 6,
+      "setting": "scf5_cluster7"
+    }
+  ],
+  "scientific_status": "candidate"
+}

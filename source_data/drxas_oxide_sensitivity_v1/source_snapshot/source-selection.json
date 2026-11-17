@@ -1,0 +1,59 @@
+{
+  "recommendation": "Small pilot of three experimentally sourced, ordered average structure models; keep all computed paths candidate pending scientific review.",
+  "excluded_or_deferred": [
+    {
+      "id": "AMCSD 11410",
+      "phase": "TaO",
+      "reason": "Textbook rocksalt model; historical primary experimental evidence and phase stoichiometry are insufficiently secure for preferred pilot."
+    },
+    {
+      "id": "AMCSD 12104 / COD 1001166",
+      "phase": "Nominal Ta2O7",
+      "reason": "Source title is hydrated/protonated pyrochlore (H4O7Ta2), with hydrogen omitted in bundled formula; not a binary tantalum oxide."
+    },
+    {
+      "id": "COD 2106064",
+      "phase": "L-Ta2O5",
+      "reason": "Partial oxygen occupancies (0.25 and 0.75), 12 independent Ta sites; not a directly fully ordered FEFF source."
+    },
+    {
+      "id": "COD 1540126",
+      "phase": "T-Ta2O5",
+      "reason": "Many oxygen occupancies around0.9474/0.95, 13 independentTa sites; requires explicit disorder treatment."
+    },
+    {
+      "id": "COD 1539998",
+      "phase": "Metastable Ta2O5 derivative",
+      "reason": "Oxygen occupancies0.9/0.95; not fullyordered."
+    },
+    {
+      "id": "COD 1531068",
+      "phase": "beta Ta2O5 Pccm",
+      "reason": "Fully occupied compact experimental refinement model with2 independentTa sites, but measurement conditions not stated and primary interpretation not fully audited; deferred in favor of direct IUCr-linked B phase record."
+    },
+    {
+      "id": "COD 4124669",
+      "phase": "tetragonal PtO",
+      "reason": "Historical Moore/Pauling1941 model. Muller/Roy1968 reported inability to reproduce this phase; defer rather than use it as an unqualified PtO reference.",
+      "original_doi": "10.1021/ja01850a074",
+      "later_source_doi": "10.1016/0022-5088(68)90070-2"
+    },
+    {
+      "id": "COD 1537410",
+      "phase": "alpha-PtO2",
+      "reason": "Published experimental record but coarse fractional oxygen coordinates and cell precision; beta-PtO2 single-crystal refinement selected for this pilot.",
+      "doi": "10.1021/ba-1971-0098.ch004"
+    },
+    {
+      "id": "COD 2102124",
+      "phase": "Z-Ta2O5",
+      "reason": "Ordered high-pressure phase is a future candidate. Published sevenfold Ta coordination needs explicit shell treatment because an eighth oxygen lies at 2.434 A; the B-phase six-coordinate model was selected first.",
+      "doi": "10.1107/S0108768100005462"
+    }
+  ],
+  "selected": [
+    "IrO2-rutile-COD2101854",
+    "beta-PtO2-COD1530633",
+    "B-Ta2O5-COD2102123"
+  ]
+}

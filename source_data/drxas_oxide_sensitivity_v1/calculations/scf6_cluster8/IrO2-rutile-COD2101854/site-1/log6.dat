@@ -1,0 +1,23 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: IrO2                                  Feff8L (EXAFS)       0.1
+ SpaceGroup: P4_2/mnm
+ Dr-XAS candidate IrO2-rutile-COD2101854 COD 2101854
+ POT  SCF  30  6.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=77 Rmt= 1.315 Rnm= 1.413 L3 shell
+ Pot 1 Z= 8 Rmt= 0.966 Rnm= 1.040
+ Pot 2 Z=77 Rmt= 1.318 Rnm= 1.422
+ Gam_ch=5.060E+00 H-L exch
+ Mu=-6.047E+00 kf=2.423E+00 Vint=-1.683E+01 Rs_int= 1.497
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+       6 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+       3     feff0003.dat
+       4     feff0004.dat
+       5     feff0005.dat
+       6     feff0006.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

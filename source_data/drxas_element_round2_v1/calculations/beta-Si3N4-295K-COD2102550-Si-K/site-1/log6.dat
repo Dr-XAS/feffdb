@@ -1,0 +1,29 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: Si3N4                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: P6_3/
+ Dr-XAS candidate beta-Si3N4-295K-COD2102550-Si-K COD 2102550
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=14 Rmt= 1.091 Rnm= 1.256 K  shell
+ Pot 1 Z= 7 Rmt= 0.898 Rnm= 1.039
+ Pot 2 Z=14 Rmt= 1.095 Rnm= 1.265
+ Gam_ch=4.153E-01 H-L exch
+ Mu=-7.534E+00 kf=2.514E+00 Vint=-2.050E+01 Rs_int= 1.443
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+      12 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+       3     feff0003.dat
+       4     feff0004.dat
+       5     feff0005.dat
+       6     feff0006.dat
+       7     feff0007.dat
+       8     feff0008.dat
+       9     feff0009.dat
+      10     feff0010.dat
+      11     feff0011.dat
+      12     feff0012.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

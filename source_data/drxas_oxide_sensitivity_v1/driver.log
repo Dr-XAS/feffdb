@@ -1,0 +1,121 @@
+B-Ta2O5-COD2102123 site-1: rdinp
+beta-PtO2-COD1530633 site-1: rdinp
+IrO2-rutile-COD2101854 site-1: rdinp
+B-Ta2O5-COD2102123 site-1: pot
+IrO2-rutile-COD2101854 site-1: pot
+beta-PtO2-COD1530633 site-1: pot
+IrO2-rutile-COD2101854 site-1: xsph
+IrO2-rutile-COD2101854 site-1: pathfinder
+IrO2-rutile-COD2101854 site-1: genfmt
+IrO2-rutile-COD2101854 site-1: ff2x
+IrO2-rutile-COD2101854: 2 first-shell paths, CN=6.0
+{"reference": "IrO2-rutile-COD2101854", "setting": "baseline_scf5_cluster8", "status": "complete"}
+IrO2-rutile-COD2101854 site-1: rdinp
+IrO2-rutile-COD2101854 site-1: pot
+beta-PtO2-COD1530633 site-1: xsph
+beta-PtO2-COD1530633 site-1: pathfinder
+beta-PtO2-COD1530633 site-1: genfmt
+beta-PtO2-COD1530633 site-1: ff2x
+beta-PtO2-COD1530633: 2 first-shell paths, CN=6.0
+{"reference": "beta-PtO2-COD1530633", "setting": "baseline_scf5_cluster8", "status": "complete"}
+beta-PtO2-COD1530633 site-1: rdinp
+beta-PtO2-COD1530633 site-1: pot
+B-Ta2O5-COD2102123 site-1: xsph
+B-Ta2O5-COD2102123 site-1: pathfinder
+B-Ta2O5-COD2102123 site-1: genfmt
+B-Ta2O5-COD2102123 site-1: ff2x
+B-Ta2O5-COD2102123: 6 first-shell paths, CN=6.0
+{"reference": "B-Ta2O5-COD2102123", "setting": "baseline_scf5_cluster8", "status": "complete"}
+B-Ta2O5-COD2102123 site-1: rdinp
+B-Ta2O5-COD2102123 site-1: pot
+IrO2-rutile-COD2101854 site-1: xsph
+IrO2-rutile-COD2101854 site-1: pathfinder
+IrO2-rutile-COD2101854 site-1: genfmt
+IrO2-rutile-COD2101854 site-1: ff2x
+IrO2-rutile-COD2101854: 2 first-shell paths, CN=6.0
+{"reference": "IrO2-rutile-COD2101854", "setting": "scf6_cluster8", "status": "complete"}
+IrO2-rutile-COD2101854 site-1: rdinp
+IrO2-rutile-COD2101854 site-1: pot
+IrO2-rutile-COD2101854 site-1: xsph
+IrO2-rutile-COD2101854 site-1: pathfinder
+IrO2-rutile-COD2101854 site-1: genfmt
+IrO2-rutile-COD2101854 site-1: ff2x
+IrO2-rutile-COD2101854: 2 first-shell paths, CN=6.0
+{"reference": "IrO2-rutile-COD2101854", "setting": "scf5_cluster9", "status": "complete"}
+beta-PtO2-COD1530633 site-1: rdinp
+beta-PtO2-COD1530633 site-1: pot
+B-Ta2O5-COD2102123 site-1: xsph
+B-Ta2O5-COD2102123 site-1: pathfinder
+B-Ta2O5-COD2102123 site-1: genfmt
+B-Ta2O5-COD2102123 site-1: ff2x
+B-Ta2O5-COD2102123: 6 first-shell paths, CN=6.0
+{"reference": "B-Ta2O5-COD2102123", "setting": "scf6_cluster8", "status": "complete"}
+B-Ta2O5-COD2102123 site-1: rdinp
+B-Ta2O5-COD2102123 site-1: pot
+beta-PtO2-COD1530633 site-1: xsph
+beta-PtO2-COD1530633 site-1: pathfinder
+beta-PtO2-COD1530633 site-1: genfmt
+beta-PtO2-COD1530633 site-1: ff2x
+beta-PtO2-COD1530633: 2 first-shell paths, CN=6.0
+{"reference": "beta-PtO2-COD1530633", "setting": "scf5_cluster9", "status": "complete"}
+IrO2-rutile-COD2101854 site-1: rdinp
+IrO2-rutile-COD2101854 site-1: pot
+IrO2-rutile-COD2101854 site-1: xsph
+IrO2-rutile-COD2101854 site-1: pathfinder
+IrO2-rutile-COD2101854 site-1: genfmt
+IrO2-rutile-COD2101854 site-1: ff2x
+IrO2-rutile-COD2101854: 2 first-shell paths, CN=6.0
+{"reference": "IrO2-rutile-COD2101854", "setting": "scf4_cluster8", "status": "complete"}
+beta-PtO2-COD1530633 site-1: rdinp
+beta-PtO2-COD1530633 site-1: pot
+beta-PtO2-COD1530633 site-1: xsph
+beta-PtO2-COD1530633 site-1: pathfinder
+beta-PtO2-COD1530633 site-1: genfmt
+beta-PtO2-COD1530633 site-1: ff2x
+beta-PtO2-COD1530633: 2 first-shell paths, CN=6.0
+{"reference": "beta-PtO2-COD1530633", "setting": "scf6_cluster8", "status": "complete"}
+B-Ta2O5-COD2102123 site-1: rdinp
+B-Ta2O5-COD2102123 site-1: pot
+beta-PtO2-COD1530633 site-1: xsph
+beta-PtO2-COD1530633 site-1: pathfinder
+beta-PtO2-COD1530633 site-1: genfmt
+beta-PtO2-COD1530633 site-1: ff2x
+beta-PtO2-COD1530633: 2 first-shell paths, CN=6.0
+{"reference": "beta-PtO2-COD1530633", "setting": "scf4_cluster8", "status": "complete"}
+IrO2-rutile-COD2101854 site-1: rdinp
+IrO2-rutile-COD2101854 site-1: pot
+B-Ta2O5-COD2102123 site-1: xsph
+B-Ta2O5-COD2102123 site-1: pathfinder
+B-Ta2O5-COD2102123 site-1: genfmt
+B-Ta2O5-COD2102123 site-1: ff2x
+B-Ta2O5-COD2102123: 6 first-shell paths, CN=6.0
+{"reference": "B-Ta2O5-COD2102123", "setting": "scf4_cluster8", "status": "complete"}
+beta-PtO2-COD1530633 site-1: rdinp
+beta-PtO2-COD1530633 site-1: pot
+B-Ta2O5-COD2102123 site-1: xsph
+B-Ta2O5-COD2102123 site-1: pathfinder
+B-Ta2O5-COD2102123 site-1: genfmt
+B-Ta2O5-COD2102123 site-1: ff2x
+B-Ta2O5-COD2102123: 6 first-shell paths, CN=6.0
+{"reference": "B-Ta2O5-COD2102123", "setting": "scf5_cluster9", "status": "complete"}
+B-Ta2O5-COD2102123 site-1: rdinp
+B-Ta2O5-COD2102123 site-1: pot
+IrO2-rutile-COD2101854 site-1: xsph
+IrO2-rutile-COD2101854 site-1: pathfinder
+IrO2-rutile-COD2101854 site-1: genfmt
+IrO2-rutile-COD2101854 site-1: ff2x
+IrO2-rutile-COD2101854: 2 first-shell paths, CN=6.0
+{"reference": "IrO2-rutile-COD2101854", "setting": "scf5_cluster7", "status": "complete"}
+beta-PtO2-COD1530633 site-1: xsph
+beta-PtO2-COD1530633 site-1: pathfinder
+beta-PtO2-COD1530633 site-1: genfmt
+beta-PtO2-COD1530633 site-1: ff2x
+beta-PtO2-COD1530633: 2 first-shell paths, CN=6.0
+{"reference": "beta-PtO2-COD1530633", "setting": "scf5_cluster7", "status": "complete"}
+B-Ta2O5-COD2102123 site-1: xsph
+B-Ta2O5-COD2102123 site-1: pathfinder
+B-Ta2O5-COD2102123 site-1: genfmt
+B-Ta2O5-COD2102123 site-1: ff2x
+B-Ta2O5-COD2102123: 6 first-shell paths, CN=6.0
+{"reference": "B-Ta2O5-COD2102123", "setting": "scf5_cluster7", "status": "complete"}
+{"completed": 15, "failures": []}

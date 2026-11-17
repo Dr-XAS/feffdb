@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "id": "Eu2O3-bixbyite-COD2300536",
+  "name": "Eu2O3 cubic bixbyite",
+  "source_database": "COD",
+  "source_id": "2300536",
+  "absorbers": [
+    "Eu"
+  ],
+  "edge": "L3",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/2300536.cif",
+  "record_url": "https://www.crystallography.net/cod/2300536.html",
+  "primary_url": "https://doi.org/10.1107/S0021889803019319",
+  "additional_primary_source": "https://research.asu.edu.eg/handle/123456789/213672",
+  "doi": "10.1107/S0021889803019319",
+  "citation": "Z. K. Heiba, Y. Akin, W. Sigmund and Y. S. Hascicek (2003). X-ray structure and microstructure determination of the mixed sesquioxides (Eu1-xYbx)2O3 prepared by a sol-gel process. Journal of Applied Crystallography 36, 1411-1416.",
+  "cif_sha256": "92a514336d015c2d747f0afc680820b6cc7df46db60ff1690c0d40a82514b53c",
+  "sha256": "92a514336d015c2d747f0afc680820b6cc7df46db60ff1690c0d40a82514b53c",
+  "retrieved_at_utc": "2026-11-17T04:34:04.936208+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "conditions_evidence": "Neither numeric diffraction temperature nor pressure is specified in the deposited CIF or verified author-repository abstract; left unknown.",
+  "method": "Experimental powder X-ray diffraction and Rietveld refinement; pure x=0 Eu2O3 specimen from the measured sol-gel series, as confirmed by the original-author institutional repository abstract.",
+  "synthesis_conditions": null,
+  "synthesis_conditions_note": "Sol-gel synthesis is reported; numeric synthesis temperature/pressure not verified and not substituted for measurement conditions.",
+  "selection": "Selected experimental reference; no FEFF calculation or experimental EXAFS validation performed in source research.",
+  "notes": [
+    "The selected source contains only Eu and O, each at explicit occupancy 1; mixed Eu/Yb compositions in the same article are excluded.",
+    "Both inequivalent Eu sites are required: multiplicities 8 and 24, population weights 0.25 and 0.75. FEFF degeneracy is per absorber; ensemble paths need explicit normalized site weighting.",
+    "This is a trivalent Eu2O3 reference; it does not represent divalent Eu or validate valence discrimination.",
+    "Lanthanide L3 paths are EXAFS candidates, not validated white-line, multiplet, magnetic, or XANES models. The FEFF8.2 manual documents frozen-f density by default and possible f-element SCF convergence difficulties; retain actual engine recipe and logs."
+  ],
+  "scientific_caveat_source": "https://feff.phys.washington.edu/feff/Docs/feff8/feff82.pdf",
+  "license": {
+    "database_policy": "COD data/database are publicly accessible under CC0; retain the original IUCr scientific-use/article-attribution notice.",
+    "policy_url": "https://www.crystallography.net/cod/2300536.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original COD/IUCr Journals header retained byte-for-byte; scientific-community use with proper attribution to the source journal article."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "Eu": 32.0,
+      "O": 48.0
+    },
+    "site_count": 80,
+    "space_group": "Ia-3",
+    "space_group_number": 206,
+    "cell": [
+      10.86831,
+      10.86831,
+      10.86831,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "raw_occupancy": [
+      "1",
+      "1",
+      "1"
+    ],
+    "absorber_sites": {
+      "Eu": {
+        "indices_one_based": [
+          1,
+          2
+        ],
+        "sites": [
+          {
+            "index_one_based": 1,
+            "multiplicity": 8,
+            "wyckoff": "8b",
+            "fractional_coordinates": [
+              0.25,
+              0.25,
+              0.25
+            ],
+            "population_weight": 0.25,
+            "first_shell_distances_A": [
+              2.3538566628657898,
+              2.35385666286579,
+              2.35385666286579,
+              2.3538566628657906,
+              2.3538566628657906,
+              2.3538566628657906
+            ],
+            "coordination_number": 6,
+            "next_same_scatterer_distance_A": 4.248478124250925,
+            "shell_cutoff_A": 3.0
+          },
+          {
+            "index_one_based": 2,
+            "multiplicity": 24,
+            "wyckoff": "24d",
+            "fractional_coordinates": [
+              0.96938,
+              0.0,
+              0.25
+            ],
+            "population_weight": 0.75,
+            "first_shell_distances_A": [
+              2.2559815885750534,
+              2.2559815885750547,
+              2.338811030361383,
+              2.3388110303613847,
+              2.439044531021127,
+              2.439044531021129
+            ],
+            "coordination_number": 6,
+            "next_same_scatterer_distance_A": 4.103662592030009,
+            "shell_cutoff_A": 3.0
+          }
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "recommended_reference": {
+    "id": "Eu2O3-bixbyite-COD2300536-Eu-L3",
+    "name": "Eu2O3 cubic bixbyite",
+    "formula": "Eu2O3",
+    "absorber": "Eu",
+    "scatterer": "O",
+    "edge": "L3",
+    "cod_id": "2300536",
+    "doi": "10.1107/S0021889803019319",
+    "cif_sha256": "92a514336d015c2d747f0afc680820b6cc7df46db60ff1690c0d40a82514b53c",
+    "absorber_site_indices": [
+      1,
+      2
+    ],
+    "shell_cutoff_A": 3.0,
+    "expected_cn_by_site": {
+      "1": 6,
+      "2": 6
+    },
+    "selection_basis": "Pure Eu2O3 endmember of an experimentally measured sol-gel series; all two inequivalent Eu sites and complete six-O shells are retained."
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "schema_version": 1,
+  "status": "candidate",
+  "references": [
+    {
+      "id": "beta-Ga2O3-COD2004987-Ga-K",
+      "name": "beta-Ga2O3, 273 K diffraction",
+      "formula": "Ga2O3",
+      "absorber": "Ga",
+      "scatterer": "O",
+      "edge": "K",
+      "cod_id": "2004987",
+      "doi": "10.1107/S0108270195016404",
+      "cif_sha256": "a4c08730575268f0e28ded9d1ac46caacbd3302586efd885f82ff89365bc2f49",
+      "absorber_site_indices": [
+        1,
+        2
+      ],
+      "shell_cutoff_A": 2.5,
+      "expected_cn_by_site": {
+        "1": 4,
+        "2": 6
+      },
+      "selection_basis": "Both complete Ga-O nearest-neighbor polyhedra: tetrahedral site1 CN4, octahedral site2 CN6; common2.5A cutoff lies well below the next O neighbor (>3.28A)."
+    },
+    {
+      "id": "In2O3-bixbyite-COD2310009-In-K",
+      "name": "In2O3 bixbyite",
+      "formula": "In2O3",
+      "absorber": "In",
+      "scatterer": "O",
+      "edge": "K",
+      "cod_id": "2310009",
+      "doi": "10.1107/S0365110X66001749",
+      "cif_sha256": "9f37d9c40f126e548deb9a9be0992d1d6ac3be7ddfc64fffc216cc1e8589fcb2",
+      "absorber_site_indices": [
+        1,
+        2
+      ],
+      "shell_cutoff_A": 2.7,
+      "expected_cn_by_site": {
+        "1": 6,
+        "2": 6
+      },
+      "selection_basis": "Complete In-O octahedra at both inequivalent bixbyite sites;2.7A cutoff includes six neighbors at each and is below next O (>3.79A)."
+    },
+    {
+      "id": "HfO2-monoclinic-COD9013470-Hf-L3",
+      "name": "HfO2 monoclinic, synthetic",
+      "formula": "HfO2",
+      "absorber": "Hf",
+      "scatterer": "O",
+      "edge": "L3",
+      "cod_id": "9013470",
+      "doi": "10.1111/j.1151-2916.1970.tb12052.x",
+      "cif_sha256": "af4629c345b38f34ae84114458d602c2447474c1b18529b355088e50a64f0a42",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.7,
+      "expected_cn_by_site": {
+        "1": 7
+      },
+      "selection_basis": "All seven O neighbors2.0321–2.2530A of the experimental monoclinic Hf site;2.7A cutoff lies below the next O at3.5188A.",
+      "next_edge_interference": {
+        "absorber": "Hf",
+        "lower_edge": "L3",
+        "lower_energy_eV": 9561.0,
+        "next_edge": "L2",
+        "next_energy_eV": 10739.0,
+        "delta_energy_eV": 1178.0,
+        "k_at_next_edge_invA": 17.583736901766144,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      },
+      "calculation_cautions": [
+        "The tabulated Hf L2 edge is 1178.0 eV above L3, corresponding to k=17.58 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ]
+    },
+    {
+      "id": "Eu2O3-bixbyite-COD2300536-Eu-L3",
+      "name": "Eu2O3 cubic bixbyite",
+      "formula": "Eu2O3",
+      "absorber": "Eu",
+      "scatterer": "O",
+      "edge": "L3",
+      "cod_id": "2300536",
+      "doi": "10.1107/S0021889803019319",
+      "cif_sha256": "92a514336d015c2d747f0afc680820b6cc7df46db60ff1690c0d40a82514b53c",
+      "absorber_site_indices": [
+        1,
+        2
+      ],
+      "shell_cutoff_A": 3.0,
+      "expected_cn_by_site": {
+        "1": 6,
+        "2": 6
+      },
+      "selection_basis": "Pure Eu2O3 endmember of an experimentally measured sol-gel series; all two inequivalent Eu sites and complete six-O shells are retained.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Eu L2 edge is 640.0 eV above L3, corresponding to k=12.96 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "next_edge_interference": {
+        "absorber": "Eu",
+        "lower_edge": "L3",
+        "lower_energy_eV": 6977.0,
+        "next_edge": "L2",
+        "next_energy_eV": 7617.0,
+        "delta_energy_eV": 640.0,
+        "k_at_next_edge_invA": 12.960701807289254,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "Na2SO4-thenardite-COD9004092-S-K",
+      "name": "Na2SO4 thenardite, anhydrous sulfate",
+      "formula": "Na2SO4",
+      "absorber": "S",
+      "scatterer": "O",
+      "edge": "K",
+      "cod_id": "9004092",
+      "doi": null,
+      "cif_sha256": "688fe2ffe0c5bc1ccf13d44f9f93a7201238888600ad6874e001f45dcd0b26e6",
+      "absorber_site_indices": [
+        2
+      ],
+      "shell_cutoff_A": 1.9,
+      "expected_cn_by_site": {
+        "2": 4
+      },
+      "selection_basis": "Complete four-oxygen sulfate tetrahedron at sulfur site2;1.9A cutoff separated from next oxygen at3.595268A."
+    },
+    {
+      "id": "LaF3-tysonite-COD9011159-La-L3",
+      "name": "LaF3 tysonite, neutron refinement",
+      "formula": "LaF3",
+      "absorber": "La",
+      "scatterer": "F",
+      "edge": "L3",
+      "cod_id": "9011159",
+      "doi": "10.1107/S0567740876002380",
+      "cif_sha256": "8aba66c3e219041f658b4ad877d49f4c23cff2130a66255e793b174d3796c9c1",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 3.5,
+      "expected_cn_by_site": {
+        "1": 11
+      },
+      "selection_basis": "Unchanged experimental ordered CIF; every inequivalent absorber and the complete selected coordination envelope is retained, with longer excluded contacts explicitly recorded.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated La L2 edge is 408.0 eV above L3, corresponding to k=10.35 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "next_edge_interference": {
+        "absorber": "La",
+        "lower_edge": "L3",
+        "lower_energy_eV": 5483.0,
+        "next_edge": "L2",
+        "next_energy_eV": 5891.0,
+        "delta_energy_eV": 408.0,
+        "k_at_next_edge_invA": 10.348290534075556,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "GdPO4-monazite-COD9001653-Gd-L3",
+      "name": "GdPO4 synthetic monazite",
+      "formula": "GdPO4",
+      "absorber": "Gd",
+      "scatterer": "O",
+      "edge": "L3",
+      "cod_id": "9001653",
+      "doi": "10.2138/am-1995-1-203",
+      "cif_sha256": "df18754847672d1dc596f522a6c366036844b45311cfc66304fc4855fde0eb3c",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 3.0,
+      "expected_cn_by_site": {
+        "1": 9
+      },
+      "selection_basis": "Unchanged experimental ordered CIF; every inequivalent absorber and the complete selected coordination envelope is retained, with longer excluded contacts explicitly recorded.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Gd L2 edge is 687.0 eV above L3, corresponding to k=13.43 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "next_edge_interference": {
+        "absorber": "Gd",
+        "lower_edge": "L3",
+        "lower_energy_eV": 7243.0,
+        "next_edge": "L2",
+        "next_energy_eV": 7930.0,
+        "delta_energy_eV": 687.0,
+        "k_at_next_edge_invA": 13.428172149023727,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "PrPO4-monazite-COD9001649-Pr-L3",
+      "name": "PrPO4 synthetic monazite",
+      "formula": "PrPO4",
+      "absorber": "Pr",
+      "scatterer": "O",
+      "edge": "L3",
+      "cod_id": "9001649",
+      "doi": "10.2138/am-1995-1-203",
+      "cif_sha256": "76331939b57ece45a981eeb65c90b6f0a606a29b836a185087e5bf0e37d9f90a",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 3.0,
+      "expected_cn_by_site": {
+        "1": 9
+      },
+      "selection_basis": "Unchanged experimental ordered CIF; every inequivalent absorber and the complete selected coordination envelope is retained, with longer excluded contacts explicitly recorded.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Pr L2 edge is 476.0 eV above L3, corresponding to k=11.18 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "next_edge_interference": {
+        "absorber": "Pr",
+        "lower_edge": "L3",
+        "lower_energy_eV": 5964.0,
+        "next_edge": "L2",
+        "next_energy_eV": 6440.0,
+        "delta_energy_eV": 476.0,
+        "k_at_next_edge_invA": 11.177431270522042,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "NdPO4-monazite-COD9001650-Nd-L3",
+      "name": "NdPO4 synthetic monazite",
+      "formula": "NdPO4",
+      "absorber": "Nd",
+      "scatterer": "O",
+      "edge": "L3",
+      "cod_id": "9001650",
+      "doi": "10.2138/am-1995-1-203",
+      "cif_sha256": "3584d62a8b2af06ad093995f8b09813afbb7e81e705f3981bbf7e38178ffafae",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 3.0,
+      "expected_cn_by_site": {
+        "1": 9
+      },
+      "selection_basis": "Unchanged experimental ordered CIF; every inequivalent absorber and the complete selected coordination envelope is retained, with longer excluded contacts explicitly recorded.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Nd L2 edge is 514.0 eV above L3, corresponding to k=11.62 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "next_edge_interference": {
+        "absorber": "Nd",
+        "lower_edge": "L3",
+        "lower_energy_eV": 6208.0,
+        "next_edge": "L2",
+        "next_energy_eV": 6722.0,
+        "delta_energy_eV": 514.0,
+        "k_at_next_edge_invA": 11.61502345748412,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "DyPO4-xenotime-COD9001656-Dy-L3",
+      "name": "DyPO4 xenotime",
+      "formula": "DyPO4",
+      "absorber": "Dy",
+      "edge": "L3",
+      "cod_id": "9001656",
+      "doi": "10.2138/am-1995-1-203",
+      "cif_sha256": "422b28d3668362f84e853a5aebeeb1caa8c635741bac33d2af7f486309eeae17",
+      "absorber_site_indices": [
+        1
+      ],
+      "expected_cn": 8,
+      "expected_cn_by_site": {
+        "1": 8
+      },
+      "site_population_weights": {
+        "1": 1.0
+      },
+      "oxygen_shell_cutoff_A": 2.8,
+      "expected_oxygen_cn": 8,
+      "measurement_temperature_K": null,
+      "measurement_pressure_GPa": null,
+      "selection_basis": "Unmodified exact ordered experimental source; independently checked complete first O shell and all inequivalent absorber sites. See provenance for source-specific temperature and electronic-state limits.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Dy L2 edge is 791.0 eV above L3, corresponding to k=14.41 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "scatterer": "O",
+      "shell_cutoff_A": 2.8,
+      "next_edge_interference": {
+        "absorber": "Dy",
+        "lower_edge": "L3",
+        "lower_energy_eV": 7790.0,
+        "next_edge": "L2",
+        "next_energy_eV": 8581.0,
+        "delta_energy_eV": 791.0,
+        "k_at_next_edge_invA": 14.408765504239268,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "Ho2O3-bixbyite-COD2101512-Ho-L3",
+      "name": "Ho2O3 bixbyite, 293 K",
+      "formula": "Ho2O3",
+      "absorber": "Ho",
+      "edge": "L3",
+      "cod_id": "2101512",
+      "doi": "10.1107/S0108768195013371",
+      "cif_sha256": "fd6c1acb143f0ca2ca3f6608dbbcb32e199fdf843a0436858bbc71799dda51eb",
+      "absorber_site_indices": [
+        1,
+        2
+      ],
+      "expected_cn": 6,
+      "expected_cn_by_site": {
+        "1": 6,
+        "2": 6
+      },
+      "site_population_weights": {
+        "1": 0.25,
+        "2": 0.75
+      },
+      "oxygen_shell_cutoff_A": 2.8,
+      "expected_oxygen_cn": 6,
+      "measurement_temperature_K": 293,
+      "measurement_pressure_GPa": null,
+      "selection_basis": "Unmodified exact ordered experimental source; independently checked complete first O shell and all inequivalent absorber sites. See provenance for source-specific temperature and electronic-state limits.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Ho L2 edge is 847.0 eV above L3, corresponding to k=14.91 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "scatterer": "O",
+      "shell_cutoff_A": 2.8,
+      "next_edge_interference": {
+        "absorber": "Ho",
+        "lower_edge": "L3",
+        "lower_energy_eV": 8071.0,
+        "next_edge": "L2",
+        "next_energy_eV": 8918.0,
+        "delta_energy_eV": 847.0,
+        "k_at_next_edge_invA": 14.910089037231945,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "Er2O3-bixbyite-514K-COD1534469-Er-L3",
+      "name": "Er2O3 bixbyite 514K",
+      "formula": "Er2O3",
+      "absorber": "Er",
+      "edge": "L3",
+      "cod_id": "1534469",
+      "doi": "10.2109/jcersj1950.93.1082_649",
+      "cif_sha256": "f6e72059b8101d368df1b02385a3034079d88a4fa05ec39d6c96ee99562aebc5",
+      "absorber_site_indices": [
+        1,
+        2
+      ],
+      "expected_cn": 6,
+      "expected_cn_by_site": {
+        "1": 6,
+        "2": 6
+      },
+      "site_population_weights": {
+        "1": 0.25,
+        "2": 0.75
+      },
+      "oxygen_shell_cutoff_A": 2.8,
+      "expected_oxygen_cn": 6,
+      "measurement_temperature_K": 514,
+      "measurement_pressure_GPa": null,
+      "selection_basis": "Unmodified exact ordered experimental source; independently checked complete first O shell and all inequivalent absorber sites. See provenance for source-specific temperature and electronic-state limits.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Er L2 edge is 906.0 eV above L3, corresponding to k=15.42 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "scatterer": "O",
+      "shell_cutoff_A": 2.8,
+      "next_edge_interference": {
+        "absorber": "Er",
+        "lower_edge": "L3",
+        "lower_energy_eV": 8358.0,
+        "next_edge": "L2",
+        "next_energy_eV": 9264.0,
+        "delta_energy_eV": 906.0,
+        "k_at_next_edge_invA": 15.420648239036753,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "TmPO4-xenotime-COD9001659-Tm-L3",
+      "name": "TmPO4 xenotime",
+      "formula": "TmPO4",
+      "absorber": "Tm",
+      "edge": "L3",
+      "cod_id": "9001659",
+      "doi": "10.2138/am-1995-1-203",
+      "cif_sha256": "d2eda806397ba40a6c3895405a36a3b60b8a2b1ed895e82cb387de1f4d2da223",
+      "absorber_site_indices": [
+        1
+      ],
+      "expected_cn": 8,
+      "expected_cn_by_site": {
+        "1": 8
+      },
+      "site_population_weights": {
+        "1": 1.0
+      },
+      "oxygen_shell_cutoff_A": 2.8,
+      "expected_oxygen_cn": 8,
+      "measurement_temperature_K": null,
+      "measurement_pressure_GPa": null,
+      "selection_basis": "Unmodified exact ordered experimental source; independently checked complete first O shell and all inequivalent absorber sites. See provenance for source-specific temperature and electronic-state limits.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Tm L2 edge is 969.0 eV above L3, corresponding to k=15.95 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "scatterer": "O",
+      "shell_cutoff_A": 2.8,
+      "next_edge_interference": {
+        "absorber": "Tm",
+        "lower_edge": "L3",
+        "lower_energy_eV": 8648.0,
+        "next_edge": "L2",
+        "next_energy_eV": 9617.0,
+        "delta_energy_eV": 969.0,
+        "k_at_next_edge_invA": 15.947786768761665,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "Yb2O3-bixbyite-598K-COD1534460-Yb-L3",
+      "name": "Yb2O3 bixbyite 598K",
+      "formula": "Yb2O3",
+      "absorber": "Yb",
+      "edge": "L3",
+      "cod_id": "1534460",
+      "doi": "10.2109/jcersj1950.93.1082_649",
+      "cif_sha256": "8ce24d6b28c4063d1070afcb729e685277cd89921c07d12eea773dc50eb1f572",
+      "absorber_site_indices": [
+        1,
+        2
+      ],
+      "expected_cn": 6,
+      "expected_cn_by_site": {
+        "1": 6,
+        "2": 6
+      },
+      "site_population_weights": {
+        "1": 0.75,
+        "2": 0.25
+      },
+      "oxygen_shell_cutoff_A": 2.8,
+      "expected_oxygen_cn": 6,
+      "measurement_temperature_K": 598,
+      "measurement_pressure_GPa": null,
+      "selection_basis": "Unmodified exact ordered experimental source; independently checked complete first O shell and all inequivalent absorber sites. See provenance for source-specific temperature and electronic-state limits.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Yb L2 edge is 1034.0 eV above L3, corresponding to k=16.47 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "scatterer": "O",
+      "shell_cutoff_A": 2.8,
+      "next_edge_interference": {
+        "absorber": "Yb",
+        "lower_edge": "L3",
+        "lower_energy_eV": 8944.0,
+        "next_edge": "L2",
+        "next_energy_eV": 9978.0,
+        "delta_energy_eV": 1034.0,
+        "k_at_next_edge_invA": 16.473990117139245,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "LuPO4-xenotime-COD9001661-Lu-L3",
+      "name": "LuPO4 xenotime",
+      "formula": "LuPO4",
+      "absorber": "Lu",
+      "edge": "L3",
+      "cod_id": "9001661",
+      "doi": "10.2138/am-1995-1-203",
+      "cif_sha256": "8365132c915bf92607472fad1af5753c1daabdf1491bfb340899b48a5b552d6f",
+      "absorber_site_indices": [
+        1
+      ],
+      "expected_cn": 8,
+      "expected_cn_by_site": {
+        "1": 8
+      },
+      "site_population_weights": {
+        "1": 1.0
+      },
+      "oxygen_shell_cutoff_A": 2.8,
+      "expected_oxygen_cn": 8,
+      "measurement_temperature_K": null,
+      "measurement_pressure_GPa": null,
+      "selection_basis": "Unmodified exact ordered experimental source; independently checked complete first O shell and all inequivalent absorber sites. See provenance for source-specific temperature and electronic-state limits.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Lu L2 edge is 1105.0 eV above L3, corresponding to k=17.03 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "scatterer": "O",
+      "shell_cutoff_A": 2.8,
+      "next_edge_interference": {
+        "absorber": "Lu",
+        "lower_edge": "L3",
+        "lower_energy_eV": 9244.0,
+        "next_edge": "L2",
+        "next_energy_eV": 10349.0,
+        "delta_energy_eV": 1105.0,
+        "k_at_next_edge_invA": 17.03019695955106,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "Tb2O3-B-type-COD2002285-Tb-L3",
+      "name": "Tb2O3 monoclinic B phase",
+      "formula": "Tb2O3",
+      "absorber": "Tb",
+      "scatterer": "O",
+      "edge": "L3",
+      "cod_id": "2002285",
+      "doi": "10.1002/zaac.19683630306",
+      "cif_sha256": "8409a160b0f991e1f1b1e87b96d37702c5a0d433cb764aba8a8721bb0157f17f",
+      "absorber_site_indices": [
+        1,
+        2,
+        3
+      ],
+      "shell_cutoff_A": 3.0,
+      "expected_cn_by_site": {
+        "1": 7,
+        "2": 7,
+        "3": 6
+      },
+      "selection_basis": "Full-occupancy experimental B-type structure. Three inequivalent absorber sites retained; the six/seven-coordinate first shells use explicit 3.0-A cutoff, with more distant contacts separately recorded.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Tb L2 edge is 738.0 eV above L3, corresponding to k=13.92 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "next_edge_interference": {
+        "absorber": "Tb",
+        "lower_edge": "L3",
+        "lower_energy_eV": 7514.0,
+        "next_edge": "L2",
+        "next_energy_eV": 8252.0,
+        "delta_energy_eV": 738.0,
+        "k_at_next_edge_invA": 13.917675699843748,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "Sm2O3-B-type-COD1530724-Sm-L3",
+      "name": "Sm2O3 monoclinic B phase",
+      "formula": "Sm2O3",
+      "absorber": "Sm",
+      "scatterer": "O",
+      "edge": "L3",
+      "cod_id": "1530724",
+      "doi": "10.1016/0022-5088(89)90472-4",
+      "cif_sha256": "3d50eaf5ed49e9002f9c2ee3d32f80a705ce44ff06cd2fb98443a58bc491f63c",
+      "absorber_site_indices": [
+        1,
+        2,
+        3
+      ],
+      "shell_cutoff_A": 3.0,
+      "expected_cn_by_site": {
+        "1": 6,
+        "2": 7,
+        "3": 7
+      },
+      "selection_basis": "Full-occupancy experimental B-type structure. Three inequivalent absorber sites retained; the six/seven-coordinate first shells use explicit 3.0-A cutoff, with more distant contacts separately recorded.",
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This is an EXAFS reference; valence, multiplet and XANES behavior are not validated by this calculation.",
+        "The tabulated Sm L2 edge is 596.0 eV above L3, corresponding to k=12.51 A^-1. Review the experimental fit window near the next edge; the FEFF k=20 grid is not a usable-data limit."
+      ],
+      "next_edge_interference": {
+        "absorber": "Sm",
+        "lower_edge": "L3",
+        "lower_energy_eV": 6716.0,
+        "next_edge": "L2",
+        "next_energy_eV": 7312.0,
+        "delta_energy_eV": 596.0,
+        "k_at_next_edge_invA": 12.507245127645808,
+        "source": "Installed XrayDB tabulated edges; Larch etok conversion. This is an edge-interference marker, not an experimental recommended kmax."
+      }
+    },
+    {
+      "id": "AlN-wurtzite-Schulz1977-Al-K",
+      "name": "AlN wurtzite,1977 single-crystal refinement",
+      "formula": "AlN",
+      "absorber": "Al",
+      "scatterer": "N",
+      "edge": "K",
+      "source_database": "publication",
+      "source_record_id": "10.1016/0038-1098(77)90959-0",
+      "doi": "10.1016/0038-1098(77)90959-0",
+      "cif_sha256": "9f9a285284f3dabea96c7d8c13ff08d672c1b38db627a957498ced37ea5bec44",
+      "original_file_unmodified": false,
+      "derivation": "transcribed from published experimental refinement",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.3,
+      "expected_cn_by_site": {
+        "1": 4
+      },
+      "selection_basis": "Complete tetrahedral Al-N shell,3x1.889119A+1x1.902858A, independently matching publishedTable3; nextN3.077142A. Published experimental parameters transcribed, not an originalCOD/publisher CIF.",
+      "calculation_cautions": [
+        "The reference CIF is a documented transcription of the published experimental refinement, independently checked against its printed coordinates and bond distances; it is not an original deposited CIF."
+      ]
+    },
+    {
+      "id": "beta-Si3N4-295K-COD2102550-Si-K",
+      "name": "beta-Si3N4, 295 K synchrotron refinement",
+      "formula": "Si3N4",
+      "absorber": "Si",
+      "scatterer": "N",
+      "edge": "K",
+      "cod_id": "2102550",
+      "doi": "10.1107/S010876810401393X",
+      "cif_sha256": "fca30839fbe00b3c632305ad9705c41cc20fe596e525bc013d41c227299726c1",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.2,
+      "expected_cn_by_site": {
+        "1": 4
+      },
+      "selection_basis": "Experimental 295 K P63/m model from the source article; complete four-N shell at the sole inequivalent Si site. Si-C chemistry is deferred; this is a Si-N reference.",
+      "calculation_cautions": [
+        "Raw CIF _cell_formula_units_Z=1.5 conflicts with the symmetry-expanded Si6N8 composition (Z=2); original bytes retained. Potentials must use actual expanded composition, not the erroneous Z metadata.",
+        "This is beta-Si3N4 with Si-N scattering; it is not a SiC or Si-C reference."
+      ]
+    }
+  ],
+  "upstream_base": {
+    "repository": "https://github.com/Dr-XAS/feffdb",
+    "commit": null,
+    "path": "source_data/drxas_element_round1_v1/round1-candidates.db",
+    "sha256": "7e712a26c450eda8e608f0638c7d41cded4b0c827c53e5efe86c00e35364ee3b"
+  }
+}

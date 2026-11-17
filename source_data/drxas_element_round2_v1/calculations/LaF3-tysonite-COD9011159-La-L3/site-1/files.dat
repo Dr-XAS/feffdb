@@ -1,0 +1,19 @@
+ Formula: LaF3                                  Feff8L (EXAFS)       0.1
+ SpaceGroup: P-3c1
+ Dr-XAS candidate LaF3-tysonite-COD9011159-La-L3 COD 9011159
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=57 Rmt= 1.734 Rnm= 1.820 L3 shell
+ Pot 1 Z= 9 Rmt= 1.054 Rnm= 1.112
+ Pot 2 Z=57 Rmt= 1.741 Rnm= 1.828
+ Gam_ch=3.160E+00 H-L exch
+ Mu=-5.683E+00 kf=1.881E+00 Vint=-1.582E+01 Rs_int= 1.928
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   2.4214
+ feff0002.dat 0.00000    49.180     1.000     2   2.4364
+ feff0003.dat 0.00000    95.180     2.000     2   2.4665
+ feff0004.dat 0.00000    93.610     2.000     2   2.4818
+ feff0005.dat 0.00000    79.450     2.000     2   2.6376
+ feff0006.dat 0.00000    55.860     2.000     2   2.9992
+ feff0007.dat 0.00000    24.460     2.000     2   3.9859
