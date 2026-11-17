@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "id": "LiF-rocksalt-NBS1953-299K",
+  "name": "LiF rocksalt (NBS measured26\u00b0C)",
+  "formula": "LiF",
+  "absorbers": [
+    "Li",
+    "F"
+  ],
+  "edge": "K",
+  "filename": "source.cif",
+  "source_database": "publication",
+  "source_id": "NBS-Circular539-v1-1953-Table35-LiF-26C",
+  "source_record_id": "NBS-Circular539-v1-1953-Table35-LiF-26C",
+  "doi": null,
+  "citation": "H. E. Swanson and E. Tatge (1953). Standard X-ray Diffraction Powder Patterns. National Bureau of Standards Circular539,Volume1,issued June15,1953. pp61\u201362,Table35.",
+  "primary_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular539v1.pdf",
+  "record_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular539v1.pdf",
+  "download_url": null,
+  "original_file_unmodified": false,
+  "derivation": "Locally authored CIF transcribed from original measured NBS lattice and its explicitly stated NaCl-type structural model.",
+  "transcription_record": "transcription.json",
+  "cif_sha256": "5d9f8a96f149e5bafdd763bd13acef42972aa2f67e6eb981a78ec47f152947ec",
+  "sha256": "5d9f8a96f149e5bafdd763bd13acef42972aa2f67e6eb981a78ec47f152947ec",
+  "retrieved_at_utc": "2026-11-17T06:20:53.787530+00:00",
+  "measurement_temperature_K": 299.15,
+  "measurement_pressure_GPa": null,
+  "conditions_evidence": "Table35 explicitly labels26\u00b0C; general measurement protocol states temperature remained within\u00b11\u00b0C of the stated table value. Numeric pressure was not specified. The p61 comparison converts to25\u00b0C and is not used here.",
+  "method": "Experimental NBS powder X-ray diffraction with CuKalpha wavelength1.5405\u00c5 and internal tungsten standard.",
+  "synthesis_conditions": null,
+  "synthesis_conditions_note": "Commercial sample supplied by Harshaw; no growth temperature or pressure inferred.",
+  "selection": "Experimental NBS lattice and published rocksalt symmetry, explicitly transcribed; not a theoretical relaxation, substituted prototype, or original COD file.",
+  "notes": [
+    "No independent atomic-coordinate or occupancy refinement is claimed. Fm-3m rocksalt has fixed special-position coordinates and unit-occupancy stoichiometry; this encoding represents the published model.",
+    "Trace impurities reported by NBS are not represented as substitutions.",
+    "No lattice standard uncertainty is given with the selected mean; retained digits are not an invented error bar.",
+    "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+    "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference."
+  ],
+  "scientific_caveat_sources": [
+    "https://doi.org/10.1103/PhysRevB.106.155133",
+    "https://doi.org/10.1103/PhysRevB.83.115106",
+    "https://feff.phys.washington.edu/feff/Docs/feff8/feff82.pdf"
+  ],
+  "license": {
+    "status": "Locally authored transcription of numeric crystallographic facts from a US National Bureau of Standards government report, with full attribution. This is not a COD artifact.",
+    "source_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular539v1.pdf",
+    "note": "The raw NBS report is available from the NIST government archive. No journal PDF is included; the standalone CIF and transcription metadata are the source deliverable."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "Li": 4.0,
+      "F": 4.0
+    },
+    "site_count": 8,
+    "space_group": "Fm-3m",
+    "space_group_number": 225,
+    "cell": [
+      4.027,
+      4.027,
+      4.027,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "raw_occupancy": [
+      "1",
+      "1"
+    ],
+    "occupancy_evidence": "Unit occupancies encode the published stoichiometric NaCl-type model; they are not independently refined occupancies.",
+    "absorber_sites": {
+      "Li": {
+        "indices_one_based": [
+          1
+        ],
+        "sites": [
+          {
+            "index_one_based": 1,
+            "multiplicity": 4,
+            "wyckoff": "4a",
+            "fractional_coordinates": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "population_weight": 1.0,
+            "first_shell_distances_A": [
+              2.0134999999999996,
+              2.0134999999999996,
+              2.0134999999999996,
+              2.0135000000000005,
+              2.0135000000000005,
+              2.0135000000000005
+            ],
+            "coordination_number": 6,
+            "next_same_scatterer_distance_A": 3.487484301039934,
+            "shell_cutoff_A": 2.5
+          }
+        ]
+      },
+      "F": {
+        "indices_one_based": [
+          2
+        ],
+        "sites": [
+          {
+            "index_one_based": 2,
+            "multiplicity": 4,
+            "wyckoff": "4b",
+            "fractional_coordinates": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "population_weight": 1.0,
+            "first_shell_distances_A": [
+              2.0134999999999996,
+              2.0135,
+              2.0135,
+              2.0135,
+              2.0135,
+              2.0135
+            ],
+            "coordination_number": 6,
+            "next_same_scatterer_distance_A": 3.487484301039934,
+            "shell_cutoff_A": 2.5
+          }
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "recommended_references": [
+    {
+      "id": "LiF-rocksalt-NBS1953-299K-Li-K",
+      "name": "LiF rocksalt (NBS measured 26\u00b0C)",
+      "formula": "LiF",
+      "absorber": "Li",
+      "scatterer": "F",
+      "edge": "K",
+      "source_database": "publication",
+      "source_record_id": "NBS-Circular539-v1-1953-Table35-LiF-26C",
+      "doi": null,
+      "cif_sha256": "5d9f8a96f149e5bafdd763bd13acef42972aa2f67e6eb981a78ec47f152947ec",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.5,
+      "expected_cn_by_site": {
+        "1": 6
+      },
+      "selection_basis": "Original NBS measured LiF powder pattern and lattice; exact symmetry encoding of the explicitly reported NaCl structure, no element substitution or cell relaxation.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "LiF core excitons are prominent at the Li and F K edges. This FEFF EXAFS candidate is not a validated model of those near-edge peaks.",
+        "Coexisting F K edge (696.7 eV) lies above Li K (54.7 eV), at nominal k=12.981 A^-1. Its absorption/background can interfere with measured Li spectra; this atomic-energy landmark is not an automatic usable-k limit."
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/LiF-rocksalt-NBS1953-299K"
+    },
+    {
+      "id": "LiF-rocksalt-NBS1953-299K-F-K",
+      "name": "LiF rocksalt (NBS measured 26\u00b0C)",
+      "formula": "LiF",
+      "absorber": "F",
+      "scatterer": "Li",
+      "edge": "K",
+      "source_database": "publication",
+      "source_record_id": "NBS-Circular539-v1-1953-Table35-LiF-26C",
+      "doi": null,
+      "cif_sha256": "5d9f8a96f149e5bafdd763bd13acef42972aa2f67e6eb981a78ec47f152947ec",
+      "absorber_site_indices": [
+        2
+      ],
+      "shell_cutoff_A": 2.5,
+      "expected_cn_by_site": {
+        "2": 6
+      },
+      "selection_basis": "Original NBS measured LiF powder pattern and lattice; exact symmetry encoding of the explicitly reported NaCl structure, no element substitution or cell relaxation.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "LiF core excitons are prominent at the Li and F K edges. This FEFF EXAFS candidate is not a validated model of those near-edge peaks."
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/LiF-rocksalt-NBS1953-299K"
+    }
+  ]
+}

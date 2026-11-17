@@ -1,0 +1,20 @@
+ Formula: Tl2O3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: Ia-3
+ Dr-XAS candidate Tl2O3-bixbyite-COD9009222-Tl-L3 COD 9009222
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=81 Rmt= 1.533 Rnm= 1.618 L3 shell
+ Pot 1 Z= 8 Rmt= 1.063 Rnm= 1.121
+ Pot 2 Z=81 Rmt= 1.520 Rnm= 1.599
+ Gam_ch=5.586E+00 H-L exch
+ Mu=-5.788E+00 kf=2.057E+00 Vint=-1.418E+01 Rs_int= 1.763
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   2.1972
+ feff0002.dat 0.00000    87.650     2.000     2   2.2920
+ feff0003.dat 0.00000    84.290     2.000     2   2.3209
+ feff0004.dat 0.00000    28.470     2.000     2   3.4953
+ feff0005.dat 0.00000    56.350     4.000     2   3.5114
+ feff0006.dat 0.00000    20.830     2.000     2   3.9688
+ feff0007.dat 0.00000    41.270     4.000     2   3.9830
+ feff0008.dat 0.00000    14.480     2.000     2   3.9983

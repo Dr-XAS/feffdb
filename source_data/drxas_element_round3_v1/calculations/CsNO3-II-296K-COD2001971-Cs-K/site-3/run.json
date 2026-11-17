@@ -1,0 +1,157 @@
+{
+  "actual_cluster_radius_A": 7.994334103626143,
+  "atom_count": 136,
+  "cell_composition": {
+    "Cs": 9.0,
+    "N": 9.0,
+    "O": 27.0
+  },
+  "cif_sha256": "5569c7199ba196ab9e613c1c8e7ee48c949cb88a72dfb0bd57a42fa2ad42e59b",
+  "engine": "FEFF8L",
+  "executable_sha256": {
+    "ff2x": "d1bcf7d2a220f675cfcaefe43be34af5e3918e95822b6bdd5c1a6eba724d1393",
+    "genfmt": "21ed031e411c196ba351b0abf46f301f4d946ce001a3b12e8a7dab7ca217ab2b",
+    "pathfinder": "8bc48a9daa20c328b887ef31dae3e087f4c7c7db84adad87d5311a0f92e8eb5e",
+    "pot": "95d2f868e35e21810a2eb1cd1bb763c5a340dbb9ec96c81a8cf31e4e894ebb92",
+    "rdinp": "d60daee213c226fadd112e32955b4e8a9b938c75583ae9969171127079e8be32",
+    "xsph": "9d30609301aa92165c1952b288129ed4906a52a9628a966827db610dd4e54fd5"
+  },
+  "execution_status": "complete",
+  "experimental_validation": false,
+  "first_shell_distances_A": [
+    3.1536105789695283,
+    3.177169047401494,
+    3.1968495652141784,
+    3.2227988567760666,
+    3.2367737853529146,
+    3.24191475723808,
+    3.2426517741516863,
+    3.2427990119830907,
+    3.3975891866128136,
+    3.4658685144432746,
+    3.5954493328768957,
+    3.707957684185389
+  ],
+  "fractional_coordinates": [
+    0.7839,
+    0.2282,
+    0.6333
+  ],
+  "input_sha256": "4f462394fef189fe3e8619f79b9834b58581bed746decb7664ba962021ca7ef8",
+  "machine": "arm64",
+  "module_results": [
+    {
+      "elapsed_seconds": 0.08,
+      "module": "rdinp",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 54.341,
+      "module": "pot",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.352,
+      "module": "xsph",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.077,
+      "module": "pathfinder",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.042,
+      "module": "genfmt",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.077,
+      "module": "ff2x",
+      "returncode": 0
+    }
+  ],
+  "packages": {
+    "larixite": "2026.1.0",
+    "numpy": "2.4.6",
+    "pymatgen": "2026.5.4",
+    "xraydb": "4.5.8",
+    "xraylarch": "2026.3.1.post78+g247278cef.xascraft.bc4f3b77f527"
+  },
+  "parser_warnings": [
+    "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+    "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+  ],
+  "platform": "macOS-26.7.3-arm64-arm-64bit",
+  "potential_rows": [
+    [
+      "0",
+      "55",
+      "Cs",
+      "-1",
+      "-1",
+      "0.01"
+    ],
+    [
+      "1",
+      "8",
+      "O",
+      "-1",
+      "-1",
+      "3"
+    ],
+    [
+      "2",
+      "7",
+      "N",
+      "-1",
+      "-1",
+      "1"
+    ],
+    [
+      "3",
+      "55",
+      "Cs",
+      "-1",
+      "-1",
+      "1"
+    ]
+  ],
+  "python": "3.12.15",
+  "recipe": {
+    "cluster_radius_A": 8.0,
+    "exchange": 0,
+    "kmax_invA": 20,
+    "max_legs": 2,
+    "path_radius_A": 4.0,
+    "polarization": null,
+    "rng_seed": 0,
+    "s02": 1.0,
+    "scf_iterations": 30,
+    "scf_mixing": 0.2,
+    "scf_radius_A": 5.0,
+    "with_h": false
+  },
+  "reference_id": "CsNO3-II-296K-COD2001971-Cs-K",
+  "review_status": "candidate",
+  "scatterer_distances_to_rpath_A": [
+    3.1536105789695283,
+    3.177169047401494,
+    3.1968495652141784,
+    3.2227988567760666,
+    3.2367737853529146,
+    3.24191475723808,
+    3.2426517741516863,
+    3.2427990119830907,
+    3.3975891866128136,
+    3.4658685144432746,
+    3.5954493328768957,
+    3.707957684185389,
+    3.9725026768406186
+  ],
+  "site_index": 3,
+  "site_multiplicity": 3,
+  "site_weight": 0.3333333333333333,
+  "space_group": "P3_1",
+  "wyckoff": "3a"
+}

@@ -1,0 +1,18 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: Bi                                    Feff8L (EXAFS)       0.1
+ SpaceGroup: R-3m
+ Dr-XAS candidate Bi-metal-298K-COD7123352-Bi-L3 COD 7123352
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=83 Rmt= 1.798 Rnm= 1.898 L3 shell
+ Pot 1 Z=83 Rmt= 1.794 Rnm= 1.893
+ Gam_ch=5.977E+00 H-L exch
+ Mu=-4.957E+00 kf=1.565E+00 Vint=-1.016E+01 Rs_int= 2.318
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+       2 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

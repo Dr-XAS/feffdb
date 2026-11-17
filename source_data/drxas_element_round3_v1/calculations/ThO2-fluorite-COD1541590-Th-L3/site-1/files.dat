@@ -1,0 +1,14 @@
+ Formula: ThO2                                  Feff8L (EXAFS)       0.1
+ SpaceGroup: Fm-3m
+ Dr-XAS candidate ThO2-fluorite-COD1541590-Th-L3 COD 1541590
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=90 Rmt= 1.689 Rnm= 1.771 L3 shell
+ Pot 1 Z= 8 Rmt= 1.041 Rnm= 1.092
+ Pot 2 Z=90 Rmt= 1.696 Rnm= 1.780
+ Gam_ch=7.574E+00 H-L exch
+ Mu=-7.443E+00 kf=2.113E+00 Vint=-1.867E+01 Rs_int= 1.716
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     8.000     2   2.4214
+ feff0002.dat 0.00000    56.730    12.000     2   3.9541

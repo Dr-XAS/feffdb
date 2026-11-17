@@ -1,0 +1,37 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: CsNO3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: P3_1
+ Dr-XAS candidate CsNO3-II-296K-COD2001971-Cs-K COD 2001971
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=55 Rmt= 2.318 Rnm= 2.354 K  shell
+ Pot 1 Z= 8 Rmt= 0.816 Rnm= 0.985
+ Pot 2 Z= 7 Rmt= 0.660 Rnm= 0.861
+ Pot 3 Z=55 Rmt= 2.216 Rnm= 2.258
+ Gam_ch=1.485E+01 H-L exch
+ Mu=-5.963E+00 kf=2.579E+00 Vint=-1.869E+01 Rs_int= 1.406
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+      19 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+       3     feff0003.dat
+       4     feff0004.dat
+       5     feff0005.dat
+       6     feff0006.dat
+       7     feff0007.dat
+       8     feff0008.dat
+       9     feff0009.dat
+      10     feff0010.dat
+      11     feff0011.dat
+      12     feff0012.dat
+      13     feff0013.dat
+      14     feff0014.dat
+      15     feff0015.dat
+      16     feff0016.dat
+      17     feff0017.dat
+      18     feff0018.dat
+      19     feff0019.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

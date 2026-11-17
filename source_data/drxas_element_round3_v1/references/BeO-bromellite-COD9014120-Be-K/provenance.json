@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "id": "BeO-bromellite-COD9014120",
+  "name": "BeO bromellite (crystal no. 1 in air)",
+  "source_database": "COD",
+  "source_id": "9014120",
+  "absorbers": [
+    "Be",
+    "O"
+  ],
+  "edge": "K",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/9014120.cif",
+  "record_url": "https://www.crystallography.net/cod/9014120.html",
+  "primary_url": "https://doi.org/10.1063/1.336756",
+  "doi": "10.1063/1.336756",
+  "citation": "R. M. Hazen and L. W. Finger (1986). High-pressure and high-temperature crystal chemistry of beryllium oxide. Journal of Applied Physics 59, 3728\u20133733. DOI: 10.1063/1.336756.",
+  "cif_sha256": "ac2dd2d7720ebfe76a27db2e547929db4d2d88d57f8c167140f7decfb40dad2b",
+  "sha256": "ac2dd2d7720ebfe76a27db2e547929db4d2d88d57f8c167140f7decfb40dad2b",
+  "retrieved_at_utc": "2026-11-17T06:15:22.254307+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "conditions_evidence": "Original CIF identifies crystal no. 1 in air. It supplies no numeric temperature or pressure for this record. The study includes pressure and temperature series, but those other conditions are not assigned to this in-air entry.",
+  "method": "Experimental single-crystal diffraction structure of synthetic bromellite from the authors' pressure/temperature study.",
+  "synthesis_conditions": null,
+  "synthesis_conditions_note": "Original CIF says Synthetic; numeric synthesis conditions not established here.",
+  "selection": "Experimental ordered in-air BeO structure; both inequivalent element sites and each complete split four-neighbor shell retained. No ideal-wurtzite coordinate substitution.",
+  "notes": [
+    "The raw coordinates 0.33333/0.66667 are rounded to exact crystallographic thirds by the parser; source bytes are unchanged. The measured oxygen z=0.37810 is retained.",
+    "Each selected Be or O site has multiplicity 2 and population weight 1 within its own absorber species. Each first shell contains 3 neighbors at 1.646724428 \u00c5 and 1 at 1.655170560 \u00c5; these distances must not be collapsed into an average.",
+    "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+    "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference."
+  ],
+  "license": {
+    "database_policy": "COD data/database are publicly accessible under CC0; retain original AMCSD scientific-use/article-attribution notice.",
+    "policy_url": "https://www.crystallography.net/cod/9014120.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original COD/AMCSD header retained byte-for-byte; scientific-community use with proper attribution to this source journal article."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "Be": 2.0,
+      "O": 2.0
+    },
+    "site_count": 4,
+    "space_group": "P6_3mc",
+    "space_group_number": 186,
+    "cell": [
+      2.6983,
+      2.6983,
+      4.3776,
+      90.0,
+      90.0,
+      119.99999999999999
+    ],
+    "raw_occupancy": [],
+    "occupancy_evidence": "Explicit raw occupancies all 1 where present; when absent, standard CIF full occupancy, confirmed ordered by strict parser.",
+    "absorber_sites": {
+      "Be": {
+        "indices_one_based": [
+          1
+        ],
+        "sites": [
+          {
+            "index_one_based": 1,
+            "multiplicity": 2,
+            "wyckoff": "2b",
+            "fractional_coordinates": [
+              0.3333333333333333,
+              0.6666666666666666,
+              0.0
+            ],
+            "population_weight": 1.0,
+            "first_shell_distances_A": [
+              1.6467244282417284,
+              1.6467244282417284,
+              1.6467244282417284,
+              1.65517056
+            ],
+            "coordination_number": 4,
+            "next_same_scatterer_distance_A": 2.72242944,
+            "shell_cutoff_A": 2.0
+          }
+        ]
+      },
+      "O": {
+        "indices_one_based": [
+          2
+        ],
+        "sites": [
+          {
+            "index_one_based": 2,
+            "multiplicity": 2,
+            "wyckoff": "2b",
+            "fractional_coordinates": [
+              0.3333333333333333,
+              0.6666666666666666,
+              0.3781
+            ],
+            "population_weight": 1.0,
+            "first_shell_distances_A": [
+              1.6467244282417284,
+              1.6467244282417284,
+              1.6467244282417284,
+              1.65517056
+            ],
+            "coordination_number": 4,
+            "next_same_scatterer_distance_A": 2.72242944,
+            "shell_cutoff_A": 2.0
+          }
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Issues encountered while parsing CIF: 4 fractional coordinates rounded to ideal values to avoid issues with finite precision.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "recommended_references": [
+    {
+      "id": "BeO-bromellite-COD9014120-Be-K",
+      "name": "BeO bromellite (crystal no. 1 in air)",
+      "formula": "BeO",
+      "absorber": "Be",
+      "scatterer": "O",
+      "edge": "K",
+      "cod_id": "9014120",
+      "doi": "10.1063/1.336756",
+      "cif_sha256": "ac2dd2d7720ebfe76a27db2e547929db4d2d88d57f8c167140f7decfb40dad2b",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.0,
+      "expected_cn_by_site": {
+        "1": 4
+      },
+      "selection_basis": "Experimental ordered in-air BeO structure; both inequivalent element sites and each complete split four-neighbor shell retained. No ideal-wurtzite coordinate substitution.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "Coexisting O K edge (543.1 eV) lies above Be K (111.5 eV), at nominal k=10.643 A^-1. Its absorption/background can interfere with measured Be spectra; this atomic-energy landmark is not an automatic usable-k limit."
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/BeO-bromellite-COD9014120"
+    },
+    {
+      "id": "BeO-bromellite-COD9014120-O-K",
+      "name": "BeO bromellite (crystal no. 1 in air)",
+      "formula": "BeO",
+      "absorber": "O",
+      "scatterer": "Be",
+      "edge": "K",
+      "cod_id": "9014120",
+      "doi": "10.1063/1.336756",
+      "cif_sha256": "ac2dd2d7720ebfe76a27db2e547929db4d2d88d57f8c167140f7decfb40dad2b",
+      "absorber_site_indices": [
+        2
+      ],
+      "shell_cutoff_A": 2.0,
+      "expected_cn_by_site": {
+        "2": 4
+      },
+      "selection_basis": "Experimental ordered in-air BeO structure; both inequivalent element sites and each complete split four-neighbor shell retained. No ideal-wurtzite coordinate substitution.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference."
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/BeO-bromellite-COD9014120"
+    }
+  ],
+  "scientific_caveat_sources": [
+    "https://doi.org/10.1103/PhysRevB.106.155133",
+    "https://feff.phys.washington.edu/feff/Docs/feff8/feff82.pdf"
+  ]
+}

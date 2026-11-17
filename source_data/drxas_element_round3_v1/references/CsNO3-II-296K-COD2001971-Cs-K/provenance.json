@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "filename": "source.cif",
+  "name": "CsNO3 phase II, 296 K",
+  "absorber": "Cs",
+  "edge": "K",
+  "source_database": "COD",
+  "source_id": "2001971",
+  "doi": "10.1107/S0108270192006504",
+  "citation": "D. Pohl and T. Gross (1993). Caesium nitrate (II) at 296 K. Acta Crystallographica Section C 49, 316-318.",
+  "primary_url": "https://journals.iucr.org/paper?se0089",
+  "primary_evidence_url": "https://scripts.iucr.org/cgi-bin/sendimage?image=c%2F1993%2Fse0089%2Ffirstpage.gif",
+  "download_url": "https://www.crystallography.net/cod/2001971.cif",
+  "record_url": "https://www.crystallography.net/cod/2001971.html",
+  "cif_sha256": "5569c7199ba196ab9e613c1c8e7ee48c949cb88a72dfb0bd57a42fa2ad42e59b",
+  "sha256": "5569c7199ba196ab9e613c1c8e7ee48c949cb88a72dfb0bd57a42fa2ad42e59b",
+  "retrieved_at_utc": "2026-11-17T06:13:08.763324+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": 296,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Temperature verified from original publisher first page, not inferred from synthesis or a nominal ambient value. No numerical pressure verified.",
+  "method": "Experimental single-crystal X-ray diffraction on Enraf-Nonius CAD-4 using graphite-monochromated Ag K-alpha radiation0.56087A. Original publisher page316 reports a=10.902(2), c=7.740(2) A and R=.019, wR=.027, agreeing with the deposited geometry.",
+  "synthesis_conditions": "Single crystals grown by slow evaporation of aqueous solution at292K, as described on original page316. Growth temperature is separate from296K diffraction.",
+  "notes": [
+    "All three inequivalent Cs sites are retained with multiplicity3 and population1/3 each.",
+    "The raw deposited CIF omits atomic occupancies; a full-occupancy ordered structure is its parser/default crystallographic interpretation, not an independently refined occupancy measurement.",
+    "The original article abstract reports F(000)=774 and absorption coefficient102.04cm^-1; raw COD fields read765 and5.44mm^-1. These non-geometric metadata discrepancies are retained and disclosed; no coordinate or unit-cell correction is applied.",
+    "All cell parameters and coordinates are from this exact deposited experimental CIF. No species replacement, generic ideal model, coordinate substitution or cell rescaling.",
+    "K edge selected for broad EXAFS reference coverage. A computed FEFF k grid does not establish the usable experimental k range.",
+    "Native degeneracy is per absorber. An ensemble of inequivalent sites requires explicit normalized site weights; do not sum all sites at full amplitude.",
+    "This reference retains a selected nearest-12 oxygen envelope at each inequivalent Cs site, not a uniquely established chemical coordination shell. The accessible primary article does not assign CN12 explicitly; all actual distances and excluded neighbors are preserved in provenance.",
+    "The 3.95 A selection cutoff is an explicit common envelope boundary. The per-site gaps from the twelfth to thirteenth O neighbor are 0.137535, 0.462309 and 0.264545 A for Cs sites 1, 2 and 3 respectively; longer included contacts must not be treated as equivalent bonds.",
+    "For Cs site 3, the thirteenth O neighbor at 3.972503 A lies inside the native RPATH=4 A calculation radius but is deliberately not selected in the nearest-12 envelope. A shell-limited database selection is distinct from every path generated within RPATH.",
+    "All three inequivalent Cs sites have population weight 1/3. Native degeneracy is per absorber: an ensemble model needs explicit normalized site weights, not all three sites summed at full amplitude."
+  ],
+  "license": {
+    "database_policy": "COD places database data under CC0; retain original scientific-article attribution and unchanged CIF provider notice.",
+    "policy_url": "https://www.crystallography.net/cod/2001971.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "IUCr-provided COD header permits scientific-community use with proper article attribution; retained unchanged."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "Cs": 9.0,
+      "N": 9.0,
+      "O": 27.0
+    },
+    "site_count": 45,
+    "space_group": "P3_1",
+    "space_group_number": 144,
+    "cell": [
+      10.902,
+      10.902,
+      7.74,
+      90.0,
+      90.0,
+      119.99999999999999
+    ],
+    "explicit_occupancies": null,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Cs",
+        "multiplicity": 3,
+        "wyckoff": "3a",
+        "fractional_coordinates": [
+          0.4481,
+          0.5557,
+          0.6527
+        ],
+        "first_shell_element": "O",
+        "shell_cutoff_A": 3.95,
+        "coordination_number": 12,
+        "distances_A": [
+          3.1587688785590387,
+          3.190509548432143,
+          3.199856974388343,
+          3.212283277405422,
+          3.228004905427481,
+          3.23423842981479,
+          3.242109964399438,
+          3.2872153014728305,
+          3.3008177259662377,
+          3.693656952502779,
+          3.8534382441686486,
+          3.9365648658950203
+        ],
+        "next_same_scatterer_distance_A": 4.0740996823373825,
+        "site_population_weight": 0.3333333333333333,
+        "first_sixteen_oxygen_neighbors_A": [
+          3.1587688785590387,
+          3.190509548432143,
+          3.199856974388343,
+          3.212283277405422,
+          3.228004905427481,
+          3.23423842981479,
+          3.242109964399438,
+          3.2872153014728305,
+          3.3008177259662377,
+          3.693656952502779,
+          3.8534382441686486,
+          3.9365648658950203,
+          4.0740996823373825,
+          4.125273622211749,
+          4.158122757591926,
+          4.656019836432447
+        ],
+        "gap_twelfth_to_thirteenth_A": 0.1375348164423622,
+        "excluded_oxygen_neighbors_within_native_RPATH4_A": []
+      },
+      {
+        "site_index_one_based": 2,
+        "element": "Cs",
+        "multiplicity": 3,
+        "wyckoff": "3a",
+        "fractional_coordinates": [
+          0.1205,
+          0.222,
+          0.0
+        ],
+        "first_shell_element": "O",
+        "shell_cutoff_A": 3.95,
+        "coordination_number": 12,
+        "distances_A": [
+          3.1488755717474586,
+          3.1500023045911,
+          3.181543303670839,
+          3.1909177058036944,
+          3.2352234247714065,
+          3.2393960432058995,
+          3.2409755607966946,
+          3.294348193084568,
+          3.3777424470927317,
+          3.4463285048231316,
+          3.4886791325290782,
+          3.6856304262634043
+        ],
+        "next_same_scatterer_distance_A": 4.1479393885670355,
+        "site_population_weight": 0.3333333333333333,
+        "first_sixteen_oxygen_neighbors_A": [
+          3.1488755717474586,
+          3.1500023045911,
+          3.181543303670839,
+          3.1909177058036944,
+          3.2352234247714065,
+          3.2393960432058995,
+          3.2409755607966946,
+          3.294348193084568,
+          3.3777424470927317,
+          3.4463285048231316,
+          3.4886791325290782,
+          3.6856304262634043,
+          4.1479393885670355,
+          4.568311023753073,
+          4.634433158136779,
+          4.682308724671277
+        ],
+        "gap_twelfth_to_thirteenth_A": 0.46230896230363117,
+        "excluded_oxygen_neighbors_within_native_RPATH4_A": []
+      },
+      {
+        "site_index_one_based": 3,
+        "element": "Cs",
+        "multiplicity": 3,
+        "wyckoff": "3a",
+        "fractional_coordinates": [
+          0.7839,
+          0.2282,
+          0.6333
+        ],
+        "first_shell_element": "O",
+        "shell_cutoff_A": 3.95,
+        "coordination_number": 12,
+        "distances_A": [
+          3.1536105789695283,
+          3.177169047401494,
+          3.1968495652141784,
+          3.2227988567760666,
+          3.2367737853529146,
+          3.24191475723808,
+          3.2426517741516863,
+          3.2427990119830907,
+          3.3975891866128136,
+          3.4658685144432746,
+          3.5954493328768957,
+          3.707957684185389
+        ],
+        "next_same_scatterer_distance_A": 3.9725026768406186,
+        "site_population_weight": 0.3333333333333333,
+        "first_sixteen_oxygen_neighbors_A": [
+          3.1536105789695283,
+          3.177169047401494,
+          3.1968495652141784,
+          3.2227988567760666,
+          3.2367737853529146,
+          3.24191475723808,
+          3.2426517741516863,
+          3.2427990119830907,
+          3.3975891866128136,
+          3.4658685144432746,
+          3.5954493328768957,
+          3.707957684185389,
+          3.9725026768406186,
+          4.25199275023324,
+          4.640016458688166,
+          4.6613795249653425
+        ],
+        "gap_twelfth_to_thirteenth_A": 0.26454499265522946,
+        "excluded_oxygen_neighbors_within_native_RPATH4_A": [
+          3.9725026768406186
+        ]
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "selection_basis": "Experimental CsNO3 phase II at 296 K; all three inequivalent Cs sites, each with an explicitly chosen nearest-12 O envelope, without claiming a unique chemical-shell assignment.",
+  "calculation_cautions": [
+    "This reference retains a selected nearest-12 oxygen envelope at each inequivalent Cs site, not a uniquely established chemical coordination shell. The accessible primary article does not assign CN12 explicitly; all actual distances and excluded neighbors are preserved in provenance.",
+    "The 3.95 A selection cutoff is an explicit common envelope boundary. The per-site gaps from the twelfth to thirteenth O neighbor are 0.137535, 0.462309 and 0.264545 A for Cs sites 1, 2 and 3 respectively; longer included contacts must not be treated as equivalent bonds.",
+    "For Cs site 3, the thirteenth O neighbor at 3.972503 A lies inside the native RPATH=4 A calculation radius but is deliberately not selected in the nearest-12 envelope. A shell-limited database selection is distinct from every path generated within RPATH.",
+    "All three inequivalent Cs sites have population weight 1/3. Native degeneracy is per absorber: an ensemble model needs explicit normalized site weights, not all three sites summed at full amplitude."
+  ]
+}

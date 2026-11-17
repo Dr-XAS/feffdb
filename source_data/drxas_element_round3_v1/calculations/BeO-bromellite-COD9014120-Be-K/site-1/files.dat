@@ -1,0 +1,21 @@
+ Formula: BeO                                   Feff8L (EXAFS)       0.1
+ SpaceGroup: P6_3mc
+ Dr-XAS candidate BeO-bromellite-COD9014120-Be-K COD 9014120
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z= 4 Rmt= 0.991 Rnm= 1.119 K  shell
+ Pot 1 Z= 8 Rmt= 0.909 Rnm= 1.022
+ Pot 2 Z= 4 Rmt= 0.985 Rnm= 1.105
+ Gam_ch=4.830E-02 H-L exch
+ Mu=-4.553E+00 kf=2.374E+00 Vint=-2.002E+01 Rs_int= 1.528
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     3.000     2   1.6467
+ feff0002.dat 0.00000    32.980     1.000     2   1.6552
+ feff0003.dat 0.00000    42.760     6.000     2   2.6866
+ feff0004.dat 0.00000    42.360     6.000     2   2.6983
+ feff0005.dat 0.00000    11.340     1.000     2   2.7224
+ feff0006.dat 0.00000    24.280     3.000     2   3.1611
+ feff0007.dat 0.00000    48.410     6.000     2   3.1655
+ feff0008.dat 0.00000    20.000     6.000     2   3.8077
+ feff0009.dat 0.00000    31.080     6.000     2   3.8331

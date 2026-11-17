@@ -1,0 +1,88 @@
+{
+  "filename": "source.cif",
+  "name": "OsO2 rutile, Boman experimental data via Baur and Khan1971",
+  "absorber": "Os",
+  "scatterer": "O",
+  "source_id": "9007542",
+  "doi": "10.1107/S0567740871005466",
+  "citation": "W. H. Baur and A. A. Khan. Rutile-type compounds. IV. SiO2, GeO2 and a comparison with other rutile-type structures. Acta Crystallographica B27 (1971),2133–2139. DOI10.1107/S0567740871005466. Table4 attributes OsO2 data to C.-E.Boman, Precision Determination of the Crystal Structure of Osmium Dioxide, Acta Chemica Scandinavica24 (1970),123–128, DOI10.3891/acta.chem.scand.24-0123.",
+  "primary_url": "https://journals.iucr.org/b/issues/1971/11/00/a08385/a08385.pdf",
+  "recommendation": "experimental source candidate; native FEFF and numerical validation pending",
+  "method": "Experimental OsO2 structural data attributed to Boman1970 in the original COD record and published Baur/Khan1971 Table4. Exact measurement apparatus was not independently accessible in the original Boman article.",
+  "synthesis_conditions": null,
+  "notes": [
+    "One independent Os site,multiplicity2; complete split six-O rutile shell preserved.",
+    "Source is the exact COD/AMCSD OsO2 record, not an elemental substitution into RuO2/IrO2. The provenance chain is Boman1970 experimental refinement, reproduced in Baur/Khan1971 Table4, then AMCSD0009415 and COD9007542.",
+    "Published table and original CIF agree on a4.5003A,c3.1839A,and oxygen coordinateu0.3081. Original deposited precision and omitted occupancy are retained.",
+    "This reference covers rutile Os(IV)-O, not elemental Os-Os. ElementalOs candidates with theoretical fcc geometry, natural alloy contexts or unresolved old kX calibration were not selected."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/9007542.cif",
+  "record_url": "https://www.crystallography.net/cod/9007542.html",
+  "sha256": "80e00c6ea224747b2a9477a8135c555ac779b78c509bfa7654c7171ffe88a824",
+  "cif_sha256": "80e00c6ea224747b2a9477a8135c555ac779b78c509bfa7654c7171ffe88a824",
+  "retrieved_at_utc": "2026-11-17T06:13:45.467808+00:00",
+  "edge": "L3",
+  "inequivalent_absorber_sites": 1,
+  "absorber_site_indices": [
+    1
+  ],
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Numerical measurement temperature and pressure are absent from the original CIF and verified table. Do not assume300K from later compilations or substitute a synthesis temperature.",
+  "original_file_unmodified": true,
+  "occupancy": {
+    "raw_values": null,
+    "interpretation": "Occupancy column absent; unit occupancy is parser interpretation, not an explicit refined occupancy."
+  },
+  "license": {
+    "database_policy": "COD dedicates data/database to public domain under CC0; retain the original notice and article attribution.",
+    "policy_url": "https://www.crystallography.net/cod/9007542.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "#------------------------------------------------------------------------------\n#$Date: 2024-05-02 13:48:35 +0300 (Thu, 02 May 2024) $\n#$Revision: 291455 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/75/9007542.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided the American Mineralogist Crystal Structure Database,\n# http://rruff.geo.arizona.edu/AMS/amcsd.php\n#\n# The file may be used within the scientific community so long as\n# proper attribution is given to the journal article from which the\n# data were obtained.\n#"
+  },
+  "inspection": {
+    "formula": "Os2 O4",
+    "ordered": true,
+    "hydrogen_present": false,
+    "site_count": 6,
+    "spacegroup": "P4_2/mnm",
+    "spacegroup_number": 136,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Os",
+        "fractional_coordinates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "multiplicity": 2,
+        "wyckoff": "2a",
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.5,
+        "coordination_number": 6,
+        "distances_A": {
+          "1.960867": 2,
+          "2.006475": 4
+        },
+        "full_first_shell_distance_multiset_A": [
+          1.9608671093117478,
+          1.9608671093117485,
+          2.0064747375490697,
+          2.0064747375490697,
+          2.00647473754907,
+          2.00647473754907
+        ],
+        "next_same_element_distance_A": 3.4085167030429244,
+        "nearest_other_element_distance_A": 3.1839,
+        "nearest_other_element": "Os",
+        "site_weight": 1.0
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

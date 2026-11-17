@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "filename": "source.cif",
+  "name": "I2 molecular crystal, low temperature (CIF100K; article110K)",
+  "absorber": "I",
+  "edge": "K",
+  "source_database": "COD",
+  "source_id": "4511285",
+  "related_ids": {
+    "CCDC": "997224"
+  },
+  "doi": "10.1021/cg5005159",
+  "citation": "F. Bertolotti, A. V. Shishkina, A. Forni, G. Gervasio, A. I. Stash and V. G. Tsirelson (2014). Intermolecular Bonding Features in Solid Iodine. Crystal Growth & Design14(7),3587-3595.",
+  "primary_url": "https://pubs.acs.org/doi/10.1021/cg5005159",
+  "primary_author_copy_url": "https://www.academia.edu/23474164/Intermolecular_Bonding_Features_in_Solid_Iodine",
+  "primary_supporting_cif_url": "https://acs.figshare.com/articles/dataset/Intermolecular_Bonding_Features_in_Solid_Iodine/2278405",
+  "primary_supporting_cif_doi": "10.1021/cg5005159.s002",
+  "primary_supporting_cif_sha256": "0ef689d60833513caab6419dfb1d6fe00eb1fa8f418c0e352496f68ec5a9c532",
+  "primary_supporting_cif_geometry_equal_to_cod": true,
+  "download_url": "https://www.crystallography.net/cod/4511285.cif",
+  "record_url": "https://www.crystallography.net/cod/4511285.html",
+  "cif_sha256": "66df6f952074c947a569dbb2ce2010e0e3138ec22d749a4074ab07fd8cbe2a82",
+  "sha256": "66df6f952074c947a569dbb2ce2010e0e3138ec22d749a4074ab07fd8cbe2a82",
+  "retrieved_at_utc": "2026-11-17T06:13:08.763443+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": null,
+  "measurement_temperature_conflict": {
+    "cif_K": 100,
+    "cif_uncertainty_K": 2,
+    "primary_article_K": 110,
+    "primary_article_uncertainty_K": 1,
+    "resolution": "Unresolved; numeric measurement temperature intentionallynull. Exact CIF retained."
+  },
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Both original SI/COD CIF tags verified against the authored primary article Experimental and Results text. Contradiction is documented, not silently reconciled.",
+  "method": "Experimental low-temperature single-crystal high-resolution MoK-alpha X-ray diffraction on Gemini R Ultra, followed by experimental multipole/anharmonic refinement; exact deposited experimental nuclear coordinates selected.",
+  "synthesis_conditions": "Commercial solid iodine was sublimed at room temperature to grow single crystals; no numeric growth temperature reported. This is separate from the conflicting low-temperature diffraction values.",
+  "notes": [
+    "Measurement-temperature conflict is unresolved: the original publisher SI CIF and unchanged COD file state100(2)K, but the primary article Experimental Section states110(1)K and its Results repeats110K for this identical cell. The numeric measurement-temperature field is null; both reported values remain explicit. No temperature correction or rescaling is applied.",
+    "Selected first intramolecular I-I shell only: one neighbor at2.717798A, cutoff3.0A. This is not a complete description of molecular-crystal packing: the next intermolecular contacts are2x3.500960A and1x3.979707A, excluded from this shell selection and retained in the structural inspection.",
+    "This is elemental molecular iodine, not iodide or an iodine oxide reference. No oxidation-state equivalence to salts is implied.",
+    "The exact experimental multipole-refined coordinates in the publisher SI CIF reproduce the same structure as the COD file. DFT-D/MP2 optimized geometries from the same article are not used.",
+    "COD normalized the formula/Z representation fromI/Z8 toI2/Z4; the raw formula-weight field remains126.90. This bookkeeping inconsistency does not alter the8-atom cell or geometry. The source file is preserved unchanged.",
+    "The published experimental bond length2.7179(2)A agrees with the2.717798A distance calculated directly from this CIF; the main-paper Table2 also prints2.710A. The exact source coordinates, rather than a manually replaced tabular bond, determine the FEFF geometry.",
+    "K-edge selected for broad EXAFS coverage; I K edge is33169eV in installedXrayDB. I L3 at4557eV is followed by L2 at4852eV (295eV, k8.799A^-1), so the L3 alternative has a close next-edge boundary. A computed k20 grid does not establish usable data.",
+    "Native FEFF spherical-potential paths do not reproduce the source multipole electron density, halogen-bond energy, anisotropic/anharmonic displacement model, or experimental XANES simply by using the same geometry."
+  ],
+  "license": {
+    "database_policy": "COD copy carries its public-domain contributor notice and COD CC0 policy; retain exact source header and scientific attribution.",
+    "policy_url": "https://www.crystallography.net/cod/4511285.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "All data on this site have been placed in the public domain by the contributors.",
+    "comparison_source_license": "The separately inspected original ACS Figshare SI is labelled CC BY-NC4.0. It is used only for source verification, not included as source.cif or as a redistributed journal PDF."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "I": 8.0
+    },
+    "site_count": 8,
+    "space_group": "Cmce (original Cmca setting)",
+    "space_group_number": 64,
+    "cell": [
+      7.1589,
+      4.6915,
+      9.8014,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "explicit_occupancies": [
+      "1"
+    ],
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "I",
+        "multiplicity": 8,
+        "wyckoff": "8f",
+        "fractional_coordinates": [
+          0.0,
+          0.154003,
+          0.117423
+        ],
+        "site_population_weight": 1.0,
+        "first_shell_element": "I",
+        "shell_cutoff_A": 3.0,
+        "coordination_number": 1,
+        "distances_A": [
+          2.717798323982187
+        ],
+        "next_same_scatterer_distance_A": 3.500960222151806,
+        "first_sixteen_neighbors_A": [
+          2.717798323982187,
+          3.500960222151806,
+          3.500960222151807,
+          3.9797072444808532,
+          4.279603412116594,
+          4.279603412116594,
+          4.279603412116595,
+          4.279603412116595,
+          4.349961836706949,
+          4.3499618367069495,
+          4.423419685841399,
+          4.4234196858414006,
+          4.6915,
+          4.6915,
+          4.982789657328462,
+          4.982789657328462
+        ]
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "calculation_cautions": [
+    "Measurement-temperature conflict is unresolved: the original publisher SI CIF and unchanged COD file state100(2)K, but the primary article Experimental Section states110(1)K and its Results repeats110K for this identical cell. The numeric measurement-temperature field is null; both reported values remain explicit. No temperature correction or rescaling is applied.",
+    "Selected first intramolecular I-I shell only: one neighbor at2.717798A, cutoff3.0A. This is not a complete description of molecular-crystal packing: the next intermolecular contacts are2x3.500960A and1x3.979707A, excluded from this shell selection and retained in the structural inspection.",
+    "This is elemental molecular iodine, not iodide or an iodine oxide reference. No oxidation-state equivalence to salts is implied.",
+    "K-edge selected for broad EXAFS coverage; I K edge is33169eV in installedXrayDB. I L3 at4557eV is followed by L2 at4852eV (295eV, k8.799A^-1), so the L3 alternative has a close next-edge boundary. A computed k20 grid does not establish usable data.",
+    "Native FEFF spherical-potential paths do not reproduce the source multipole electron density, halogen-bond energy, anisotropic/anharmonic displacement model, or experimental XANES simply by using the same geometry."
+  ]
+}

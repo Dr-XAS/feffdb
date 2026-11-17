@@ -1,0 +1,141 @@
+{
+  "actual_cluster_radius_A": 7.958810396032814,
+  "atom_count": 245,
+  "cell_composition": {
+    "B": 2.0,
+    "N": 2.0
+  },
+  "cif_sha256": "a2af9f093b8c00a3033b2c53492c8d5705c26a046dae1452785ef22af09d5dde",
+  "engine": "FEFF8L",
+  "executable_sha256": {
+    "ff2x": "d1bcf7d2a220f675cfcaefe43be34af5e3918e95822b6bdd5c1a6eba724d1393",
+    "genfmt": "21ed031e411c196ba351b0abf46f301f4d946ce001a3b12e8a7dab7ca217ab2b",
+    "pathfinder": "8bc48a9daa20c328b887ef31dae3e087f4c7c7db84adad87d5311a0f92e8eb5e",
+    "pot": "95d2f868e35e21810a2eb1cd1bb763c5a340dbb9ec96c81a8cf31e4e894ebb92",
+    "rdinp": "d60daee213c226fadd112e32955b4e8a9b938c75583ae9969171127079e8be32",
+    "xsph": "9d30609301aa92165c1952b288129ed4906a52a9628a966827db610dd4e54fd5"
+  },
+  "execution_status": "complete",
+  "experimental_validation": false,
+  "first_shell_distances_A": [
+    1.445679300548131,
+    1.445679300548131,
+    1.445679300548131
+  ],
+  "fractional_coordinates": [
+    0.3333333333333333,
+    0.6666666666666666,
+    0.25
+  ],
+  "input_sha256": "2fbcc77990d8e1b6d3ecfd9a61fadbad543a787f537480b4b0fa263f86609d50",
+  "machine": "arm64",
+  "module_results": [
+    {
+      "elapsed_seconds": 0.132,
+      "module": "rdinp",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 31.978,
+      "module": "pot",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.244,
+      "module": "xsph",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.131,
+      "module": "pathfinder",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.042,
+      "module": "genfmt",
+      "returncode": 0
+    },
+    {
+      "elapsed_seconds": 0.077,
+      "module": "ff2x",
+      "returncode": 0
+    }
+  ],
+  "packages": {
+    "larixite": "2026.1.0",
+    "numpy": "2.4.6",
+    "pymatgen": "2026.5.4",
+    "xraydb": "4.5.8",
+    "xraylarch": "2026.3.1.post78+g247278cef.xascraft.bc4f3b77f527"
+  },
+  "parser_warnings": [
+    "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+    "Issues encountered while parsing CIF: 4 fractional coordinates rounded to ideal values to avoid issues with finite precision.",
+    "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+  ],
+  "platform": "macOS-26.7.3-arm64-arm-64bit",
+  "potential_rows": [
+    [
+      "0",
+      "5",
+      "B",
+      "-1",
+      "-1",
+      "0.01"
+    ],
+    [
+      "1",
+      "7",
+      "N",
+      "-1",
+      "-1",
+      "1"
+    ],
+    [
+      "2",
+      "5",
+      "B",
+      "-1",
+      "-1",
+      "1"
+    ]
+  ],
+  "python": "3.12.15",
+  "recipe": {
+    "cluster_radius_A": 8.0,
+    "exchange": 0,
+    "kmax_invA": 20,
+    "max_legs": 2,
+    "path_radius_A": 4.0,
+    "polarization": null,
+    "rng_seed": 0,
+    "s02": 1.0,
+    "scf_iterations": 30,
+    "scf_mixing": 0.2,
+    "scf_radius_A": 5.0,
+    "with_h": false
+  },
+  "reference_id": "hBN-Pease1952-COD9008997-B-K",
+  "review_status": "candidate",
+  "scatterer_distances_to_rpath_A": [
+    1.445679300548131,
+    1.445679300548131,
+    1.445679300548131,
+    2.891358601096262,
+    2.891358601096262,
+    2.8913586010962624,
+    3.3305999999999996,
+    3.3306000000000004,
+    3.824907904804158,
+    3.824907904804158,
+    3.824907904804158,
+    3.824907904804158,
+    3.824907904804158,
+    3.8249079048041583
+  ],
+  "site_index": 1,
+  "site_multiplicity": 2,
+  "site_weight": 1.0,
+  "space_group": "P6_3/mmc",
+  "wyckoff": "2c"
+}

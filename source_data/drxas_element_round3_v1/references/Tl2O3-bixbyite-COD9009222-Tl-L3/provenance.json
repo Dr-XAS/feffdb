@@ -1,0 +1,119 @@
+{
+  "filename": "source.cif",
+  "name": "Tl2O3 cubic bixbyite, 1993 refinement",
+  "absorber": "Tl",
+  "scatterer": "O",
+  "source_id": "9009222",
+  "doi": "10.1016/0921-4534(93)90382-Z",
+  "citation": "H. H. Otto, R. Baltrusch and H.-J. Brandt. Further evidence for Tl3+ in Tl-based superconductors from improved bond strength parameters involving new structural data of cubic Tl2O3. Physica C: Superconductivity215 (1993),205–208.",
+  "primary_url": "https://doi.org/10.1016/0921-4534(93)90382-Z",
+  "recommendation": "experimental source candidate; native FEFF and numerical validation pending",
+  "method": "Published experimental crystal-structure refinement deposited in AMCSD/COD; the exact diffraction apparatus/method was not independently accessible in the primary article during this selection.",
+  "synthesis_conditions": null,
+  "notes": [
+    "Both crystallographically inequivalent Tl sites included:8b multiplicity8 weight0.25 and24d multiplicity24 weight0.75; each has a complete six-O octahedron.",
+    "COD/AMCSD raw author spelling Brant is preserved in original CIF; publisher-deposited Crossref DOI record verifies H.-J.Brandt for the bibliography.",
+    "The original CIF omits occupancy; an ordered unit-occupancy model is the parser interpretation, not an independently refined occupancy parameter.",
+    "This is a Tl(III) oxide reference; do not present it as a Tl(I) iodide, elementalTl, or generic validated Tl environment."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/9009222.cif",
+  "record_url": "https://www.crystallography.net/cod/9009222.html",
+  "sha256": "724921f8e21e15d2df0d39a0ce363e968617889a113988c84c611db1cbbe842a",
+  "cif_sha256": "724921f8e21e15d2df0d39a0ce363e968617889a113988c84c611db1cbbe842a",
+  "retrieved_at_utc": "2026-11-17T06:12:50.718384+00:00",
+  "edge": "L3",
+  "inequivalent_absorber_sites": 2,
+  "absorber_site_indices": [
+    1,
+    2
+  ],
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Neither numerical diffraction temperature nor pressure is present in the original COD CIF. Article fulltext was not accessible; leave both unknown rather than assume room temperature or synthesis conditions.",
+  "original_file_unmodified": true,
+  "occupancy": {
+    "raw_values": null,
+    "interpretation": "Occupancy column absent; unit occupancy is parser interpretation, not an explicit refined occupancy."
+  },
+  "license": {
+    "database_policy": "COD dedicates data/database to public domain under CC0; retain the original notice and article attribution.",
+    "policy_url": "https://www.crystallography.net/cod/9009222.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "#------------------------------------------------------------------------------\n#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $\n#$Revision: 291735 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/92/9009222.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided the American Mineralogist Crystal Structure Database,\n# http://rruff.geo.arizona.edu/AMS/amcsd.php\n#\n# The file may be used within the scientific community so long as\n# proper attribution is given to the journal article from which the\n# data were obtained.\n#"
+  },
+  "inspection": {
+    "formula": "Tl32 O48",
+    "ordered": true,
+    "hydrogen_present": false,
+    "site_count": 80,
+    "spacegroup": "Ia-3",
+    "spacegroup_number": 206,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Tl",
+        "fractional_coordinates": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "multiplicity": 8,
+        "wyckoff": "8b",
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.8,
+        "coordination_number": 6,
+        "distances_A": {
+          "2.270344": 6
+        },
+        "full_first_shell_distance_multiset_A": [
+          2.2703440618441735,
+          2.270344061844174,
+          2.2703440618441744,
+          2.270344061844175,
+          2.270344061844175,
+          2.270344061844175
+        ],
+        "next_same_element_distance_A": 4.160056434361328,
+        "nearest_other_element_distance_A": 3.49528506775313,
+        "nearest_other_element": "Tl",
+        "site_weight": 0.25
+      },
+      {
+        "site_index_one_based": 2,
+        "element": "Tl",
+        "fractional_coordinates": [
+          0.96815,
+          0.0,
+          0.25
+        ],
+        "multiplicity": 24,
+        "wyckoff": "24d",
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 2.8,
+        "coordination_number": 6,
+        "distances_A": {
+          "2.197204": 2,
+          "2.291975": 2,
+          "2.320906": 2
+        },
+        "full_first_shell_distance_multiset_A": [
+          2.197203941222769,
+          2.197203941222771,
+          2.2919746759202226,
+          2.2919746759202226,
+          2.320906257508945,
+          2.320906257508946
+        ],
+        "next_same_element_distance_A": 3.99826199318815,
+        "nearest_other_element_distance_A": 3.4952850677531306,
+        "nearest_other_element": "Tl",
+        "site_weight": 0.75
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

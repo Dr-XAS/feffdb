@@ -1,0 +1,108 @@
+{
+  "status": "pass",
+  "reference_count": 7,
+  "physical_structure_count": 4,
+  "records": [
+    {
+      "id": "BeO-bromellite-COD9014120-Be-K",
+      "sha256": "ac2dd2d7720ebfe76a27db2e547929db4d2d88d57f8c167140f7decfb40dad2b",
+      "site_index": 1,
+      "multiplicity": 2,
+      "cn": 4,
+      "first_shell_A": [
+        1.6467244282417284,
+        1.6467244282417284,
+        1.6467244282417284,
+        1.65517056
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/BeO-bromellite-COD9014120"
+    },
+    {
+      "id": "BeO-bromellite-COD9014120-O-K",
+      "sha256": "ac2dd2d7720ebfe76a27db2e547929db4d2d88d57f8c167140f7decfb40dad2b",
+      "site_index": 2,
+      "multiplicity": 2,
+      "cn": 4,
+      "first_shell_A": [
+        1.6467244282417284,
+        1.6467244282417284,
+        1.6467244282417284,
+        1.65517056
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/BeO-bromellite-COD9014120"
+    },
+    {
+      "id": "diamond-298K-COD9011997-C-K",
+      "sha256": "109382e13ecce5a7c6be6639698e204bf5e6e6d9c5593c0e52d42b7e0b76412d",
+      "site_index": 1,
+      "multiplicity": 8,
+      "cn": 4,
+      "first_shell_A": [
+        1.5445502454717197,
+        1.5445502454717197,
+        1.5445502454717197,
+        1.54455024547172
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/diamond-298K-COD9011997"
+    },
+    {
+      "id": "hBN-Pease1952-COD9008997-B-K",
+      "sha256": "a2af9f093b8c00a3033b2c53492c8d5705c26a046dae1452785ef22af09d5dde",
+      "site_index": 1,
+      "multiplicity": 2,
+      "cn": 3,
+      "first_shell_A": [
+        1.445679300548131,
+        1.445679300548131,
+        1.445679300548131
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/hBN-Pease1952-COD9008997"
+    },
+    {
+      "id": "hBN-Pease1952-COD9008997-N-K",
+      "sha256": "a2af9f093b8c00a3033b2c53492c8d5705c26a046dae1452785ef22af09d5dde",
+      "site_index": 2,
+      "multiplicity": 2,
+      "cn": 3,
+      "first_shell_A": [
+        1.445679300548131,
+        1.445679300548131,
+        1.445679300548131
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/hBN-Pease1952-COD9008997"
+    },
+    {
+      "id": "LiF-rocksalt-NBS1953-299K-Li-K",
+      "sha256": "5d9f8a96f149e5bafdd763bd13acef42972aa2f67e6eb981a78ec47f152947ec",
+      "site_index": 1,
+      "multiplicity": 4,
+      "cn": 6,
+      "first_shell_A": [
+        2.0134999999999996,
+        2.0134999999999996,
+        2.0134999999999996,
+        2.0135000000000005,
+        2.0135000000000005,
+        2.0135000000000005
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/LiF-rocksalt-NBS1953-299K"
+    },
+    {
+      "id": "LiF-rocksalt-NBS1953-299K-F-K",
+      "sha256": "5d9f8a96f149e5bafdd763bd13acef42972aa2f67e6eb981a78ec47f152947ec",
+      "site_index": 2,
+      "multiplicity": 4,
+      "cn": 6,
+      "first_shell_A": [
+        2.0134999999999996,
+        2.0135,
+        2.0135,
+        2.0135,
+        2.0135,
+        2.0135
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/LiF-rocksalt-NBS1953-299K"
+    }
+  ],
+  "scope": "Independent source byte/hash,strict ordering,composition,all-absorber-sites,multiplicity,full neighbor distance multiset and NBS transcription checks. No FEFF or experimental XAS validation performed."
+}

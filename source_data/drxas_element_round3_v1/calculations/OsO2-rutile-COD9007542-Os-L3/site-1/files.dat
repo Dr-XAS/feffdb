@@ -1,0 +1,18 @@
+ Formula: OsO2                                  Feff8L (EXAFS)       0.1
+ SpaceGroup: P4_2/mnm
+ Dr-XAS candidate OsO2-rutile-COD9007542-Os-L3 COD 9007542
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=76 Rmt= 1.323 Rnm= 1.425 L3 shell
+ Pot 1 Z= 8 Rmt= 0.963 Rnm= 1.039
+ Pot 2 Z=76 Rmt= 1.327 Rnm= 1.434
+ Gam_ch=4.951E+00 H-L exch
+ Mu=-6.534E+00 kf=2.421E+00 Vint=-1.725E+01 Rs_int= 1.498
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     2.000     2   1.9609
+ feff0002.dat 0.00000   187.000     4.000     2   2.0065
+ feff0003.dat 0.00000    26.750     2.000     2   3.1839
+ feff0004.dat 0.00000    39.760     4.000     2   3.4085
+ feff0005.dat 0.00000    85.820     8.000     2   3.5582
+ feff0006.dat 0.00000    29.780     4.000     2   3.7393

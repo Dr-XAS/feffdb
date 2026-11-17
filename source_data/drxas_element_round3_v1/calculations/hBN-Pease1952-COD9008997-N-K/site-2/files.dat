@@ -1,0 +1,18 @@
+ Formula: BN                                    Feff8L (EXAFS)       0.1
+ SpaceGroup: P6_3/mmc
+ Dr-XAS candidate hBN-Pease1952-COD9008997-N-K COD 9008997
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z= 7 Rmt= 0.813 Rnm= 0.978 K  shell
+ Pot 1 Z= 7 Rmt= 0.826 Rnm= 1.010
+ Pot 2 Z= 5 Rmt= 0.841 Rnm= 1.022
+ Gam_ch=1.163E-01 H-L exch
+ Mu=-7.606E+00 kf=2.646E+00 Vint=-2.111E+01 Rs_int= 1.371
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     3.000     2   1.4457
+ feff0002.dat 0.00000    77.690     6.000     2   2.5040
+ feff0003.dat 0.00000    23.200     3.000     2   2.8914
+ feff0004.dat 0.00000    11.400     2.000     2   3.3306
+ feff0005.dat 0.00000    34.240     6.000     2   3.6308
+ feff0006.dat 0.00000    25.300     6.000     2   3.8249

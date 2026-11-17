@@ -1,0 +1,26 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: BeO                                   Feff8L (EXAFS)       0.1
+ SpaceGroup: P6_3mc
+ Dr-XAS candidate BeO-bromellite-COD9014120-Be-K COD 9014120
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z= 4 Rmt= 0.991 Rnm= 1.119 K  shell
+ Pot 1 Z= 8 Rmt= 0.909 Rnm= 1.022
+ Pot 2 Z= 4 Rmt= 0.985 Rnm= 1.105
+ Gam_ch=4.830E-02 H-L exch
+ Mu=-4.553E+00 kf=2.374E+00 Vint=-2.002E+01 Rs_int= 1.528
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+       9 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+       3     feff0003.dat
+       4     feff0004.dat
+       5     feff0005.dat
+       6     feff0006.dat
+       7     feff0007.dat
+       8     feff0008.dat
+       9     feff0009.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

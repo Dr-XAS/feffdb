@@ -1,0 +1,16 @@
+ Formula: C                                     Feff8L (EXAFS)       0.1
+ SpaceGroup: Fd-3m
+ Dr-XAS candidate diamond-298K-COD9011997-C-K COD 9011997
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z= 6 Rmt= 0.875 Rnm= 0.987 K  shell
+ Pot 1 Z= 6 Rmt= 0.891 Rnm= 1.017
+ Gam_ch=8.676E-02 H-L exch
+ Mu=-1.120E+01 kf=2.759E+00 Vint=-2.342E+01 Rs_int= 1.314
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     4.000     2   1.5446
+ feff0002.dat 0.00000   107.200    12.000     2   2.5222
+ feff0003.dat 0.00000    76.350    12.000     2   2.9576
+ feff0004.dat 0.00000    25.410     6.000     2   3.5670
+ feff0005.dat 0.00000    42.050    12.000     2   3.8870

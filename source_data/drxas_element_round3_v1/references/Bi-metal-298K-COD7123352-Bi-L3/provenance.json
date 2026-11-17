@@ -1,0 +1,92 @@
+{
+  "filename": "source.cif",
+  "name": "Bi metal, 298 K single-crystal refinement",
+  "absorber": "Bi",
+  "scatterer": "Bi",
+  "source_id": "7123352",
+  "doi": "10.1039/C9CC02820J",
+  "citation": "Z. Wei, C. Dubceac, M. A. Petrukhina and E. V. Dikarev. From a volatile molecular precursor to twin-free single crystals of bismuth. Chemical Communications 55 (2019), 5717–5719.",
+  "primary_url": "https://pubs.rsc.org/en/content/articlelanding/2019/cc/c9cc02820j/unauth",
+  "recommendation": "experimental source candidate; native FEFF and numerical validation pending",
+  "method": "Single-crystal X-ray diffraction, Bruker D8 Venture PHOTON 100 CMOS, Mo K-alpha; SHELXL-2018/3 refinement, as recorded in the original CIF. Publisher primary abstract verifies twin-free elemental bismuth single-crystal data.",
+  "synthesis_conditions": {
+    "description": "Gas-phase growth from dibismuth(II) tetra(trifluoroacetate), verified publisher abstract. Growth temperature/pressure not used as diffraction conditions."
+  },
+  "notes": [
+    "One independent Bi site, multiplicity6, weight1. The A7 structure has three shorter intrabilayer and three longer interbilayer Bi neighbors. The selected CN6 envelope explicitly preserves both 3-fold distance groups; it must not be described as six equal covalent bonds.",
+    "The source CIF explicitly reports both 3.0723(4) and3.5294(4) A bond groups. A3.8A cutoff includes these and excludes the next Bi at4.5481A.",
+    "This is elemental rhombohedral Bi-I at298K, not a bismuth oxide or a high-pressure allotrope."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/7123352.cif",
+  "record_url": "https://www.crystallography.net/cod/7123352.html",
+  "sha256": "7cd6ec1bb095f49d86b29bf755de3b2f476a6e9edf5978ad62aca69e7c47cbf8",
+  "cif_sha256": "7cd6ec1bb095f49d86b29bf755de3b2f476a6e9edf5978ad62aca69e7c47cbf8",
+  "retrieved_at_utc": "2026-11-17T06:12:50.718283+00:00",
+  "edge": "L3",
+  "inequivalent_absorber_sites": 1,
+  "absorber_site_indices": [
+    1
+  ],
+  "measurement_temperature_K": 298,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Original CIF explicitly records _cell_measurement_temperature and _diffrn_ambient_temperature 298(2) K. No numerical diffraction pressure is recorded; publisher describes ambient conditions.",
+  "original_file_unmodified": true,
+  "occupancy": {
+    "raw_values": [
+      "1"
+    ],
+    "interpretation": "Explicitly full occupation."
+  },
+  "license": {
+    "database_policy": "COD dedicates data/database to public domain under CC0; retain the original notice and article attribution.",
+    "policy_url": "https://www.crystallography.net/cod/7123352.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "#------------------------------------------------------------------------------\n#$Date: 2019-05-01 01:12:56 +0300 (Wed, 01 May 2019) $\n#$Revision: 214853 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/7/12/33/7123352.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/\n#\n# All data on this site have been placed in the public domain by the\n# contributors.\n#"
+  },
+  "inspection": {
+    "formula": "Bi6",
+    "ordered": true,
+    "hydrogen_present": false,
+    "site_count": 6,
+    "spacegroup": "R-3m",
+    "spacegroup_number": 166,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Bi",
+        "fractional_coordinates": [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.56724
+        ],
+        "multiplicity": 6,
+        "wyckoff": "6c",
+        "first_shell_element": "Bi",
+        "first_shell_cutoff_A": 3.8,
+        "coordination_number": 6,
+        "distances_A": {
+          "3.072276": 3,
+          "3.529465": 3
+        },
+        "full_first_shell_distance_multiset_A": [
+          3.072276328693298,
+          3.072276328693298,
+          3.0722763286932984,
+          3.5294651548018257,
+          3.5294651548018257,
+          3.529465154801826
+        ],
+        "next_same_element_distance_A": 4.5481,
+        "nearest_other_element_distance_A": null,
+        "nearest_other_element": null,
+        "site_weight": 1.0
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Issues encountered while parsing CIF: 2 fractional coordinates rounded to ideal values to avoid issues with finite precision.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

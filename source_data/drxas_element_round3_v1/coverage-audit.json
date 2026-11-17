@@ -1,0 +1,1061 @@
+{
+  "schema_version": 1,
+  "status": "local_draft_native_and_source_tests_passed",
+  "prepared_at_utc": "2026-11-17T06:27:40.860482+00:00",
+  "publication": {
+    "round3_published": false,
+    "round3_commit": null,
+    "note": "The upstream-base commit identifies existing round2 input only. It is not publication evidence for any round3 calculation."
+  },
+  "coverage_definition": {
+    "unit": "absorbing element with at least one retained path at an explicit edge",
+    "catalogue_field": "entries[].metadata.absorber",
+    "default_visibility_field": "entries[].metadata.databaseSource.status == available",
+    "excluded_from_absorber_count": [
+      "scatterer-only presence",
+      "uncomputed registered CIF",
+      "failed or unvalidated native run",
+      "another edge of an existing absorbing element"
+    ],
+    "interpretation": "Elemental presence does not establish all oxidation states, phases, scatterer pairs, coordination environments, polarization geometries or usable experimental k windows. All round3 entries remain candidate/review."
+  },
+  "baseline_catalogue": {
+    "path": "/Users/juanjuan.huang/Documents/GitHub/XAScraft-standalone/backend/xraylarch_web/resources/feff_database/catalogue.json",
+    "version": "5-da3f0b7fa940caf8",
+    "sha256": "0fe9d7f570b8cddac6480cae90b66acd39bc3a3e982977b992a742029932fade",
+    "entry_count": 603,
+    "status_counts": {
+      "available": 464,
+      "review": 139
+    },
+    "absorber_count_including_review": 62,
+    "absorbers_atomic_number_order": [
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "K",
+      "Ca",
+      "Sc",
+      "Ti",
+      "V",
+      "Cr",
+      "Mn",
+      "Fe",
+      "Co",
+      "Ni",
+      "Cu",
+      "Zn",
+      "Ga",
+      "Ge",
+      "As",
+      "Se",
+      "Br",
+      "Sr",
+      "Y",
+      "Zr",
+      "Nb",
+      "Mo",
+      "Ru",
+      "Rh",
+      "Pd",
+      "Ag",
+      "Cd",
+      "In",
+      "Sn",
+      "Sb",
+      "Te",
+      "Ba",
+      "La",
+      "Ce",
+      "Pr",
+      "Nd",
+      "Sm",
+      "Eu",
+      "Gd",
+      "Tb",
+      "Dy",
+      "Ho",
+      "Er",
+      "Tm",
+      "Yb",
+      "Lu",
+      "Hf",
+      "Ta",
+      "W",
+      "Re",
+      "Ir",
+      "Pt",
+      "Au",
+      "Hg",
+      "Pb"
+    ],
+    "default_visible_absorber_count": 39,
+    "default_visible_absorbers_atomic_number_order": [
+      "Ca",
+      "Ti",
+      "V",
+      "Cr",
+      "Mn",
+      "Fe",
+      "Co",
+      "Ni",
+      "Cu",
+      "Zn",
+      "Ga",
+      "Ge",
+      "As",
+      "Se",
+      "Sr",
+      "Y",
+      "Zr",
+      "Nb",
+      "Mo",
+      "Ru",
+      "Rh",
+      "Pd",
+      "Ag",
+      "Cd",
+      "In",
+      "Sn",
+      "Sb",
+      "Te",
+      "Ba",
+      "Ce",
+      "Hf",
+      "Ta",
+      "W",
+      "Re",
+      "Ir",
+      "Pt",
+      "Au",
+      "Hg",
+      "Pb"
+    ],
+    "scatterer_count_separate_metric": 43,
+    "scatterers_atomic_number_order": [
+      "C",
+      "N",
+      "O",
+      "F",
+      "Na",
+      "P",
+      "S",
+      "Cl",
+      "Ti",
+      "V",
+      "Cr",
+      "Mn",
+      "Fe",
+      "Co",
+      "Ni",
+      "Cu",
+      "Zn",
+      "Ga",
+      "Ge",
+      "As",
+      "Se",
+      "Br",
+      "Y",
+      "Zr",
+      "Nb",
+      "Mo",
+      "Ru",
+      "Rh",
+      "Pd",
+      "Ag",
+      "Cd",
+      "In",
+      "Sn",
+      "Sb",
+      "Te",
+      "Hf",
+      "Ta",
+      "W",
+      "Re",
+      "Ir",
+      "Pt",
+      "Au",
+      "Pb"
+    ],
+    "note": "Snapshot of local catalogue before round3 ingestion. No live remote/deployment assertion."
+  },
+  "round3_source_scope": {
+    "reference_edge_records": 14,
+    "unique_absorbing_elements": 14,
+    "unique_source_models_by_cif_sha256": 11,
+    "inequivalent_absorber_sites": 19,
+    "new_absorbers": [
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Rb",
+      "I",
+      "Cs",
+      "Os",
+      "Tl",
+      "Bi",
+      "Th"
+    ],
+    "already_covered_absorbers": [],
+    "records": [
+      {
+        "atomic_number": 3,
+        "absorber": "Li",
+        "edge": "K",
+        "reference_id": "LiF-rocksalt-NBS1953-299K-Li-K",
+        "formula": "LiF",
+        "selected_scatterer": "F",
+        "absorber_site_indices": [
+          1
+        ],
+        "selected_coordination_by_site": {
+          "1": 6
+        },
+        "selection_cutoff_A": 2.5,
+        "selection_basis": "Original NBS measured LiF powder pattern and lattice; exact symmetry encoding of the explicitly reported NaCl structure, no element substitution or cell relaxation.",
+        "source_database": "publication",
+        "source_record_id": "NBS-Circular539-v1-1953-Table35-LiF-26C",
+        "cif_sha256": "5d9f8a96f149e5bafdd763bd13acef42972aa2f67e6eb981a78ec47f152947ec",
+        "primary_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular539v1.pdf",
+        "doi": null,
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 4,
+        "absorber": "Be",
+        "edge": "K",
+        "reference_id": "BeO-bromellite-COD9014120-Be-K",
+        "formula": "BeO",
+        "selected_scatterer": "O",
+        "absorber_site_indices": [
+          1
+        ],
+        "selected_coordination_by_site": {
+          "1": 4
+        },
+        "selection_cutoff_A": 2.0,
+        "selection_basis": "Experimental ordered in-air BeO structure; both inequivalent element sites and each complete split four-neighbor shell retained. No ideal-wurtzite coordinate substitution.",
+        "source_database": "COD",
+        "source_record_id": "9014120",
+        "cif_sha256": "ac2dd2d7720ebfe76a27db2e547929db4d2d88d57f8c167140f7decfb40dad2b",
+        "primary_url": "https://doi.org/10.1063/1.336756",
+        "doi": "10.1063/1.336756",
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 5,
+        "absorber": "B",
+        "edge": "K",
+        "reference_id": "hBN-Pease1952-COD9008997-B-K",
+        "formula": "BN",
+        "selected_scatterer": "N",
+        "absorber_site_indices": [
+          1
+        ],
+        "selected_coordination_by_site": {
+          "1": 3
+        },
+        "selection_cutoff_A": 2.0,
+        "selection_basis": "The unmodified COD compilation agrees with the experimentally established Pease cell and AA-prime B-over-N stacking; select both species' single independent sites and full three-neighbor first shells.",
+        "source_database": "COD",
+        "source_record_id": "9008997",
+        "cif_sha256": "a2af9f093b8c00a3033b2c53492c8d5705c26a046dae1452785ef22af09d5dde",
+        "primary_url": "https://doi.org/10.1107/S0365110X52001064",
+        "doi": "10.1107/S0365110X52001064",
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 6,
+        "absorber": "C",
+        "edge": "K",
+        "reference_id": "diamond-298K-COD9011997-C-K",
+        "formula": "C",
+        "selected_scatterer": "C",
+        "absorber_site_indices": [
+          1
+        ],
+        "selected_coordination_by_site": {
+          "1": 4
+        },
+        "selection_cutoff_A": 2.0,
+        "selection_basis": "Experimental diamond lattice measurement with explicit temperature; one symmetry-equivalent carbon site, complete tetrahedral C–C first shell.",
+        "source_database": "COD",
+        "source_record_id": "9011997",
+        "cif_sha256": "109382e13ecce5a7c6be6639698e204bf5e6e6d9c5593c0e52d42b7e0b76412d",
+        "primary_url": "https://doi.org/10.1107/S0021889875010965",
+        "doi": "10.1107/S0021889875010965",
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 7,
+        "absorber": "N",
+        "edge": "K",
+        "reference_id": "hBN-Pease1952-COD9008997-N-K",
+        "formula": "BN",
+        "selected_scatterer": "B",
+        "absorber_site_indices": [
+          2
+        ],
+        "selected_coordination_by_site": {
+          "2": 3
+        },
+        "selection_cutoff_A": 2.0,
+        "selection_basis": "The unmodified COD compilation agrees with the experimentally established Pease cell and AA-prime B-over-N stacking; select both species' single independent sites and full three-neighbor first shells.",
+        "source_database": "COD",
+        "source_record_id": "9008997",
+        "cif_sha256": "a2af9f093b8c00a3033b2c53492c8d5705c26a046dae1452785ef22af09d5dde",
+        "primary_url": "https://doi.org/10.1107/S0365110X52001064",
+        "doi": "10.1107/S0365110X52001064",
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 8,
+        "absorber": "O",
+        "edge": "K",
+        "reference_id": "BeO-bromellite-COD9014120-O-K",
+        "formula": "BeO",
+        "selected_scatterer": "Be",
+        "absorber_site_indices": [
+          2
+        ],
+        "selected_coordination_by_site": {
+          "2": 4
+        },
+        "selection_cutoff_A": 2.0,
+        "selection_basis": "Experimental ordered in-air BeO structure; both inequivalent element sites and each complete split four-neighbor shell retained. No ideal-wurtzite coordinate substitution.",
+        "source_database": "COD",
+        "source_record_id": "9014120",
+        "cif_sha256": "ac2dd2d7720ebfe76a27db2e547929db4d2d88d57f8c167140f7decfb40dad2b",
+        "primary_url": "https://doi.org/10.1063/1.336756",
+        "doi": "10.1063/1.336756",
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 9,
+        "absorber": "F",
+        "edge": "K",
+        "reference_id": "LiF-rocksalt-NBS1953-299K-F-K",
+        "formula": "LiF",
+        "selected_scatterer": "Li",
+        "absorber_site_indices": [
+          2
+        ],
+        "selected_coordination_by_site": {
+          "2": 6
+        },
+        "selection_cutoff_A": 2.5,
+        "selection_basis": "Original NBS measured LiF powder pattern and lattice; exact symmetry encoding of the explicitly reported NaCl structure, no element substitution or cell relaxation.",
+        "source_database": "publication",
+        "source_record_id": "NBS-Circular539-v1-1953-Table35-LiF-26C",
+        "cif_sha256": "5d9f8a96f149e5bafdd763bd13acef42972aa2f67e6eb981a78ec47f152947ec",
+        "primary_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular539v1.pdf",
+        "doi": null,
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 37,
+        "absorber": "Rb",
+        "edge": "K",
+        "reference_id": "RbNO3-IV-296K-COD2107326-Rb-K",
+        "formula": "RbNO3",
+        "selected_scatterer": "O",
+        "absorber_site_indices": [
+          1,
+          2,
+          3
+        ],
+        "selected_coordination_by_site": {
+          "1": 12,
+          "2": 12,
+          "3": 12
+        },
+        "selection_cutoff_A": 3.8,
+        "selection_basis": "Exact ordered experimental296K CIF verified against original publisher first page; retains all three inequivalent absorbers and complete12-O coordination envelopes with longer contacts disclosed.",
+        "source_database": "COD",
+        "source_record_id": "2107326",
+        "cif_sha256": "8d452a4cd1890878fe91def1e158007925787858e6d1c47b760031c3867b0118",
+        "primary_url": "https://journals.iucr.org/paper?se0063",
+        "doi": "10.1107/S0108768191013459",
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 53,
+        "absorber": "I",
+        "edge": "K",
+        "reference_id": "I2-lowT-COD4511285-I-K",
+        "formula": "I2",
+        "selected_scatterer": "I",
+        "absorber_site_indices": [
+          1
+        ],
+        "selected_coordination_by_site": {
+          "1": 1
+        },
+        "selection_cutoff_A": 3.0,
+        "selection_basis": "Exact experimental molecular-iodine geometry; only complete intramolecularI-I first shell CN1 selected, with longer crystal-packing contacts explicitly excluded. Conflicting100(2)K CIF vs110(1)K article retained with numericnull.",
+        "source_database": "COD",
+        "source_record_id": "4511285",
+        "cif_sha256": "66df6f952074c947a569dbb2ce2010e0e3138ec22d749a4074ab07fd8cbe2a82",
+        "primary_url": "https://pubs.acs.org/doi/10.1021/cg5005159",
+        "doi": "10.1021/cg5005159",
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 55,
+        "absorber": "Cs",
+        "edge": "K",
+        "reference_id": "CsNO3-II-296K-COD2001971-Cs-K",
+        "formula": "CsNO3",
+        "selected_scatterer": "O",
+        "absorber_site_indices": [
+          1,
+          2,
+          3
+        ],
+        "selected_coordination_by_site": {
+          "1": 12,
+          "2": 12,
+          "3": 12
+        },
+        "selection_cutoff_A": 3.95,
+        "selection_basis": "Experimental CsNO3 phase II at 296 K; all three inequivalent Cs sites, each with an explicitly chosen nearest-12 O envelope, without claiming a unique chemical-shell assignment.",
+        "source_database": "COD",
+        "source_record_id": "2001971",
+        "cif_sha256": "5569c7199ba196ab9e613c1c8e7ee48c949cb88a72dfb0bd57a42fa2ad42e59b",
+        "primary_url": "https://journals.iucr.org/paper?se0089",
+        "doi": "10.1107/S0108270192006504",
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 76,
+        "absorber": "Os",
+        "edge": "L3",
+        "reference_id": "OsO2-rutile-COD9007542-Os-L3",
+        "formula": "OsO2",
+        "selected_scatterer": "O",
+        "absorber_site_indices": [
+          1
+        ],
+        "selected_coordination_by_site": {
+          "1": 6
+        },
+        "selection_cutoff_A": 2.5,
+        "selection_basis": "Complete rutile octahedron2x1.960867A+4x2.006475A;2.5A cutoff below nextO3.408517A.",
+        "source_database": "COD",
+        "source_record_id": "9007542",
+        "cif_sha256": "80e00c6ea224747b2a9477a8135c555ac779b78c509bfa7654c7171ffe88a824",
+        "primary_url": "https://journals.iucr.org/b/issues/1971/11/00/a08385/a08385.pdf",
+        "doi": "10.1107/S0567740871005466",
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 81,
+        "absorber": "Tl",
+        "edge": "L3",
+        "reference_id": "Tl2O3-bixbyite-COD9009222-Tl-L3",
+        "formula": "Tl2O3",
+        "selected_scatterer": "O",
+        "absorber_site_indices": [
+          1,
+          2
+        ],
+        "selected_coordination_by_site": {
+          "1": 6,
+          "2": 6
+        },
+        "selection_cutoff_A": 2.8,
+        "selection_basis": "Both complete bixbyite Tl-O octahedra:site1 6x2.270344A;site2 2x2.197204+2x2.291975+2x2.320906A.2.8A cutoff excludes nextO at>=3.998262A.",
+        "source_database": "COD",
+        "source_record_id": "9009222",
+        "cif_sha256": "724921f8e21e15d2df0d39a0ce363e968617889a113988c84c611db1cbbe842a",
+        "primary_url": "https://doi.org/10.1016/0921-4534(93)90382-Z",
+        "doi": "10.1016/0921-4534(93)90382-Z",
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 83,
+        "absorber": "Bi",
+        "edge": "L3",
+        "reference_id": "Bi-metal-298K-COD7123352-Bi-L3",
+        "formula": "Bi",
+        "selected_scatterer": "Bi",
+        "absorber_site_indices": [
+          1
+        ],
+        "selected_coordination_by_site": {
+          "1": 6
+        },
+        "selection_cutoff_A": 3.8,
+        "selection_basis": "Complete six-neighbor A7 local envelope,3x3.072276A+3x3.529465A, with nextBi4.5481A. Both split nearest local groups remain distinct; not six equivalent covalent bonds.",
+        "source_database": "COD",
+        "source_record_id": "7123352",
+        "cif_sha256": "7cd6ec1bb095f49d86b29bf755de3b2f476a6e9edf5978ad62aca69e7c47cbf8",
+        "primary_url": "https://pubs.rsc.org/en/content/articlelanding/2019/cc/c9cc02820j/unauth",
+        "doi": "10.1039/C9CC02820J",
+        "review_status": "candidate",
+        "experimental_validation": false
+      },
+      {
+        "atomic_number": 90,
+        "absorber": "Th",
+        "edge": "L3",
+        "reference_id": "ThO2-fluorite-COD1541590-Th-L3",
+        "formula": "ThO2",
+        "selected_scatterer": "O",
+        "absorber_site_indices": [
+          1
+        ],
+        "selected_coordination_by_site": {
+          "1": 8
+        },
+        "selection_cutoff_A": 3.0,
+        "selection_basis": "Complete fluorite Th-O8 cube,8x2.421407A,cutoff3.0A below nextO4.636641A. Pure-endmember cell5.592A independently matches publisher-deposited primary abstract; noLa mixed occupancy.",
+        "source_database": "COD",
+        "source_record_id": "1541590",
+        "cif_sha256": "c0f51485f935a147a089aaa19c0c3af74559f37b6a5667b6dbb9f41d6d213369",
+        "primary_url": "https://onlinelibrary.wiley.com/doi/10.1002/zaac.19512650108",
+        "doi": "10.1002/zaac.19512650108",
+        "review_status": "candidate",
+        "experimental_validation": false
+      }
+    ]
+  },
+  "native_validation_snapshot": {
+    "kind": "read_only_observation_of_existing_artifacts_not_a_new_validation_run",
+    "not_final": false,
+    "expected_sites": 19,
+    "completed_and_technically_passed_sites": 19,
+    "fully_passed_absorber_count": 14,
+    "fully_passed_absorbers": [
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Rb",
+      "I",
+      "Cs",
+      "Os",
+      "Tl",
+      "Bi",
+      "Th"
+    ],
+    "selected_paths_in_passed_site_reports": 90,
+    "native_paths_in_passed_site_reports": 179,
+    "sites": [
+      {
+        "reference_id": "LiF-rocksalt-NBS1953-299K-Li-K",
+        "absorber": "Li",
+        "site_index": 1,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 1,
+        "native_path_count": 3,
+        "evidence": [
+          "calculations/LiF-rocksalt-NBS1953-299K-Li-K/site-1/run.json",
+          "calculations/LiF-rocksalt-NBS1953-299K-Li-K/site-1/validation.json"
+        ]
+      },
+      {
+        "reference_id": "BeO-bromellite-COD9014120-Be-K",
+        "absorber": "Be",
+        "site_index": 1,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 2,
+        "native_path_count": 9,
+        "evidence": [
+          "calculations/BeO-bromellite-COD9014120-Be-K/site-1/run.json",
+          "calculations/BeO-bromellite-COD9014120-Be-K/site-1/validation.json"
+        ]
+      },
+      {
+        "reference_id": "hBN-Pease1952-COD9008997-B-K",
+        "absorber": "B",
+        "site_index": 1,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 1,
+        "native_path_count": 6,
+        "evidence": [
+          "calculations/hBN-Pease1952-COD9008997-B-K/site-1/run.json",
+          "calculations/hBN-Pease1952-COD9008997-B-K/site-1/validation.json"
+        ]
+      },
+      {
+        "reference_id": "diamond-298K-COD9011997-C-K",
+        "absorber": "C",
+        "site_index": 1,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 1,
+        "native_path_count": 5,
+        "evidence": [
+          "calculations/diamond-298K-COD9011997-C-K/site-1/run.json",
+          "calculations/diamond-298K-COD9011997-C-K/site-1/validation.json"
+        ]
+      },
+      {
+        "reference_id": "hBN-Pease1952-COD9008997-N-K",
+        "absorber": "N",
+        "site_index": 2,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 1,
+        "native_path_count": 6,
+        "evidence": [
+          "calculations/hBN-Pease1952-COD9008997-N-K/site-2/run.json",
+          "calculations/hBN-Pease1952-COD9008997-N-K/site-2/validation.json"
+        ]
+      },
+      {
+        "reference_id": "BeO-bromellite-COD9014120-O-K",
+        "absorber": "O",
+        "site_index": 2,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 2,
+        "native_path_count": 9,
+        "evidence": [
+          "calculations/BeO-bromellite-COD9014120-O-K/site-2/run.json",
+          "calculations/BeO-bromellite-COD9014120-O-K/site-2/validation.json"
+        ]
+      },
+      {
+        "reference_id": "LiF-rocksalt-NBS1953-299K-F-K",
+        "absorber": "F",
+        "site_index": 2,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 1,
+        "native_path_count": 3,
+        "evidence": [
+          "calculations/LiF-rocksalt-NBS1953-299K-F-K/site-2/run.json",
+          "calculations/LiF-rocksalt-NBS1953-299K-F-K/site-2/validation.json"
+        ]
+      },
+      {
+        "reference_id": "RbNO3-IV-296K-COD2107326-Rb-K",
+        "absorber": "Rb",
+        "site_index": 1,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 12,
+        "native_path_count": 21,
+        "evidence": [
+          "calculations/RbNO3-IV-296K-COD2107326-Rb-K/site-1/run.json",
+          "calculations/RbNO3-IV-296K-COD2107326-Rb-K/site-1/validation.json"
+        ]
+      },
+      {
+        "reference_id": "RbNO3-IV-296K-COD2107326-Rb-K",
+        "absorber": "Rb",
+        "site_index": 2,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 12,
+        "native_path_count": 20,
+        "evidence": [
+          "calculations/RbNO3-IV-296K-COD2107326-Rb-K/site-2/run.json",
+          "calculations/RbNO3-IV-296K-COD2107326-Rb-K/site-2/validation.json"
+        ]
+      },
+      {
+        "reference_id": "RbNO3-IV-296K-COD2107326-Rb-K",
+        "absorber": "Rb",
+        "site_index": 3,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 12,
+        "native_path_count": 20,
+        "evidence": [
+          "calculations/RbNO3-IV-296K-COD2107326-Rb-K/site-3/run.json",
+          "calculations/RbNO3-IV-296K-COD2107326-Rb-K/site-3/validation.json"
+        ]
+      },
+      {
+        "reference_id": "I2-lowT-COD4511285-I-K",
+        "absorber": "I",
+        "site_index": 1,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 1,
+        "native_path_count": 3,
+        "evidence": [
+          "calculations/I2-lowT-COD4511285-I-K/site-1/run.json",
+          "calculations/I2-lowT-COD4511285-I-K/site-1/validation.json"
+        ]
+      },
+      {
+        "reference_id": "CsNO3-II-296K-COD2001971-Cs-K",
+        "absorber": "Cs",
+        "site_index": 1,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 12,
+        "native_path_count": 19,
+        "evidence": [
+          "calculations/CsNO3-II-296K-COD2001971-Cs-K/site-1/run.json",
+          "calculations/CsNO3-II-296K-COD2001971-Cs-K/site-1/validation.json"
+        ]
+      },
+      {
+        "reference_id": "CsNO3-II-296K-COD2001971-Cs-K",
+        "absorber": "Cs",
+        "site_index": 2,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 12,
+        "native_path_count": 17,
+        "evidence": [
+          "calculations/CsNO3-II-296K-COD2001971-Cs-K/site-2/run.json",
+          "calculations/CsNO3-II-296K-COD2001971-Cs-K/site-2/validation.json"
+        ]
+      },
+      {
+        "reference_id": "CsNO3-II-296K-COD2001971-Cs-K",
+        "absorber": "Cs",
+        "site_index": 3,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 11,
+        "native_path_count": 17,
+        "evidence": [
+          "calculations/CsNO3-II-296K-COD2001971-Cs-K/site-3/run.json",
+          "calculations/CsNO3-II-296K-COD2001971-Cs-K/site-3/validation.json"
+        ]
+      },
+      {
+        "reference_id": "OsO2-rutile-COD9007542-Os-L3",
+        "absorber": "Os",
+        "site_index": 1,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 2,
+        "native_path_count": 6,
+        "evidence": [
+          "calculations/OsO2-rutile-COD9007542-Os-L3/site-1/run.json",
+          "calculations/OsO2-rutile-COD9007542-Os-L3/site-1/validation.json"
+        ]
+      },
+      {
+        "reference_id": "Tl2O3-bixbyite-COD9009222-Tl-L3",
+        "absorber": "Tl",
+        "site_index": 1,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 1,
+        "native_path_count": 3,
+        "evidence": [
+          "calculations/Tl2O3-bixbyite-COD9009222-Tl-L3/site-1/run.json",
+          "calculations/Tl2O3-bixbyite-COD9009222-Tl-L3/site-1/validation.json"
+        ]
+      },
+      {
+        "reference_id": "Tl2O3-bixbyite-COD9009222-Tl-L3",
+        "absorber": "Tl",
+        "site_index": 2,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 3,
+        "native_path_count": 8,
+        "evidence": [
+          "calculations/Tl2O3-bixbyite-COD9009222-Tl-L3/site-2/run.json",
+          "calculations/Tl2O3-bixbyite-COD9009222-Tl-L3/site-2/validation.json"
+        ]
+      },
+      {
+        "reference_id": "Bi-metal-298K-COD7123352-Bi-L3",
+        "absorber": "Bi",
+        "site_index": 1,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 2,
+        "native_path_count": 2,
+        "evidence": [
+          "calculations/Bi-metal-298K-COD7123352-Bi-L3/site-1/run.json",
+          "calculations/Bi-metal-298K-COD7123352-Bi-L3/site-1/validation.json"
+        ]
+      },
+      {
+        "reference_id": "ThO2-fluorite-COD1541590-Th-L3",
+        "absorber": "Th",
+        "site_index": 1,
+        "run_status": "complete",
+        "technical_validation": "passed",
+        "selected_path_count": 1,
+        "native_path_count": 2,
+        "evidence": [
+          "calculations/ThO2-fluorite-COD1541590-Th-L3/site-1/run.json",
+          "calculations/ThO2-fluorite-COD1541590-Th-L3/site-1/validation.json"
+        ]
+      }
+    ],
+    "final_selected_paths": 90,
+    "final_native_paths": 179,
+    "candidate_database_paths": 570,
+    "root_finalization_required": "Final source/application tests, immutable artifact inventory, candidate database inheritance verification and app ingestion remain separate steps. Existing site reports were observed read-only here; no FEFF or validation command was rerun by the README author."
+  },
+  "conditional_coverage_after_successful_round3_ingestion": {
+    "condition": "All intended sites pass final technical validation, eligible paths are added to the candidate package, and all14 absorbing elements are ingested as review. Not an assertion that this has happened.",
+    "absorber_count_including_review": 76,
+    "absorbers_atomic_number_order": [
+      "Li",
+      "Be",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "Na",
+      "Mg",
+      "Al",
+      "Si",
+      "P",
+      "S",
+      "Cl",
+      "K",
+      "Ca",
+      "Sc",
+      "Ti",
+      "V",
+      "Cr",
+      "Mn",
+      "Fe",
+      "Co",
+      "Ni",
+      "Cu",
+      "Zn",
+      "Ga",
+      "Ge",
+      "As",
+      "Se",
+      "Br",
+      "Rb",
+      "Sr",
+      "Y",
+      "Zr",
+      "Nb",
+      "Mo",
+      "Ru",
+      "Rh",
+      "Pd",
+      "Ag",
+      "Cd",
+      "In",
+      "Sn",
+      "Sb",
+      "Te",
+      "I",
+      "Cs",
+      "Ba",
+      "La",
+      "Ce",
+      "Pr",
+      "Nd",
+      "Sm",
+      "Eu",
+      "Gd",
+      "Tb",
+      "Dy",
+      "Ho",
+      "Er",
+      "Tm",
+      "Yb",
+      "Lu",
+      "Hf",
+      "Ta",
+      "W",
+      "Re",
+      "Os",
+      "Ir",
+      "Pt",
+      "Au",
+      "Hg",
+      "Tl",
+      "Pb",
+      "Bi",
+      "Th"
+    ],
+    "increment": 14,
+    "remaining_absorber_count": 42,
+    "remaining_absorbers_atomic_number_order": [
+      "H",
+      "He",
+      "Ne",
+      "Ar",
+      "Kr",
+      "Tc",
+      "Xe",
+      "Pm",
+      "Po",
+      "At",
+      "Rn",
+      "Fr",
+      "Ra",
+      "Ac",
+      "Pa",
+      "U",
+      "Np",
+      "Pu",
+      "Am",
+      "Cm",
+      "Bk",
+      "Cf",
+      "Es",
+      "Fm",
+      "Md",
+      "No",
+      "Lr",
+      "Rf",
+      "Db",
+      "Sg",
+      "Bh",
+      "Hs",
+      "Mt",
+      "Ds",
+      "Rg",
+      "Cn",
+      "Nh",
+      "Fl",
+      "Mc",
+      "Lv",
+      "Ts",
+      "Og"
+    ],
+    "default_visible_absorber_count_if_all_new_remain_review": 39,
+    "periodic_table_complete": false,
+    "experimental_validation": false,
+    "entry_count": 693,
+    "pair_count": 159,
+    "review_entry_count": 229,
+    "available_entry_count": 464,
+    "note": "These are expected catalogue counts after successful ingestion; this audit does not assert that ingestion or remote deployment has occurred."
+  },
+  "deferred_groups": [
+    {
+      "elements": [
+        "H",
+        "He"
+      ],
+      "reason": "No agreed core-edge reference workflow or experimentally checked source/validation strategy selected in this batch. They are not treated as ordinary missing hard-X-ray EXAFS references; this is a workflow scope decision, not a statement that absorption calculations are impossible."
+    },
+    {
+      "elements": [
+        "Ne",
+        "Ar",
+        "Kr",
+        "Xe"
+      ],
+      "reason": "Solid noble-gas reference models require explicitly verified cryogenic or pressure phase conditions and suitable experimental structure data. No hypothetical ambient crystal or element-substituted lattice is introduced."
+    },
+    {
+      "elements": [
+        "U"
+      ],
+      "reason": "COD2310001 is ordered fluorite UO2 with explicit993K and a5.512A but is cited to a beta-uranium powder study; the oxide measurement context and original primary text were not independently resolved. It is not relabeled as ambient UO2. A separate well-supported experimental source and actinide electronic-treatment assessment are still needed.",
+      "candidate_cod_id": "2310001",
+      "candidate_doi": "10.1107/S0365110X52002136"
+    },
+    {
+      "elements": [
+        "Tc",
+        "Pm",
+        "Po",
+        "At",
+        "Rn",
+        "Fr",
+        "Ra",
+        "Ac",
+        "Pa",
+        "Np",
+        "Pu",
+        "Am",
+        "Cm",
+        "Bk",
+        "Cf",
+        "Es",
+        "Fm",
+        "Md",
+        "No",
+        "Lr",
+        "Rf",
+        "Db",
+        "Sg",
+        "Bh",
+        "Hs",
+        "Mt",
+        "Ds",
+        "Rg",
+        "Cn",
+        "Nh",
+        "Fl",
+        "Mc",
+        "Lv",
+        "Ts",
+        "Og"
+      ],
+      "reason": "No verified experimental source/edge and native-validation plan was selected for these remaining radioactive or synthetic elements during this bounded batch. Availability, phase/occupancy, source quality and engine support must be assessed individually; no generic filled-table claim or blanket assertion of physical impossibility. Rn/Og also require noble-gas/phase-specific assessment."
+    }
+  ],
+  "selected_model_boundaries": {
+    "LiF": "Publication-derived NBS model at26°C/4.0270Å; special-position rocksalt coordinates and unit occupancies encode the reported stoichiometric structure, not a new occupancy refinement. No invented COD or DOI.",
+    "hBN": "Raw Wyckoff1963 COD compilation cross-checked against Pease1952 experimental cell/AA-prime stacking; ordered periodic average does not include observed stacking faults.",
+    "BeO": "Preserves three+one split distances; in-air record has no verified numeric diffractionT/P.",
+    "RbNO3": "All three296K phaseIV sites retained, weight1/3 each; complete selected twelve-O envelopes include long contacts.",
+    "CsNO3": "All three296K phaseII sites, weight1/3 each; explicitly chosen nearest12 O envelope at3.95Å, not a uniquely established chemical coordination shell. Cs3 O#13 at3.972503Å is generated within RPATH4Å but excluded from selection.",
+    "I2": "CN1 intramolecular shell only. Original CIF100(2)K versus article110(1)K conflict remains unresolved; normalized numeric temperature null. Longer intermolecular contacts are not part of the selected first shell.",
+    "Bi": "A7 selected3+3 local envelope keeps both short and longer Bi contacts, not six equal covalent bonds.",
+    "Tl2O3": "Both inequivalent sites with populations1/4 and3/4; Tl(III)-oxide reference only.",
+    "OsO2": "Rutile oxide data from Boman1970 via Baur/Khan1971 and COD; not elementalOs.",
+    "ThO2": "Pure fluorite endmember, unknown numeric diffractionconditions, native frozen-f treatment retained; not a validated actinide valence/multiplet/XANES model."
+  },
+  "experimental_validation": false,
+  "radius_sensitivity_validation": false,
+  "upstream_sqlite_base": {
+    "repository": "https://github.com/Dr-XAS/feffdb",
+    "commit": "534c680f765a97900cbffb9ecf35112eb934f02d",
+    "path": "source_data/drxas_element_round2_v1/round2-candidates.db",
+    "sha256": "99c2c4a4dff773bba5e2ef1d78ca93ed61ce57fe9ff950fc542746b5c59759bb"
+  },
+  "artifact_scope": "Only pinned source CIFs, factual transcription/provenance, runner/tests, native inputs/outputs/logs and numerical validation evidence are eligible. Exclude research journal PDFs/page images, search caches, __pycache__, .pytest_cache and native executables.",
+  "candidate_database": {
+    "filename": "round3-candidates.db",
+    "inherited_path_count": 480,
+    "new_selected_path_count": 90,
+    "total_path_count": 570,
+    "status": "local_candidate",
+    "experimental_validation": false,
+    "source_tests": "pending_final_run",
+    "sha256": "63d988793ae53f8c6bf341d073e90fcfae6fec3bacf8f6e9602d8dbeca070157"
+  },
+  "source_test_result": {
+    "runner": "pytest test_round3.py -q -p no:cacheprovider",
+    "passed": 26,
+    "failed": 0,
+    "skipped": 0,
+    "experimental_validation": false
+  }
+}

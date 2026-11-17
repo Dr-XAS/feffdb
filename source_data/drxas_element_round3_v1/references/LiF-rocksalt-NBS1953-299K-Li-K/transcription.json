@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "source_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular539v1.pdf",
+  "source_pdf_sha256": "003b872fbe7d403d38bbd1d752568ee92a96bdb010b6e381bdc82566929e2a6c",
+  "citation": "H. E. Swanson and E. Tatge (1953). Standard X-ray Diffraction Powder Patterns. National Bureau of Standards Circular539,Volume1,issued June15,1953.",
+  "locations": [
+    "printed p61 section2.34: sample,NaCl structure,Fm3m,Z4 and 25\u00b0C converted comparison",
+    "printed p62 Table35:1953 Swanson/Tatge column,Cu1.5405\u00c5,26\u00b0C,last-five-line mean4.0270\u00c5",
+    "printed pp1\u20132: measurement method,internal tungsten calibration and temperature held within\u00b11\u00b0C"
+  ],
+  "measured_parameters": {
+    "a_A": 4.027,
+    "b_A": 4.027,
+    "c_A": 4.027,
+    "lattice_standard_uncertainty_A": null,
+    "uncertainty_note": "No uncertainty is printed for the Table35 mean; no synthetic sigma is assigned.",
+    "temperature_C": 26,
+    "temperature_K": 299.15,
+    "temperature_stability_C": 1,
+    "wavelength_A": 1.5405,
+    "last_five_hkl": [
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        1
+      ],
+      [
+        4,
+        2,
+        0
+      ],
+      [
+        4,
+        2,
+        2
+      ]
+    ],
+    "last_five_d_A": [
+      1.1625,
+      1.0068,
+      0.9239,
+      0.9005,
+      0.822
+    ],
+    "last_five_a_A": [
+      4.027,
+      4.0272,
+      4.027,
+      4.027,
+      4.027
+    ],
+    "printed_average_a_A": 4.027
+  },
+  "not_selected": {
+    "value_a_A": 4.0269,
+    "temperature_C": 25,
+    "reason": "Separate temperature-adjusted comparison in p61, not Table35 measurement at26\u00b0C."
+  },
+  "model_encoding": {
+    "published_structure": "NaCl type; Fm3m; four molecules per unit cell",
+    "modern_space_group_number": 225,
+    "asymmetric_unit": [
+      {
+        "element": "Li",
+        "fractional_coordinates": [
+          0,
+          0,
+          0
+        ],
+        "multiplicity": 4,
+        "wyckoff": "4a",
+        "occupancy": 1
+      },
+      {
+        "element": "F",
+        "fractional_coordinates": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "multiplicity": 4,
+        "wyckoff": "4b",
+        "occupancy": 1
+      }
+    ],
+    "interpretation": "Standard rocksalt coordinate setting exactly encodes the published structure; no adjustable internal coordinate exists. Unit occupancy is a model encoding, not a reported refinement.",
+    "symmetry_operations": "Generated from pymatgen SpaceGroup Fm-3m, not fitted or relaxed geometry."
+  },
+  "sample": "Harshaw Chemical Co. commercial LiF; NBS reports trace impurities by spectrography. The ordered model does not encode those impurities.",
+  "derived_cif_sha256": "5d9f8a96f149e5bafdd763bd13acef42972aa2f67e6eb981a78ec47f152947ec",
+  "verification": "Both source pages were rendered and visually checked, in addition to extracted text. Expanded cell and neighbor geometry were independently parsed by strict pymatgen and larixite."
+}

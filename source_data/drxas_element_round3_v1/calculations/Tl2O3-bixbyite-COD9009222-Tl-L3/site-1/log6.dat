@@ -1,0 +1,20 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: Tl2O3                                 Feff8L (EXAFS)       0.1
+ SpaceGroup: Ia-3
+ Dr-XAS candidate Tl2O3-bixbyite-COD9009222-Tl-L3 COD 9009222
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=81 Rmt= 1.537 Rnm= 1.621 L3 shell
+ Pot 1 Z= 8 Rmt= 1.064 Rnm= 1.122
+ Pot 2 Z=81 Rmt= 1.515 Rnm= 1.596
+ Gam_ch=5.586E+00 H-L exch
+ Mu=-5.791E+00 kf=2.065E+00 Vint=-1.418E+01 Rs_int= 1.757
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+       3 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+       3     feff0003.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

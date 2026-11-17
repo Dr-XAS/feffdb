@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "id": "diamond-298K-COD9011997",
+  "name": "Diamond (25\u00b0C multiple-reflection lattice measurement)",
+  "source_database": "COD",
+  "source_id": "9011997",
+  "absorbers": [
+    "C"
+  ],
+  "edge": "K",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/9011997.cif",
+  "record_url": "https://www.crystallography.net/cod/9011997.html",
+  "primary_url": "https://doi.org/10.1107/S0021889875010965",
+  "doi": "10.1107/S0021889875010965",
+  "citation": "T. Hom, W. Kiszenik and B. Post (1975). Accurate lattice constants from multiple reflection measurements. II. Lattice constants of germanium silicon, and diamond. Journal of Applied Crystallography 8, 457\u2013458. DOI: 10.1107/S0021889875010965.",
+  "cif_sha256": "109382e13ecce5a7c6be6639698e204bf5e6e6d9c5593c0e52d42b7e0b76412d",
+  "sha256": "109382e13ecce5a7c6be6639698e204bf5e6e6d9c5593c0e52d42b7e0b76412d",
+  "retrieved_at_utc": "2026-11-17T06:15:22.273581+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": 298.15,
+  "measurement_pressure_GPa": null,
+  "conditions_evidence": "Original CIF explicitly states T=25\u00b0C and _diffrn_ambient_temperature 298.15 K. Numeric pressure is not supplied and remains unknown.",
+  "method": "Experimental multiple X-ray diffraction measurements of a diamond platelet; original publisher abstract confirms a=3.566986 \u00c5 based on multiple reflections. Coordinates and space-group encoding are from the unmodified COD/AMCSD structure record.",
+  "synthesis_conditions": null,
+  "synthesis_conditions_note": "Original CIF reports compound source unknown; no growth/synthesis conditions asserted.",
+  "selection": "Experimental diamond lattice measurement with explicit temperature; one symmetry-equivalent carbon site, complete tetrahedral C\u2013C first shell.",
+  "notes": [
+    "COD revision 306922 (2026-09-29) includes uncertainties from the original paper. Revision 306921 corrected an earlier mistyped c cell length using the original publication and AMCSD 0012842; the downloaded current cubic cell has a=b=c=3.566986 \u00c5.",
+    "The carbon site multiplicity is 8 with population weight 1; four first neighbors are at 1.544550245 \u00c5. This is a diamond sp3 environment and does not represent graphite, organics or all carbon K-edge spectra.",
+    "CIF spells the second author Kiszenick; the original publisher spells Kiszenik. Raw CIF bytes retain the database spelling, while the citation follows the publisher.",
+    "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+    "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference."
+  ],
+  "license": {
+    "database_policy": "COD data/database are publicly accessible under CC0; retain original AMCSD scientific-use/article-attribution notice.",
+    "policy_url": "https://www.crystallography.net/cod/9011997.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original COD/AMCSD header retained byte-for-byte; scientific-community use with proper attribution to this source journal article."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "C": 8.0
+    },
+    "site_count": 8,
+    "space_group": "Fd-3m",
+    "space_group_number": 227,
+    "cell": [
+      3.566986,
+      3.566986,
+      3.566986,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "raw_occupancy": [],
+    "occupancy_evidence": "Explicit raw occupancies all 1 where present; when absent, standard CIF full occupancy, confirmed ordered by strict parser.",
+    "absorber_sites": {
+      "C": {
+        "indices_one_based": [
+          1
+        ],
+        "sites": [
+          {
+            "index_one_based": 1,
+            "multiplicity": 8,
+            "wyckoff": "8a",
+            "fractional_coordinates": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "population_weight": 1.0,
+            "first_shell_distances_A": [
+              1.5445502454717197,
+              1.5445502454717197,
+              1.5445502454717197,
+              1.54455024547172
+            ],
+            "coordination_number": 4,
+            "next_same_scatterer_distance_A": 2.522239988997478,
+            "shell_cutoff_A": 2.0
+          }
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "recommended_references": [
+    {
+      "id": "diamond-298K-COD9011997-C-K",
+      "name": "Diamond (25\u00b0C multiple-reflection lattice measurement)",
+      "formula": "C",
+      "absorber": "C",
+      "scatterer": "C",
+      "edge": "K",
+      "cod_id": "9011997",
+      "doi": "10.1107/S0021889875010965",
+      "cif_sha256": "109382e13ecce5a7c6be6639698e204bf5e6e6d9c5593c0e52d42b7e0b76412d",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.0,
+      "expected_cn_by_site": {
+        "1": 4
+      },
+      "selection_basis": "Experimental diamond lattice measurement with explicit temperature; one symmetry-equivalent carbon site, complete tetrahedral C\u2013C first shell.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference."
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/diamond-298K-COD9011997"
+    }
+  ],
+  "scientific_caveat_sources": [
+    "https://doi.org/10.1103/PhysRevB.106.155133",
+    "https://feff.phys.washington.edu/feff/Docs/feff8/feff82.pdf"
+  ]
+}

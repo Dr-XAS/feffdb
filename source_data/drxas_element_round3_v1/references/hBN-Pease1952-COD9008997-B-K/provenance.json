@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "id": "hBN-Pease1952-COD9008997",
+  "name": "Hexagonal BN (Pease AA-prime structure, 35°C)",
+  "source_database": "COD",
+  "source_id": "9008997",
+  "absorbers": [
+    "B",
+    "N"
+  ],
+  "edge": "K",
+  "filename": "source.cif",
+  "download_url": "https://www.crystallography.net/cod/9008997.cif",
+  "record_url": "https://www.crystallography.net/cod/9008997.html",
+  "primary_url": "https://doi.org/10.1107/S0365110X52001064",
+  "doi": "10.1107/S0365110X52001064",
+  "citation": "R. W. G. Wyckoff (1963). Crystal Structures, second edition, vol. 1, pp. 85–237 (direct COD/AMCSD compilation source). Experimental cross-check: R. S. Pease (1952). An X-ray study of boron nitride. Acta Crystallographica 5, 356–361. DOI: 10.1107/S0365110X52001064.",
+  "cif_sha256": "a2af9f093b8c00a3033b2c53492c8d5705c26a046dae1452785ef22af09d5dde",
+  "sha256": "a2af9f093b8c00a3033b2c53492c8d5705c26a046dae1452785ef22af09d5dde",
+  "retrieved_at_utc": "2026-11-17T06:20:53.582611+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": 308.15,
+  "measurement_pressure_GPa": null,
+  "conditions_evidence": "Pease1952 p357 reports the identical a=2.50399±0.00005, c=6.6612±0.0005 Å lattice at 35°C, with camera temperature 35±0.5°C. The raw COD compilation does not itself give temperature. Numeric pressure of this cell determination is not specified; the vacuum condition of the separate high-temperature expansion experiment is not transferred.",
+  "method": "Experimental Cu/Mn powder X-ray diffraction in Pease1952; raw COD/AMCSD structure is the later Wyckoff1963 compilation. Cell and ordered AA-prime stacking were checked against the original paper; this is not a DFT structure.",
+  "synthesis_conditions": null,
+  "synthesis_conditions_note": "Pease1952 p357: commercial B.D.H. material recrystallized at 2050°C for about two hours in flowing nitrogen. This is synthesis/recrystallization, not diffraction temperature.",
+  "selection": "The unmodified COD compilation agrees with the experimentally established Pease cell and AA-prime B-over-N stacking; select both species' single independent sites and full three-neighbor first shells.",
+  "notes": [
+    "The raw CIF directly cites Wyckoff1963, not Pease1952. The provenance explicitly retains both identities; Pease DOI is an experimentally checked supporting citation, not an invented DOI in the raw COD file.",
+    "Pease reports stacking faults and traces of impurities (<0.6 wt%). The periodic ordered model encodes the average AA-prime structure and does not simulate those faults, impurity sites or thermal layer puckering.",
+    "Do not substitute the previously proposed graphite-like stacking rejected by Pease. The parsed full unit cell has two B and two N atoms with no partial site occupancy.",
+    "BN is anisotropic. These paths do not establish polarization-dependent XANES accuracy, and a single first-shell path does not represent multiple-scattering or interlayer physics.",
+    "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+    "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+    "The source specimen contains observed stacking faults. This ordered periodic reference does not model faults; applicability to turbostratic, rhombohedral or other BN phases is unvalidated."
+  ],
+  "license": {
+    "database_policy": "COD data/database are publicly accessible under CC0; retain original AMCSD scientific-use/article-attribution notice.",
+    "policy_url": "https://www.crystallography.net/cod/9008997.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "Original COD/AMCSD header retained byte-for-byte; scientific-community use with proper attribution to this source journal article."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "B": 2.0,
+      "N": 2.0
+    },
+    "site_count": 4,
+    "space_group": "P6_3/mmc",
+    "space_group_number": 194,
+    "cell": [
+      2.50399,
+      2.50399,
+      6.6612,
+      90.0,
+      90.0,
+      119.99999999999999
+    ],
+    "raw_occupancy": [],
+    "occupancy_evidence": "Explicit raw occupancies all 1 where present; when absent, standard CIF full occupancy, confirmed ordered by strict parser.",
+    "absorber_sites": {
+      "B": {
+        "indices_one_based": [
+          1
+        ],
+        "sites": [
+          {
+            "index_one_based": 1,
+            "multiplicity": 2,
+            "wyckoff": "2c",
+            "fractional_coordinates": [
+              0.3333333333333333,
+              0.6666666666666666,
+              0.25
+            ],
+            "population_weight": 1.0,
+            "first_shell_distances_A": [
+              1.445679300548131,
+              1.445679300548131,
+              1.445679300548131
+            ],
+            "coordination_number": 3,
+            "next_same_scatterer_distance_A": 2.891358601096262,
+            "shell_cutoff_A": 2.0
+          }
+        ]
+      },
+      "N": {
+        "indices_one_based": [
+          2
+        ],
+        "sites": [
+          {
+            "index_one_based": 2,
+            "multiplicity": 2,
+            "wyckoff": "2d",
+            "fractional_coordinates": [
+              0.3333333333333333,
+              0.6666666666666666,
+              0.75
+            ],
+            "population_weight": 1.0,
+            "first_shell_distances_A": [
+              1.445679300548131,
+              1.445679300548131,
+              1.445679300548131
+            ],
+            "coordination_number": 3,
+            "next_same_scatterer_distance_A": 2.891358601096262,
+            "shell_cutoff_A": 2.0
+          }
+        ]
+      }
+    },
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Issues encountered while parsing CIF: 4 fractional coordinates rounded to ideal values to avoid issues with finite precision.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  },
+  "recommended_references": [
+    {
+      "id": "hBN-Pease1952-COD9008997-B-K",
+      "name": "Hexagonal BN (Pease AA-prime structure, 35°C)",
+      "formula": "BN",
+      "absorber": "B",
+      "scatterer": "N",
+      "edge": "K",
+      "cod_id": "9008997",
+      "doi": "10.1107/S0365110X52001064",
+      "cif_sha256": "a2af9f093b8c00a3033b2c53492c8d5705c26a046dae1452785ef22af09d5dde",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.0,
+      "expected_cn_by_site": {
+        "1": 3
+      },
+      "selection_basis": "The unmodified COD compilation agrees with the experimentally established Pease cell and AA-prime B-over-N stacking; select both species' single independent sites and full three-neighbor first shells.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "The source specimen contains observed stacking faults. This ordered periodic reference does not model faults; applicability to turbostratic, rhombohedral or other BN phases is unvalidated.",
+        "Coexisting N K edge (409.9 eV) lies above B K (188 eV), at nominal k=7.632 A^-1. Its absorption/background can interfere with measured B spectra; this atomic-energy landmark is not an automatic usable-k limit."
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/hBN-Pease1952-COD9008997"
+    },
+    {
+      "id": "hBN-Pease1952-COD9008997-N-K",
+      "name": "Hexagonal BN (Pease AA-prime structure, 35°C)",
+      "formula": "BN",
+      "absorber": "N",
+      "scatterer": "B",
+      "edge": "K",
+      "cod_id": "9008997",
+      "doi": "10.1107/S0365110X52001064",
+      "cif_sha256": "a2af9f093b8c00a3033b2c53492c8d5705c26a046dae1452785ef22af09d5dde",
+      "absorber_site_indices": [
+        2
+      ],
+      "shell_cutoff_A": 2.0,
+      "expected_cn_by_site": {
+        "2": 3
+      },
+      "selection_basis": "The unmodified COD compilation agrees with the experimentally established Pease cell and AA-prime B-over-N stacking; select both species' single independent sites and full three-neighbor first shells.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "The source specimen contains observed stacking faults. This ordered periodic reference does not model faults; applicability to turbostratic, rhombohedral or other BN phases is unvalidated."
+      ],
+      "source_dir": "/tmp/feffdb-round3-20261117/sources-light/hBN-Pease1952-COD9008997"
+    }
+  ],
+  "source_cif_citation": "R. W. G. Wyckoff (1963). Crystal Structures, second edition, vol. 1, pp.85–237; COD9008997 / AMCSD0011675.",
+  "source_cif_doi": null,
+  "experimental_cross_check": {
+    "citation": "R. S. Pease (1952), Acta Crystallographica5,356–361.",
+    "doi": "10.1107/S0365110X52001064",
+    "primary_url": "https://journals.iucr.org/paper?S0365110X52001064",
+    "original_article_read_url": "https://electronicsandbooks.com/edt/manual/Magazine/A/Acta%20Crystallographica/1952%20%28Volume%2005%29/Volume%2005%2C%20Issue%2003%20%28Pages%20301-396%29/356-361.pdf",
+    "evidence_location": "pp357–358 cell, diffraction temperatures and selected structure B; p360 first-neighbor bonding and layer stacking.",
+    "cell_A": [
+      2.50399,
+      2.50399,
+      6.6612
+    ],
+    "standard_deviation_A": [
+      5e-05,
+      5e-05,
+      0.0005
+    ],
+    "measurement_temperature_C": 35,
+    "measurement_temperature_stability_C": 0.5,
+    "stacking": "AA-prime: B directly over N between successive layers",
+    "source_bond_length_rounded_A": 1.446,
+    "correspondence": "The original-CIF cell values exactly match the original experimental values. Its P63/mmc B2c/N2d coordinates expand to an alternating B/N four-atom AA-prime cell, with first-neighbor distance a/sqrt(3). No cell adjustment or element substitution was performed.",
+    "read_limitation": "Verified original article text through indexed scan; direct publisher full PDF requires access. No full journal PDF is included."
+  },
+  "scientific_caveat_sources": [
+    "https://doi.org/10.1103/PhysRevB.106.155133",
+    "https://feff.phys.washington.edu/feff/Docs/feff8/feff82.pdf"
+  ]
+}

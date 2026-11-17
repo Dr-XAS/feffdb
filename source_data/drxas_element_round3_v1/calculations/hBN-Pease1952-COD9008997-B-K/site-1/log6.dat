@@ -1,0 +1,23 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Formula: BN                                    Feff8L (EXAFS)       0.1
+ SpaceGroup: P6_3/mmc
+ Dr-XAS candidate hBN-Pease1952-COD9008997-B-K COD 9008997
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z= 5 Rmt= 0.839 Rnm= 1.017 K  shell
+ Pot 1 Z= 7 Rmt= 0.821 Rnm= 0.998
+ Pot 2 Z= 5 Rmt= 0.843 Rnm= 1.025
+ Gam_ch=6.473E-02 H-L exch
+ Mu=-7.531E+00 kf=2.671E+00 Vint=-2.121E+01 Rs_int= 1.358
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+       6 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+       3     feff0003.dat
+       4     feff0004.dat
+       5     feff0005.dat
+       6     feff0006.dat
+    Use all paths with cw amplitude ratio   0.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

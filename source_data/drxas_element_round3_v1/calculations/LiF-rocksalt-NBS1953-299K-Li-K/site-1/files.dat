@@ -1,0 +1,15 @@
+ Formula: LiF                                   Feff8L (EXAFS)       0.1
+ SpaceGroup: Fm-3m
+ Dr-XAS candidate LiF-rocksalt-NBS1953-299K-Li-K publication NBS-Circular539-v1-
+ POT  SCF  30  5.0000   0, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z= 3 Rmt= 1.270 Rnm= 1.339 K  shell
+ Pot 1 Z= 9 Rmt= 1.045 Rnm= 1.095
+ Pot 2 Z= 3 Rmt= 1.204 Rnm= 1.259
+ Gam_ch=3.603E-02 H-L exch
+ Mu=-5.314E+00 kf=1.869E+00 Vint=-1.721E+01 Rs_int= 1.940
+ PATH  Rmax= 4.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 0.00%
+ -----------------------------------------------------------------------
+    file        sig2   amp ratio    deg    nlegs  r effective
+ feff0001.dat 0.00000   100.000     6.000     2   2.0135
+ feff0002.dat 0.00000    41.950    12.000     2   2.8475
+ feff0003.dat 0.00000    37.140     8.000     2   3.4875

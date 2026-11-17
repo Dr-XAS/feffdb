@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate",
+  "filename": "source.cif",
+  "name": "RbNO3 phase IV, 296 K before heating",
+  "absorber": "Rb",
+  "edge": "K",
+  "source_database": "COD",
+  "source_id": "2107326",
+  "doi": "10.1107/S0108768191013459",
+  "citation": "J. Pohl, D. Pohl and G. Adiwidjaja (1992). Phase transition in rubidium nitrate at 346 K and structure at 296, 372, 413 and 437 K. Acta Crystallographica Section B 48, 160-166.",
+  "primary_url": "https://journals.iucr.org/paper?se0063",
+  "primary_evidence_url": "https://scripts.iucr.org/cgi-bin/sendimage?image=b%2F1992%2Fse0063%2Ffirstpage.gif",
+  "download_url": "https://www.crystallography.net/cod/2107326.cif",
+  "record_url": "https://www.crystallography.net/cod/2107326.html",
+  "cif_sha256": "8d452a4cd1890878fe91def1e158007925787858e6d1c47b760031c3867b0118",
+  "sha256": "8d452a4cd1890878fe91def1e158007925787858e6d1c47b760031c3867b0118",
+  "retrieved_at_utc": "2026-11-17T06:13:08.763314+00:00",
+  "original_file_unmodified": true,
+  "measurement_temperature_K": 296,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "Temperature verified from original publisher first page, not inferred from synthesis or a nominal ambient value. No numerical pressure verified.",
+  "method": "Experimental single-crystal X-ray diffraction, original 296 K pre-heating structure. The publisher first-page abstract gives the exact matching a=10.474(1), c=7.443(1) A.",
+  "synthesis_conditions": "Crystals grown from aqueous solution at 290 K, as stated in the original first-page abstract; this is growth temperature, separate from 296 K diffraction.",
+  "notes": [
+    "All three inequivalent Rb sites are retained; parser site order is original Rb3, Rb2, Rb1, each multiplicity3 and population1/3.",
+    "The selected twelve-O coordination envelope spans 2.9616-3.6614 A. It includes longer contacts rather than silently reducing the environment to the nearest eight; retain actual distances and do not assume twelve equally strong bonds.",
+    "The same paper studies an irreversible transition near346K and multiple post-heating temperatures. This exact cell is the original296K measurement, not a generic nitrate phase.",
+    "Raw COD CIF has U_iso_or_equiv=0 placeholders and omits the temperature/DOI tags; the original primary abstract supplies the latter facts. Zero in that exported CIF does not establish zero thermal disorder.",
+    "All cell parameters and coordinates are from this exact deposited experimental CIF. No species replacement, generic ideal model, coordinate substitution or cell rescaling.",
+    "K edge selected for broad EXAFS reference coverage. A computed FEFF k grid does not establish the usable experimental k range.",
+    "Native degeneracy is per absorber. An ensemble of inequivalent sites requires explicit normalized site weights; do not sum all sites at full amplitude."
+  ],
+  "license": {
+    "database_policy": "COD places database data under CC0; retain original scientific-article attribution and unchanged CIF provider notice.",
+    "policy_url": "https://www.crystallography.net/cod/2107326.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "IUCr-provided COD header permits scientific-community use with proper article attribution; retained unchanged."
+  },
+  "inspection": {
+    "ordered": true,
+    "composition": {
+      "Rb": 9.0,
+      "N": 9.0,
+      "O": 27.0
+    },
+    "site_count": 45,
+    "space_group": "P3_1",
+    "space_group_number": 144,
+    "cell": [
+      10.474,
+      10.474,
+      7.443,
+      90.0,
+      90.0,
+      119.99999999999999
+    ],
+    "explicit_occupancies": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Rb",
+        "multiplicity": 3,
+        "wyckoff": "3a",
+        "fractional_coordinates": [
+          0.7839,
+          0.2299,
+          0.6242
+        ],
+        "first_shell_element": "O",
+        "shell_cutoff_A": 3.8,
+        "coordination_number": 12,
+        "distances_A": [
+          2.961624940956145,
+          2.975814777721552,
+          3.026261816746181,
+          3.0578213397878775,
+          3.075280649801071,
+          3.11005070638924,
+          3.13699250752982,
+          3.1570335242158913,
+          3.309959939146189,
+          3.3760824150787747,
+          3.406657163886778,
+          3.5019022053817634
+        ],
+        "next_same_scatterer_distance_A": 3.9725555356639997,
+        "site_population_weight": 0.3333333333333333
+      },
+      {
+        "site_index_one_based": 2,
+        "element": "Rb",
+        "multiplicity": 3,
+        "wyckoff": "3a",
+        "fractional_coordinates": [
+          0.1231,
+          0.2201,
+          0.0
+        ],
+        "first_shell_element": "O",
+        "shell_cutoff_A": 3.8,
+        "coordination_number": 12,
+        "distances_A": [
+          2.9676728871481775,
+          2.9795909107371465,
+          3.035393313782649,
+          3.0429377418317998,
+          3.0768968038168016,
+          3.0817715158699115,
+          3.096769420936589,
+          3.103489642391707,
+          3.3937687583950042,
+          3.4017919343659995,
+          3.45200514656727,
+          3.502078630168118
+        ],
+        "next_same_scatterer_distance_A": 4.175326950504994,
+        "site_population_weight": 0.3333333333333333
+      },
+      {
+        "site_index_one_based": 3,
+        "element": "Rb",
+        "multiplicity": 3,
+        "wyckoff": "3a",
+        "fractional_coordinates": [
+          0.4474,
+          0.5575,
+          0.6483
+        ],
+        "first_shell_element": "O",
+        "shell_cutoff_A": 3.8,
+        "coordination_number": 12,
+        "distances_A": [
+          2.963094357179098,
+          2.9921523607321134,
+          3.064849160805392,
+          3.0715017144610424,
+          3.0882525885008176,
+          3.100048294169559,
+          3.1227811583835585,
+          3.130611798574925,
+          3.3083261823637713,
+          3.378251380792305,
+          3.4999162067157377,
+          3.661366518071214
+        ],
+        "next_same_scatterer_distance_A": 4.1442634684742385,
+        "site_population_weight": 0.3333333333333333
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}

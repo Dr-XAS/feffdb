@@ -1,0 +1,312 @@
+{
+  "sources-light": {
+    "schema_version": 1,
+    "scope": "Round3 light absorbers Li,Be,B,C,N,O,F; selection only, no FEFF run or repository changes.",
+    "accepted": [
+      {
+        "id": "BeO-bromellite-COD9014120",
+        "source": "https://www.crystallography.net/cod/9014120.cif",
+        "reason": "Original experimental in-air record from Hazen and Finger1986. Ordered asymmetric Be/O model; both species retained. Numeric diffraction T/P left unknown."
+      },
+      {
+        "id": "diamond-298K-COD9011997",
+        "source": "https://www.crystallography.net/cod/9011997.cif",
+        "reason": "Experimental multiple-reflection lattice determination at25°C; publisher cell independently matches current COD correction, all three axes equal."
+      },
+      {
+        "id": "hBN-Pease1952-COD9008997",
+        "source": "https://www.crystallography.net/cod/9008997.cif",
+        "reason": "Unmodified Wyckoff1963 COD compilation cross-checked against Pease1952 original experiment: exact35°C cell,AA-prime alternating B/N model,CN3. Raw-CIF citation and original experimental citation kept distinct. Observed sample packing faults explicitly excluded from periodic model."
+      },
+      {
+        "id": "LiF-rocksalt-NBS1953-299K",
+        "source": "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular539v1.pdf",
+        "reason": "NBS measured26°C lattice/table35 and explicitNaCl space-group/model,transcribed to CIF with no inventedCOD or DOI. Exact temperature,units,unreported cell uncertainty,and model occupancy encoding recorded."
+      }
+    ],
+    "excluded_or_not_selected": [
+      {
+        "candidate": "LiF COD1010990 (Ott1926)",
+        "reason": "Not selected: early diffraction-unit conventions not independently verified; useNBS explicit angstrom measurements."
+      },
+      {
+        "candidate": "LiF COD9008667 (Wyckoff1963)",
+        "reason": "Not selected: compilation a4.0173Å without verified original measurement conditions; NBS measuredreference is more directly traceable."
+      },
+      {
+        "candidate": "LiF DFT/Hartree-Fock relaxed structures",
+        "reason": "Excluded as nonexperimental structure sources."
+      },
+      {
+        "candidate": "BN COD1010330,1010331,1010602 and5910079",
+        "reason": "Not selected: older or uncertain stacking assignments; Pease directly distinguishes and rejects earlier graphite-like structures."
+      },
+      {
+        "candidate": "BN COD9011660 (Xu/Ching1993)",
+        "reason": "Excluded: electronic-structure theoretical source rather than the required original experimental structural reference."
+      },
+      {
+        "candidate": "B2O3 COD1510796/2105404 and AlN alternate-source search",
+        "reason": "Fallbacks considered but not used after original Pease hBN experimental cell and stacking were verified. No B2O3 or AlN is part of this light manifest."
+      },
+      {
+        "candidate": "BeO pressure/heated records from Hazen/Finger1986",
+        "reason": "Not selected for this baseline: use explicit in-air crystal1; do not transfer another record's P/T."
+      },
+      {
+        "candidate": "diamond COD9012588 and other calculated polytypes",
+        "reason": "Excluded as explicitly theoretical calculated structure values."
+      }
+    ],
+    "scientific_limitations": [
+      "All7 records remain candidates pending native calculation and numerical verification; no measuredXAS fitting or experimentalvalidation performed in source research.",
+      "Light-element near-edge excitons and anisotropic/nonspherical potentials can require methods beyond this EXAFS path workflow. Source-geometry validity is distinct from near-edge spectral validity.",
+      "Full nearest-shell distance multisets and all inequivalent absorber sites are recorded; BeO3+1 distances retained.",
+      "Coexisting-element edge landmarks are recorded as cautions,notautomatic usable-k cutoffs.",
+      "Source directories contain only source.cif,provenance.json,and where relevanttranscription.json; search/ is local research material,notpartofsourcepackaging."
+    ]
+  },
+  "sources-heavy": {
+    "schema_version": 1,
+    "prepared_at_utc": "2026-11-17T06:18:30.402562+00:00",
+    "scope": "Temporary source-only research. No FEFF, repository changes, Git changes, commits or publication.",
+    "ready_count": 4,
+    "inequivalent_absorber_site_count": 5,
+    "candidate_only": true,
+    "experimental_xas_validation": false,
+    "ready": [
+      {
+        "status": "ready_for_native_candidate_generation",
+        "directory": "Bi-metal-298K-COD7123352",
+        "source_dir": "/tmp/feffdb-round3-20261117/sources-heavy/Bi-metal-298K-COD7123352",
+        "cod_id": "7123352",
+        "absorber": "Bi",
+        "scatterer": "Bi",
+        "edge": "L3",
+        "cif_sha256": "7cd6ec1bb095f49d86b29bf755de3b2f476a6e9edf5978ad62aca69e7c47cbf8",
+        "site_indices": [
+          1
+        ],
+        "coordination_numbers": {
+          "1": 6
+        },
+        "cutoff_A": 3.8,
+        "citation": "Z. Wei, C. Dubceac, M. A. Petrukhina and E. V. Dikarev. From a volatile molecular precursor to twin-free single crystals of bismuth. Chemical Communications 55 (2019), 5717–5719.",
+        "doi": "10.1039/C9CC02820J",
+        "primary_url": "https://pubs.rsc.org/en/content/articlelanding/2019/cc/c9cc02820j/unauth",
+        "measurement_temperature_K": 298,
+        "measurement_pressure_GPa": null
+      },
+      {
+        "status": "ready_for_native_candidate_generation",
+        "directory": "Tl2O3-bixbyite-COD9009222",
+        "source_dir": "/tmp/feffdb-round3-20261117/sources-heavy/Tl2O3-bixbyite-COD9009222",
+        "cod_id": "9009222",
+        "absorber": "Tl",
+        "scatterer": "O",
+        "edge": "L3",
+        "cif_sha256": "724921f8e21e15d2df0d39a0ce363e968617889a113988c84c611db1cbbe842a",
+        "site_indices": [
+          1,
+          2
+        ],
+        "coordination_numbers": {
+          "1": 6,
+          "2": 6
+        },
+        "cutoff_A": 2.8,
+        "citation": "H. H. Otto, R. Baltrusch and H.-J. Brandt. Further evidence for Tl3+ in Tl-based superconductors from improved bond strength parameters involving new structural data of cubic Tl2O3. Physica C: Superconductivity215 (1993),205–208.",
+        "doi": "10.1016/0921-4534(93)90382-Z",
+        "primary_url": "https://doi.org/10.1016/0921-4534(93)90382-Z",
+        "measurement_temperature_K": null,
+        "measurement_pressure_GPa": null
+      },
+      {
+        "status": "ready_for_native_candidate_generation",
+        "directory": "OsO2-rutile-COD9007542",
+        "source_dir": "/tmp/feffdb-round3-20261117/sources-heavy/OsO2-rutile-COD9007542",
+        "cod_id": "9007542",
+        "absorber": "Os",
+        "scatterer": "O",
+        "edge": "L3",
+        "cif_sha256": "80e00c6ea224747b2a9477a8135c555ac779b78c509bfa7654c7171ffe88a824",
+        "site_indices": [
+          1
+        ],
+        "coordination_numbers": {
+          "1": 6
+        },
+        "cutoff_A": 2.5,
+        "citation": "W. H. Baur and A. A. Khan. Rutile-type compounds. IV. SiO2, GeO2 and a comparison with other rutile-type structures. Acta Crystallographica B27 (1971),2133–2139. DOI10.1107/S0567740871005466. Table4 attributes OsO2 data to C.-E.Boman, Precision Determination of the Crystal Structure of Osmium Dioxide, Acta Chemica Scandinavica24 (1970),123–128, DOI10.3891/acta.chem.scand.24-0123.",
+        "doi": "10.1107/S0567740871005466",
+        "primary_url": "https://journals.iucr.org/b/issues/1971/11/00/a08385/a08385.pdf",
+        "measurement_temperature_K": null,
+        "measurement_pressure_GPa": null
+      },
+      {
+        "status": "ready_for_native_candidate_generation",
+        "directory": "ThO2-fluorite-COD1541590",
+        "source_dir": "/tmp/feffdb-round3-20261117/sources-heavy/ThO2-fluorite-COD1541590",
+        "cod_id": "1541590",
+        "absorber": "Th",
+        "scatterer": "O",
+        "edge": "L3",
+        "cif_sha256": "c0f51485f935a147a089aaa19c0c3af74559f37b6a5667b6dbb9f41d6d213369",
+        "site_indices": [
+          1
+        ],
+        "coordination_numbers": {
+          "1": 8
+        },
+        "cutoff_A": 3.0,
+        "citation": "F. Hund and W. Dürrwächter. Anomale Mischkristalle im System ThO2–La2O3. Zeitschrift für anorganische und allgemeine Chemie265 (1951),67–72. DOI10.1002/zaac.19512650108.",
+        "doi": "10.1002/zaac.19512650108",
+        "primary_url": "https://onlinelibrary.wiley.com/doi/10.1002/zaac.19512650108",
+        "measurement_temperature_K": null,
+        "measurement_pressure_GPa": null
+      }
+    ],
+    "deferred_or_rejected": [
+      {
+        "status": "deferred",
+        "absorber": "U",
+        "scatterer": "O",
+        "cod_id": "2310001",
+        "directory": "UO2-993K-COD2310001-research",
+        "doi": "10.1107/S0365110X52002136",
+        "reason": "The raw CIF is ordered fluoriteUO2 with a5.512A and explicit993K, cited to a beta-uranium powder study. Full primary text and oxide-phase measurement context have not been independently checked. This may be a legitimate high-temperature reference, but is not silently promoted as room-temperatureUO2. Other exact-UO2 COD hits are a1951 age/uraninite study and1963 secondary compilation; neither resolves the requested primary experimental source under this bounded search."
+      },
+      {
+        "status": "not_selected",
+        "absorber": "Os",
+        "cod_ids": [
+          "1534943",
+          "1008870",
+          "8104267",
+          "9008510",
+          "9017843"
+        ],
+        "reason": "ElementalOs candidates include a theoretical fcc record, natural iridium-osmium mineral context,1937 lattice values with unresolved historical calibration,1963 secondary compilation,and1998 mineral paper attribution. An unmodified experimental rutileOsO2 record with a directly traceable1971 table was selected instead; no lattice rescaling or elemental substitution."
+      },
+      {
+        "status": "not_selected",
+        "absorber": "Tl",
+        "scatterer": "I",
+        "cod_ids": [
+          "1011359",
+          "8104215",
+          "9008795",
+          "9008981"
+        ],
+        "reason": "Available TlI records are1936 or a1963 compilation. Prefer the later experimental Tl2O3 structure with traceable DOI and both independentTl sites."
+      },
+      {
+        "status": "not_selected",
+        "absorber": "Bi",
+        "scatterer": "O",
+        "reason": "A modern298K elementalBi single-crystal structure with original full refinement CIF was selected. Disordered delta/gamma oxides are outside the ordered-source recipe; no oxygen-vacancy occupancy was filled."
+      }
+    ],
+    "source_quality_notes": [
+      "Missing diffractiontemperature/pressure remainnull. Cellconditions are not inferred from crystal-growth/calcination conditions.",
+      "No experimental XAS validation, SCF convergence, cluster-radius sensitivity or next-edge suitability is established by this source-only work.",
+      "Bi uses an explicitly described3+3 near-neighbor envelope, preserving short intrabilayer and longer interbilayer distances separately, not six equivalent bonds.",
+      "Tl2O3 includes every independentTl absorber:8b weight0.25 and24d weight0.75. FEFF degeneracy remains per absorbing atom; weights are not multiplied into individualCN.",
+      "OriginalCOD text and notice preserved byte-for-byte. COD9007542 is an explicit1971 compilation of Boman1970 experimentalOsO2 data; provenance does not claim this is an original1970 depositedCIF.",
+      "ThO2 frozen-f atomic treatment does not validate charge transfer or chemicalTh(IV); nativecontrols must be recorded by the runner."
+    ],
+    "native_f_caveat": {
+      "documentation_url": "https://feff.phys.washington.edu/feff/Docs/feff8/feff84/feff84/UNFREEZEF.html",
+      "verified_statement": "Official FEFF8.4 documentation says atomic f density is frozen by default; UNFREEZEF changes f-DOS self-consistency. This does not substitute for checking the actual Feff8L native controls.",
+      "action": "Keep the agreed recipe unchanged. Preserve native iunf/ihole/rfms/mix proof and candidate warnings; do not auto-promote actinide paths."
+    },
+    "data_policy": {
+      "source_database": "Crystallography Open Database",
+      "verified_policy_url": "https://www.crystallography.net/cod/",
+      "mirror_policy_url": "https://cod.psdi.ac.uk/",
+      "license": "CC0 1.0/public-domain dedication for COD data; retain original source attribution notices",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "original_attribution_notices_preserved": true,
+      "note": "Primary articles have separate rights and are not included. Crossref DOI metadata was used to verify article identity and, forThO2, its publisher-deposited abstract."
+    }
+  },
+  "sources-alkali-halide": {
+    "schema_version": 1,
+    "status": "source_selection_complete_native_calculations_pending",
+    "selected": {
+      "Rb": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "Cs": "CsNO3-II-296K-COD2001971-Cs-K",
+      "I": "I2-lowT-COD4511285-I-K"
+    },
+    "rationale": "Independent experimental nitrate and molecular-iodine references selected after binary halide searches did not yield comparably traceable primary data. No generic ideal salt structure, element substitution or manually adjusted coordinate was used.",
+    "edge_recommendations": {
+      "Rb": {
+        "edge": "K",
+        "energy_eV": 15200,
+        "reason": "Standard hard-X-ray K edge supports broad EXAFS coverage; L3-L2 gap is only60eV."
+      },
+      "I": {
+        "edge": "K",
+        "energy_eV": 33169,
+        "reason": "K selected for broad EXAFS. L3=4557eV to L2=4852eV gap295eV corresponds to k8.799A^-1; L3 is a separate future reference option, not an interchangeable edge."
+      },
+      "Cs": {
+        "edge": "K",
+        "energy_eV": 35985,
+        "reason": "K selected for broad EXAFS initial coverage. Cs L3 is experimentally used, but L3=5012eV to L2=5359eV gap347eV corresponds to k9.543A^-1. Appropriate beamline energy range remains required."
+      },
+      "energy_source": "Installed XrayDB edge energies and Larch etok conversion. These are edge-interference markers, not recommended experimental kmax."
+    },
+    "selected_boundary_decisions": {
+      "CsNO3": "Retain cut3.95A/RPATH4A, nearest12 O per site. Full first16 O distances and per-site12-to13 gaps saved. Explicitly disclose excluded Cs3 O#13 at3.972503A inside RPATH; no claim of a unique chemical shell.",
+      "I2": "Only intramolecular first I-I shell CN1 below3.0A; next intermolecular contacts2x3.500960 and1x3.979707A explicitly retained as excluded metadata. Exact CIF100(2)K vs authored article110(1)K conflict unresolved; numeric measurement temperature null."
+    },
+    "excluded": [
+      {
+        "cod_ids": [
+          "1010047",
+          "8103714"
+        ],
+        "reason": "RbCl entries cite the same Ott1926 source but have distinct6.535 and6.548A cells; original unit/condition provenance not verified, so no conversion or preferred value invented."
+      },
+      {
+        "cod_ids": [
+          "9009736",
+          "9009738",
+          "9009743",
+          "9009744"
+        ],
+        "reason": "Ahtee1969 alkali-halide endmember records are available, but a primary full text establishing exact sample/measurement conditions was not located during this audit. They are not asserted wrong; independently verified modern refinements were preferred."
+      },
+      {
+        "cod_ids": [
+          "9008790",
+          "9008789",
+          "9008707",
+          "9008708",
+          "9008621"
+        ],
+        "reason": "Wyckoff1963 compilation entries are secondary references without a primary experimental dataset/conditions established in this audit."
+      },
+      {
+        "cod_id": "2106199",
+        "reason": "CsI low-temperature133.15K thin-film polymorph, not a bulk ambient salt reference."
+      },
+      {
+        "cod_ids": [
+          "1525819",
+          "1525821"
+        ],
+        "reason": "Molecular-dynamics simulation sources, not the requested experimental coordinates."
+      },
+      {
+        "cod_id": "2108929",
+        "reason": "High-temperature440K nitrate with orientational disorder; ordered296K CsNO3 phase II preferred."
+      }
+    ],
+    "deferred": {
+      "noble_gases": "Ne/Ar/Kr/Xe solids require explicit cryogenic or pressure phase conditions and reliable measured structure sources; not substituted into this batch."
+    },
+    "redistribution_scope": "Selected source.cif and provenance/reference/source-selection metadata only. Publisher article images and original comparison SI remain research evidence outside source_dir; no journal PDF included."
+  }
+}

@@ -1,0 +1,550 @@
+{
+  "added_paths": 90,
+  "base_sha256": "99c2c4a4dff773bba5e2ef1d78ca93ed61ce57fe9ff950fc542746b5c59759bb",
+  "candidate_sha256": "63d988793ae53f8c6bf341d073e90fcfae6fec3bacf8f6e9602d8dbeca070157",
+  "paths": [
+    {
+      "filename": "feff0001.dat",
+      "id": 481,
+      "reference": "Bi-metal-298K-COD7123352-Bi-L3",
+      "sha256": "a631608f76475f3ec3cf696704628038440d5cfc1781b2da033ec7eec4c5072a"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 482,
+      "reference": "Bi-metal-298K-COD7123352-Bi-L3",
+      "sha256": "d342ab6904c6fffa1956d463c35c6c9b37414d40b52d0c3d5838c12f83bad76b"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 483,
+      "reference": "Tl2O3-bixbyite-COD9009222-Tl-L3",
+      "sha256": "3e99570b63a9b4d4ed8a4c3a81e3896a87b4b1d3eb2b6dab9e312e39f1e377af"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 484,
+      "reference": "Tl2O3-bixbyite-COD9009222-Tl-L3",
+      "sha256": "51064e2c2e203e9d10d1f27a95b646345ca0526f83297256a0fe10fc6cc969ef"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 485,
+      "reference": "Tl2O3-bixbyite-COD9009222-Tl-L3",
+      "sha256": "7b27bd74b0b0c50b44b42756fedd91cd2ae89fbc3b32cef64ab06be1e6b2217e"
+    },
+    {
+      "filename": "feff0003.dat",
+      "id": 486,
+      "reference": "Tl2O3-bixbyite-COD9009222-Tl-L3",
+      "sha256": "e23f4ff18a4d7d9edd3a097e7cd955c2b80faab3107e6acca2f27de532b7e32e"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 487,
+      "reference": "BeO-bromellite-COD9014120-Be-K",
+      "sha256": "ee36946e36bf199ae312952fca007db3b5f3c36368e4a247b259b6f9db058083"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 488,
+      "reference": "BeO-bromellite-COD9014120-Be-K",
+      "sha256": "8c77ba8ae69fa90e7193680c03a3324728273a06ed74c59fffd947e2748bb98a"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 489,
+      "reference": "BeO-bromellite-COD9014120-O-K",
+      "sha256": "9815bbf92ad1b319f402affa348f5e1a527caabccd5e20b16c5e8b7630740117"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 490,
+      "reference": "BeO-bromellite-COD9014120-O-K",
+      "sha256": "7bfdf52d4086b014772be590ed9440f4315289d15f99c51add470767408b775f"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 491,
+      "reference": "diamond-298K-COD9011997-C-K",
+      "sha256": "ee0b34587f98ea461dd10fa0754657e1eba2a2c0faed23dde48c548d207f5d51"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 492,
+      "reference": "OsO2-rutile-COD9007542-Os-L3",
+      "sha256": "570ca9c0a609734df577523b7506ed7d79bc6015a416034402ba548c65895238"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 493,
+      "reference": "OsO2-rutile-COD9007542-Os-L3",
+      "sha256": "321c7af68680bddd02c1d35ed1124c20a5f607677da6814e49e55e71faa8bd80"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 494,
+      "reference": "ThO2-fluorite-COD1541590-Th-L3",
+      "sha256": "13e228f86b0983865f20c13273d0db505844f28aa22c71aafc2f8cee937aa17f"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 495,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "b8ada351e3ac1752360ef4a2dc7b1846c5b4178b847952fc6bbffae9e0fa68bb"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 496,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "c8ab706df10ed2e85c8a9b073863537d008c1d092717d88eb5c1867e13a4eec1"
+    },
+    {
+      "filename": "feff0003.dat",
+      "id": 497,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "8fc0ff24f2a4b0119faaba0b1d7e438c91f3ceddb3717df60e44549777eb398a"
+    },
+    {
+      "filename": "feff0004.dat",
+      "id": 498,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "7747815ba3e7b1a5d2f4db279ea15ab040488d15d87d3102dc97082edf5729eb"
+    },
+    {
+      "filename": "feff0005.dat",
+      "id": 499,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "cc86758f10663fd52086c7a9635817ec850560b92a725a8f0e9761e5cead4040"
+    },
+    {
+      "filename": "feff0006.dat",
+      "id": 500,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "6dae57098661b2fa705e7eace20f5a19d2156ebe269430d40ea953fa3c4875ce"
+    },
+    {
+      "filename": "feff0007.dat",
+      "id": 501,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "572da99e693cda72620f0adba1be40c9b61d5bc6e6e02b10bad18d1feb88a521"
+    },
+    {
+      "filename": "feff0008.dat",
+      "id": 502,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "141521bc935942e4e7cdde8597d068a1f469d8dc4659cdd738ce9ae62beb81cf"
+    },
+    {
+      "filename": "feff0009.dat",
+      "id": 503,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "dde0f37b7aed3a90a330c37cab22e416379c408fd3d680908c8635850b892a11"
+    },
+    {
+      "filename": "feff0010.dat",
+      "id": 504,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "93322bf19c70319cf9eca69ca7df28e7d54ebe9263ea7a787069da4cf6f012b4"
+    },
+    {
+      "filename": "feff0011.dat",
+      "id": 505,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "88b8571799b87c66bc3c4b45d4bf73bf203928ffab6f40e3716d231ec715307d"
+    },
+    {
+      "filename": "feff0012.dat",
+      "id": 506,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "64b9ec289c3d38186e592893e21d6fa4de12e1744cded3c1409234d026ad7ef1"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 507,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "3290dc197f5c300958ef3d81247b797989bd67b9a51c290b6cc2ee1f209f79eb"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 508,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "c28a40f583b1def7b461dd78c7dbacec4d8c990bf36b60b67a6a97ae840cd88b"
+    },
+    {
+      "filename": "feff0003.dat",
+      "id": 509,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "556a07cb3d8da67256ae87dc7ad084445bc2348c2deab1f161b8ed8597a66888"
+    },
+    {
+      "filename": "feff0004.dat",
+      "id": 510,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "2d31de7ed0f2761d6c03ef1b0a8162ce8a99ebdfe500d48cc223acf9f91a55c6"
+    },
+    {
+      "filename": "feff0005.dat",
+      "id": 511,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "7c6cbdce0c69784a2393643fae68717a9667a18eb82e2f74b49850254d78f645"
+    },
+    {
+      "filename": "feff0006.dat",
+      "id": 512,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "a0fb0674c6e0ab5ae357f7d7601469148308028ea813d3bce64328b72755573f"
+    },
+    {
+      "filename": "feff0007.dat",
+      "id": 513,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "2630184318f809511b06e57d2c6b0e1a380129145726737d3189805f2553493d"
+    },
+    {
+      "filename": "feff0008.dat",
+      "id": 514,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "06191443df2f837e0b150724ea7d27502a7e2740ffdc64b96681c8db2e562082"
+    },
+    {
+      "filename": "feff0009.dat",
+      "id": 515,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "73381b22333f1e73322ce77061c352c5eaa9dbbb43d7a755788a3ba931389bb3"
+    },
+    {
+      "filename": "feff0010.dat",
+      "id": 516,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "ec156dbbb6c3871c427771d4b8f5fc15fc82b93ba56f5126067042ba6b95efee"
+    },
+    {
+      "filename": "feff0011.dat",
+      "id": 517,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "3126d442a55f620c4ec97967a49e5fbf33cc1f23c8bcbdbb2a2f1b5812d3902e"
+    },
+    {
+      "filename": "feff0012.dat",
+      "id": 518,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "c819d87ae2621a08e1aad1c6930519053701f47abc44d6e31d995f0d223c13ac"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 519,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "0c056a09a179938209c18bed0caa92c5d8e5d4ed9c11f4603a324db06899e06a"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 520,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "7876d92761d3801a92500c3dc2472392406d8fd2b852f2c03c01e43fd10c00ad"
+    },
+    {
+      "filename": "feff0003.dat",
+      "id": 521,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "5ef6aceaf250a3421af5fad6f888fd8d400fc2e74040c0a339aa34df20aa51db"
+    },
+    {
+      "filename": "feff0004.dat",
+      "id": 522,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "df66f20c1f05416d158aca9cec51eed46c014695148c3840411b8fa988227f81"
+    },
+    {
+      "filename": "feff0005.dat",
+      "id": 523,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "9b19b6fb7c0473e61ec2cca9468ffc8faa7a12b6e2707165589efeefb0fc41d3"
+    },
+    {
+      "filename": "feff0006.dat",
+      "id": 524,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "4d1da6f2305dffc964b6516af9d350803f8dd26d02c9dbe6ffbb77e684b820ca"
+    },
+    {
+      "filename": "feff0007.dat",
+      "id": 525,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "29c36b76f2c7b5930848b3b1f6a0af422b5b6d05ab3276abbcf60d4ec2682387"
+    },
+    {
+      "filename": "feff0008.dat",
+      "id": 526,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "d5494724f4d05bfd132596e3282c0e32f607f13a1dde0c8f2bd88f6d46c0bdb3"
+    },
+    {
+      "filename": "feff0009.dat",
+      "id": 527,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "efafb34501d0dcd5850de0030f098c85ae1cc9deab53e2da5815c85210ef75a7"
+    },
+    {
+      "filename": "feff0010.dat",
+      "id": 528,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "7ad95ac8457d5be2f443cc9bd09b7f966aa45b681deb4ca6c0905f3ff725bf86"
+    },
+    {
+      "filename": "feff0012.dat",
+      "id": 529,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "2f79f0f9c81f7c0f26dab9fa657103f5cae99dc7b9cd4ba3f09ff063cbb0f94b"
+    },
+    {
+      "filename": "feff0015.dat",
+      "id": 530,
+      "reference": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "sha256": "9d05dac29dae49c32c28adcc0c7bb9a5efe52ec5876c191c1c9539774aefd4d4"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 531,
+      "reference": "hBN-Pease1952-COD9008997-B-K",
+      "sha256": "d875e725ddd49b04fc984067aacdc23d5b66de3bf1a00e549fca3b44742e0977"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 532,
+      "reference": "hBN-Pease1952-COD9008997-N-K",
+      "sha256": "d3ecdfdf78cc684d4e942942061d7146f7a0dfc650766182700c4114e8cd396d"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 533,
+      "reference": "LiF-rocksalt-NBS1953-299K-Li-K",
+      "sha256": "20310555497a125a421434c61564d1d2a4fdfc283a27645edfd46a1470889893"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 534,
+      "reference": "LiF-rocksalt-NBS1953-299K-F-K",
+      "sha256": "372cdedb900ececa5990283a00a53d69f8445b3b5597b14da6612adf73060376"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 535,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "fecaf9cfd39ed586475935c325e35a65d6ca907b63703415320b4c28552ea337"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 536,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "55ca8a5baf8a58ac94c6fb877f51b4e04820068f321d0fd2bdc8c704d317bd7e"
+    },
+    {
+      "filename": "feff0003.dat",
+      "id": 537,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "75ea444f1d86bd0e9003f5dcb34cdb15990bfb72cc877a6ecbf97ca0a159a1b2"
+    },
+    {
+      "filename": "feff0004.dat",
+      "id": 538,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "5f3886630dbde9868d7c04896fe5b68765ba3396084b29168160de164701b37a"
+    },
+    {
+      "filename": "feff0005.dat",
+      "id": 539,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "e25baf6ae02dbcc29f8f79414bde37518663655897c4a0428a8fe33ab5f974e6"
+    },
+    {
+      "filename": "feff0006.dat",
+      "id": 540,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "56fc9630882fbe68be418de8fc6cd2c785a3d3fc1a2cc984764847b91ab0a830"
+    },
+    {
+      "filename": "feff0007.dat",
+      "id": 541,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "935ff6091af1e69588602fadcef985df904846a7cfe341e7eb853705a8eb9a0c"
+    },
+    {
+      "filename": "feff0008.dat",
+      "id": 542,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "099412feed674ace806a9fd285d166fe102cf90924a91c31f11bc3a80ae7dafa"
+    },
+    {
+      "filename": "feff0009.dat",
+      "id": 543,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "2b0f58741e9ab2c390dac3c33341a2b0607342742beb54388ad00ffe02f1eb77"
+    },
+    {
+      "filename": "feff0011.dat",
+      "id": 544,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "c975143187b01113fec8e24d900429329e7a151a25e0c55ff3043026b6c9661b"
+    },
+    {
+      "filename": "feff0014.dat",
+      "id": 545,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "5c0c5c423e36877358db202ac61bf86b29c5e7c4d60e249c5f28d05e33503979"
+    },
+    {
+      "filename": "feff0018.dat",
+      "id": 546,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "d5b496b19d4937d7b6f27fe58736d6d438068fd47cfb0fd39d13b8791b0815da"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 547,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "61dcdccf8df0d5affd8d3837f653c9c95d1c078a9bd7152ecd72e5c138c70d62"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 548,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "339df75e2cc66173abe35888f807ee1aaf3a23b10495fbad23790325375a9b0c"
+    },
+    {
+      "filename": "feff0003.dat",
+      "id": 549,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "6042bfd2fee60e0feaa4bd07a9e3f92ad2c5798fc262dff99370f7f8c992eee6"
+    },
+    {
+      "filename": "feff0004.dat",
+      "id": 550,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "eb21fe76593ae524a733f554f3f35b942e10e1d2f23acb448ce63e6831f6aa59"
+    },
+    {
+      "filename": "feff0005.dat",
+      "id": 551,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "cdafeb9f7daeabc742dbdd10c3f95714c014d815cf689841d717aa7f9bab1c57"
+    },
+    {
+      "filename": "feff0006.dat",
+      "id": 552,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "75017bb7744e975ecf47fb2b43a8ad9a4a4515f30e0df9696c702369de64ca3f"
+    },
+    {
+      "filename": "feff0007.dat",
+      "id": 553,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "4a5baa7b5604c8ebd939bed2510ffbe9ba48dfddc3b430515650c3fb18422173"
+    },
+    {
+      "filename": "feff0008.dat",
+      "id": 554,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "1f5ddcf5ebd4be24ec42e69c35d83114a0bc018a1e26361c38a95bedc8d4e8df"
+    },
+    {
+      "filename": "feff0009.dat",
+      "id": 555,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "73e0a016b99c61bbf459c45befe550a4022c6b528aaf0393f2acdab428d74532"
+    },
+    {
+      "filename": "feff0010.dat",
+      "id": 556,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "ef61be577944825c57141afae91197f3566acf1454a12c64f53ad2988b2f304d"
+    },
+    {
+      "filename": "feff0011.dat",
+      "id": 557,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "da7d35dd573d2d0d4a249dca6f7d506a432246eff8b7144f5b7d239e4688c5c4"
+    },
+    {
+      "filename": "feff0015.dat",
+      "id": 558,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "09250c235fb68ccd8b251d91e31b3888b8bf7f35ae0bd085473f08a7ee2b1f3c"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 559,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "7fbf71f22057dfef75bb2aef0b9a8b3c1e6736e2550c14f2b33df7d1c3eff2c6"
+    },
+    {
+      "filename": "feff0002.dat",
+      "id": 560,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "3b725780989fc75c95c4ff0d17ab0feefe65c96b09bb4dbe8555ace3e293ccb6"
+    },
+    {
+      "filename": "feff0003.dat",
+      "id": 561,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "980430e51ddab96d223e08b23f78ad66a39d9d7ec9925538525760e9e9277b6a"
+    },
+    {
+      "filename": "feff0004.dat",
+      "id": 562,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "8cddcc198ff8e85c9438ab645f4f9af34660573f3e473fa4fae3dd37a5a0ddb2"
+    },
+    {
+      "filename": "feff0005.dat",
+      "id": 563,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "4c7683d1fc9f719859f3104c9ddb175aebcee1eb5f93b8b7020e865170091870"
+    },
+    {
+      "filename": "feff0006.dat",
+      "id": 564,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "624f0dd3b4970136012c55e9efb85a2e750e99a2759fd04226d0fa3b9fedcd62"
+    },
+    {
+      "filename": "feff0007.dat",
+      "id": 565,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "4febf065f176ca2201f6cba00707ac62c0fd94c7730ee2a55cce1dbc1006ab76"
+    },
+    {
+      "filename": "feff0008.dat",
+      "id": 566,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "b852e43ab2fc5cc887d32aac58e93258733df8adb654d4f2a19a8c5e3f2fc965"
+    },
+    {
+      "filename": "feff0009.dat",
+      "id": 567,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "3409329c20e0522e1fbe9c76f529ea4a5a612f4460d30b9c19cf6750cf2a6e05"
+    },
+    {
+      "filename": "feff0010.dat",
+      "id": 568,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "0611a0dd31c6c3fde3eb58dbf4d1c47ef48087dac6505a339b08e45879857dae"
+    },
+    {
+      "filename": "feff0013.dat",
+      "id": 569,
+      "reference": "CsNO3-II-296K-COD2001971-Cs-K",
+      "sha256": "9d4fd41d8d6f80990d73f8d0c2b764e3859c738c004eecdcd9f77b4d55a95bb3"
+    },
+    {
+      "filename": "feff0001.dat",
+      "id": 570,
+      "reference": "I2-lowT-COD4511285-I-K",
+      "sha256": "98d898ba108c02aa430adda942fdb71921a2a92c66d0795b7b4c4b574bba0d2c"
+    }
+  ],
+  "review_status": "candidate",
+  "total_paths": 570,
+  "upstream_paths": 480
+}

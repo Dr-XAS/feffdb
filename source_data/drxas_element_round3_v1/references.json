@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "status": "candidate",
+  "scope": "Previously uncovered absorbing elements; full selected single-scattering shells. No experimental validation.",
+  "upstream_base": {
+    "repository": "https://github.com/Dr-XAS/feffdb",
+    "commit": "534c680f765a97900cbffb9ecf35112eb934f02d",
+    "path": "source_data/drxas_element_round2_v1/round2-candidates.db",
+    "sha256": "99c2c4a4dff773bba5e2ef1d78ca93ed61ce57fe9ff950fc542746b5c59759bb"
+  },
+  "references": [
+    {
+      "id": "Bi-metal-298K-COD7123352-Bi-L3",
+      "name": "Bi metal, 298 K single-crystal refinement",
+      "formula": "Bi",
+      "absorber": "Bi",
+      "scatterer": "Bi",
+      "edge": "L3",
+      "cod_id": "7123352",
+      "doi": "10.1039/C9CC02820J",
+      "cif_sha256": "7cd6ec1bb095f49d86b29bf755de3b2f476a6e9edf5978ad62aca69e7c47cbf8",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 3.8,
+      "expected_cn_by_site": {
+        "1": 6
+      },
+      "selection_basis": "Complete six-neighbor A7 local envelope,3x3.072276A+3x3.529465A, with nextBi4.5481A. Both split nearest local groups remain distinct; not six equivalent covalent bonds.",
+      "edge_energy_eV": 13419.0,
+      "nearby_absorption_edges": [],
+      "calculation_cautions": []
+    },
+    {
+      "id": "Tl2O3-bixbyite-COD9009222-Tl-L3",
+      "name": "Tl2O3 cubic bixbyite, 1993 refinement",
+      "formula": "Tl2O3",
+      "absorber": "Tl",
+      "scatterer": "O",
+      "edge": "L3",
+      "cod_id": "9009222",
+      "doi": "10.1016/0921-4534(93)90382-Z",
+      "cif_sha256": "724921f8e21e15d2df0d39a0ce363e968617889a113988c84c611db1cbbe842a",
+      "absorber_site_indices": [
+        1,
+        2
+      ],
+      "shell_cutoff_A": 2.8,
+      "expected_cn_by_site": {
+        "1": 6,
+        "2": 6
+      },
+      "selection_basis": "Both complete bixbyite Tl-O octahedra:site1 6x2.270344A;site2 2x2.197204+2x2.291975+2x2.320906A.2.8A cutoff excludes nextO at>=3.998262A.",
+      "edge_energy_eV": 12658.0,
+      "nearby_absorption_edges": [],
+      "calculation_cautions": []
+    },
+    {
+      "id": "BeO-bromellite-COD9014120-Be-K",
+      "name": "BeO bromellite (crystal no. 1 in air)",
+      "formula": "BeO",
+      "absorber": "Be",
+      "scatterer": "O",
+      "edge": "K",
+      "cod_id": "9014120",
+      "doi": "10.1063/1.336756",
+      "cif_sha256": "ac2dd2d7720ebfe76a27db2e547929db4d2d88d57f8c167140f7decfb40dad2b",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.0,
+      "expected_cn_by_site": {
+        "1": 4
+      },
+      "selection_basis": "Experimental ordered in-air BeO structure; both inequivalent element sites and each complete split four-neighbor shell retained. No ideal-wurtzite coordinate substitution.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "Low-energy K-edge candidate: use only as an EXAFS scattering-path reference. Core excitons, near-edge/XANES structure, polarization and an experimental usable k range have not been validated.",
+        "The next higher tabulated constituent edge is O K at 543.1 eV, 431.6 eV above the selected edge (k=10.643 inverse angstrom). Review overlap and the experimental fit window; the calculated k=20 grid is not an experimental usable-data limit.",
+        "Coexisting O K edge (543.1 eV) lies above Be K (111.5 eV), at nominal k=10.643 A^-1. Its absorption/background can interfere with measured Be spectra; this atomic-energy landmark is not an automatic usable-k limit."
+      ],
+      "edge_energy_eV": 111.5,
+      "nearby_absorption_edges": [
+        {
+          "element": "O",
+          "edge": "K",
+          "energy_eV": 543.1,
+          "delta_eV": 431.6,
+          "equivalent_k_invA": 10.643372199787386
+        }
+      ]
+    },
+    {
+      "id": "BeO-bromellite-COD9014120-O-K",
+      "name": "BeO bromellite (crystal no. 1 in air)",
+      "formula": "BeO",
+      "absorber": "O",
+      "scatterer": "Be",
+      "edge": "K",
+      "cod_id": "9014120",
+      "doi": "10.1063/1.336756",
+      "cif_sha256": "ac2dd2d7720ebfe76a27db2e547929db4d2d88d57f8c167140f7decfb40dad2b",
+      "absorber_site_indices": [
+        2
+      ],
+      "shell_cutoff_A": 2.0,
+      "expected_cn_by_site": {
+        "2": 4
+      },
+      "selection_basis": "Experimental ordered in-air BeO structure; both inequivalent element sites and each complete split four-neighbor shell retained. No ideal-wurtzite coordinate substitution.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "Low-energy K-edge candidate: use only as an EXAFS scattering-path reference. Core excitons, near-edge/XANES structure, polarization and an experimental usable k range have not been validated."
+      ],
+      "edge_energy_eV": 543.1,
+      "nearby_absorption_edges": []
+    },
+    {
+      "id": "diamond-298K-COD9011997-C-K",
+      "name": "Diamond (25°C multiple-reflection lattice measurement)",
+      "formula": "C",
+      "absorber": "C",
+      "scatterer": "C",
+      "edge": "K",
+      "cod_id": "9011997",
+      "doi": "10.1107/S0021889875010965",
+      "cif_sha256": "109382e13ecce5a7c6be6639698e204bf5e6e6d9c5593c0e52d42b7e0b76412d",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.0,
+      "expected_cn_by_site": {
+        "1": 4
+      },
+      "selection_basis": "Experimental diamond lattice measurement with explicit temperature; one symmetry-equivalent carbon site, complete tetrahedral C–C first shell.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "Low-energy K-edge candidate: use only as an EXAFS scattering-path reference. Core excitons, near-edge/XANES structure, polarization and an experimental usable k range have not been validated."
+      ],
+      "edge_energy_eV": 284.2,
+      "nearby_absorption_edges": []
+    },
+    {
+      "id": "OsO2-rutile-COD9007542-Os-L3",
+      "name": "OsO2 rutile, Boman experimental data via Baur and Khan1971",
+      "formula": "OsO2",
+      "absorber": "Os",
+      "scatterer": "O",
+      "edge": "L3",
+      "cod_id": "9007542",
+      "doi": "10.1107/S0567740871005466",
+      "cif_sha256": "80e00c6ea224747b2a9477a8135c555ac779b78c509bfa7654c7171ffe88a824",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.5,
+      "expected_cn_by_site": {
+        "1": 6
+      },
+      "selection_basis": "Complete rutile octahedron2x1.960867A+4x2.006475A;2.5A cutoff below nextO3.408517A.",
+      "edge_energy_eV": 10871.0,
+      "nearby_absorption_edges": [
+        {
+          "element": "Os",
+          "edge": "L2",
+          "energy_eV": 12385.0,
+          "delta_eV": 1514.0,
+          "equivalent_k_invA": 19.934322007098828
+        }
+      ],
+      "calculation_cautions": [
+        "The next higher tabulated constituent edge is Os L2 at 12385 eV, 1514 eV above the selected edge (k=19.934 inverse angstrom). Review overlap and the experimental fit window; the calculated k=20 grid is not an experimental usable-data limit."
+      ]
+    },
+    {
+      "id": "ThO2-fluorite-COD1541590-Th-L3",
+      "name": "ThO2 fluorite, pure endmember1951 experimental lattice",
+      "formula": "ThO2",
+      "absorber": "Th",
+      "scatterer": "O",
+      "edge": "L3",
+      "cod_id": "1541590",
+      "doi": "10.1002/zaac.19512650108",
+      "cif_sha256": "c0f51485f935a147a089aaa19c0c3af74559f37b6a5667b6dbb9f41d6d213369",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 3.0,
+      "expected_cn_by_site": {
+        "1": 8
+      },
+      "selection_basis": "Complete fluorite Th-O8 cube,8x2.421407A,cutoff3.0A below nextO4.636641A. Pure-endmember cell5.592A independently matches publisher-deposited primary abstract; noLa mixed occupancy.",
+      "edge_energy_eV": 16300.0,
+      "nearby_absorption_edges": [],
+      "calculation_cautions": [
+        "Native frozen atomic f-electron treatment is retained. This EXAFS candidate does not validate actinide valence, magnetic or correlated-electron behavior, multiplets or XANES."
+      ]
+    },
+    {
+      "id": "RbNO3-IV-296K-COD2107326-Rb-K",
+      "name": "RbNO3 phase IV, 296 K before heating",
+      "formula": "RbNO3",
+      "absorber": "Rb",
+      "scatterer": "O",
+      "edge": "K",
+      "cod_id": "2107326",
+      "doi": "10.1107/S0108768191013459",
+      "cif_sha256": "8d452a4cd1890878fe91def1e158007925787858e6d1c47b760031c3867b0118",
+      "absorber_site_indices": [
+        1,
+        2,
+        3
+      ],
+      "shell_cutoff_A": 3.8,
+      "expected_cn_by_site": {
+        "1": 12,
+        "2": 12,
+        "3": 12
+      },
+      "site_population_weights": {
+        "1": 0.3333333333333333,
+        "2": 0.3333333333333333,
+        "3": 0.3333333333333333
+      },
+      "measurement_temperature_K": 296,
+      "measurement_pressure_GPa": null,
+      "selection_basis": "Exact ordered experimental296K CIF verified against original publisher first page; retains all three inequivalent absorbers and complete12-O coordination envelopes with longer contacts disclosed.",
+      "edge_energy_eV": 15200.0,
+      "nearby_absorption_edges": [],
+      "calculation_cautions": []
+    },
+    {
+      "id": "hBN-Pease1952-COD9008997-B-K",
+      "name": "Hexagonal BN (Pease AA-prime structure, 35°C)",
+      "formula": "BN",
+      "absorber": "B",
+      "scatterer": "N",
+      "edge": "K",
+      "cod_id": "9008997",
+      "doi": "10.1107/S0365110X52001064",
+      "cif_sha256": "a2af9f093b8c00a3033b2c53492c8d5705c26a046dae1452785ef22af09d5dde",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.0,
+      "expected_cn_by_site": {
+        "1": 3
+      },
+      "selection_basis": "The unmodified COD compilation agrees with the experimentally established Pease cell and AA-prime B-over-N stacking; select both species' single independent sites and full three-neighbor first shells.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "The source specimen contains observed stacking faults. This ordered periodic reference does not model faults; applicability to turbostratic, rhombohedral or other BN phases is unvalidated.",
+        "Coexisting N K edge (409.9 eV) lies above B K (188 eV), at nominal k=7.632 A^-1. Its absorption/background can interfere with measured B spectra; this atomic-energy landmark is not an automatic usable-k limit.",
+        "Low-energy K-edge candidate: use only as an EXAFS scattering-path reference. Core excitons, near-edge/XANES structure, polarization and an experimental usable k range have not been validated.",
+        "The next higher tabulated constituent edge is N K at 409.9 eV, 221.9 eV above the selected edge (k=7.632 inverse angstrom). Review overlap and the experimental fit window; the calculated k=20 grid is not an experimental usable-data limit."
+      ],
+      "edge_energy_eV": 188.0,
+      "nearby_absorption_edges": [
+        {
+          "element": "N",
+          "edge": "K",
+          "energy_eV": 409.9,
+          "delta_eV": 221.89999999999998,
+          "equivalent_k_invA": 7.631627826210392
+        }
+      ]
+    },
+    {
+      "id": "hBN-Pease1952-COD9008997-N-K",
+      "name": "Hexagonal BN (Pease AA-prime structure, 35°C)",
+      "formula": "BN",
+      "absorber": "N",
+      "scatterer": "B",
+      "edge": "K",
+      "cod_id": "9008997",
+      "doi": "10.1107/S0365110X52001064",
+      "cif_sha256": "a2af9f093b8c00a3033b2c53492c8d5705c26a046dae1452785ef22af09d5dde",
+      "absorber_site_indices": [
+        2
+      ],
+      "shell_cutoff_A": 2.0,
+      "expected_cn_by_site": {
+        "2": 3
+      },
+      "selection_basis": "The unmodified COD compilation agrees with the experimentally established Pease cell and AA-prime B-over-N stacking; select both species' single independent sites and full three-neighbor first shells.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "The source specimen contains observed stacking faults. This ordered periodic reference does not model faults; applicability to turbostratic, rhombohedral or other BN phases is unvalidated.",
+        "Low-energy K-edge candidate: use only as an EXAFS scattering-path reference. Core excitons, near-edge/XANES structure, polarization and an experimental usable k range have not been validated."
+      ],
+      "edge_energy_eV": 409.9,
+      "nearby_absorption_edges": []
+    },
+    {
+      "id": "LiF-rocksalt-NBS1953-299K-Li-K",
+      "name": "LiF rocksalt (NBS measured 26°C)",
+      "formula": "LiF",
+      "absorber": "Li",
+      "scatterer": "F",
+      "edge": "K",
+      "source_database": "publication",
+      "source_record_id": "NBS-Circular539-v1-1953-Table35-LiF-26C",
+      "doi": null,
+      "cif_sha256": "5d9f8a96f149e5bafdd763bd13acef42972aa2f67e6eb981a78ec47f152947ec",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 2.5,
+      "expected_cn_by_site": {
+        "1": 6
+      },
+      "selection_basis": "Original NBS measured LiF powder pattern and lattice; exact symmetry encoding of the explicitly reported NaCl structure, no element substitution or cell relaxation.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "LiF core excitons are prominent at the Li and F K edges. This FEFF EXAFS candidate is not a validated model of those near-edge peaks.",
+        "Coexisting F K edge (696.7 eV) lies above Li K (54.7 eV), at nominal k=12.981 A^-1. Its absorption/background can interfere with measured Li spectra; this atomic-energy landmark is not an automatic usable-k limit.",
+        "Low-energy K-edge candidate: use only as an EXAFS scattering-path reference. Core excitons, near-edge/XANES structure, polarization and an experimental usable k range have not been validated.",
+        "The next higher tabulated constituent edge is F K at 696.7 eV, 642 eV above the selected edge (k=12.981 inverse angstrom). Review overlap and the experimental fit window; the calculated k=20 grid is not an experimental usable-data limit."
+      ],
+      "edge_energy_eV": 54.7,
+      "nearby_absorption_edges": [
+        {
+          "element": "F",
+          "edge": "K",
+          "energy_eV": 696.7,
+          "delta_eV": 642.0,
+          "equivalent_k_invA": 12.980937107366346
+        }
+      ]
+    },
+    {
+      "id": "LiF-rocksalt-NBS1953-299K-F-K",
+      "name": "LiF rocksalt (NBS measured 26°C)",
+      "formula": "LiF",
+      "absorber": "F",
+      "scatterer": "Li",
+      "edge": "K",
+      "source_database": "publication",
+      "source_record_id": "NBS-Circular539-v1-1953-Table35-LiF-26C",
+      "doi": null,
+      "cif_sha256": "5d9f8a96f149e5bafdd763bd13acef42972aa2f67e6eb981a78ec47f152947ec",
+      "absorber_site_indices": [
+        2
+      ],
+      "shell_cutoff_A": 2.5,
+      "expected_cn_by_site": {
+        "2": 6
+      },
+      "selection_basis": "Original NBS measured LiF powder pattern and lattice; exact symmetry encoding of the explicitly reported NaCl structure, no element substitution or cell relaxation.",
+      "calculation_cautions": [
+        "Low-energy light-element K-edge FEFF paths are unvalidated candidate scattering references, not a demonstration of usable measured EXAFS or XANES accuracy. Core excitons, band structure, charge transfer and nonspherical potentials can matter near these edges; retain actual SCF convergence, potential and executable diagnostics.",
+        "A nominal native k grid is not an experimental usable k range. Choose an absorber/edge-appropriate measured range and validate against data; a converged FEFF calculation alone does not validate this reference.",
+        "LiF core excitons are prominent at the Li and F K edges. This FEFF EXAFS candidate is not a validated model of those near-edge peaks.",
+        "Low-energy K-edge candidate: use only as an EXAFS scattering-path reference. Core excitons, near-edge/XANES structure, polarization and an experimental usable k range have not been validated."
+      ],
+      "edge_energy_eV": 696.7,
+      "nearby_absorption_edges": []
+    },
+    {
+      "id": "CsNO3-II-296K-COD2001971-Cs-K",
+      "name": "CsNO3 phase II, 296 K",
+      "formula": "CsNO3",
+      "absorber": "Cs",
+      "scatterer": "O",
+      "edge": "K",
+      "cod_id": "2001971",
+      "doi": "10.1107/S0108270192006504",
+      "cif_sha256": "5569c7199ba196ab9e613c1c8e7ee48c949cb88a72dfb0bd57a42fa2ad42e59b",
+      "absorber_site_indices": [
+        1,
+        2,
+        3
+      ],
+      "shell_cutoff_A": 3.95,
+      "expected_cn_by_site": {
+        "1": 12,
+        "2": 12,
+        "3": 12
+      },
+      "site_population_weights": {
+        "1": 0.3333333333333333,
+        "2": 0.3333333333333333,
+        "3": 0.3333333333333333
+      },
+      "measurement_temperature_K": 296,
+      "measurement_pressure_GPa": null,
+      "selection_basis": "Experimental CsNO3 phase II at 296 K; all three inequivalent Cs sites, each with an explicitly chosen nearest-12 O envelope, without claiming a unique chemical-shell assignment.",
+      "calculation_cautions": [
+        "This reference retains a selected nearest-12 oxygen envelope at each inequivalent Cs site, not a uniquely established chemical coordination shell. The accessible primary article does not assign CN12 explicitly; all actual distances and excluded neighbors are preserved in provenance.",
+        "The 3.95 A selection cutoff is an explicit common envelope boundary. The per-site gaps from the twelfth to thirteenth O neighbor are 0.137535, 0.462309 and 0.264545 A for Cs sites 1, 2 and 3 respectively; longer included contacts must not be treated as equivalent bonds.",
+        "For Cs site 3, the thirteenth O neighbor at 3.972503 A lies inside the native RPATH=4 A calculation radius but is deliberately not selected in the nearest-12 envelope. A shell-limited database selection is distinct from every path generated within RPATH.",
+        "All three inequivalent Cs sites have population weight 1/3. Native degeneracy is per absorber: an ensemble model needs explicit normalized site weights, not all three sites summed at full amplitude."
+      ],
+      "edge_energy_eV": 35985.0,
+      "nearby_absorption_edges": []
+    },
+    {
+      "id": "I2-lowT-COD4511285-I-K",
+      "name": "I2 molecular crystal, low temperature (CIF100K; article110K)",
+      "formula": "I2",
+      "absorber": "I",
+      "scatterer": "I",
+      "edge": "K",
+      "cod_id": "4511285",
+      "doi": "10.1021/cg5005159",
+      "cif_sha256": "66df6f952074c947a569dbb2ce2010e0e3138ec22d749a4074ab07fd8cbe2a82",
+      "absorber_site_indices": [
+        1
+      ],
+      "shell_cutoff_A": 3.0,
+      "expected_cn_by_site": {
+        "1": 1
+      },
+      "site_population_weights": {
+        "1": 1.0
+      },
+      "measurement_temperature_K": null,
+      "measurement_temperature_conflict": {
+        "cif_K": 100,
+        "cif_uncertainty_K": 2,
+        "primary_article_K": 110,
+        "primary_article_uncertainty_K": 1,
+        "resolution": "Unresolved; numeric measurement temperature intentionallynull. Exact CIF retained."
+      },
+      "measurement_pressure_GPa": null,
+      "selection_basis": "Exact experimental molecular-iodine geometry; only complete intramolecularI-I first shell CN1 selected, with longer crystal-packing contacts explicitly excluded. Conflicting100(2)K CIF vs110(1)K article retained with numericnull.",
+      "calculation_cautions": [
+        "Measurement-temperature conflict is unresolved: the original publisher SI CIF and unchanged COD file state100(2)K, but the primary article Experimental Section states110(1)K and its Results repeats110K for this identical cell. The numeric measurement-temperature field is null; both reported values remain explicit. No temperature correction or rescaling is applied.",
+        "Selected first intramolecular I-I shell only: one neighbor at2.717798A, cutoff3.0A. This is not a complete description of molecular-crystal packing: the next intermolecular contacts are2x3.500960A and1x3.979707A, excluded from this shell selection and retained in the structural inspection.",
+        "This is elemental molecular iodine, not iodide or an iodine oxide reference. No oxidation-state equivalence to salts is implied.",
+        "K-edge selected for broad EXAFS coverage; I K edge is33169eV in installedXrayDB. I L3 at4557eV is followed by L2 at4852eV (295eV, k8.799A^-1), so the L3 alternative has a close next-edge boundary. A computed k20 grid does not establish usable data.",
+        "Native FEFF spherical-potential paths do not reproduce the source multipole electron density, halogen-bond energy, anisotropic/anharmonic displacement model, or experimental XANES simply by using the same geometry."
+      ],
+      "edge_energy_eV": 33169.0,
+      "nearby_absorption_edges": []
+    }
+  ]
+}

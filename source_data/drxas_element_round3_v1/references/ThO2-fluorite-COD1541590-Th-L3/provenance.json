@@ -1,0 +1,95 @@
+{
+  "filename": "source.cif",
+  "name": "ThO2 fluorite, pure endmember1951 experimental lattice",
+  "absorber": "Th",
+  "scatterer": "O",
+  "source_id": "1541590",
+  "doi": "10.1002/zaac.19512650108",
+  "citation": "F. Hund and W. Dürrwächter. Anomale Mischkristalle im System ThO2–La2O3. Zeitschrift für anorganische und allgemeine Chemie265 (1951),67–72. DOI10.1002/zaac.19512650108.",
+  "primary_url": "https://onlinelibrary.wiley.com/doi/10.1002/zaac.19512650108",
+  "recommendation": "experimental source candidate; native FEFF and numerical validation pending",
+  "method": "Experimental lattice determination by the asymmetric Straumanis method; publisher-deposited primary abstract states pureThO2 fluorite endpoint a=5.592±0.0001A. Full ordered fluorite site model is encoded in original COD record; no independent free oxygen position exists for idealFm-3m fluorite.",
+  "synthesis_conditions": {
+    "description": "Publisher-deposited abstract reports precipitated thorium/lanthanum nitrate mixtures calcined to oxides at1300C. The selected CIF is pureThO2 endmember, not a mixedLa/Th member. This is synthesis temperature, not measurement temperature.",
+    "temperature_C": 1300
+  },
+  "notes": [
+    "One independent Th site,multiplicity4,complete cubic eight-O fluorite shell. NoLa or oxygen-vacancy alloy model is imported.",
+    "This1951 experimental lattice reference has source precision and unknown measurementconditions; not a modern detailed charge-density refinement.",
+    "The native FEFF recipe keeps default frozen-f atomic occupations; actinide5f treatment and charge transfer require separate validation. Atomic frozen-f occupancy is not proof of chemicalTh(IV) occupancy or an accurateL3 spectrum. NoUNFREEZEF or substitution is introduced.",
+    "No experimental EXAFS validation or calculated SCF/cluster-radius convergence has been established for this reference."
+  ],
+  "source_database": "COD",
+  "download_url": "https://www.crystallography.net/cod/1541590.cif",
+  "record_url": "https://www.crystallography.net/cod/1541590.html",
+  "sha256": "c0f51485f935a147a089aaa19c0c3af74559f37b6a5667b6dbb9f41d6d213369",
+  "cif_sha256": "c0f51485f935a147a089aaa19c0c3af74559f37b6a5667b6dbb9f41d6d213369",
+  "retrieved_at_utc": "2026-11-17T06:15:35.928411+00:00",
+  "edge": "L3",
+  "inequivalent_absorber_sites": 1,
+  "absorber_site_indices": [
+    1
+  ],
+  "measurement_temperature_K": null,
+  "measurement_pressure_GPa": null,
+  "measurement_conditions_evidence": "No measurement temperature or pressure is recorded in the original CIF or publisher-deposited abstract.1300C is calcination and must not be stored as diffraction temperature. Publisher abstract explicitly usesAngstrom for pure-endmember lattice5.592A.",
+  "original_file_unmodified": true,
+  "occupancy": {
+    "raw_values": [
+      "1",
+      "1"
+    ],
+    "interpretation": "Explicitly full occupation."
+  },
+  "license": {
+    "database_policy": "COD dedicates data/database to public domain under CC0; retain the original notice and article attribution.",
+    "policy_url": "https://www.crystallography.net/cod/1541590.html",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_file_notice": "#------------------------------------------------------------------------------\n#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $\n#$Revision: 176429 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/54/15/1541590.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/\n#\n# All data on this site have been placed in the public domain by the\n# contributors.\n#"
+  },
+  "inspection": {
+    "formula": "Th4 O8",
+    "ordered": true,
+    "hydrogen_present": false,
+    "site_count": 12,
+    "spacegroup": "Fm-3m",
+    "spacegroup_number": 225,
+    "absorber_sites": [
+      {
+        "site_index_one_based": 1,
+        "element": "Th",
+        "fractional_coordinates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "multiplicity": 4,
+        "wyckoff": "4a",
+        "first_shell_element": "O",
+        "first_shell_cutoff_A": 3.0,
+        "coordination_number": 8,
+        "distances_A": {
+          "2.421407": 8
+        },
+        "full_first_shell_distance_multiset_A": [
+          2.4214070289812897,
+          2.4214070289812897,
+          2.42140702898129,
+          2.42140702898129,
+          2.42140702898129,
+          2.4214070289812906,
+          2.4214070289812906,
+          2.4214070289812906
+        ],
+        "next_same_element_distance_A": 4.6366414569168475,
+        "nearest_other_element_distance_A": 3.9541411203951733,
+        "nearest_other_element": "Th",
+        "site_weight": 1.0
+      }
+    ],
+    "parser_warnings": [
+      "Initializing CifParser from StringIO is deprecated, use `from_str()` instead.",
+      "Set OLD_ERROR_HANDLING to false and catch the errors directly."
+    ]
+  }
+}
